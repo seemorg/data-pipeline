@@ -1,0 +1,38 @@
+{
+  "name": "data-pipeline",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "db:push": "drizzle-kit push:mysql",
+    "db:studio": "drizzle-kit studio",
+    "db:seed:authors": "npx tsx ./scripts/seed/author.ts",
+    "db:seed:books": "npx tsx ./scripts/seed/book.ts",
+    "db:seed:genres": "npx tsx ./scripts/seed/genre.ts",
+    "db:seed:locations": "npx tsx ./scripts/seed/location.ts",
+    "index-authors": "npx tsx scripts/typesense/index-authors.ts",
+    "index-authors:alias": "pnpm index-authors -- alias-only",
+    "index-titles": "npx tsx scripts/typesense/index-titles.ts"
+  },
+  "dependencies": {
+    "@planetscale/database": "^1.11.0",
+    "@t3-oss/env-nextjs": "^0.9.2",
+    "dotenv": "^16.4.5",
+    "drizzle-orm": "^0.29.3",
+    "slugify": "^1.6.6",
+    "typesense": "^1.7.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.44.7",
+    "@types/node": "^18.17.0",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
+    "drizzle-kit": "^0.20.9",
+    "eslint": "^8.54.0",
+    "mysql2": "^3.6.1",
+    "prettier": "^3.1.0",
+    "typescript": "^5.1.6"
+  },
+  "packageManager": "pnpm@8.15.3"
+}
