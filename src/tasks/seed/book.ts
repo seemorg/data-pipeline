@@ -1,9 +1,9 @@
-import { db } from '../../src/db';
-import { getBooksData } from '../fetchers';
-import { chunk } from '../utils';
-import { book, genresToBooks } from '../../src/db/schema';
+import { getBooksData } from '@/datasources/openiti/books';
+import { db } from '../../db';
+import { book, genresToBooks } from '../../db/schema';
+import { chunk } from '@/utils/array';
 
-const allBooks = await getBooksData();
+const allBooks = await getBooksData({ populateAuthor: true });
 const chunkedBooks = chunk(allBooks, 100) as (typeof allBooks)[];
 
 const shouldReset =
@@ -18,19 +18,7 @@ let bookBatchIdx = 1;
 for (const books of chunkedBooks) {
   console.log(`[BOOKS] Seeding batch ${bookBatchIdx} / ${chunkedBooks.length}`);
 
-  await db.insert(book).values(
-    books.map(bookEntry => ({
-      id: bookEntry.id,
-      authorId: bookEntry.authorId,
-      primaryArabicName: bookEntry.primaryArabicName,
-      otherArabicNames: bookEntry.otherArabicNames,
-      primaryLatinName: bookEntry.primaryLatinName,
-      otherLatinNames: bookEntry.otherLatinNames,
-      // genreTags: bookEntry.genreTags,
-      versionIds: bookEntry.versionIds,
-      numberOfVersions: bookEntry.versionIds.length,
-    })),
-  );
+  await db.insert(book).values(books);
 
   const genreEntries = books.flatMap(bookEntry => {
     return [...new Set(bookEntry.genreTags.map(g => g.toLowerCase()))].map(genreTag => ({

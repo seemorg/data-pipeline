@@ -1,5 +1,3 @@
-import geographiesWithRegions from '../data/distinct-locations-with-regions.json';
-
 const defaultDiacriticsRemovalMap = [
   {
     base: 'A',
@@ -250,61 +248,3 @@ export function removeDiacritics(str: string) {
 
   return str;
 }
-
-export const chunk = (arr: any[], size: number) => {
-  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
-  return arr.reduce(
-    // eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-assignment
-    (acc, _, i) => (i % size ? acc : [...acc, arr.slice(i, i + size)]),
-    [],
-  );
-};
-
-export const dedupeStrings = (names: string[]) => {
-  return Array.from(new Set(names.map(n => n.trim())));
-};
-
-/**
- * A function to slugify an id.
- *
- * Example:
- * - 0001AbuTalibCabdManaf -> abu-talib-cabd-manaf
- *
- * @param {string} id
- * @returns {string}
- */
-export const slugifyId = (id: string, removeLeadingNumbers: boolean = true): string => {
-  const noLeadingNumbers = removeLeadingNumbers ? id.replace(/^\d+/, '') : id;
-  return noLeadingNumbers
-    .replaceAll(' ', '-')
-    .replace(/([a-z0-9])([A-Z])/g, '$1-$2')
-    .toLowerCase();
-};
-
-export const toTitleCase = (str: string) => {
-  return str.replace(
-    /\w\S*/g,
-    txt => txt.charAt(0).toUpperCase() + txt.slice(1).toLowerCase(),
-  );
-};
-
-const geoToRegionSlug = geographiesWithRegions.reduce(
-  (acc, current) => {
-    if (current.region) {
-      const loc = current.location.toLowerCase();
-      const prefix = loc.split('@')[0];
-      acc[loc] = `${prefix}@${current.region.slug}`;
-    }
-
-    return acc;
-  },
-  {} as Record<string, string>,
-);
-
-export const convertGeographiesToRegions = (geographies: string[]) => {
-  return [
-    ...new Set(
-      geographies.map(g => geoToRegionSlug[g.toLowerCase()]).filter(g => !!g) as string[],
-    ),
-  ];
-};

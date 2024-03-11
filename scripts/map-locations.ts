@@ -1,6 +1,8 @@
 import type { Place } from '../src/types';
+import path from 'path';
 import locations from '../data/distinct-locations.json';
 import regions from '../data/regions.json';
+
 import slugify from 'slugify';
 import fs from 'fs';
 
@@ -11,24 +13,23 @@ const { features: mappings } = (await (await fetch(URL)).json()) as {
   features: Place[];
 };
 
+const regionUriToSlug = Object.keys(regions).reduce(
+  (acc, uri) => {
+    acc[uri.toLowerCase()] = (regions as any)[uri]!.slug;
+    return acc;
+  },
+  {} as Record<string, string>,
+);
+
 const uriToRegionData = mappings.reduce(
   (acc, place) => {
     acc[place.properties.cornuData.cornu_URI] = {
-      code: place.properties.cornuData.region_code,
-      slug: slugify(place.properties.cornuData.region_code, { lower: true }),
+      regionSlug: slugify(place.properties.cornuData.region_code, { lower: true }),
       city: place.properties.cornuData.toponym_buckwalter ?? null,
     };
     return acc;
   },
-  {} as Record<string, { code: string; slug: string; city: string }>,
-);
-
-const regionUriToCode = Object.keys(regions).reduce(
-  (acc, uri) => {
-    acc[uri.toLowerCase()] = (regions as any)[uri]!.region_code;
-    return acc;
-  },
-  {} as Record<string, string>,
+  {} as Record<string, { regionSlug: string; city: string }>,
 );
 
 const newLocationsMap = locations.map(location => {
@@ -39,41 +40,20 @@ const newLocationsMap = locations.map(location => {
 
     return {
       location,
-      region,
+      regionId: region?.regionSlug ?? null,
     };
   }
 
   const [uriWithoutRE = ''] = uri.toLowerCase().split('_re');
-  const regionCode = regionUriToCode[`${uriWithoutRE}_re`] ?? null;
-
-  const region = regionCode
-    ? Object.values(uriToRegionData).find(r => r.code === regionCode)
-    : null;
+  const regionSlug = regionUriToSlug[`${uriWithoutRE}_re`] ?? null;
 
   return {
     location,
-    region,
+    regionId: regionSlug,
   };
 });
 
 fs.writeFileSync(
-  '../data/distinct-locations-with-regions.json',
+  path.resolve('output/distinct-locations-with-regions.json'),
   JSON.stringify(newLocationsMap, null, 2),
-);
-
-const distinctRegions = newLocationsMap.reduce(
-  (acc, { region }) => {
-    if (region) {
-      // @ts-ignore
-      region.city = undefined;
-      acc[region.slug] = region;
-    }
-    return acc;
-  },
-  {} as Record<string, { code: string; slug: string }>,
-);
-
-fs.writeFileSync(
-  '../data/distinct-regions.json',
-  JSON.stringify(distinctRegions, null, 2),
 );

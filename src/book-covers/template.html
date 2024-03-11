@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+  <meta charset="utf-8" />
+  <title>Generated Image</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    @font-face {
+      font-family: 'Amiri';
+      src: url('data:font/ttf;charset=utf-8;base64,{{font}}');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    .textContainer {
+      padding: 50px 70px;
+      border-radius: 20px;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 230px;
+      height: 60vh;
+      background-color: {{containerColor}};
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    body {
+      background: url('data:image/png;base64,{{bgBase64}}');
+      background-size: 500px 500px;
+      background-repeat: repeat;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Amiri', sans-serif;
+      font-weight: 400;
+      font-size: 100px;
+      color: {{textColor}};
+    }
+
+    .title {
+      font-size: 300px;
+      font-weight: normal;
+      display: flex;
+      height: 65%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-shrink: 0;
+    }
+
+    .author {
+      font-size: 120px;
+      margin-top: 160px;
+      height: 20%;
+      font-weight: normal;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      flex-shrink: 0;
+    }
+  </style>
+
+  <body>
+    <div class="textContainer">
+      <h1 class="title" id="title">
+        <span> {{title}} </span>
+      </h1>
+      <p class="author" id="author">
+        <span> {{author}} </span>
+      </p>
+    </div>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"
+  ></script>
+
+  <script>
+    (function (k) {
+      k.fn.textfill = function (q) {
+        function e() {
+          a.debug &&
+            'undefined' != typeof console &&
+            'undefined' != typeof console.debug &&
+            console.debug.apply(console, arguments);
+        }
+        function n(b, a, f, l, m, g) {
+          function c(a, b) {
+            var c = ' / ';
+            a > b ? (c = ' > ') : a == b && (c = ' = ');
+            return c;
+          }
+          e(
+            '[TextFill] ' +
+              b +
+              ' { font-size: ' +
+              a.css('font-size') +
+              ',Height: ' +
+              a.height() +
+              'px ' +
+              c(a.height(), f) +
+              f +
+              'px,Width: ' +
+              a.width() +
+              c(a.width(), l) +
+              l +
+              ',minFontPixels: ' +
+              m +
+              'px, maxFontPixels: ' +
+              g +
+              'px }',
+          );
+        }
+        function p(a, c, f, l, e, g, h, d) {
+          for (n(a, c, e, g, h, d); h < Math.floor(d) - 1; ) {
+            var b = Math.floor((h + d) / 2);
+            c.css('font-size', b);
+            var k = f.call(c);
+            if (k <= l) {
+              if (((h = b), k == l)) break;
+            } else d = b;
+            n(a, c, e, g, h, d);
+          }
+          c.css('font-size', d);
+          f.call(c) <= l && ((h = d), n(a + '* ', c, e, g, h, d));
+          return h;
+        }
+        var a = k.extend(
+          {
+            debug: !1,
+            maxFontPixels: 40,
+            minFontPixels: 4,
+            innerTag: 'span',
+            widthOnly: !1,
+            success: null,
+            fail: null,
+            complete: null,
+            explicitWidth: null,
+            explicitHeight: null,
+            changeLineHeight: !1,
+            truncateOnFail: !1,
+            allowOverflow: !1,
+          },
+          q,
+        );
+        e('[TextFill] Start Debug');
+        this.each(function () {
+          var b = k(a.innerTag + ':first', this);
+          e('[TextFill] Inner text: ' + b.text());
+          e('[TextFill] All options: ', a);
+          e('[TextFill] Maximum sizes: { Height: ' + c + 'px, Width: ' + f + 'px }');
+          if (b.is(':visible')) {
+            var c = a.explicitHeight || k(this).height(),
+              f = a.explicitWidth || k(this).width(),
+              l = b.css('font-size'),
+              m = parseFloat(b.css('line-height')) / parseFloat(l),
+              g = a.minFontPixels,
+              h = 0 >= a.maxFontPixels ? c : a.maxFontPixels,
+              d = void 0;
+            a.widthOnly
+              ? b.css('white-space', 'nowrap')
+              : (d = p('Height', b, k.fn.height, c, c, f, g, h));
+            g = p('Width', b, k.fn.width, f, c, f, g, h);
+            a.widthOnly
+              ? (b.css({ 'font-size': g }),
+                a.changeLineHeight && b.parent().css('line-height', m * g + 'px'))
+              : ((d = Math.min(d, g)),
+                b.css('font-size', d),
+                a.changeLineHeight && b.parent().css('line-height', m * d + 'px'));
+            e(
+              '[TextFill] Finished { Old font-size: ' +
+                l +
+                ', New font-size: ' +
+                b.css('font-size') +
+                ' }',
+            );
+            (b.width() > f && !a.allowOverflow) ||
+            (b.height() > c && !a.widthOnly && !a.allowOverflow)
+              ? (b.css('font-size', l),
+                a.fail && a.fail(this),
+                e(
+                  '[TextFill] Failure { Current Width: ' +
+                    b.width() +
+                    ', Maximum Width: ' +
+                    f +
+                    ', Current Height: ' +
+                    b.height() +
+                    ', Maximum Height: ' +
+                    c +
+                    ' }',
+                ))
+              : a.success && a.success(this);
+          } else
+            a.fail && a.fail(this),
+              e(
+                '[TextFill] Failure { Current Width: ' +
+                  b.width() +
+                  ', Maximum Width: ' +
+                  f +
+                  ', Current Height: ' +
+                  b.height() +
+                  ', Maximum Height: ' +
+                  c +
+                  ' }',
+              );
+        });
+        a.complete && a.complete(this);
+        e('[TextFill] End Debug');
+        return this;
+      };
+    })(
+      (function () {
+        return 'undefined' !== typeof module && module.exports
+          ? require('jquery')
+          : window.jQuery;
+      })(),
+    );
+  </script>
+
+  <script>
+    $('#title').textfill({
+      maxFontPixels: 180,
+    });
+
+    $('#author').textfill({
+      maxFontPixels: 120,
+    });
+  </script>
+</html>

@@ -1,22 +1,14 @@
-import { client } from '../../src/lib/typesense';
-import { chunk, convertGeographiesToRegions } from '../utils';
-import { getAuthorsData, getBooksData } from './fetchers';
+import { getBooksData } from '@/datasources/openiti/books';
+import { client } from '../../lib/typesense';
 import fs from 'fs/promises';
+import { chunk } from '@/utils/array';
+import path from 'path';
 
 const INDEX_SHORT_NAME = 'books';
 const INDEX_NAME = `${INDEX_SHORT_NAME}_${Date.now()}`;
 
 console.log('Fetching books data...');
 const books = await getBooksData();
-const authorIdToAuthor = (await getAuthorsData()).reduce(
-  (acc, author) => {
-    // @ts-ignore
-    acc[author.id] = author;
-
-    return acc;
-  },
-  {} as Record<string, Awaited<ReturnType<typeof getAuthorsData>>[number]>,
-);
 
 console.log('Creating books index...');
 
@@ -39,6 +31,10 @@ await client.collections().create({
   fields: [
     {
       name: 'id',
+      type: 'string',
+    },
+    {
+      name: 'slug',
       type: 'string',
     },
     {
@@ -105,27 +101,7 @@ const batches = chunk(books, 200) as (typeof books)[];
 let i = 1;
 for (const batch of batches) {
   console.log(`Indexing batch ${i} / ${batches.length}`);
-  const responses = await client
-    .collections(INDEX_NAME)
-    .documents()
-    .import(
-      batch.map(book => {
-        const { geographies = [], ...author } = authorIdToAuthor[book.authorId]!;
-        const finalGeographies = [
-          ...new Set((geographies ?? []).map(g => g.toLowerCase()) as string[]),
-        ];
-
-        return {
-          ...book,
-          author,
-          versionIds: book.versionIds,
-          genreTags: [...new Set(book.genreTags.map(g => g.toLowerCase()))],
-          geographies: finalGeographies,
-          regions: convertGeographiesToRegions(finalGeographies),
-          year: author.year,
-        };
-      }),
-    );
+  const responses = await client.collections(INDEX_NAME).documents().import(batch);
 
   if (responses.some(r => r.success === false)) {
     throw new Error('Failed to index some books on this batch');
@@ -156,7 +132,7 @@ const tags = [
 ];
 
 await fs.writeFile(
-  '../../data/distinct-genres.json',
+  path.resolve('output/distinct-genres.json'),
   JSON.stringify(tags, null, 2),
   'utf-8',
 );

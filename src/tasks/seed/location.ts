@@ -1,10 +1,23 @@
-import { db } from '../../src/db';
-import { getAuthorsData } from '../fetchers';
-import { chunk, slugifyId, toTitleCase } from '../utils';
-import { location as locationTable } from '../../src/db/schema';
-import locationsWithRegions from '../../data/distinct-locations-with-regions.json';
+import { db } from '../../db';
+import { location as locationTable } from '../../db/schema';
 
-const allAuthors = await getAuthorsData();
+import locationsWithRegions from '~/data/distinct-locations-with-regions.json';
+import regions from '../../../data/regions.json';
+
+import { getAuthorsData } from '@/datasources/openiti/authors';
+import { chunk } from '@/utils/array';
+import { toTitleCase } from '@/utils/string';
+import { createUniqueSlug } from '@/datasources/openiti/utils';
+
+const allAuthors = await getAuthorsData({ populateBooks: false });
+
+type Region = {
+  name: string;
+  slug: string;
+  nameArabic: string;
+  currentPlace: string;
+  overview: string;
+};
 
 // example: { "Jazirat_Arab": ['died', 'born'] }
 const locationsToTypes = [
@@ -27,29 +40,29 @@ const allLocations = Object.keys(locationsToTypes);
 
 const chunkedLocations = chunk(allLocations, 10) as (typeof allLocations)[];
 
-const locationToRegionData = locationsWithRegions.reduce(
+const regionSlugToRegion = Object.values(regions).reduce(
   (acc, entry) => {
-    acc[entry.location.toLowerCase()] = entry.region ?? null;
+    acc[entry.slug] = entry;
     return acc;
   },
-  {} as Record<string, { code: string; city: string } | null>,
+  {} as Record<string, Region>,
+);
+
+const locationToRegionData = locationsWithRegions.reduce(
+  (acc, entry) => {
+    const slug = entry.region?.slug;
+    if (slug) {
+      const region = regionSlugToRegion[slug] ?? null;
+      if (region) {
+        acc[entry.location.toLowerCase()] = { ...region, city: entry.region?.city };
+      }
+    }
+    return acc;
+  },
+  {} as Record<string, (Region & { city?: string }) | null>,
 );
 
 const slugs = new Set<string>();
-const createUniqueSlug = (id: string) => {
-  const name = toReadableName(id);
-  let number = 0;
-
-  while (true) {
-    const slug = number === 0 ? slugifyId(name) : `${slugifyId(name)}-${number}`;
-    if (!slugs.has(slug)) {
-      slugs.add(slug);
-      return slug;
-    }
-
-    number++;
-  }
-};
 
 const toReadableName = (location: string) => {
   return toTitleCase(
@@ -76,7 +89,7 @@ for (const locations of chunkedLocations) {
 
   const locationsWithTypes = locations.flatMap(location => {
     const name = toReadableName(location);
-    const slug = createUniqueSlug(location);
+    const slug = createUniqueSlug(location, slugs);
 
     return (locationsToTypes[location] ?? []).map(type => {
       const id = `${type}@${location}`;
@@ -87,8 +100,8 @@ for (const locations of chunkedLocations) {
         slug: slug,
         name: name,
         type,
-        regionCode: regionData?.code ?? null,
-        cityCode: regionData?.city ?? null,
+        regionId: regionData?.slug ?? null,
+        city: regionData?.city ?? null,
       };
     });
   });
@@ -99,8 +112,8 @@ for (const locations of chunkedLocations) {
       slug: locationEntry.slug,
       name: locationEntry.name,
       type: locationEntry.type,
-      ...(locationEntry.regionCode && { regionCode: locationEntry.regionCode }),
-      ...(locationEntry.cityCode && { cityCode: locationEntry.cityCode }),
+      ...(locationEntry.regionId && { regionId: locationEntry.regionId }),
+      ...(locationEntry.city && { city: locationEntry.city }),
     })),
   );
 
