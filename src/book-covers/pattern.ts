@@ -71,6 +71,10 @@ export const generatePattern = async ({
     if (data.status === 'succeeded') {
       return data.output;
     }
+
+    if (data.status === 'failed') {
+      throw new Error(data.error);
+    }
   }
 };
 

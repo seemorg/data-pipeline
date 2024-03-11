@@ -10,6 +10,7 @@ const authors = await getAuthorsData({ populateBooks: true });
 const totalBooks = authors.reduce((acc, author) => acc + author.books.length, 0);
 let i = 1;
 
+const failed = [];
 for (const author of authors) {
   const books = author.books;
 
@@ -46,11 +47,14 @@ for (const author of authors) {
       await uploadToR2(`covers/${book.slug}.png`, file, {
         contentType: 'image/png',
       });
-    } catch (e) {}
+    } catch (e) {
+      failed.push(book.slug);
+    }
 
     i++;
   }
 }
 
 console.log('Done!');
+console.log(JSON.stringify(failed, null, 2));
 process.exit(0);
