@@ -129,15 +129,14 @@ interface GetPredictionResponse {
 const objects = new Set<string>(
   (await listAllObjects('patterns/')).map(o => o.Key ?? ''),
 );
-export async function generatePatternWithColors(slug: string) {
+export async function generatePatternWithColors(slug: string, override = false) {
   const key = `patterns/${slug}.png`;
   let patternUrl;
   let pattern;
 
-  if (objects.has(key)) {
-    return;
-    // patternUrl = `https://assets.digitalseem.org/${key}`;
-    // pattern = await fetch(patternUrl);
+  if (objects.has(key) && !override) {
+    patternUrl = `https://assets.digitalseem.org/${key}`;
+    pattern = await fetch(patternUrl);
   } else {
     const url = await generatePattern({ width: 512, height: 512 });
     if (!url) return;
@@ -148,7 +147,7 @@ export async function generatePatternWithColors(slug: string) {
 
   let patternBuffer = Buffer.from(await pattern.arrayBuffer());
 
-  if (!objects.has(key)) {
+  if (!objects.has(key) || override) {
     console.log('Uploading pattern...');
     await uploadToR2(`patterns/${slug}.png`, patternBuffer, {
       contentType: 'image/png',
@@ -176,5 +175,5 @@ export async function generatePatternWithColors(slug: string) {
   }
 
   // generate again
-  return generatePatternWithColors(slug);
+  return generatePatternWithColors(slug, true);
 }

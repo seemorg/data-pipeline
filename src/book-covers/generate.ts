@@ -24,10 +24,6 @@ for (const author of authors) {
 
       const { containerColor, patternBuffer } = result;
 
-      // store the pattern
-      // await fs.writeFile(path.resolve(`covers/pattern-${book.slug}.png`), patternBuffer);
-
-      // const bgPath = path.resolve('src/book-covers/bg-2.png');
       const bgBase64 = patternBuffer.toString('base64');
 
       console.log('Generating cover...');
@@ -41,14 +37,13 @@ for (const author of authors) {
         'png',
       );
 
-      // await ensureDir(path.resolve('covers'));
-      // await ensureDir(path.resolve(`covers/ghazali`));
-      // await fs.writeFile(path.resolve(`covers/ghazali/${book.slug}.png`), file);
       console.log('Uploading cover...');
       await uploadToR2(`covers/${book.slug}.png`, file, {
         contentType: 'image/png',
       });
     } catch (e) {
+      console.log(e);
+
       failed.push(book.slug);
     }
   }
