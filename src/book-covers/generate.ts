@@ -16,6 +16,7 @@ for (const author of authors) {
 
   for (const book of books) {
     console.log(`Processing book ${i} / ${totalBooks}`);
+    i++;
 
     try {
       const result = await generatePatternWithColors(book.slug);
@@ -50,8 +51,6 @@ for (const author of authors) {
     } catch (e) {
       failed.push(book.slug);
     }
-
-    i++;
   }
 }
 
