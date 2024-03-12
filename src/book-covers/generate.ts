@@ -23,40 +23,45 @@ for (const batch of batches) {
   await Promise.all(
     batch.map(async author => {
       const books = author.books;
+      const bookBatches = chunk(books, 5) as (typeof books)[];
 
-      for (const book of books) {
-        const coverKey = `covers/${book.slug}.png`;
-        if (objects.has(coverKey)) {
-          continue;
-        }
+      for (const bookBatch of bookBatches) {
+        await Promise.all(
+          bookBatch.map(async book => {
+            const coverKey = `covers/${book.slug}.png`;
+            if (objects.has(coverKey)) {
+              return;
+            }
 
-        try {
-          const result = await generatePatternWithColors(book.slug);
-          if (!result) continue;
+            try {
+              const result = await generatePatternWithColors(book.slug);
+              if (!result) return;
 
-          const { containerColor, patternBuffer } = result;
+              const { containerColor, patternBuffer } = result;
 
-          const bgBase64 = patternBuffer.toString('base64');
+              const bgBase64 = patternBuffer.toString('base64');
 
-          // console.log('Generating cover...');
-          const file = await getScreenshot(
-            getBookHtml({
-              title: book.primaryArabicName ?? book.primaryLatinName,
-              author: author.primaryArabicName ?? author.primaryLatinName ?? '',
-              containerColor,
-              bgBase64,
-            }),
-            'png',
-          );
+              // console.log('Generating cover...');
+              const file = await getScreenshot(
+                getBookHtml({
+                  title: book.primaryArabicName ?? book.primaryLatinName,
+                  author: author.primaryArabicName ?? author.primaryLatinName ?? '',
+                  containerColor,
+                  bgBase64,
+                }),
+                'png',
+              );
 
-          // console.log('Uploading cover...');
-          await uploadToR2(coverKey, file, {
-            contentType: 'image/png',
-          });
-        } catch (e) {
-          console.log(e);
-          failed.push(book.slug);
-        }
+              // console.log('Uploading cover...');
+              await uploadToR2(coverKey, file, {
+                contentType: 'image/png',
+              });
+            } catch (e) {
+              console.log(e);
+              failed.push(book.slug);
+            }
+          }),
+        );
       }
     }),
   );
