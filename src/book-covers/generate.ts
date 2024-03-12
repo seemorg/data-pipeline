@@ -22,7 +22,7 @@ const allBooks = authors.flatMap(author =>
 const objects = new Set<string>((await listAllObjects('covers/')).map(o => o.Key ?? ''));
 const failed: string[] = [];
 
-const batches = chunk(allBooks, 3) as (typeof allBooks)[];
+const batches = chunk(allBooks, 5) as (typeof allBooks)[];
 let i = 1;
 
 for (const batch of batches) {
