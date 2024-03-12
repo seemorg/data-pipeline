@@ -26,3 +26,30 @@ export const uploadToR2 = async (
     })
     .promise();
 };
+
+export const listAllObjects = async (prefix: string) => {
+  let lastItem: string | undefined = undefined;
+  let hasMore = true;
+  const allObjects: S3.ObjectList = [];
+
+  while (hasMore) {
+    // @ts-ignore
+    const objects = await s3
+      .listObjectsV2({
+        Bucket: env.R2_BUCKET,
+        Prefix: prefix,
+        ...((lastItem ? { StartAfter: lastItem } : {}) as any),
+      })
+      .promise();
+
+    allObjects.push(...(objects.Contents ?? []));
+
+    if (objects.Contents?.length === 0) {
+      hasMore = false;
+    } else {
+      lastItem = objects.Contents?.[objects.Contents.length - 1]?.Key;
+    }
+  }
+
+  return allObjects;
+};

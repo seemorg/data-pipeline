@@ -1,5 +1,5 @@
 import { env } from '@/env';
-import { uploadToR2 } from '@/lib/r2';
+import { listAllObjects, uploadToR2 } from '@/lib/r2';
 import { sleep } from '@/utils/functions';
 import Vibrant from 'node-vibrant';
 // import * as ColorTheif from 'colorthief';
@@ -126,13 +126,19 @@ interface GetPredictionResponse {
   };
 }
 
+const objects = new Set<string>(
+  (await listAllObjects('patterns/')).map(o => o.Key ?? ''),
+);
 export async function generatePatternWithColors(slug: string) {
-  let patternUrl = `https://assets.digitalseem.org/patterns/${slug}.png`;
-  let pattern = await fetch(patternUrl);
+  const key = `patterns/${slug}.png`;
+  let patternUrl;
+  let pattern;
 
-  const exists = pattern.status < 400;
-
-  if (!exists) {
+  if (objects.has(key)) {
+    return;
+    // patternUrl = `https://assets.digitalseem.org/${key}`;
+    // pattern = await fetch(patternUrl);
+  } else {
     const url = await generatePattern({ width: 512, height: 512 });
     if (!url) return;
 
@@ -142,7 +148,7 @@ export async function generatePatternWithColors(slug: string) {
 
   let patternBuffer = Buffer.from(await pattern.arrayBuffer());
 
-  if (!exists) {
+  if (!objects.has(key)) {
     console.log('Uploading pattern...');
     await uploadToR2(`patterns/${slug}.png`, patternBuffer, {
       contentType: 'image/png',
