@@ -8,12 +8,21 @@ import { chunk } from '@/utils/array';
 
 const authors = await getAuthorsData({ populateBooks: true });
 
-// const totalBooks = authors.reduce((acc, author) => acc + author.books.length, 0);
+const authorIdToAuthor = authors.reduce(
+  (acc, { books, ...author }) => {
+    acc[author.id] = author;
+    return acc;
+  },
+  {} as Record<string, Omit<(typeof authors)[number], 'books'>>,
+);
+const allBooks = authors.flatMap(author =>
+  author.books.map(book => ({ ...book, authorId: author.id })),
+);
 
 const objects = new Set<string>((await listAllObjects('covers/')).map(o => o.Key ?? ''));
 const failed: string[] = [];
 
-const batches = chunk(authors, 10) as (typeof authors)[];
+const batches = chunk(allBooks, 3) as (typeof allBooks)[];
 let i = 1;
 
 for (const batch of batches) {
@@ -21,47 +30,45 @@ for (const batch of batches) {
   i++;
 
   await Promise.all(
-    batch.map(async author => {
-      const books = author.books;
-      const bookBatches = chunk(books, 5) as (typeof books)[];
+    batch.map(async book => {
+      const author = authorIdToAuthor[book.authorId];
 
-      for (const bookBatch of bookBatches) {
-        await Promise.all(
-          bookBatch.map(async book => {
-            const coverKey = `covers/${book.slug}.png`;
-            if (objects.has(coverKey)) {
-              return;
-            }
+      if (!author) {
+        console.log(`Author not found for book ${book.slug}`);
+        return;
+      }
 
-            try {
-              const result = await generatePatternWithColors(book.slug);
-              if (!result) return;
+      const coverKey = `covers/${book.slug}.png`;
+      if (objects.has(coverKey)) {
+        return;
+      }
 
-              const { containerColor, patternBuffer } = result;
+      try {
+        const result = await generatePatternWithColors(book.slug);
+        if (!result) return;
 
-              const bgBase64 = patternBuffer.toString('base64');
+        const { containerColor, patternBuffer } = result;
 
-              // console.log('Generating cover...');
-              const file = await getScreenshot(
-                getBookHtml({
-                  title: book.primaryArabicName ?? book.primaryLatinName,
-                  author: author.primaryArabicName ?? author.primaryLatinName ?? '',
-                  containerColor,
-                  bgBase64,
-                }),
-                'png',
-              );
+        const bgBase64 = patternBuffer.toString('base64');
 
-              // console.log('Uploading cover...');
-              await uploadToR2(coverKey, file, {
-                contentType: 'image/png',
-              });
-            } catch (e) {
-              console.log(e);
-              failed.push(book.slug);
-            }
+        // console.log('Generating cover...');
+        const file = await getScreenshot(
+          getBookHtml({
+            title: book.primaryArabicName ?? book.primaryLatinName,
+            author: author.primaryArabicName ?? author.primaryLatinName ?? '',
+            containerColor,
+            bgBase64,
           }),
+          'png',
         );
+
+        // console.log('Uploading cover...');
+        await uploadToR2(coverKey, file, {
+          contentType: 'image/png',
+        });
+      } catch (e) {
+        console.log(e);
+        failed.push(book.slug);
       }
     }),
   );
