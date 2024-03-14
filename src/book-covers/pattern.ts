@@ -126,10 +126,11 @@ interface GetPredictionResponse {
   };
 }
 
-const objects = new Set<string>(
-  (await listAllObjects('patterns/')).map(o => o.Key ?? ''),
-);
-export async function generatePatternWithColors(slug: string, override = false) {
+export async function generatePatternWithColors(
+  slug: string,
+  objects: Set<string>,
+  override = false,
+) {
   const key = `patterns/${slug}.png`;
   let patternUrl;
   let pattern;
@@ -175,5 +176,5 @@ export async function generatePatternWithColors(slug: string, override = false) 
   }
 
   // generate again
-  return generatePatternWithColors(slug, true);
+  return generatePatternWithColors(slug, objects, true);
 }

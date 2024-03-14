@@ -15,6 +15,7 @@ export const env = createEnv({
     R2_SECRET_KEY: z.string().min(1),
     R2_ENDPOINT: z.string().min(1),
     R2_BUCKET: z.string().min(1),
+    CLOUDFLARE_IMAGES_TOKEN: z.string().min(1),
   },
   client: {},
   runtimeEnv: {
@@ -27,6 +28,7 @@ export const env = createEnv({
     R2_SECRET_KEY: process.env.R2_SECRET_KEY,
     R2_ENDPOINT: process.env.R2_ENDPOINT,
     R2_BUCKET: process.env.R2_BUCKET,
+    CLOUDFLARE_IMAGES_TOKEN: process.env.CLOUDFLARE_IMAGES_TOKEN,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,

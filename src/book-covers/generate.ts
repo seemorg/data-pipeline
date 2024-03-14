@@ -20,6 +20,11 @@ const allBooks = authors.flatMap(author =>
 );
 
 const objects = new Set<string>((await listAllObjects('covers/')).map(o => o.Key ?? ''));
+
+const patternObjects = new Set<string>(
+  (await listAllObjects('patterns/')).map(o => o.Key ?? ''),
+);
+
 const failed: string[] = [];
 
 const batches = chunk(allBooks, 5) as (typeof allBooks)[];
@@ -44,7 +49,7 @@ for (const batch of batches) {
       }
 
       try {
-        const result = await generatePatternWithColors(book.slug);
+        const result = await generatePatternWithColors(book.slug, patternObjects);
         if (!result) return;
 
         const { containerColor, patternBuffer } = result;
