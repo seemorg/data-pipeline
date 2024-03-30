@@ -20,6 +20,8 @@ next-env.d.ts
 # production
 /build
 
+/typesense-data
+
 # misc
 .DS_Store
 *.pem

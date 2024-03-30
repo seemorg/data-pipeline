@@ -5,19 +5,21 @@ import { dedupeStrings } from '@/utils/string';
 /**
  * This method returns an array of name variations for a given name.
  */
-export const getNamesVariations = (names: string[]) => {
+export const getNamesVariations = (names: (string | null | undefined)[]) => {
   const newVariations: string[] = [];
 
-  names.forEach(name => {
-    const nameWithoutDiactrics = removeDiacritics(name);
+  (names.filter(n => n !== null && typeof n !== 'undefined') as string[]).forEach(
+    name => {
+      const nameWithoutDiactrics = removeDiacritics(name);
 
-    if (nameWithoutDiactrics !== name && !names.includes(nameWithoutDiactrics))
-      newVariations.push(nameWithoutDiactrics);
+      if (nameWithoutDiactrics !== name && !names.includes(nameWithoutDiactrics))
+        newVariations.push(nameWithoutDiactrics);
 
-    const nameWithoutAl = nameWithoutDiactrics.replace(/(al-)/gi, '');
-    if (nameWithoutAl !== nameWithoutDiactrics && !names.includes(nameWithoutAl))
-      newVariations.push(nameWithoutAl);
-  });
+      const nameWithoutAl = nameWithoutDiactrics.replace(/(al-)/gi, '');
+      if (nameWithoutAl !== nameWithoutDiactrics && !names.includes(nameWithoutAl))
+        newVariations.push(nameWithoutAl);
+    },
+  );
 
   return newVariations;
 };

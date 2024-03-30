@@ -1,0 +1,44 @@
+{
+  "0001AbuTalibCabdManaf.Diwan": {
+    "primary_name": "Diwan Abu Talib",
+    "variations": [
+      "Dīwān Abū Ṭālib",
+      "Diwan of Abu Talib",
+      "Divan Abu Talib"
+    ]
+  },
+  "0001AwsIbnHajar.Diwan": {
+    "primary_name": "Diwan Aws ibn Hajar",
+    "variations": [
+      "Dīwān Aws ibn Hajar",
+      "Diwan of Aws ibn Hajar",
+      "Diwan Ows ibn Hajar"
+    ]
+  },
+  "0001CamrIbnKulthum.Diwan": {
+    "primary_name": "Diwan Amr ibn Kulthum",
+    "variations": [
+      "Diwan 'Amr ibn Kulthum",
+      "Dīwān ʿAmr ibn Kulthūm",
+      "Dīwān Amr ibn Kulthūm",
+      "Diwan Amro ibn Kulthom"
+    ]
+  },
+  "0001CalqamaFahl.Diwan": {
+    "primary_name": "Diwan Alqama al-Fahl",
+    "variations": [
+      "Diwan 'Alqamah al-Fahl",
+      "Dīwān ʿAlqama al-Faḥl",
+      "Diwan Alqamah al-Fahl"
+    ]
+  },
+  "0001CamrIbnKulthum.Mucallaqa": {
+    "primary_name": "Mu'allaqat Amr ibn Kulthum",
+    "variations": [
+      "Mu'allaqat Amru ibn Kulthoom",
+      "Al-Mu'allaqah of Amr ibn Kulthum",
+      "Muallaqat of Amr Ibn Kulthum",
+      "Mu'allaqat Amr Ibn Kulthoom"
+    ]
+  }
+}

@@ -3,6 +3,9 @@ import type { OpenITIBook } from '@/types/openiti';
 import { dedupeStrings } from '@/utils/string';
 import { createUniqueSlug, getNamesVariations } from './utils';
 import { getAuthorsData } from './authors';
+import bookIdToSlug from '../../../data/book-slugs.json';
+import bookIdToNames from '../../../output/book-name-variations.json';
+import { removeDiacritics } from '@/utils/diacritics';
 
 type ReturnedBookDocument<T extends boolean> = T extends true
   ? BookDocument
@@ -38,11 +41,20 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
     })
     .map(book => {
       const [primaryArabicName, ...otherArabicNames] = dedupeStrings(book.title_ar);
+      const primaryArabicNameWithoutDiacritics = primaryArabicName
+        ? removeDiacritics(primaryArabicName)
+        : null;
+
       const [primaryLatinName, ...otherLatinNames] = dedupeStrings(book.title_lat);
+      const primaryLatinNameWithoutDiacritics = primaryLatinName
+        ? removeDiacritics(primaryLatinName)
+        : null;
 
       const id = book.uri;
       const [authorId, bookId] = book.uri.split('.');
-      const slug = createUniqueSlug(bookId ?? id, slugs);
+      const slug =
+        (bookIdToSlug as Record<string, string>)[id] ??
+        createUniqueSlug(bookId ?? id, slugs);
       const author = authorId ? authorIdToAuthor[authorId] : undefined;
 
       let extraProperties: Record<string, any> = {};
@@ -54,14 +66,34 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
         extraProperties.year = year;
       }
 
+      const bookNames = (
+        bookIdToNames as Record<string, { primary_name: string; variations: string[] }>
+      )[id];
+
       const result = {
         id,
         slug,
         authorId,
-        primaryArabicName,
+        ...(primaryArabicNameWithoutDiacritics && {
+          primaryArabicName: primaryArabicNameWithoutDiacritics,
+        }),
         otherArabicNames,
-        primaryLatinName,
-        otherLatinNames,
+        ...(bookNames
+          ? {
+              primaryLatinName: bookNames.primary_name,
+            }
+          : primaryLatinNameWithoutDiacritics
+            ? {
+                primaryLatinName: primaryLatinNameWithoutDiacritics,
+              }
+            : {}),
+        otherLatinNames: [
+          ...(otherLatinNames ?? []),
+          ...(bookNames
+            ? // if we already generated a primary name, use the on in the data as one of the variations
+              [...bookNames.variations, ...(primaryLatinName ? [primaryLatinName] : [])]
+            : []),
+        ],
         genreTags: dedupeStrings(book.genre_tags.map(g => g.toLowerCase())),
         versionIds: book.versions,
         ...(author ? { author, ...extraProperties } : {}),
@@ -70,8 +102,8 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
       return {
         ...result,
         _nameVariations: getNamesVariations([
-          ...(result.primaryArabicName ? [result.primaryArabicName] : []),
-          ...(result.primaryLatinName ? [result.primaryLatinName] : []),
+          primaryArabicName,
+          primaryLatinName,
           ...result.otherArabicNames,
           ...result.otherLatinNames,
         ]),

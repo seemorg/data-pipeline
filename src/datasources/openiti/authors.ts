@@ -7,7 +7,10 @@ import {
 } from './utils';
 import { dedupeStrings } from '@/utils/string';
 import authorBios from '../../../data/author-bios.json';
+import authorIdToSlug from '../../../data/author-slugs.json';
 import { getBooksData } from './books';
+import authorIdToNames from '../../../output/author-name-variations.json';
+import { removeDiacritics } from '@/utils/diacritics';
 
 const getAuthorBio = (id: string) => {
   return (authorBios as Record<string, { bio: string }>)[id]?.bio ?? undefined;
@@ -54,6 +57,9 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
 
   return Object.values(authorsData).map(author => {
     const [primaryArabicName, ...otherArabicNames] = dedupeStrings(author.author_ar);
+    const primaryArabicNameWithoutDiacritics = primaryArabicName
+      ? removeDiacritics(primaryArabicName)
+      : null;
 
     const latinNames = [...author.author_lat];
     if (author.shuhra.length > 0) {
@@ -65,21 +71,45 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
     }
 
     const [primaryLatinName, ...otherLatinNames] = dedupeStrings(latinNames);
+    const primaryLatinNameWithoutDiacritics = primaryLatinName
+      ? removeDiacritics(primaryLatinName)
+      : null;
 
     const id = author.uri;
-    const slug = createUniqueSlug(id, slugs);
+    const slug =
+      (authorIdToSlug as Record<string, string>)[id] ?? createUniqueSlug(id, slugs);
     const bio = getAuthorBio(id);
     const geographies = dedupeStrings(author.geo);
     const books = authorIdToBooks[id] ?? undefined;
+
+    const authorNames = (
+      authorIdToNames as Record<string, { primary_name: string; variations: string[] }>
+    )[id];
 
     const result = {
       id,
       slug,
       year: Number(author.date),
-      primaryArabicName,
+      ...(primaryArabicNameWithoutDiacritics && {
+        primaryArabicName: primaryArabicNameWithoutDiacritics,
+      }),
       otherArabicNames,
-      primaryLatinName,
-      otherLatinNames,
+      ...(authorNames
+        ? {
+            primaryLatinName: authorNames.primary_name,
+          }
+        : primaryLatinNameWithoutDiacritics
+          ? {
+              primaryLatinName: primaryLatinNameWithoutDiacritics,
+            }
+          : {}),
+      otherLatinNames: [
+        ...(otherLatinNames ?? []),
+        ...(authorNames
+          ? // if we already generated a primary name, use the on in the data as one of the variations
+            [...authorNames.variations, ...(primaryLatinName ? [primaryLatinName] : [])]
+          : []),
+      ],
       geographies,
       regions: convertGeographiesToRegions(geographies),
       ...(bio ? { bio } : {}),
@@ -89,8 +119,8 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
     return {
       ...result,
       _nameVariations: getNamesVariations([
-        ...(result.primaryArabicName ? [result.primaryArabicName] : []),
-        ...(result.primaryLatinName ? [result.primaryLatinName] : []),
+        primaryArabicName,
+        primaryLatinName,
         ...result.otherArabicNames,
         ...result.otherLatinNames,
       ]),

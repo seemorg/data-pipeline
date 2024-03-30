@@ -26,10 +26,20 @@ async function getPage() {
   return await browser.newPage();
 }
 
-export async function getScreenshot(html: string, type: FileType) {
+export async function getScreenshot(
+  html: string,
+  type: FileType,
+  {
+    width = BOOK_COVER_WIDTH,
+    height = BOOK_COVER_HEIGHT,
+  }: {
+    width?: number;
+    height?: number;
+  } = {},
+) {
   const page = await getPage();
 
-  await page.setViewport({ width: BOOK_COVER_WIDTH, height: BOOK_COVER_HEIGHT });
+  await page.setViewport({ width, height });
   await page.setContent(html);
 
   const file = await page.screenshot({ type });

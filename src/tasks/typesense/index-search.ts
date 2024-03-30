@@ -1,0 +1,260 @@
+import { client } from '../../lib/typesense';
+import { getAuthorsData } from '@/datasources/openiti/authors';
+import { getBooksData } from '@/datasources/openiti/books';
+import { getGenresData } from '@/datasources/openiti/genres';
+import { getRegionsData } from '@/datasources/openiti/regions';
+import { AuthorDocument, BookDocument } from '@/types';
+import { GenreDocument } from '@/types/genre';
+import { RegionDocument } from '@/types/region';
+import { chunk } from '@/utils/array';
+
+const INDEX_SHORT_NAME = 'all_documents';
+const INDEX_NAME = `${INDEX_SHORT_NAME}_${Date.now()}`;
+
+console.log('Creating index...');
+
+let hasCollectionAliases = true;
+try {
+  await client.aliases(INDEX_SHORT_NAME).retrieve();
+} catch (e) {
+  hasCollectionAliases = false;
+}
+
+if (!hasCollectionAliases) {
+  try {
+    await client.collections(INDEX_SHORT_NAME).delete();
+  } catch (e) {}
+}
+
+await client.collections().create({
+  name: INDEX_NAME,
+  enable_nested_fields: true,
+  fields: [
+    {
+      name: 'type',
+      type: 'string',
+      facet: true,
+    },
+    {
+      name: 'id',
+      type: 'string',
+    },
+    {
+      name: 'slug',
+      type: 'string',
+    },
+    {
+      name: 'year',
+      type: 'int32',
+      optional: true,
+    },
+    {
+      name: 'primaryArabicName',
+      type: 'string',
+      optional: true,
+    },
+    {
+      name: 'otherArabicNames',
+      type: 'string[]',
+      optional: true,
+    },
+    {
+      name: 'primaryLatinName',
+      type: 'string',
+      optional: true,
+    },
+    {
+      name: 'otherLatinNames',
+      type: 'string[]',
+      optional: true,
+    },
+    {
+      // this is an internal field that we'll use to search for name variations
+      name: '_nameVariations',
+      type: 'string[]',
+      optional: true,
+    },
+    {
+      name: 'author',
+      type: 'object',
+      optional: true,
+    },
+    {
+      name: 'booksCount',
+      type: 'int32',
+      optional: true,
+    },
+  ],
+});
+
+const types = ['author', 'book', 'genre', 'region'] as const;
+
+const getDataByType = async <T extends (typeof types)[number]>(type: T) => {
+  if (type === 'author') {
+    return await getAuthorsData({ populateBooks: true });
+  }
+
+  if (type === 'book') {
+    return await getBooksData({ populateAuthor: true });
+  }
+
+  if (type === 'genre') {
+    return await getGenresData();
+  }
+
+  return await getRegionsData();
+};
+
+for (const type of types) {
+  const data = await getDataByType(type);
+
+  if (!data) {
+    console.log(`DATA LOADER FOR ${type} not implemented yet!`);
+    continue;
+  }
+
+  console.log(`Indexing ${data.length} records of type: "${type}"`);
+
+  const batches = chunk(data, 200) as (typeof data)[];
+
+  let i = 1;
+  for (const batch of batches) {
+    const preparedBatch = batch.map(record => {
+      if (type === 'author') {
+        const authorDocument = record as AuthorDocument;
+
+        return {
+          id: authorDocument.id,
+          slug: authorDocument.slug,
+          year: authorDocument.year,
+          primaryArabicName: authorDocument.primaryArabicName,
+          otherArabicNames: authorDocument.otherArabicNames,
+          primaryLatinName: authorDocument.primaryLatinName,
+          otherLatinNames: authorDocument.otherLatinNames,
+          _nameVariations: authorDocument._nameVariations,
+          booksCount: authorDocument.booksCount,
+        };
+      }
+
+      if (type === 'book') {
+        const bookDocument = record as BookDocument;
+
+        return {
+          id: bookDocument.id,
+          slug: bookDocument.slug,
+          year: bookDocument.year,
+          primaryArabicName: bookDocument.primaryArabicName,
+          otherArabicNames: bookDocument.otherArabicNames,
+          primaryLatinName: bookDocument.primaryLatinName,
+          otherLatinNames: bookDocument.otherLatinNames,
+          _nameVariations: bookDocument._nameVariations,
+          author: {
+            id: bookDocument.author.id,
+            slug: bookDocument.author.slug,
+            year: bookDocument.author.year,
+            primaryArabicName: bookDocument.author.primaryArabicName,
+            otherArabicNames: bookDocument.author.otherArabicNames,
+            primaryLatinName: bookDocument.author.primaryLatinName,
+            otherLatinNames: bookDocument.author.otherLatinNames,
+            _nameVariations: bookDocument.author._nameVariations,
+          },
+        };
+      }
+
+      if (type === 'genre') {
+        const genreDocument = record as GenreDocument;
+
+        return {
+          id: genreDocument.id,
+          slug: genreDocument.slug,
+          booksCount: genreDocument.booksCount,
+          primaryArabicName: genreDocument.name,
+          primaryLatinName: genreDocument.name,
+        };
+      }
+
+      if (type === 'region') {
+        const regionDocument = record as RegionDocument;
+        return {
+          id: regionDocument.id,
+          slug: regionDocument.slug,
+          primaryLatinName: regionDocument.name,
+          primaryArabicName: regionDocument.arabicName,
+          otherLatinNames: [regionDocument.currentName],
+          _nameVariations: regionDocument.subLocations,
+          booksCount: regionDocument.booksCount,
+        };
+      }
+
+      return null;
+    });
+
+    console.log(`Indexing batch ${i} / ${batches.length}`);
+
+    const responses = await client
+      .collections(INDEX_NAME)
+      .documents()
+      .import(preparedBatch.filter(d => d !== null).map(d => ({ ...d, type })));
+
+    if (responses.some(r => r.success === false)) {
+      throw new Error('Failed to index some records on this batch');
+    }
+
+    i++;
+  }
+
+  console.log(`Indexed ${data.length} records of type: "${type}"`);
+}
+
+// const aliases = Object.keys(nameAliases as Record<string, string[]>)
+//   // @ts-ignore
+//   .filter(a => !!nameAliases[a] && nameAliases[a].length > 0)
+//   .map(alias => ({
+//     name: alias,
+//     // @ts-ignore
+//     aliases: [alias, ...nameAliases[alias]] as string[],
+//   }));
+
+// const aliasChunks = chunk(aliases, 50) as (typeof aliases)[];
+
+// let j = 1;
+// for (const chunk of aliasChunks) {
+//   console.log(`Indexing aliases batch ${j} / ${aliasChunks.length}`);
+//   await Promise.all(
+//     chunk.map((a, index) =>
+//       client
+//         .collections(INDEX_NAME)
+//         .synonyms()
+//         .upsert(`chunk-${j}:idx-${index}`, { synonyms: a.aliases }),
+//     ),
+//   );
+//   j++;
+// }
+
+// console.log(`Indexed ${aliases.length} aliases`);
+
+try {
+  const collection = await client.aliases(INDEX_SHORT_NAME).retrieve();
+
+  console.log('Deleting old alias...');
+  await client.collections(collection.collection_name).delete();
+} catch (e) {}
+
+console.log('Linking new collection to alias...');
+await client.aliases().upsert(INDEX_SHORT_NAME, { collection_name: INDEX_NAME });
+
+// save distinct tags to file
+// const tags = [
+//   ...authors.reduce((acc, author) => {
+//     author.geographies.forEach(tag => {
+//       if (!acc.has(tag)) acc.add(tag);
+//     });
+//     return acc;
+//   }, new Set<string>()),
+// ];
+
+// await fs.writeFile(
+//   path.resolve('output/distinct-tags.json'),
+//   JSON.stringify(tags, null, 2),
+//   'utf-8',
+// );
