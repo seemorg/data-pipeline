@@ -97,20 +97,38 @@ const languages = [
 ];
 
 const SYSTEM_PROMPT = `
-You are an assistant that takes an Arabic word as an input and returns a json output with the many possible spellings of the word in the following languages: 
-
-${languages.map(l => `${l.code} (${l.name})`).join(', ')}
+You are an assistant that takes an Arabic word as an input and returns a json output with the many possible spellings of the word when written in Urdu:
   
 The schema should match the following: 
-Input: الآشباه
 
-Output: 
+Input: موطأ
+Sample Output in English: 
 {
-  "english": ['Al-Ashbah', ...]
-  "persian": ...,
-  ...
+  "variations": ["Muwatta", "Muwata", "Mowatta", "Mowata", "Muwatā", "Muwattā", "Mūwaṭṭā’"]
 }
 `.trim();
+
+// Mūwāṭā
+// Muwaṭṭa'
+// Al-Muwāṭṭā'
+// Mūwaṭā
+// Al-Muwaṭa
+//
+// Muwāṭa'
+// Al-Muwāṭa
+// Muwattaa
+// Mūwaṭā’
+// Muwattā
+//
+// Al-Muwaṭṭā
+// Muwata
+// Mūṭā’
+// Muwatta
+// Muwatta'
+// Al-Muwatta
+// Al-Muwatta'
+// Al-Muwaṭṭa'
+// Al-Muwaṭṭā’
 
 const schema = z.object({
   ...languages.reduce(
@@ -122,7 +140,7 @@ const schema = z.object({
   ),
 });
 
-// const books = await getBooksData({ populateAuthor: false, limit: 5 });
+const books = await getBooksData({ populateAuthor: false, limit: 30 });
 const queue = new APIQueue(env.OPENAI_API_KEY, {
   'gpt-4-turbo-preview': {
     requestsPerMinute: 5_000,
@@ -130,74 +148,74 @@ const queue = new APIQueue(env.OPENAI_API_KEY, {
   },
 });
 
-// const chunks = chunk(books, 3) as (typeof books)[];
+const chunks = chunk(books, 3) as (typeof books)[];
 
-// let i = 1;
-// for (const batch of chunks) {
-//   console.log(`Processing batch ${i} of ${chunks.length}...`);
-//   i++;
+let i = 1;
+for (const batch of chunks) {
+  console.log(`Processing batch ${i} of ${chunks.length}...`);
+  i++;
 
-//   const processedBatch = batch.filter(book => book.primaryArabicName);
-//   if (processedBatch.length === 0) continue;
+  const processedBatch = batch.filter(book => book.primaryArabicName);
+  if (processedBatch.length === 0) continue;
 
-//   let wordsInChunk = processedBatch.flatMap(book => book.primaryArabicName!.split(' '));
-//   if (!OVERWRITE) {
-//     wordsInChunk = wordsInChunk.filter(word => !output[word]);
-//   }
-
-//   if (wordsInChunk.length === 0) continue;
-
-//   await Promise.all(
-//     wordsInChunk.map(async word => {
-//       try {
-//         const completion = await queue.request({
-//           model: 'gpt-4-turbo-preview',
-//           response_format: { type: 'json_object' },
-//           messages: [
-//             { role: 'system', content: SYSTEM_PROMPT },
-//             { role: 'user', content: 'موطأ' },
-//           ],
-//         });
-
-//         const result = completion?.choices?.[0]?.message?.content;
-//         if (!result) return;
-
-//         const parsedResult = JSON.parse(result);
-//         // if (!parsedResult.success) return;
-
-//         output[word] = parsedResult;
-//       } catch (e) {
-//         console.log('Error');
-//       }
-//     }),
-//   );
-
-//   // every 5 chunks, sync the output to the file
-//   if (i % 5 === 0) {
-//     await syncOutput();
-//   }
-// }
-
-// await syncOutput();
-
-try {
-  const completion = await queue.request({
-    model: 'gpt-4-turbo-preview',
-    response_format: { type: 'json_object' },
-    messages: [
-      { role: 'system', content: SYSTEM_PROMPT },
-      { role: 'user', content: '"موطأ"' },
-    ],
-  });
-
-  const result = completion?.choices?.[0]?.message?.content;
-  if (result) {
-    const parsedResult = JSON.parse(result);
-    // if (!parsedResult.success) return;
-
-    output['موطأ'] = parsedResult;
+  let wordsInChunk = processedBatch.flatMap(book => book.primaryArabicName!.split(' '));
+  if (!OVERWRITE) {
+    wordsInChunk = wordsInChunk.filter(word => !output[word]);
   }
-} catch (e) {
-  console.log('Error');
+
+  if (wordsInChunk.length === 0) continue;
+
+  await Promise.all(
+    wordsInChunk.map(async word => {
+      try {
+        const completion = await queue.request({
+          model: 'gpt-4-turbo-preview',
+          response_format: { type: 'json_object' },
+          messages: [
+            { role: 'system', content: SYSTEM_PROMPT },
+            { role: 'user', content: `"${word}"` },
+          ],
+        });
+
+        const result = completion?.choices?.[0]?.message?.content;
+        if (!result) return;
+
+        const parsedResult = JSON.parse(result);
+        // if (!parsedResult.success) return;
+
+        output[word] = { ...(output[word] ?? {}), ur: parsedResult.variations };
+      } catch (e) {
+        console.log('Error');
+      }
+    }),
+  );
+
+  // every 5 chunks, sync the output to the file
+  if (i % 5 === 0) {
+    await syncOutput();
+  }
 }
+
 await syncOutput();
+
+// try {
+//   const completion = await queue.request({
+//     model: 'gpt-4-turbo-preview',
+//     response_format: { type: 'json_object' },
+//     messages: [
+//       { role: 'system', content: SYSTEM_PROMPT },
+//       { role: 'user', content: '"موطأ"' },
+//     ],
+//   });
+
+//   const result = completion?.choices?.[0]?.message?.content;
+//   if (result) {
+//     const parsedResult = JSON.parse(result);
+//     // if (!parsedResult.success) return;
+
+//     output['موطأ'] = parsedResult;
+//   }
+// } catch (e) {
+//   console.log('Error');
+// }
+// await syncOutput();

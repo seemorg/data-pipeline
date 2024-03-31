@@ -1,566 +1,910 @@
 {
   "ديوان": {
-    "english": [
+    "en": [
       "Diwan",
-      "Dewan"
+      "Dewan",
+      "Deewan",
+      "Dīwān"
     ],
-    "persian": [
-      "دیوان"
-    ],
-    "urdu": [
-      "دیوان"
-    ],
-    "hindi": [
-      "दीवान"
-    ],
-    "french": [
-      "Diwan"
-    ],
-    "turkish": [
-      "Divan"
-    ],
-    "spanish": [
-      "Diván"
-    ],
-    "malay": [
-      "Dewan"
-    ],
-    "russian": [
-      "Диван"
-    ],
-    "bengali": [
-      "দিওয়ান"
-    ],
-    "hausa": [
-      "Diwan"
-    ],
-    "somali": [
-      "Diwaan"
-    ],
-    "pashto": [
-      "دیوان"
+    "ur": [
+      "Diwan",
+      "Dewan",
+      "Dīwān",
+      "Deewan",
+      "Dīvan"
     ]
   },
   "حجر": {
-    "english": [
+    "en": [
       "Hajar",
-      "Hajr"
+      "Hajr",
+      "Hijr",
+      "Hijar",
+      "Hajer",
+      "Higer"
     ],
-    "persian": [
-      "حجر"
-    ],
-    "urdu": [
-      "حجر"
-    ],
-    "hindi": [
-      "हज़र"
-    ],
-    "french": [
-      "Hajar"
-    ],
-    "turkish": [
-      "Hacer"
-    ],
-    "spanish": [
-      "Hajar"
-    ],
-    "malay": [
-      "Hajar"
-    ],
-    "russian": [
-      "Хаджар"
-    ],
-    "bengali": [
-      "হাজার"
-    ],
-    "hausa": [
-      "Hajar"
-    ],
-    "somali": [
-      "Hajar"
-    ],
-    "pashto": [
-      "حجر"
+    "ur": [
+      "حجر",
+      "هجر",
+      "حِجر",
+      "هِجر"
     ]
   },
   "بن": {
-    "english": [
+    "en": [
       "Bin",
+      "Ibn",
+      "Bn"
+    ],
+    "ur": [
+      "Bin",
+      "Binn",
       "Ben",
-      "Ibn"
-    ],
-    "persian": [
-      "بن",
-      "بین"
-    ],
-    "urdu": [
-      "بن",
-      "ابن"
-    ],
-    "hindi": [
-      "बिन",
-      "इब्न"
-    ],
-    "french": [
-      "Bin",
-      "Ibn"
-    ],
-    "turkish": [
-      "Bin",
-      "İbn"
-    ],
-    "spanish": [
-      "Bin",
-      "Ibn"
-    ],
-    "malay": [
-      "Bin",
-      "Binti"
-    ],
-    "russian": [
-      "Бин",
-      "Ибн"
-    ],
-    "bengali": [
-      "বিন",
-      "ইবন"
-    ],
-    "hausa": [
-      "Dan",
-      "Bin"
-    ],
-    "somali": [
-      "Bin",
-      "Ibn"
-    ],
-    "pashto": [
-      "بن",
-      "ابن"
+      "Benn"
     ]
   },
   "طالب": {
-    "english": [
+    "en": [
       "Talib",
-      "Taleb"
+      "Taleb",
+      "Taalib",
+      "Taaleb",
+      "Tālib",
+      "Tālīb"
     ],
-    "persian": [
-      "طالب"
-    ],
-    "urdu": [
-      "طالب"
-    ],
-    "hindi": [
-      "तालिब"
-    ],
-    "french": [
-      "Talib"
-    ],
-    "turkish": [
-      "Talib"
-    ],
-    "spanish": [
-      "Talib"
-    ],
-    "malay": [
-      "Talib"
-    ],
-    "russian": [
-      "Талиб"
-    ],
-    "bengali": [
-      "তালিব"
-    ],
-    "hausa": [
-      "Talib"
-    ],
-    "somali": [
-      "Talib"
-    ],
-    "pashto": [
-      "طالب"
+    "ur": [
+      "Talib",
+      "Taalib",
+      "Tālib",
+      "Tālīb",
+      "Taaleeb",
+      "Taalib"
     ]
   },
   "أبو": {
-    "english": [
+    "en": [
       "Abu",
-      "Abou"
+      "Abou",
+      "Aboo"
     ],
-    "persian": [
-      "ابو"
-    ],
-    "urdu": [
-      "ابو"
-    ],
-    "hindi": [
-      "अबू"
-    ],
-    "french": [
-      "Abou"
-    ],
-    "turkish": [
-      "Ebu"
-    ],
-    "spanish": [
-      "Abu"
-    ],
-    "malay": [
-      "Abu"
-    ],
-    "russian": [
-      "Абу"
-    ],
-    "bengali": [
-      "আবু"
-    ],
-    "hausa": [
-      "Abu"
-    ],
-    "somali": [
-      "Abuu"
-    ],
-    "pashto": [
-      "ابو"
+    "ur": [
+      "Abu",
+      "Abo",
+      "Abū",
+      "Aboo"
     ]
   },
   "أوس": {
-    "english": [
+    "en": [
       "Aws",
-      "Aus"
+      "Aus",
+      "Ows",
+      "Ous"
     ],
-    "persian": [
-      "اوس",
-      "آوس"
-    ],
-    "urdu": [
-      "اوس"
-    ],
-    "hindi": [
-      "औस",
-      "आउस"
-    ],
-    "french": [
-      "Aws"
-    ],
-    "turkish": [
-      "Evs",
-      "Avs"
-    ],
-    "spanish": [
-      "Aus"
-    ],
-    "malay": [
-      "Aus"
-    ],
-    "russian": [
-      "Аус",
-      "Авс"
-    ],
-    "bengali": [
-      "অউস"
-    ],
-    "hausa": [
-      "Aus"
-    ],
-    "somali": [
-      "Aws"
-    ],
-    "pashto": [
-      "اوس"
+    "ur": [
+      "Aws",
+      "Aos",
+      "Aus",
+      "Ows",
+      "Os"
     ]
   },
   "عمرو": {
-    "english": [
+    "en": [
       "Amr",
       "Amro",
-      "Amru"
+      "Amru",
+      "'Amr",
+      "'Amro",
+      "'Amru"
     ],
-    "persian": [
-      "عمرو",
-      "امرؤ"
-    ],
-    "urdu": [
-      "عمرو",
-      "امرو"
-    ],
-    "hindi": [
-      "अम्र",
-      "अमरो"
-    ],
-    "french": [
+    "ur": [
+      "Amro",
+      "Umaro",
+      "Omro",
       "Amr",
-      "Amro"
-    ],
-    "turkish": [
-      "Amr"
-    ],
-    "spanish": [
-      "Amr",
-      "Amro"
-    ],
-    "malay": [
-      "Amr",
-      "Amro"
-    ],
-    "russian": [
-      "Амр"
-    ],
-    "bengali": [
-      "আমর",
-      "আমরো"
-    ],
-    "hausa": [
-      "Amr"
-    ],
-    "somali": [
-      "Camar",
-      "Amr"
-    ],
-    "pashto": [
-      "عمرو",
-      "امرو"
+      "Umar"
     ]
   },
   "كلثوم": {
-    "english": [
+    "en": [
       "Kulthum",
       "Kalthoum",
-      "Kalthum"
+      "Kalthum",
+      "Kulthoum",
+      "Kalthom",
+      "Kulthoom",
+      "Kulsum"
     ],
-    "persian": [
-      "کلثوم"
-    ],
-    "urdu": [
-      "کلثوم"
-    ],
-    "hindi": [
-      "कुल्थुम"
-    ],
-    "french": [
-      "Koulthoum",
-      "Kalthoum"
-    ],
-    "turkish": [
-      "Kültüm"
-    ],
-    "spanish": [
-      "Kulzum"
-    ],
-    "malay": [
-      "Kulthum"
-    ],
-    "russian": [
-      "Культум"
-    ],
-    "bengali": [
-      "কুলথুম"
-    ],
-    "hausa": [
-      "Kulthum"
-    ],
-    "somali": [
-      "Kulthum"
-    ],
-    "pashto": [
-      "کلثوم"
+    "ur": [
+      "Kulsoom",
+      "Kalsoom",
+      "Kulthum",
+      "Kalthum",
+      "Kulsoom",
+      "Kulsum"
     ]
   },
   "الفحل": {
-    "english": [
+    "en": [
       "Al-Fahl",
       "Al-Fahal",
-      "Al-Fahel"
+      "Al-Fuhul",
+      "Al-Fahl",
+      "Al-Fuhel",
+      "AlFahl",
+      "AlFahal",
+      "AlFuhul",
+      "AlFuhel"
     ],
-    "persian": [
-      "الفحل"
-    ],
-    "urdu": [
-      "الفحل"
-    ],
-    "hindi": [
-      "अल-फहल"
-    ],
-    "french": [
-      "Al-Fahl"
-    ],
-    "turkish": [
-      "Al-Fahl"
-    ],
-    "spanish": [
-      "Al-Fahl"
-    ],
-    "malay": [
-      "Al-Fahl"
-    ],
-    "russian": [
-      "Аль-Фахл"
-    ],
-    "bengali": [
-      "আল-ফাহল"
-    ],
-    "hausa": [
-      "Al-Fahl"
-    ],
-    "somali": [
-      "Al-Fahl"
-    ],
-    "pashto": [
-      "الفحل"
+    "ur": [
+      "Al-Fahl",
+      "Alfahl",
+      "Al-Fahal",
+      "Alfahal",
+      "Al-Fuhl",
+      "Alfuhl"
     ]
   },
   "علقمة": {
-    "english": [
+    "en": [
       "Alqama",
-      "Ulqama"
+      "Alqamah",
+      "Alkama",
+      "Alkamah"
     ],
-    "persian": [
-      "علقمه",
-      "القمه"
-    ],
-    "urdu": [
-      "علقمہ"
-    ],
-    "hindi": [
-      "अल्क़मा",
-      "उल्क़मा"
-    ],
-    "french": [
-      "Alqama"
-    ],
-    "turkish": [
-      "Alkame",
-      "Ulqame"
-    ],
-    "spanish": [
-      "Alqama"
-    ],
-    "malay": [
-      "Alqama"
-    ],
-    "russian": [
-      "Алькама"
-    ],
-    "bengali": [
-      "আলকামা",
-      "উলকামা"
-    ],
-    "hausa": [
-      "Alqama"
-    ],
-    "somali": [
-      "Alqama"
-    ],
-    "pashto": [
-      "علقمه"
+    "ur": [
+      "Alqama",
+      "Alqamah",
+      "Ulqama",
+      "Ulkama",
+      "Alkama",
+      "Alquma",
+      "Alqumah"
     ]
   },
   "معلقة": {
-    "english": [
+    "en": [
       "Mu'allaqah",
       "Muallaqa",
+      "Moallaqa",
       "Mu'allaqa",
-      "Mu'allaqat"
+      "Mu'allaqat",
+      "Mo'allaqah",
+      "Mulhaqah"
     ],
-    "persian": [
-      "معلقه",
-      "معلقات"
-    ],
-    "urdu": [
-      "معلقہ",
-      "معلقات"
-    ],
-    "hindi": [
-      "मुअल्लक़ा",
-      "मुअल्लक़ात"
-    ],
-    "french": [
-      "Mu'allaqa",
-      "Mu'allaqat"
-    ],
-    "turkish": [
-      "Muallaka",
-      "Muallakat"
-    ],
-    "spanish": [
-      "Mu'allaqa",
-      "Mu'allaqat"
-    ],
-    "malay": [
+    "ur": [
+      "Muallaqa",
       "Mu'allaqah",
-      "Mu'allaqat"
-    ],
-    "russian": [
-      "Муаллака",
-      "Муаллакат"
-    ],
-    "bengali": [
-      "মু'আল্লাকা",
-      "মু'আল্লাকাত"
-    ],
-    "hausa": [
+      "Muallaqah",
+      "Mua'llaqa",
       "Mu'allaqa",
-      "Mu'allaqat"
-    ],
-    "somali": [
-      "Mu'allaqah",
-      "Mu'allaqat"
-    ],
-    "pashto": [
-      "معلقه",
-      "معلقات"
+      "Moallaqa",
+      "Mo'allaqah"
     ]
   },
-  "موطأ": {
-    "english": [
-      "Muwatta",
-      "Al-Muwatta"
+  "مالك": {
+    "en": [
+      "Malik",
+      "Maalik",
+      "Malek",
+      "Málik"
     ],
-    "persian": [
-      "موطا",
-      "الموطا"
+    "ur": [
+      "Malik",
+      "Maalik",
+      "Malek",
+      "Maalek"
+    ]
+  },
+  "عنترة": {
+    "en": [
+      "Antarah",
+      "Antara",
+      "Antar",
+      "ʿAntarah",
+      "ʿAntara",
+      "ʿAntar",
+      "'Antarah",
+      "'Antara",
+      "'Antar"
     ],
-    "urdu": [
-      "موطا",
-      "الموطأ"
+    "ur": [
+      "Antara",
+      "Antarah",
+      "Antera",
+      "Anterah",
+      "‘Antarah",
+      "‘Antara",
+      "‘Antera",
+      "‘Anterah"
+    ]
+  },
+  "قميئة": {
+    "en": [
+      "Qami'ah",
+      "Qami’a",
+      "Kami'ah",
+      "Kami’a",
+      "Qamee'ah",
+      "Qamee’a",
+      "Kamee'ah",
+      "Kamee’a"
     ],
-    "hindi": [
-      "मुवत्ता",
-      "मुवत्ता इमाम मलिक"
+    "ur": [
+      "Qami'ah",
+      "Qame'ah",
+      "Qami’a",
+      "Qame’a",
+      "Qami’ah",
+      "Qami’e",
+      "Qame'ah"
+    ]
+  },
+  "شداد": {
+    "en": [
+      "Shaddad",
+      "Shadad",
+      "Sheddad",
+      "Shedad"
     ],
-    "french": [
-      "Le Muwatta",
-      "Muwatta"
+    "ur": [
+      "Shaddad",
+      "Shadad",
+      "Sheddad",
+      "Shedad"
+    ]
+  },
+  "حبيب": {
+    "en": [
+      "Habib",
+      "Habeeb",
+      "Habīb",
+      "Habeebe"
     ],
-    "turkish": [
-      "Muvatta",
-      "El-Muvatta"
+    "ur": [
+      "Habib",
+      "Habeeb",
+      "Habīb"
+    ]
+  },
+  "حلزة": {
+    "en": [
+      "Halza",
+      "Hulza",
+      "Halzah",
+      "Hulzah"
     ],
-    "spanish": [
-      "Muwatta",
-      "Al Muwatta"
+    "ur": [
+      "Halzah",
+      "Halza",
+      "Ḥalzah",
+      "Ḥalza"
+    ]
+  },
+  "عروة": {
+    "en": [
+      "Urwah",
+      "Urwat",
+      "Orwa",
+      "Orwah",
+      "‘Urwah",
+      "‘Urwat"
     ],
-    "malay": [
-      "Muwatta",
-      "Al-Muwatta'"
+    "ur": [
+      "Urwah",
+      "Orwah",
+      "Urwa",
+      "Orwa",
+      "‘Urwa",
+      "‘Orwa",
+      "‘Urwah",
+      "‘Orwah"
+    ]
+  },
+  "الحارث": {
+    "en": [
+      "Al-Harith",
+      "Al-Haarith",
+      "Al-Harit",
+      "Al-Hareeth"
     ],
-    "russian": [
-      "Муватта",
-      "Аль-Муватта"
+    "ur": [
+      "Al-Harith",
+      "Al-Haarith",
+      "Al-Haarath",
+      "Al-Harith",
+      "Al-Haareth",
+      "Al-Harath"
+    ]
+  },
+  "حاجب": {
+    "en": [
+      "Hajib",
+      "Haajib",
+      "Hajeb",
+      "Haajeb",
+      "Ḥājib",
+      "Ḥajeb"
     ],
-    "bengali": [
-      "মুওত্তা",
-      "আল-মুওত্তা"
+    "ur": [
+      "Hajib",
+      "Haajib",
+      "Hājib",
+      "Hajeb",
+      "Haajeb",
+      "Hājeb"
+    ]
+  },
+  "الورد": {
+    "en": [
+      "Al-Ward",
+      "Alward",
+      "Al-Wardd",
+      "Al-Wurd",
+      "Alward"
     ],
-    "hausa": [
-      "Muwatta",
-      "Al-Muwatta"
+    "ur": [
+      "Alward",
+      "Alwerd",
+      "Alvard",
+      "Alvird",
+      "Alurd",
+      "Alord"
+    ]
+  },
+  "امرؤ": {
+    "en": [
+      "Imru'",
+      "Amro",
+      "Imro",
+      "Amru",
+      "Imru",
+      "Imrū"
     ],
-    "somali": [
-      "Muwaṭṭa",
-      "Al-Muwaṭṭa"
+    "ur": [
+      "Amr",
+      "Amro",
+      "Amru",
+      "Omru",
+      "Omro",
+      "Umar",
+      "Omar"
+    ]
+  },
+  "القيس": {
+    "en": [
+      "Al-Qays",
+      "Al-Qais",
+      "Al-Qayis",
+      "Al-Qeys",
+      "Al-Qeis",
+      "Al-Qayes"
     ],
-    "pashto": [
-      "موطا",
-      "الموطا"
+    "ur": [
+      "Al-Qais",
+      "Al-Qays",
+      "Al-Qaisi",
+      "Al-Qayis",
+      "Al-Qa'is",
+      "Al-Qaeis",
+      "Al-Qayes"
+    ]
+  },
+  "حاتم": {
+    "en": [
+      "Hatim",
+      "Hatem",
+      "Haatem",
+      "Hattem",
+      "Hattim",
+      "Hateem"
+    ],
+    "ur": [
+      "Hatem",
+      "Hatim",
+      "Haatem",
+      "Hateem",
+      "Hātim",
+      "Hātem"
+    ]
+  },
+  "اليشكري": {
+    "en": [
+      "Alyashkari",
+      "Al-Yashkari",
+      "Al-Yashkary",
+      "Alyashkary",
+      "Al Yashkari",
+      "Al Yashkary"
+    ],
+    "ur": [
+      "Alyashkari",
+      "Al-Yashkari",
+      "Alyashkri",
+      "Al-Yashkri"
+    ]
+  },
+  "الطائي": {
+    "en": [
+      "Al-Ta'i",
+      "Al-Tai'i",
+      "Al-Taa'i",
+      "Al-Ta'ee",
+      "Al-Tayi",
+      "Al-Taee",
+      "Al-Taai"
+    ],
+    "ur": [
+      "Al-Tai",
+      "Al-Ta'i",
+      "Al-Taa'i",
+      "Al-Tā’ī",
+      "Al-Tāi",
+      "Al-Ṭā’ī"
+    ]
+  },
+  "يعمر": {
+    "en": [
+      "Ya'mur",
+      "Yamur",
+      "Yaamur",
+      "Yamour",
+      "Ya3mur",
+      "Y3amur"
+    ],
+    "ur": [
+      "Ya'mur",
+      "Yamur",
+      "Yaumar",
+      "Yamr",
+      "Yumar"
+    ]
+  },
+  "ربيعة": {
+    "en": [
+      "Rabi'a",
+      "Rabia",
+      "Rabi’ah",
+      "Rabiah",
+      "Rabi3a",
+      "Rabi3ah"
+    ],
+    "ur": [
+      "Rabi'a",
+      "Rabia",
+      "Rabiah",
+      "Rabi’ah"
+    ]
+  },
+  "لقيط": {
+    "en": [
+      "Laqeet",
+      "Laqit",
+      "Laqeeth",
+      "Laqith",
+      "Luqit",
+      "Luqith",
+      "Luqet",
+      "Luqeth"
+    ],
+    "ur": [
+      "Laqeet",
+      "Laqeet",
+      "Luqait",
+      "Luqit",
+      "Laqīṭ",
+      "Luqīṭ"
+    ]
+  },
+  "مهلهل": {
+    "en": [
+      "Muhallil",
+      "Mohallil",
+      "Muhallal",
+      "Mohallal",
+      "Muhalhil",
+      "Mohalhil",
+      "Muhalhal",
+      "Mohalhal"
+    ],
+    "ur": [
+      "Muhallil",
+      "Muhallal",
+      "Mahallil",
+      "Mahallal",
+      "Muhalil",
+      "Muhalal",
+      "Mahalil",
+      "Mahalal"
+    ]
+  },
+  "المثقب": {
+    "en": [
+      "Al-Mathqab",
+      "Al-Mathqab",
+      "AlMuthqab",
+      "Al-Muthqab",
+      "AlMuthqab",
+      "Al-Muthqāb",
+      "Al-Muthqāb"
+    ],
+    "ur": [
+      "Al-Muthqab",
+      "Al-Musqab",
+      "Al-Muthqib",
+      "Al-Musqib",
+      "Al-Muthkab",
+      "Al-Muskab"
+    ]
+  },
+  "الإيادي": {
+    "en": [
+      "Al-Eyadi",
+      "Al-Iyadi",
+      "Al-Eyady",
+      "Al-Iyady",
+      "Al-Eyaadi",
+      "Al-Iyaadi"
+    ],
+    "ur": [
+      "Al-Ayadi",
+      "Al-Eyadi",
+      "Al-Aiadi",
+      "Al-Iyadi",
+      "Al-Eyade",
+      "Al-Ayade"
+    ]
+  },
+  "العبدي": {
+    "en": [
+      "Al-Abdi",
+      "Al-Abdy",
+      "Al-Ubdi",
+      "Al-Ubdy",
+      "Al-'Abdi",
+      "Al-'Abdy",
+      "Al-'Ubdi",
+      "Al-'Ubdy"
+    ],
+    "ur": [
+      "Al-Abdi",
+      "Al-‘Abdī",
+      "Al-Abdī",
+      "Al-'Abdi"
+    ]
+  },
+  "قيس": {
+    "en": [
+      "Qais",
+      "Qays",
+      "Kais",
+      "Kays"
+    ],
+    "ur": [
+      "Qais",
+      "Qays",
+      "Qayss",
+      "Qaes"
+    ]
+  },
+  "الخطيم": {
+    "en": [
+      "Al-Khatim",
+      "Al-Khateem",
+      "Al-Khatīm",
+      "Al-Khateem",
+      "Al-Khāṭīm",
+      "Al-Khaṭeem",
+      "Al-Khaṭīm"
+    ],
+    "ur": [
+      "Al-Khatim",
+      "Al-Khateem",
+      "Al-Khatīm",
+      "Al-Khateam",
+      "Al-Khatem",
+      "Al-Khātīm"
+    ]
+  },
+  "النابغة": {
+    "en": [
+      "Al-Nabigha",
+      "An-Nabigha",
+      "Al-Nabighah",
+      "An-Nabighah",
+      "Al-Nābighah",
+      "An-Nābighah",
+      "Al-Naabigha",
+      "An-Naabigha"
+    ],
+    "ur": [
+      "Al-Nabigha",
+      "An-Nabighah",
+      "Al-Nabighah",
+      "An-Nabigha",
+      "Al-Nabighā",
+      "An-Nabighā"
+    ]
+  },
+  "القران": {
+    "en": [
+      "Al-Quran",
+      "Al-Qur'an",
+      "Al-Koran",
+      "Al-Kor'an",
+      "Al-Qurʾan",
+      "Al-Quraan"
+    ],
+    "ur": [
+      "Al-Qur'an",
+      "Al-Quran",
+      "Al-Qur’aan",
+      "Al-Qur’ān",
+      "Al-Qurān",
+      "Al-Koran",
+      "Al-Kur'an",
+      "Al-Kuran"
+    ]
+  },
+  "الذبياني": {
+    "en": [
+      "Al-Dhubyani",
+      "Adh-Dhubyani",
+      "Al-Dhubiani",
+      "Adh-Dhubiani",
+      "Al-Thubyani",
+      "Ath-Thubyani",
+      "Al-Zhubiani",
+      "Az-Zhubiani"
+    ],
+    "ur": [
+      "Al-Dhabyani",
+      "Al-Dhabiyanee",
+      "Al-Dhabiyani",
+      "Al-Dhabyaniy",
+      "Al-Zabiyanee",
+      "Al-Zabiyani",
+      "Al-Zhabyani"
+    ]
+  },
+  "جندل": {
+    "en": [
+      "Jandal",
+      "Jindal",
+      "Gendal",
+      "Gindal"
+    ],
+    "ur": [
+      "Jandal",
+      "Jundal",
+      "Jundul",
+      "Jindal",
+      "Jindul"
+    ]
+  },
+  "سلامة": {
+    "en": [
+      "Salama",
+      "Salamah",
+      "Salaama",
+      "Salaamah",
+      "Salāma",
+      "Salāmah"
+    ],
+    "ur": [
+      "Salamah",
+      "Salamat",
+      "Salaamah",
+      "Salaamat",
+      "Salaama",
+      "Salama"
+    ]
+  },
+  "الشنفرى": {
+    "en": [
+      "Al-Shanfara",
+      "Al-Shanfari",
+      "Ash-Shanfara",
+      "Ash-Shanfari",
+      "Al-Shanfarā",
+      "Ash-Shanfarā"
+    ],
+    "ur": [
+      "Ash-Shanfara",
+      "Al-Shanfara",
+      "Ash-Shanfari",
+      "Al-Shanfari",
+      "Ash-Shanfarā",
+      "Al-Shanfarā"
+    ]
+  },
+  "السموأل": {
+    "en": [
+      "Al-Samawal",
+      "Al-Samawʼal",
+      "Al-Samual",
+      "Al-Samu'al",
+      "Al-Samaw'al",
+      "As-Samawal",
+      "As-Samawʼal",
+      "As-Samual",
+      "As-Samu'al",
+      "As-Samaw'al"
+    ],
+    "ur": [
+      "Al-Samawal",
+      "Al-Samual",
+      "As-Samaw'al",
+      "Al-Samoual",
+      "As-Samu'al",
+      "Al-Samawael"
+    ]
+  },
+  "السليك": {
+    "en": [
+      "Al-Sulayk",
+      "As-Sulayk",
+      "Al-Suleik",
+      "As-Suleik",
+      "Al-Sulik",
+      "As-Sulik"
+    ],
+    "ur": [
+      "السليک",
+      "السلیک",
+      "السليق",
+      "السلیق"
+    ]
+  },
+  "العبد": {
+    "en": [
+      "Al-Abd",
+      "Alabd",
+      "Al-‘Abd",
+      "Al‘abd",
+      "El-Abd",
+      "Elabd",
+      "El-‘Abd",
+      "El‘abd"
+    ],
+    "ur": [
+      "Al-Abd",
+      "Al-Abed",
+      "Al-‘Abd",
+      "Al-‘Abed"
+    ]
+  },
+  "طرفة": {
+    "en": [
+      "Tarafah",
+      "Tarfah",
+      "Tarafa",
+      "Tirfah",
+      "Tirafa",
+      "Tirafah",
+      "Ṭarafah",
+      "Ṭarfah"
+    ],
+    "ur": [
+      "Tarfah",
+      "Tarafah",
+      "Tarfah",
+      "Tarfā",
+      "Ṭarfah",
+      "Ṭarafah",
+      "Ṭarfā"
+    ]
+  },
+  "جابر": {
+    "en": [
+      "Jabir",
+      "Jaber",
+      "Jaaber",
+      "Jābir",
+      "Jabir"
+    ],
+    "ur": [
+      "Jaber",
+      "Jabir",
+      "Jābir",
+      "Jaaber",
+      "Jaabir"
+    ]
+  },
+  "ثابت": {
+    "en": [
+      "Thabit",
+      "Thaabt",
+      "Thabit",
+      "Sabt",
+      "Thābit",
+      "Ṯābiṯ"
+    ],
+    "ur": [
+      "Sabit",
+      "Thabit",
+      "Saabit",
+      "Thaabit",
+      "Sābit",
+      "Ṯābit"
+    ]
+  },
+  "سلمى": {
+    "en": [
+      "Salma",
+      "Selma",
+      "Salmah",
+      "Selmaa"
+    ],
+    "ur": [
+      "سلمیٰ",
+      "سلمي",
+      "سلمى"
+    ]
+  },
+  "زهير": {
+    "en": [
+      "Zuhair",
+      "Zuheir",
+      "Zuhaire",
+      "Zuhayr",
+      "Zuhayer",
+      "Zuhayre"
+    ],
+    "ur": [
+      "Zuhaīr",
+      "Zuhair",
+      "Zohair",
+      "Zuhayr",
+      "Zoheir"
+    ]
+  },
+  "أبي": {
+    "en": [
+      "Abi",
+      "Abee",
+      "Abī"
+    ],
+    "ur": [
+      "Abi",
+      "Abee",
+      "Aby",
+      "Abbi"
+    ]
+  },
+  "الغنوي": {
+    "en": [
+      "Alghina'i",
+      "Alghnawi",
+      "Alghanawi",
+      "Alghani",
+      "Al-Ghani"
+    ],
+    "ur": [
+      "Al-Ghina'i",
+      "Al-Ghaniwi",
+      "Al-Ghnawi",
+      "Al-Ghinaee",
+      "Al-Ghanwee"
+    ]
+  },
+  "طفيل": {
+    "en": [
+      "Tufail",
+      "Tufayl",
+      "Tofail",
+      "Tofayl",
+      "Ṭufail",
+      "Ṭufayl"
+    ],
+    "ur": [
+      "Tufail",
+      "Tufayl",
+      "Tufile",
+      "Tufayle",
+      "Toofail",
+      "Toofayl"
     ]
   }
 }
