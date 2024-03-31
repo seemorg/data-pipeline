@@ -1,0 +1,1216 @@
+diff --git a/dist/agent.d.ts b/dist/agent.d.ts
+index 638c4e27ac62a615484ec190ac0decca20141d30..81bb7ab6b2f5737310b8b8cbc08d6db123411bfd 100644
+--- a/dist/agent.d.ts
++++ b/dist/agent.d.ts
+@@ -1,15 +1,16 @@
+-import { CreateChatCompletionRequest, ChatCompletionRequestMessageRoleEnum, CreateChatCompletionResponseChoicesInner } from "openai";
+-import APIQueue from "./";
++import APIQueue from './';
++import { ChatCompletionRequestMessageRoleEnum, CreateChatCompletionRequest, CreateChatCompletionResponseChoicesInner } from './types';
+ interface Message {
+     content: string;
+     role: ChatCompletionRequestMessageRoleEnum;
+     uuid: string;
+     parent: string | null;
+ }
+-export interface Config extends Omit<CreateChatCompletionRequest, "messages"> {
++export interface Config extends Omit<CreateChatCompletionRequest, 'messages'> {
+     head?: string | null;
+     callId?: number;
+ }
++type ResponseMessage = Omit<CreateChatCompletionRequest['messages'][number], 'name'>;
+ type ProxiedFunction = (content: string) => Promise<ProxiedAgent>;
+ type ProxiedAgent = ProxiedFunction & InstanceType<typeof Agent>;
+ export default class Agent {
+@@ -24,7 +25,7 @@ export default class Agent {
+     constructor(config: Config, cost: number, choices: CreateChatCompletionResponseChoicesInner[]);
+     get head(): Message | undefined;
+     get content(): string;
+-    get messages(): CreateChatCompletionRequest["messages"];
++    get messages(): ResponseMessage[];
+     extend(newConfig: Config): ProxiedAgent;
+     chat(content: string): Promise<ProxiedAgent>;
+     retry(): Promise<ProxiedAgent>;
+diff --git a/dist/agent.js b/dist/agent.js
+index 118ecfedeae12814228fee6c0197e4903abb4959..fd7f14911380d65b2ffa64d5102ef8f5980eae78 100644
+--- a/dist/agent.js
++++ b/dist/agent.js
+@@ -12,7 +12,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
+ const uuid_1 = require("uuid");
+ const _ = require("lodash");
+ class Agent {
+-    static create(config = { model: "gpt-4", callId: 0 }, cost = 0, choices = []) {
++    static create(config = { model: 'gpt-4', callId: 0 }, cost = 0, choices = []) {
+         const instance = new Agent(config, cost, choices);
+         const func = (content) => __awaiter(this, void 0, void 0, function* () { return yield instance.chat(content); });
+         return new Proxy(func, {
+@@ -22,7 +22,7 @@ class Agent {
+                 }
+                 else {
+                     // @ts-ignore
+-                    return typeof instance[prop] === "function"
++                    return typeof instance[prop] === 'function'
+                         ? // @ts-ignore
+                             instance[prop].bind(instance)
+                         : // @ts-ignore
+@@ -79,36 +79,36 @@ class Agent {
+     chat(content) {
+         return __awaiter(this, void 0, void 0, function* () {
+             const stashedHead = this._head;
+-            const uuid = this.createMessage(content, "user");
++            const uuid = this.createMessage(content, 'user');
+             this._head = uuid;
+-            const { content: apiResponse, cost, choices, } = yield this.callApi(this.messages);
++            const { content: apiResponse, cost, choices } = yield this.callApi(this.messages);
+             this._head = stashedHead;
+-            const assistantUuid = this.createMessage(apiResponse, "assistant", uuid);
++            const assistantUuid = this.createMessage(apiResponse, 'assistant', uuid);
+             return this.createNewAgent(assistantUuid, cost, choices);
+         });
+     }
+     retry() {
+         return __awaiter(this, void 0, void 0, function* () {
+             let lastUserMessage = this.head;
+-            while ((lastUserMessage === null || lastUserMessage === void 0 ? void 0 : lastUserMessage.role) !== "user") {
++            while ((lastUserMessage === null || lastUserMessage === void 0 ? void 0 : lastUserMessage.role) !== 'user') {
+                 if (!(lastUserMessage === null || lastUserMessage === void 0 ? void 0 : lastUserMessage.parent))
+-                    throw new Error("No user message found for retry");
++                    throw new Error('No user message found for retry');
+                 lastUserMessage = Agent._dag.get(lastUserMessage.parent);
+             }
+             // Create a new agent that's based on the parent of the last user message
+             const newAgentConfig = Object.assign(Object.assign({}, this._config), { head: lastUserMessage.parent, callId: this.callId + 1 });
+             const newAgent = Agent.create(newAgentConfig, this.cost);
+             // Then call chat on the new agent with the same message as before
+-            return newAgent.chat(lastUserMessage.content.split(" ").slice(1).join(" "));
++            return newAgent.chat(lastUserMessage.content.split(' ').slice(1).join(' '));
+         });
+     }
+     system(partial) {
+-        return this.createNewAgent(this.createMessage(partial, "system"), this.cost, this.choices);
++        return this.createNewAgent(this.createMessage(partial, 'system'), this.cost, this.choices);
+     }
+     createMessage(content, role, parent = this._head) {
+         const uuid = (0, uuid_1.v4)();
+-        if (role === "user") {
+-            content = `${this.callId.toString().padStart(2, "0")} ${content}`;
++        if (role === 'user') {
++            content = `${this.callId.toString().padStart(2, '0')} ${content}`;
+         }
+         const message = { content, role, uuid, parent };
+         Agent._dag.set(uuid, message);
+@@ -119,12 +119,12 @@ class Agent {
+         return Agent.create(newConfig, cost, choices);
+     }
+     callApi(messages) {
+-        var _a, _b;
+         return __awaiter(this, void 0, void 0, function* () {
+-            const request = Object.assign(Object.assign({}, _.omit(this._config, "head", "choices", "callId")), { messages });
++            var _a, _b;
++            const request = Object.assign(Object.assign({}, _.omit(this._config, 'head', 'choices', 'callId')), { messages: messages });
+             const response = yield Agent.api.request(request);
+             if (!response) {
+-                throw new Error("unable to get api response");
++                throw new Error('unable to get api response');
+             }
+             const content = response.choices[0].message.content;
+             const cost = this.cost +
+diff --git a/dist/index.d.ts b/dist/index.d.ts
+index 7af22a7adf8498ed7c066efee71f5e050aa729d3..a07c7fe7ef54f9ae63e2f01dbb3f33415b01f06f 100644
+--- a/dist/index.d.ts
++++ b/dist/index.d.ts
+@@ -1,4 +1,4 @@
+-import { CreateChatCompletionRequest, CreateChatCompletionResponse } from "openai";
++import { CreateChatCompletionRequest, CreateChatCompletionResponse } from './types';
+ /**
+  * Configuration object for each model queue. Specifies the rate limits for requests and tokens.
+  * @interface QueueConfig
+diff --git a/dist/index.js b/dist/index.js
+index 91b9ad8a543112a96b01a0873c99a1e703a1fe28..1b51ef78ecd21cb6e83dfc5dc9388098ef68b213 100644
+--- a/dist/index.js
++++ b/dist/index.js
+@@ -34,19 +34,19 @@ const cache_1 = require("./cache");
+  * @property {number} 'gpt-4-0314'.tokensPerMinute - Default number of tokens per minute: 40000.
+  */
+ const defaultModelConfigs = {
+-    "gpt-3.5-turbo": {
++    'gpt-3.5-turbo': {
+         requestsPerMinute: 3500,
+         tokensPerMinute: 90000,
+     },
+-    "gpt-3.5-turbo-0301": {
++    'gpt-3.5-turbo-0301': {
+         requestsPerMinute: 3500,
+         tokensPerMinute: 90000,
+     },
+-    "gpt-4": {
++    'gpt-4': {
+         requestsPerMinute: 200,
+         tokensPerMinute: 40000,
+     },
+-    "gpt-4-0314": {
++    'gpt-4-0314': {
+         requestsPerMinute: 200,
+         tokensPerMinute: 40000,
+     },
+diff --git a/dist/queue.d.ts b/dist/queue.d.ts
+index f7e8d4f67f8c4d7064c92887abf67d6a2f681ceb..8a2887da6d65670fa3caf83d52ceaa29b465e4fe 100644
+--- a/dist/queue.d.ts
++++ b/dist/queue.d.ts
+@@ -1,5 +1,8 @@
+-import { CreateChatCompletionRequest, CreateChatCompletionResponse } from "openai";
+-import { supportModelType } from "gpt-tokens";
++import { OpenAI } from 'openai';
++import { supportModelType } from 'gpt-tokens';
++import type { APIPromise } from 'openai/core';
++type CreateChatCompletionRequest = OpenAI.Chat.Completions.ChatCompletionCreateParamsNonStreaming;
++type CreateChatCompletionResponse = APIPromise<OpenAI.Chat.Completions.ChatCompletion>;
+ /**
+  * ModelAPIQueue is a class to manage rate-limited API calls.
+  * It supports both token-based and request-based rate limits.
+@@ -51,3 +54,4 @@ export declare class ModelAPIQueue {
+      */
+     request(request: CreateChatCompletionRequest): Promise<CreateChatCompletionResponse | null>;
+ }
++export {};
+diff --git a/dist/queue.js b/dist/queue.js
+index ad7fdcd6014d0befe20323777fc498ad6335b725..115c957630726bd8e69183cb0fb489bef9601542 100644
+--- a/dist/queue.js
++++ b/dist/queue.js
+@@ -32,10 +32,10 @@ class ModelAPIQueue {
+         this.availableTokens = tokensPerMinute;
+         this.availableRequests = requestsPerMinute;
+         this.lastRefillTime = Date.now();
+-        const configuration = new openai_1.Configuration({
++        const configuration = {
+             apiKey: this.apiKey,
+-        });
+-        this.openai = new openai_1.OpenAIApi(configuration);
++        };
++        this.openai = new openai_1.OpenAI(configuration);
+     }
+     /**
+      * Sleep for a certain amount of time.
+@@ -44,7 +44,7 @@ class ModelAPIQueue {
+      */
+     sleep(ms) {
+         return __awaiter(this, void 0, void 0, function* () {
+-            return new Promise((resolve) => setTimeout(resolve, ms));
++            return new Promise(resolve => setTimeout(resolve, ms));
+         });
+     }
+     /**
+@@ -83,8 +83,8 @@ class ModelAPIQueue {
+      */
+     callAPI(request) {
+         return __awaiter(this, void 0, void 0, function* () {
+-            const completion = yield this.openai.createChatCompletion(request);
+-            const usedTokens = completion.data.usage.completion_tokens;
++            const completion = yield this.openai.chat.completions.create(request);
++            const usedTokens = completion.usage.completion_tokens;
+             if (request.max_tokens) {
+                 const multiplier = request.n ? request.n : 1;
+                 const expectedTokens = request.max_tokens * multiplier;
+@@ -95,7 +95,7 @@ class ModelAPIQueue {
+             else {
+                 this.availableTokens -= usedTokens;
+             }
+-            return completion.data;
++            return completion;
+         });
+     }
+     /**
+@@ -111,12 +111,9 @@ class ModelAPIQueue {
+             const maxAttempts = 5; // Set max attempts to 5, adjust as needed
+             const tokensNeeded = this.computeTokens(request);
+             while (attemptCount < maxAttempts) {
+-                while (tokensNeeded > this.availableTokens ||
+-                    this.availableRequests <= 0) {
++                while (tokensNeeded > this.availableTokens || this.availableRequests <= 0) {
+                     this.refillTokensAndRequests();
+-                    const timeToSleep = Math.max(((tokensNeeded - this.availableTokens) /
+-                        this.tokensPerMinute) *
+-                        60000, (1 / this.requestsPerMinute) * 60000);
++                    const timeToSleep = Math.max(((tokensNeeded - this.availableTokens) / this.tokensPerMinute) * 60000, (1 / this.requestsPerMinute) * 60000);
+                     yield this.sleep(timeToSleep);
+                 }
+                 this.availableTokens -= tokensNeeded;
+diff --git a/dist/types.d.ts b/dist/types.d.ts
+new file mode 100644
+index 0000000000000000000000000000000000000000..5cf28dfe7441be028e942ebb0beb713f4bd763a2
+--- /dev/null
++++ b/dist/types.d.ts
+@@ -0,0 +1,6 @@
++import type OpenAI from 'openai';
++import type { APIPromise } from 'openai/core';
++export type CreateChatCompletionRequest = OpenAI.Chat.Completions.ChatCompletionCreateParamsNonStreaming;
++export type CreateChatCompletionResponse = APIPromise<OpenAI.Chat.Completions.ChatCompletion>;
++export type ChatCompletionRequestMessageRoleEnum = OpenAI.Chat.Completions.ChatCompletionRole;
++export type CreateChatCompletionResponseChoicesInner = OpenAI.Chat.Completions.ChatCompletion.Choice;
+diff --git a/dist/types.js b/dist/types.js
+new file mode 100644
+index 0000000000000000000000000000000000000000..c8ad2e549bdc6801e0d1c80b0308d4b9bd4985ce
+--- /dev/null
++++ b/dist/types.js
+@@ -0,0 +1,2 @@
++"use strict";
++Object.defineProperty(exports, "__esModule", { value: true });
+diff --git a/package.json b/package.json
+index 4d3d1155c1698502988a3bdcea51668e5cafb2e1..119f6ab8d945a9690ec4539198492f1ff014500d 100644
+--- a/package.json
++++ b/package.json
+@@ -47,7 +47,7 @@
+     "dependencies": {
+         "gpt-tokens": "^1.0.7",
+         "json-stringify-safe": "^5.0.1",
+-        "openai": "^3.2.1",
++        "openai": "^4.29.2",
+         "uuid": "^9.0.0"
+     }
+ }
+\ No newline at end of file
+diff --git a/src/agent.ts b/src/agent.ts
+index 92245809540835d1f81bf0ebc1cb83a3de55a070..76ab2f48b89d2b4cc173c252b7fa848d5630d286 100644
+--- a/src/agent.ts
++++ b/src/agent.ts
+@@ -1,225 +1,205 @@
+-import { v4 as uuidv4 } from "uuid";
++import { v4 as uuidv4 } from 'uuid';
++
++import * as _ from 'lodash';
++import APIQueue from './';
+ import {
+-    CreateChatCompletionRequest,
+-    CreateChatCompletionResponse,
+-    ChatCompletionRequestMessageRoleEnum,
+-    ChatCompletionRequestMessage,
+-    ChatCompletionResponseMessage,
+-    CreateChatCompletionResponseChoicesInner,
+-} from "openai";
+-import * as _ from "lodash";
+-import APIQueue from "./";
++  ChatCompletionRequestMessageRoleEnum,
++  CreateChatCompletionRequest,
++  CreateChatCompletionResponse,
++  CreateChatCompletionResponseChoicesInner,
++} from './types';
+ 
+ interface Message {
+-    content: string;
+-    role: ChatCompletionRequestMessageRoleEnum;
+-    uuid: string;
+-    parent: string | null;
++  content: string;
++  role: ChatCompletionRequestMessageRoleEnum;
++  uuid: string;
++  parent: string | null;
+ }
+ 
+-export interface Config extends Omit<CreateChatCompletionRequest, "messages"> {
+-    head?: string | null;
+-    callId?: number;
++export interface Config extends Omit<CreateChatCompletionRequest, 'messages'> {
++  head?: string | null;
++  callId?: number;
+ }
+ 
++type ResponseMessage = Omit<CreateChatCompletionRequest['messages'][number], 'name'>;
++
+ type ProxiedFunction = (content: string) => Promise<ProxiedAgent>;
+ type ProxiedAgent = ProxiedFunction & InstanceType<typeof Agent>;
+ 
+ export default class Agent {
+-    static api: APIQueue;
+-    public cost: number;
+-    public choices: CreateChatCompletionResponseChoicesInner[];
+-    private static _dag: Map<string, Message> = new Map();
+-
+-    private _head: string | null;
+-    private _config: Config;
+-    private callId: number;
+-
+-    public static create(
+-        config: Config = { model: "gpt-4", callId: 0 },
+-        cost: number = 0,
+-        choices: CreateChatCompletionResponseChoicesInner[] = []
+-    ): ProxiedAgent {
+-        const instance = new Agent(config, cost, choices);
+-        const func: ProxiedFunction = async (
+-            content: string
+-        ): Promise<ProxiedAgent> => await instance.chat(content);
+-
+-        return new Proxy(func, {
+-            get: (target: any, prop: string, receiver: any): any => {
+-                if (prop in target) {
+-                    return target[prop];
+-                } else {
+-                    // @ts-ignore
+-                    return typeof instance[prop] === "function"
+-                        ? // @ts-ignore
+-                          instance[prop].bind(instance)
+-                        : // @ts-ignore
+-                          instance[prop];
+-                }
+-            },
+-            set: (target: any, prop: string, value: any): boolean => {
+-                if (prop in target) {
+-                    target[prop] = value;
+-                } else {
+-                    // @ts-ignore
+-                    instance[prop] = value;
+-                }
+-                return true;
+-            },
+-            apply: (
+-                target: ProxiedFunction,
+-                thisArg: any,
+-                argumentsList: any[]
+-            ): any => {
+-                // @ts-ignore
+-                return target(...argumentsList);
+-            },
+-            construct: (
+-                target: any,
+-                argumentsList: any[],
+-                newTarget: any
+-            ): any => {
+-                // @ts-ignore
+-                return new Agent(...argumentsList);
+-            },
+-        }) as ProxiedAgent;
+-    }
+-
+-    constructor(
+-        config: Config,
+-        cost: number,
+-        choices: CreateChatCompletionResponseChoicesInner[]
+-    ) {
+-        this._head = config.head || null;
+-        this._config = config;
+-        this.cost = cost;
+-        this.callId = config.callId || 0;
+-        this.choices = choices;
+-    }
+-
+-    get head(): Message | undefined {
+-        return Agent._dag.get(this._head!);
+-    }
+-
+-    get content(): string {
+-        return this.head!.content;
+-    }
+-
+-    get messages(): CreateChatCompletionRequest["messages"] {
+-        let currentUUID = this._head;
+-        const messages: CreateChatCompletionRequest["messages"] = [];
+-
+-        while (currentUUID !== null) {
+-            const { content, role } = Agent._dag.get(currentUUID)!;
+-            messages.push({ content, role });
+-            currentUUID = Agent._dag.get(currentUUID)!.parent;
++  static api: APIQueue;
++  public cost: number;
++  public choices: CreateChatCompletionResponseChoicesInner[];
++  private static _dag: Map<string, Message> = new Map();
++
++  private _head: string | null;
++  private _config: Config;
++  private callId: number;
++
++  public static create(
++    config: Config = { model: 'gpt-4', callId: 0 },
++    cost: number = 0,
++    choices: CreateChatCompletionResponseChoicesInner[] = [],
++  ): ProxiedAgent {
++    const instance = new Agent(config, cost, choices);
++    const func: ProxiedFunction = async (content: string): Promise<ProxiedAgent> =>
++      await instance.chat(content);
++
++    return new Proxy(func, {
++      get: (target: any, prop: string, receiver: any): any => {
++        if (prop in target) {
++          return target[prop];
++        } else {
++          // @ts-ignore
++          return typeof instance[prop] === 'function'
++            ? // @ts-ignore
++              instance[prop].bind(instance)
++            : // @ts-ignore
++              instance[prop];
+         }
+-
+-        return messages.reverse();
+-    }
+-
+-    public extend(newConfig: Config): ProxiedAgent {
+-        const mergedConfig: Config = {
+-            ...this._config,
+-            ...newConfig,
+-            head: this._head,
+-        };
+-        return Agent.create(mergedConfig);
+-    }
+-
+-    public async chat(content: string): Promise<ProxiedAgent> {
+-        const stashedHead = this._head;
+-        const uuid: string = this.createMessage(content, "user");
+-        this._head = uuid;
+-        const {
+-            content: apiResponse,
+-            cost,
+-            choices,
+-        } = await this.callApi(this.messages);
+-        this._head = stashedHead;
+-        const assistantUuid: string = this.createMessage(
+-            apiResponse,
+-            "assistant",
+-            uuid
+-        );
+-        return this.createNewAgent(assistantUuid, cost, choices);
+-    }
+-
+-    public async retry(): Promise<ProxiedAgent> {
+-        let lastUserMessage: Message | undefined = this.head;
+-        while (lastUserMessage?.role !== "user") {
+-            if (!lastUserMessage?.parent)
+-                throw new Error("No user message found for retry");
+-            lastUserMessage = Agent._dag.get(lastUserMessage.parent);
++      },
++      set: (target: any, prop: string, value: any): boolean => {
++        if (prop in target) {
++          target[prop] = value;
++        } else {
++          // @ts-ignore
++          instance[prop] = value;
+         }
+-        // Create a new agent that's based on the parent of the last user message
+-        const newAgentConfig: Config = {
+-            ...this._config,
+-            head: lastUserMessage.parent,
+-            callId: this.callId + 1,
+-        };
+-        const newAgent = Agent.create(newAgentConfig, this.cost);
+-        // Then call chat on the new agent with the same message as before
+-        return newAgent.chat(
+-            lastUserMessage.content.split(" ").slice(1).join(" ")
+-        );
+-    }
+-
+-    public system(partial: string): ProxiedAgent {
+-        return this.createNewAgent(
+-            this.createMessage(partial, "system"),
+-            this.cost,
+-            this.choices
+-        );
++        return true;
++      },
++      apply: (target: ProxiedFunction, thisArg: any, argumentsList: any[]): any => {
++        // @ts-ignore
++        return target(...argumentsList);
++      },
++      construct: (target: any, argumentsList: any[], newTarget: any): any => {
++        // @ts-ignore
++        return new Agent(...argumentsList);
++      },
++    }) as ProxiedAgent;
++  }
++
++  constructor(
++    config: Config,
++    cost: number,
++    choices: CreateChatCompletionResponseChoicesInner[],
++  ) {
++    this._head = config.head || null;
++    this._config = config;
++    this.cost = cost;
++    this.callId = config.callId || 0;
++    this.choices = choices;
++  }
++
++  get head(): Message | undefined {
++    return Agent._dag.get(this._head!);
++  }
++
++  get content(): string {
++    return this.head!.content;
++  }
++
++  get messages(): ResponseMessage[] {
++    let currentUUID = this._head;
++    const messages: ResponseMessage[] = [];
++
++    while (currentUUID !== null) {
++      const { content, role } = Agent._dag.get(currentUUID)!;
++      messages.push({ content, role });
++      currentUUID = Agent._dag.get(currentUUID)!.parent;
+     }
+ 
+-    private createMessage(
+-        content: string,
+-        role: ChatCompletionRequestMessageRoleEnum,
+-        parent: string | null = this._head
+-    ): string {
+-        const uuid = uuidv4();
+-        if (role === "user") {
+-            content = `${this.callId.toString().padStart(2, "0")} ${content}`;
+-        }
+-        const message: Message = { content, role, uuid, parent };
+-        Agent._dag.set(uuid, message);
+-        return uuid;
++    return messages.reverse();
++  }
++
++  public extend(newConfig: Config): ProxiedAgent {
++    const mergedConfig: Config = {
++      ...this._config,
++      ...newConfig,
++      head: this._head,
++    };
++    return Agent.create(mergedConfig);
++  }
++
++  public async chat(content: string): Promise<ProxiedAgent> {
++    const stashedHead = this._head;
++    const uuid: string = this.createMessage(content, 'user');
++    this._head = uuid;
++    const { content: apiResponse, cost, choices } = await this.callApi(this.messages);
++    this._head = stashedHead;
++    const assistantUuid: string = this.createMessage(apiResponse, 'assistant', uuid);
++    return this.createNewAgent(assistantUuid, cost, choices);
++  }
++
++  public async retry(): Promise<ProxiedAgent> {
++    let lastUserMessage: Message | undefined = this.head;
++    while (lastUserMessage?.role !== 'user') {
++      if (!lastUserMessage?.parent) throw new Error('No user message found for retry');
++      lastUserMessage = Agent._dag.get(lastUserMessage.parent);
+     }
+-
+-    private createNewAgent(
+-        head: string,
+-        cost: number,
+-        choices: CreateChatCompletionResponseChoicesInner[]
+-    ): ProxiedAgent {
+-        const newConfig: Config = {
+-            ...this._config,
+-            head,
+-            callId: this.callId,
+-        };
+-        return Agent.create(newConfig, cost, choices);
++    // Create a new agent that's based on the parent of the last user message
++    const newAgentConfig: Config = {
++      ...this._config,
++      head: lastUserMessage.parent,
++      callId: this.callId + 1,
++    };
++    const newAgent = Agent.create(newAgentConfig, this.cost);
++    // Then call chat on the new agent with the same message as before
++    return newAgent.chat(lastUserMessage.content.split(' ').slice(1).join(' '));
++  }
++
++  public system(partial: string): ProxiedAgent {
++    return this.createNewAgent(
++      this.createMessage(partial, 'system'),
++      this.cost,
++      this.choices,
++    );
++  }
++
++  private createMessage(
++    content: string,
++    role: ChatCompletionRequestMessageRoleEnum,
++    parent: string | null = this._head,
++  ): string {
++    const uuid = uuidv4();
++    if (role === 'user') {
++      content = `${this.callId.toString().padStart(2, '0')} ${content}`;
+     }
+-
+-    private async callApi(
+-        messages: CreateChatCompletionRequest["messages"]
+-    ): Promise<{ content: string; cost: number; choices: any[] }> {
+-        const request: CreateChatCompletionRequest = {
+-            ..._.omit(this._config, "head", "choices", "callId"),
+-            messages,
+-        };
+-        const response: CreateChatCompletionResponse | null =
+-            await Agent.api.request(request);
+-
+-        if (!response) {
+-            throw new Error("unable to get api response");
+-        }
+-        const content = response!.choices[0]!.message!.content;
+-        const cost =
+-            (this.cost as number) +
+-            response.usage?.prompt_tokens! +
+-            response.usage?.completion_tokens! * 2;
+-
+-        return { content, cost, choices: response!.choices };
++    const message: Message = { content, role, uuid, parent };
++    Agent._dag.set(uuid, message);
++    return uuid;
++  }
++
++  private createNewAgent(
++    head: string,
++    cost: number,
++    choices: CreateChatCompletionResponseChoicesInner[],
++  ): ProxiedAgent {
++    const newConfig: Config = {
++      ...this._config,
++      head,
++      callId: this.callId,
++    };
++    return Agent.create(newConfig, cost, choices);
++  }
++
++  private async callApi(
++    messages: ResponseMessage[],
++  ): Promise<{ content: string; cost: number; choices: any[] }> {
++    const request: CreateChatCompletionRequest = {
++      ..._.omit(this._config, 'head', 'choices', 'callId'),
++      messages: messages as any,
++    };
++    const response = await Agent.api.request(request);
++
++    if (!response) {
++      throw new Error('unable to get api response');
+     }
++    const content = response!.choices[0]!.message!.content!;
++    const cost =
++      (this.cost as number) +
++      response.usage?.prompt_tokens! +
++      response.usage?.completion_tokens! * 2;
++
++    return { content, cost, choices: response!.choices };
++  }
+ }
+diff --git a/src/index.ts b/src/index.ts
+index 0d3d8cc51155cd755423e6ba4776254a12e111c1..2dc45f93869704df917aa8d73a519f2b9de4f99d 100644
+--- a/src/index.ts
++++ b/src/index.ts
+@@ -1,10 +1,8 @@
+-import {
+-    CreateChatCompletionRequest,
+-    CreateChatCompletionResponse,
+-} from "openai";
+-import { supportModelType } from "gpt-tokens";
+-import { ModelAPIQueue } from "./queue";
+-import { RequestCache } from "./cache";
++import { supportModelType } from 'gpt-tokens';
++import { ModelAPIQueue } from './queue';
++import { RequestCache } from './cache';
++import { CreateChatCompletionRequest, CreateChatCompletionResponse } from './types';
++
+ /**
+  * Configuration object for each model queue. Specifies the rate limits for requests and tokens.
+  * @interface QueueConfig
+@@ -12,8 +10,8 @@ import { RequestCache } from "./cache";
+  * @property {number} tokensPerMinute - The maximum number of tokens per minute.
+  */
+ interface QueueConfig {
+-    requestsPerMinute: number;
+-    tokensPerMinute: number;
++  requestsPerMinute: number;
++  tokensPerMinute: number;
+ }
+ 
+ /**
+@@ -38,22 +36,22 @@ interface QueueConfig {
+  * @property {number} 'gpt-4-0314'.tokensPerMinute - Default number of tokens per minute: 40000.
+  */
+ const defaultModelConfigs: Record<string, QueueConfig> = {
+-    "gpt-3.5-turbo": {
+-        requestsPerMinute: 3500,
+-        tokensPerMinute: 90000,
+-    },
+-    "gpt-3.5-turbo-0301": {
+-        requestsPerMinute: 3500,
+-        tokensPerMinute: 90000,
+-    },
+-    "gpt-4": {
+-        requestsPerMinute: 200,
+-        tokensPerMinute: 40000,
+-    },
+-    "gpt-4-0314": {
+-        requestsPerMinute: 200,
+-        tokensPerMinute: 40000,
+-    },
++  'gpt-3.5-turbo': {
++    requestsPerMinute: 3500,
++    tokensPerMinute: 90000,
++  },
++  'gpt-3.5-turbo-0301': {
++    requestsPerMinute: 3500,
++    tokensPerMinute: 90000,
++  },
++  'gpt-4': {
++    requestsPerMinute: 200,
++    tokensPerMinute: 40000,
++  },
++  'gpt-4-0314': {
++    requestsPerMinute: 200,
++    tokensPerMinute: 40000,
++  },
+ };
+ 
+ /**
+@@ -61,56 +59,53 @@ const defaultModelConfigs: Record<string, QueueConfig> = {
+  * It uses an internal queue for each model, and dispatches API calls to the appropriate queue based on the model string.
+  */
+ export class APIQueue {
+-    private apiKey: string;
+-    private queues: Record<string, ModelAPIQueue>;
+-    private cache: RequestCache;
++  private apiKey: string;
++  private queues: Record<string, ModelAPIQueue>;
++  private cache: RequestCache;
+ 
+-    constructor(
+-        apiKey: string,
+-        customModelConfigs: Record<string, QueueConfig> = {}
+-    ) {
+-        this.apiKey = apiKey;
+-        this.queues = {};
+-        this.cache = new RequestCache();
++  constructor(apiKey: string, customModelConfigs: Record<string, QueueConfig> = {}) {
++    this.apiKey = apiKey;
++    this.queues = {};
++    this.cache = new RequestCache();
+ 
+-        const modelConfigs = { ...defaultModelConfigs, ...customModelConfigs };
++    const modelConfigs = { ...defaultModelConfigs, ...customModelConfigs };
+ 
+-        for (const [model, config] of Object.entries(modelConfigs)) {
+-            this.queues[model] = new ModelAPIQueue(
+-                config.tokensPerMinute,
+-                config.requestsPerMinute,
+-                model as supportModelType,
+-                this.apiKey
+-            );
+-        }
++    for (const [model, config] of Object.entries(modelConfigs)) {
++      this.queues[model] = new ModelAPIQueue(
++        config.tokensPerMinute,
++        config.requestsPerMinute,
++        model as supportModelType,
++        this.apiKey,
++      );
+     }
++  }
+ 
+-    /**
+-     * Make a request. This function will dispatch the request to the appropriate queue
+-     * based on the model string on the request object.
+-     * @param {CreateChatCompletionRequest} request - The request for the API call.
+-     * @return {Promise<CreateChatCompletionResponse>} A promise that resolves with the result of the API call.
+-     */
+-    public async request(
+-        request: CreateChatCompletionRequest
+-    ): Promise<CreateChatCompletionResponse | null> {
+-        const modelQueue = this.queues[request.model];
+-        if (!modelQueue) {
+-            throw new Error(`Unsupported model: ${request.model}`);
+-        }
+-
+-        const cachehit = this.cache.getCache(request);
+-        if (cachehit) {
+-            return cachehit as CreateChatCompletionResponse;
+-        }
++  /**
++   * Make a request. This function will dispatch the request to the appropriate queue
++   * based on the model string on the request object.
++   * @param {CreateChatCompletionRequest} request - The request for the API call.
++   * @return {Promise<CreateChatCompletionResponse>} A promise that resolves with the result of the API call.
++   */
++  public async request(
++    request: CreateChatCompletionRequest,
++  ): Promise<CreateChatCompletionResponse | null> {
++    const modelQueue = this.queues[request.model];
++    if (!modelQueue) {
++      throw new Error(`Unsupported model: ${request.model}`);
++    }
+ 
+-        const response = await modelQueue.request(request);
+-        if (response) {
+-            this.cache.setCache(request, response);
+-        }
++    const cachehit = this.cache.getCache(request);
++    if (cachehit) {
++      return cachehit as CreateChatCompletionResponse;
++    }
+ 
+-        return response;
++    const response = await modelQueue.request(request);
++    if (response) {
++      this.cache.setCache(request, response);
+     }
++
++    return response;
++  }
+ }
+ 
+ export default APIQueue;
+diff --git a/src/queue.ts b/src/queue.ts
+index d864dc4826ce76a0d5ba30f6a388fb2d2722d866..d9c25b9b1f20014cf65a61528074c426c713c3e2 100644
+--- a/src/queue.ts
++++ b/src/queue.ts
+@@ -1,185 +1,170 @@
+-import {
+-    Configuration,
+-    OpenAIApi,
+-    CreateChatCompletionRequest,
+-    CreateChatCompletionResponse,
+-} from "openai";
+-import { GPTTokens, supportModelType } from "gpt-tokens";
++import { ClientOptions, OpenAI } from 'openai';
++import { GPTTokens, supportModelType } from 'gpt-tokens';
++import type { APIPromise } from 'openai/core';
++
++type CreateChatCompletionRequest =
++  OpenAI.Chat.Completions.ChatCompletionCreateParamsNonStreaming;
++type CreateChatCompletionResponse = APIPromise<OpenAI.Chat.Completions.ChatCompletion>;
+ 
+ /**
+  * ModelAPIQueue is a class to manage rate-limited API calls.
+  * It supports both token-based and request-based rate limits.
+  */
+ export class ModelAPIQueue {
+-    private tokensPerMinute: number;
+-    private requestsPerMinute: number;
+-    private model: supportModelType;
+-    private apiKey: string;
+-    private availableTokens: number;
+-    private availableRequests: number;
+-    private lastRefillTime: number;
+-    private openai: OpenAIApi;
+-
+-    /**
+-     * @constructor
+-     * @param {number} tokensPerMinute - The maximum number of tokens available per minute.
+-     * @param {number} requestsPerMinute - The maximum number of requests available per minute.
+-     * @param {string} model - Model string associated with API calls.
+-     * @param {string} apiKey - API key for API calls.
+-     */
+-    constructor(
+-        tokensPerMinute: number,
+-        requestsPerMinute: number,
+-        model: supportModelType,
+-        apiKey: string
+-    ) {
+-        this.tokensPerMinute = tokensPerMinute;
+-        this.requestsPerMinute = requestsPerMinute;
+-        this.model = model;
+-        this.apiKey = apiKey;
+-        this.availableTokens = tokensPerMinute;
+-        this.availableRequests = requestsPerMinute;
+-        this.lastRefillTime = Date.now();
+-
+-        const configuration = new Configuration({
+-            apiKey: this.apiKey,
+-        });
+-        this.openai = new OpenAIApi(configuration);
++  private tokensPerMinute: number;
++  private requestsPerMinute: number;
++  private model: supportModelType;
++  private apiKey: string;
++  private availableTokens: number;
++  private availableRequests: number;
++  private lastRefillTime: number;
++  private openai: OpenAI;
++
++  /**
++   * @constructor
++   * @param {number} tokensPerMinute - The maximum number of tokens available per minute.
++   * @param {number} requestsPerMinute - The maximum number of requests available per minute.
++   * @param {string} model - Model string associated with API calls.
++   * @param {string} apiKey - API key for API calls.
++   */
++  constructor(
++    tokensPerMinute: number,
++    requestsPerMinute: number,
++    model: supportModelType,
++    apiKey: string,
++  ) {
++    this.tokensPerMinute = tokensPerMinute;
++    this.requestsPerMinute = requestsPerMinute;
++    this.model = model;
++    this.apiKey = apiKey;
++    this.availableTokens = tokensPerMinute;
++    this.availableRequests = requestsPerMinute;
++    this.lastRefillTime = Date.now();
++
++    const configuration: ClientOptions = {
++      apiKey: this.apiKey,
++    };
++    this.openai = new OpenAI(configuration);
++  }
++
++  /**
++   * Sleep for a certain amount of time.
++   * @param {number} ms - The number of milliseconds to sleep.
++   * @return {Promise<void>} A promise that resolves after the specified number of milliseconds.
++   */
++  private async sleep(ms: number): Promise<void> {
++    return new Promise(resolve => setTimeout(resolve, ms));
++  }
++
++  /**
++   * Refill tokens and requests based on the elapsed time since the last refill.
++   */
++  private refillTokensAndRequests(): void {
++    const now = Date.now();
++    const timeElapsed = now - this.lastRefillTime;
++
++    const tokensToAdd = Math.floor((timeElapsed / 60000) * this.tokensPerMinute);
++    if (tokensToAdd > 0) {
++      this.availableTokens = Math.min(
++        this.availableTokens + tokensToAdd,
++        this.tokensPerMinute,
++      );
+     }
+ 
+-    /**
+-     * Sleep for a certain amount of time.
+-     * @param {number} ms - The number of milliseconds to sleep.
+-     * @return {Promise<void>} A promise that resolves after the specified number of milliseconds.
+-     */
+-    private async sleep(ms: number): Promise<void> {
+-        return new Promise((resolve) => setTimeout(resolve, ms));
++    const requestsToAdd = Math.floor((timeElapsed / 60000) * this.requestsPerMinute);
++    if (requestsToAdd > 0) {
++      this.availableRequests = Math.min(
++        this.availableRequests + requestsToAdd,
++        this.requestsPerMinute,
++      );
+     }
+ 
+-    /**
+-     * Refill tokens and requests based on the elapsed time since the last refill.
+-     */
+-    private refillTokensAndRequests(): void {
+-        const now = Date.now();
+-        const timeElapsed = now - this.lastRefillTime;
+-
+-        const tokensToAdd = Math.floor(
+-            (timeElapsed / 60000) * this.tokensPerMinute
+-        );
+-        if (tokensToAdd > 0) {
+-            this.availableTokens = Math.min(
+-                this.availableTokens + tokensToAdd,
+-                this.tokensPerMinute
+-            );
+-        }
+-
+-        const requestsToAdd = Math.floor(
+-            (timeElapsed / 60000) * this.requestsPerMinute
+-        );
+-        if (requestsToAdd > 0) {
+-            this.availableRequests = Math.min(
+-                this.availableRequests + requestsToAdd,
+-                this.requestsPerMinute
+-            );
+-        }
+-
+-        this.lastRefillTime = now;
++    this.lastRefillTime = now;
++  }
++
++  /**
++   * Compute the number of tokens required for a specific request.
++   * @param {CreateChatCompletionRequest} request - The request for the API call.
++   * @return {number} The number of tokens required for the request.
++   */
++  private computeTokens(request: CreateChatCompletionRequest): number {
++    const usageInfo = new GPTTokens({
++      model: this.model,
++      messages: request.messages as any,
++    });
++
++    const multiplier = request.n ? request.n : 1;
++
++    return (usageInfo.usedTokens + (request.max_tokens || 0)) * multiplier;
++  }
++
++  /**
++   * Make an API call.
++   * @param {CreateChatCompletionRequest} request - The request for the API call.
++   * @return {Promise<CreateChatCompletionResponse>} A promise that resolves with the response from the API call.
++   */
++  private async callAPI(
++    request: OpenAI.Chat.Completions.ChatCompletionCreateParamsNonStreaming,
++  ): Promise<CreateChatCompletionResponse> {
++    const completion = await this.openai.chat.completions.create(request);
++    const usedTokens = completion.usage!.completion_tokens;
++
++    if (request.max_tokens) {
++      const multiplier = request.n ? request.n : 1;
++      const expectedTokens = request.max_tokens * multiplier;
++
++      if (expectedTokens > usedTokens) {
++        this.availableTokens += expectedTokens - usedTokens;
++      }
++    } else {
++      this.availableTokens -= usedTokens;
+     }
+ 
+-    /**
+-     * Compute the number of tokens required for a specific request.
+-     * @param {CreateChatCompletionRequest} request - The request for the API call.
+-     * @return {number} The number of tokens required for the request.
+-     */
+-    private computeTokens(request: CreateChatCompletionRequest): number {
+-        const usageInfo = new GPTTokens({
+-            model: this.model,
+-            messages: request.messages,
+-        });
+-
+-        const multiplier = request.n ? request.n : 1;
+-
+-        return (usageInfo.usedTokens + (request.max_tokens || 0)) * multiplier;
+-    }
+-
+-    /**
+-     * Make an API call.
+-     * @param {CreateChatCompletionRequest} request - The request for the API call.
+-     * @return {Promise<CreateChatCompletionResponse>} A promise that resolves with the response from the API call.
+-     */
+-    private async callAPI(
+-        request: CreateChatCompletionRequest
+-    ): Promise<CreateChatCompletionResponse> {
+-        const completion = await this.openai.createChatCompletion(request);
+-        const usedTokens = completion.data.usage!.completion_tokens;
+-
+-        if (request.max_tokens) {
+-            const multiplier = request.n ? request.n : 1;
+-            const expectedTokens = request.max_tokens * multiplier;
+-
+-            if (expectedTokens > usedTokens) {
+-                this.availableTokens += expectedTokens - usedTokens;
+-            }
++    return completion;
++  }
++
++  /**
++   * Make a request. This function will wait for enough tokens and requests to be available before making the API call.
++   * If an API call fails, it will wait for enough tokens and requests to be available before retrying.
++   * @param {CreateChatCompletionRequest} request - The request for the API call.
++   * @return {Promise<CreateChatCompletionResponse>} A promise that resolves with the result of the API call.
++   */
++  public async request(
++    request: CreateChatCompletionRequest,
++  ): Promise<CreateChatCompletionResponse | null> {
++    const backoffTime = 10000; // Set backoff time to 10 seconds, adjust as needed
++    let attemptCount = 0;
++    const maxAttempts = 5; // Set max attempts to 5, adjust as needed
++    const tokensNeeded = this.computeTokens(request);
++
++    while (attemptCount < maxAttempts) {
++      while (tokensNeeded > this.availableTokens || this.availableRequests <= 0) {
++        this.refillTokensAndRequests();
++        const timeToSleep = Math.max(
++          ((tokensNeeded - this.availableTokens) / this.tokensPerMinute) * 60000,
++          (1 / this.requestsPerMinute) * 60000,
++        );
++        await this.sleep(timeToSleep);
++      }
++
++      this.availableTokens -= tokensNeeded;
++      this.availableRequests -= 1;
++
++      try {
++        return await this.callAPI(request);
++      } catch (error) {
++        console.error(`API call failed with error: ${(error as Error).message}`);
++        this.availableTokens = 0;
++        attemptCount++;
++        if (attemptCount < maxAttempts) {
++          console.log(`Backing off for ${backoffTime} ms and then retrying...`);
++          await this.sleep(backoffTime);
+         } else {
+-            this.availableTokens -= usedTokens;
++          throw new Error(`API call failed after ${maxAttempts} attempts.`);
+         }
+-
+-        return completion.data;
++      }
+     }
+ 
+-    /**
+-     * Make a request. This function will wait for enough tokens and requests to be available before making the API call.
+-     * If an API call fails, it will wait for enough tokens and requests to be available before retrying.
+-     * @param {CreateChatCompletionRequest} request - The request for the API call.
+-     * @return {Promise<CreateChatCompletionResponse>} A promise that resolves with the result of the API call.
+-     */
+-    public async request(
+-        request: CreateChatCompletionRequest
+-    ): Promise<CreateChatCompletionResponse | null> {
+-        const backoffTime = 10000; // Set backoff time to 10 seconds, adjust as needed
+-        let attemptCount = 0;
+-        const maxAttempts = 5; // Set max attempts to 5, adjust as needed
+-        const tokensNeeded = this.computeTokens(request);
+-
+-        while (attemptCount < maxAttempts) {
+-            while (
+-                tokensNeeded > this.availableTokens ||
+-                this.availableRequests <= 0
+-            ) {
+-                this.refillTokensAndRequests();
+-                const timeToSleep = Math.max(
+-                    ((tokensNeeded - this.availableTokens) /
+-                        this.tokensPerMinute) *
+-                        60000,
+-                    (1 / this.requestsPerMinute) * 60000
+-                );
+-                await this.sleep(timeToSleep);
+-            }
+-
+-            this.availableTokens -= tokensNeeded;
+-            this.availableRequests -= 1;
+-
+-            try {
+-                return await this.callAPI(request);
+-            } catch (error) {
+-                console.error(
+-                    `API call failed with error: ${(error as Error).message}`
+-                );
+-                this.availableTokens = 0;
+-                attemptCount++;
+-                if (attemptCount < maxAttempts) {
+-                    console.log(
+-                        `Backing off for ${backoffTime} ms and then retrying...`
+-                    );
+-                    await this.sleep(backoffTime);
+-                } else {
+-                    throw new Error(
+-                        `API call failed after ${maxAttempts} attempts.`
+-                    );
+-                }
+-            }
+-        }
+-
+-        return null;
+-    }
++    return null;
++  }
+ }
+diff --git a/src/types.ts b/src/types.ts
+new file mode 100644
+index 0000000000000000000000000000000000000000..2688cb8d80ca69cd946c1f5f6d80baf4f07791e1
+--- /dev/null
++++ b/src/types.ts
+@@ -0,0 +1,14 @@
++import type OpenAI from 'openai';
++import type { APIPromise } from 'openai/core';
++
++export type CreateChatCompletionRequest =
++  OpenAI.Chat.Completions.ChatCompletionCreateParamsNonStreaming;
++
++export type CreateChatCompletionResponse =
++  APIPromise<OpenAI.Chat.Completions.ChatCompletion>;
++
++export type ChatCompletionRequestMessageRoleEnum =
++  OpenAI.Chat.Completions.ChatCompletionRole;
++
++export type CreateChatCompletionResponseChoicesInner =
++  OpenAI.Chat.Completions.ChatCompletion.Choice;

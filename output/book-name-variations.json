@@ -1,44 +1,292 @@
 {
   "0001AbuTalibCabdManaf.Diwan": {
-    "primary_name": "Diwan Abu Talib",
-    "variations": [
-      "Dīwān Abū Ṭālib",
-      "Diwan of Abu Talib",
-      "Divan Abu Talib"
-    ]
+    "ar": {
+      "translation": "ديوان أبو طالب",
+      "transliteration": "ديوان أبو طالب"
+    },
+    "en": {
+      "translation": "The Collection of Abu Talib",
+      "transliteration": "Diwan Abu Talib"
+    },
+    "fa": {
+      "translation": "مجموعه ابوطالب",
+      "transliteration": "Majmue Abu Talib"
+    },
+    "ur": {
+      "translation": "ابو طالب کا دیوان",
+      "transliteration": "Abu Talib Ka Diwan"
+    },
+    "hi": {
+      "translation": "अबू तालिब का संग्रह",
+      "transliteration": "Abu Talib Ka Sangrah"
+    },
+    "fr": {
+      "translation": "Le Recueil d'Abu Talib",
+      "transliteration": "Le Recueil d'Abu Talib"
+    },
+    "tr": {
+      "translation": "Ebu Talib'in Divanı",
+      "transliteration": "Ebu Talib'in Divanı"
+    },
+    "es": {
+      "translation": "La Colección de Abu Talib",
+      "transliteration": "La Coleccion de Abu Talib"
+    },
+    "ms": {
+      "translation": "Koleksi Abu Talib",
+      "transliteration": "Koleksi Abu Talib"
+    },
+    "ru": {
+      "translation": "Сборник Абу Талиба",
+      "transliteration": "Sbornik Abu Taliba"
+    },
+    "bn": {
+      "translation": "আবু তালিবের সংকলন",
+      "transliteration": "Abu Taliber Songkolon"
+    },
+    "ha": {
+      "translation": "Tarin Abu Talib",
+      "transliteration": "Tarin Abu Talib"
+    },
+    "so": {
+      "translation": "Ururinta Abu Talib",
+      "transliteration": "Ururinta Abu Talib"
+    },
+    "ps": {
+      "translation": "د ابو طالب غزلیات",
+      "transliteration": "Da Abu Talib Ghazliyat"
+    }
   },
   "0001AwsIbnHajar.Diwan": {
-    "primary_name": "Diwan Aws ibn Hajar",
-    "variations": [
-      "Dīwān Aws ibn Hajar",
-      "Diwan of Aws ibn Hajar",
-      "Diwan Ows ibn Hajar"
-    ]
+    "ar": {
+      "translation": "ديوان أوس بن حجر",
+      "transliteration": "ديوان أوس بن حجر"
+    },
+    "en": {
+      "translation": "The Diwan of Aws ibn Hajar",
+      "transliteration": "Diwan Aws bin Hajar"
+    },
+    "fa": {
+      "translation": "دیوان اوس بن حجر",
+      "transliteration": "Dīvān Ūs bin Hajar"
+    },
+    "ur": {
+      "translation": "دیوان اوس بن حجر",
+      "transliteration": "Diwan Aws bin Hajar"
+    },
+    "hi": {
+      "translation": "औस बिन हजार की दीवान",
+      "transliteration": "Aus bin Hajar ki Diwan"
+    },
+    "fr": {
+      "translation": "Le Diwan de Aws ibn Hajar",
+      "transliteration": "Le Diwan de Aws ibn Hajar"
+    },
+    "tr": {
+      "translation": "Aws bin Hajar'ın Divanı",
+      "transliteration": "Aws bin Hajar'ın Divanı"
+    },
+    "es": {
+      "translation": "El Diwan de Aws ibn Hajar",
+      "transliteration": "El Diwan de Aws ibn Hajar"
+    },
+    "ms": {
+      "translation": "Diwan Aws ibn Hajar",
+      "transliteration": "Diwan Aws ibn Hajar"
+    },
+    "ru": {
+      "translation": "Диван Ауса ибн Хаджара",
+      "transliteration": "Divan Ausa ibn Khadzhara"
+    },
+    "bn": {
+      "translation": "আউস ইবনে হাজারের দিওয়ান",
+      "transliteration": "Aous ibne Hajar-er Diwan"
+    },
+    "ha": {
+      "translation": "Dīwānīn Aws ibn Hajar",
+      "transliteration": "Dīwānīn Aws ibn Hajar"
+    },
+    "so": {
+      "translation": "Diwaanka Aws ibn Hajar",
+      "transliteration": "Diwaanka Aws ibn Hajar"
+    },
+    "ps": {
+      "translation": "د اوس بن حجر دیوان",
+      "transliteration": "Da Aws bin Hajar Diwan"
+    }
   },
   "0001CamrIbnKulthum.Diwan": {
-    "primary_name": "Diwan Amr ibn Kulthum",
-    "variations": [
-      "Diwan 'Amr ibn Kulthum",
-      "Dīwān ʿAmr ibn Kulthūm",
-      "Dīwān Amr ibn Kulthūm",
-      "Diwan Amro ibn Kulthom"
-    ]
+    "ar": {
+      "translation": "ديوان عمرو بن كلثوم",
+      "transliteration": "ديوان عمرو بن كلثوم"
+    },
+    "en": {
+      "translation": "The Collection of Amr ibn Kulthum",
+      "transliteration": "Diwan Amr ibn Kulthum"
+    },
+    "fa": {
+      "translation": "دیوان عمرو بن کلثوم",
+      "transliteration": "Dīvān Amro ibn Kolthūm"
+    },
+    "ur": {
+      "translation": "عمرو بن کلثوم کی دیوان",
+      "transliteration": "Amr bin Kulthum ki Diwan"
+    },
+    "hi": {
+      "translation": "अम्र इब्न कुल्थुम का दीवान",
+      "transliteration": "Amr ibn Kulthum ka Diwan"
+    },
+    "fr": {
+      "translation": "Le recueil d'Amr ibn Kulthum",
+      "transliteration": "Le Diwan d'Amr ibn Kulthum"
+    },
+    "tr": {
+      "translation": "Amr bin Kulthum'un Divanı",
+      "transliteration": "Amr bin Kulthum'un Divanı"
+    },
+    "es": {
+      "translation": "La colección de Amr ibn Kulthum",
+      "transliteration": "Diwan Amr ibn Kulthum"
+    },
+    "ms": {
+      "translation": "Kumpulan Amr ibn Kulthum",
+      "transliteration": "Diwan Amr ibn Kulthum"
+    },
+    "ru": {
+      "translation": "Сборник Амр ибн Культум",
+      "transliteration": "Diwan Amr ibn Kul'tum"
+    },
+    "bn": {
+      "translation": "আমর ইবনে কুলথুমের দিওয়ান",
+      "transliteration": "Amra ibne Kulathumer Diwan"
+    },
+    "ha": {
+      "translation": "Tarjamar Amr ibn Kulthum",
+      "transliteration": "Diwan Amr ibn Kulthum"
+    },
+    "so": {
+      "translation": "Ururinta Amr ibn Kulthum",
+      "transliteration": "Diwan Amr ibn Kulthum"
+    },
+    "ps": {
+      "translation": "د عمر بن کلثوم ټولګه",
+      "transliteration": "Da Amr ibn Kulthum Tolga"
+    }
   },
   "0001CalqamaFahl.Diwan": {
-    "primary_name": "Diwan Alqama al-Fahl",
-    "variations": [
-      "Diwan 'Alqamah al-Fahl",
-      "Dīwān ʿAlqama al-Faḥl",
-      "Diwan Alqamah al-Fahl"
-    ]
+    "ar": {
+      "translation": "ديوان علقمة الفحل",
+      "transliteration": "ديوان علقمة الفحل"
+    },
+    "en": {
+      "translation": "The Diwan of Alqama Al-Fahl",
+      "transliteration": "Diwan 'Alqama al-Fahl"
+    },
+    "fa": {
+      "translation": "دیوان علقمه الفحل",
+      "transliteration": "Dīvān 'Alqamah al-Fahl"
+    },
+    "ur": {
+      "translation": "دیوان علقمہ الفحل",
+      "transliteration": "Dīvān 'Alqamah al-Faḥl"
+    },
+    "hi": {
+      "translation": "दीवान अलक़मा अल-फ़हल",
+      "transliteration": "Dīvān Alqama al-Fahl"
+    },
+    "fr": {
+      "translation": "Le Diwan d'Alqama Al-Fahl",
+      "transliteration": "Le Diwan d'Alqama Al-Fahl"
+    },
+    "tr": {
+      "translation": "Alkame el-Fahl'in Divanı",
+      "transliteration": "Alqama el-Fahl'in Diwanı"
+    },
+    "es": {
+      "translation": "El Diván de Alqama el Fahl",
+      "transliteration": "El Diván de Alqama el Fahl"
+    },
+    "ms": {
+      "translation": "Diwan Alqama Al-Fahl",
+      "transliteration": "Diwan Alqama Al-Fahl"
+    },
+    "ru": {
+      "translation": "Диван Алькама аль-Фахл",
+      "transliteration": "Divan Al'kama al'-Fahl"
+    },
+    "bn": {
+      "translation": "আলকামা আল-ফাহলের দীওয়ান",
+      "transliteration": "Alkama Al-Fahl'er Diwan"
+    },
+    "ha": {
+      "translation": "Diwan Alqama Al-Fahl",
+      "transliteration": "Diwan Alqama Al-Fahl"
+    },
+    "so": {
+      "translation": "Diwaanka Alqama Al-Fahl",
+      "transliteration": "Diwaanka Alqama Al-Fahl"
+    },
+    "ps": {
+      "translation": "د دیوان علقمه الفحل",
+      "transliteration": "Dīwān 'Alqamah al-Fahl"
+    }
   },
   "0001CamrIbnKulthum.Mucallaqa": {
-    "primary_name": "Mu'allaqat Amr ibn Kulthum",
-    "variations": [
-      "Mu'allaqat Amru ibn Kulthoom",
-      "Al-Mu'allaqah of Amr ibn Kulthum",
-      "Muallaqat of Amr Ibn Kulthum",
-      "Mu'allaqat Amr Ibn Kulthoom"
-    ]
+    "ar": {
+      "translation": "معلقة عمرو بن كلثوم",
+      "transliteration": "معلقة عمرو بن كلثوم"
+    },
+    "en": {
+      "translation": "The Hanging Poem of Amr ibn Kulthum",
+      "transliteration": "Mu'allaqat Amr ibn Kulthum"
+    },
+    "fa": {
+      "translation": "قصیده آویزان عمرو بن کلثوم",
+      "transliteration": "Ghasideh-ye Avizan Amro bin Kolsoom"
+    },
+    "ur": {
+      "translation": "عمرو بن کلثوم کا معلقہ",
+      "transliteration": "Amro bin Kulsoom ka Muallaqa"
+    },
+    "hi": {
+      "translation": "अम्र इब्न कुलथूम की लटकती कविता",
+      "transliteration": "Amr ibn Kulthum ki Latkati Kavita"
+    },
+    "fr": {
+      "translation": "Le Poème Suspendu d'Amr ibn Kulthum",
+      "transliteration": "Le Poème Suspendu d'Amr ibn Kulthum"
+    },
+    "tr": {
+      "translation": "Amr bin Kulthum'un Asılı Şiiri",
+      "transliteration": "Amr bin Kulthum'un Asili Şiiri"
+    },
+    "es": {
+      "translation": "El Poema Colgante de Amr ibn Kulthum",
+      "transliteration": "El Poema Colgante de Amr ibn Kulthum"
+    },
+    "ms": {
+      "translation": "Puisi Gantung Amr bin Kulthum",
+      "transliteration": "Puisi Gantung Amr bin Kulthum"
+    },
+    "ru": {
+      "translation": "Висячая Поэма Амр ибн Кулсум",
+      "transliteration": "Visyachaya Poema Amr ibn Kulsoum"
+    },
+    "bn": {
+      "translation": "আমর ইবনে কুলথুমের ঝুলন্ত কবিতা",
+      "transliteration": "Amar ibne Kulathumer Jhulanto Kobita"
+    },
+    "ha": {
+      "translation": "Wakar Rataye ta Amr bn Kulthum",
+      "transliteration": "Wakar Rataye ta Amr bn Kulthum"
+    },
+    "so": {
+      "translation": "Gabayga lalaadka ah ee Amr bin Kulthum",
+      "transliteration": "Gabayga Lalaadka ah ee Amr bin Kulthum"
+    },
+    "ps": {
+      "translation": "د عمرو بن کلثوم ځوړند شعر",
+      "transliteration": "Da Amro bin Kalthum Jorand Shair"
+    }
   }
 }

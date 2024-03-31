@@ -10,27 +10,101 @@ import { z } from 'zod';
 const OUTPUT_PATH = path.resolve('output/book-name-variations.json');
 const outputExists = fs.existsSync(OUTPUT_PATH);
 
-const output = (
-  outputExists ? JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8')) : {}
-) as Record<
-  string,
+const languages = [
   {
-    primary_name: string;
-    variations: string[];
-  }
->;
+    code: 'ar',
+    name: 'Arabic',
+  },
+  {
+    code: 'en',
+    name: 'English',
+  },
+  {
+    code: 'fa',
+    name: 'Persian',
+  },
+  {
+    code: 'ur',
+    name: 'Urdu',
+  },
+  {
+    code: 'hi',
+    name: 'Hindi',
+  },
+  {
+    code: 'fr',
+    name: 'French',
+  },
+  {
+    code: 'tr',
+    name: 'Turkish',
+  },
+  {
+    code: 'es',
+    name: 'Spanish',
+  },
+  {
+    code: 'ms',
+    name: 'Malay',
+  },
+  {
+    code: 'ru',
+    name: 'Russian',
+  },
+  {
+    code: 'bn',
+    name: 'Bengali',
+  },
+  {
+    code: 'ha',
+    name: 'Hausa',
+  },
+  {
+    code: 'so',
+    name: 'Somali',
+  },
+  {
+    code: 'ps',
+    name: 'Pashto',
+  },
+];
 
-const schema = z.object({
-  primary_name: z.string(),
-  variations: z.array(z.string()),
+const languageSchema = z.object({
+  translation: z.string(),
+  transliteration: z.string(),
 });
 
-const books = await getBooksData({ populateAuthor: false });
-const chunks = chunk(books.slice(0, 5), 5) as (typeof books)[];
+const output = (
+  outputExists ? JSON.parse(fs.readFileSync(OUTPUT_PATH, 'utf8')) : {}
+) as Record<string, Record<string, z.infer<typeof languageSchema>>>;
 
-let i = 0;
+const schema = z.object({
+  ar: languageSchema,
+  en: languageSchema,
+  fa: languageSchema,
+  ur: languageSchema,
+  hi: languageSchema,
+  fr: languageSchema,
+  tr: languageSchema,
+  es: languageSchema,
+  ms: languageSchema,
+  ru: languageSchema,
+  bn: languageSchema,
+  ha: languageSchema,
+  so: languageSchema,
+  ps: languageSchema,
+});
+
+console.log('loading books...');
+
+const books = await getBooksData({ populateAuthor: false, limit: 5 });
+console.log('done...');
+
+const chunks = chunk(books, 5) as (typeof books)[];
+
+let i = 1;
 for (const batch of chunks) {
-  console.log(`Processing batch ${++i} of ${chunks.length}...`);
+  console.log(`Processing batch ${i} of ${chunks.length}...`);
   i++;
 
   // const processedBatch = batch.filter(
@@ -47,18 +121,29 @@ for (const batch of chunks) {
           {
             role: 'system',
             content: `
-You are an assistant that takes an Arabic name for an book as input, and returns a json with different variations of that name in english, and a primary name (most popular). Variations include: short forms (if they're popular or famous with that name), full names, and different transliterations with diacritics. Don't include duplicates.
+You are an assistant that takes an Arabic name for a book as input, and returns a json with each locale code that maps to a translation and transliteration of the name, both in that language.
+
+Supported locales are only: ${languages.map(l => `${l.code} (${l.name})`).join(', ')}
   
 The schema should match the following: 
 Input: لأشباه والنظائر
 
 Output: 
 {
-  "primary_name": "Ashbah wa al-Nazair",
-  "variations": ["Al-Ashbah wa al-Nazair", "Ashbāh wa-al-Naẓāʾir", "Al-Ashbah wa'l-naza'ir", "Ashbah wa al-Nazair", "Ashbah wa al-Nazaer"]
+  "en": {
+    "translation": "Similarities and Parallels",
+    "transliteration": "Al-Ashbah wa al-Nazair"
+  },
+  "ar": {
+    "translation": "لأشباه والنظائر",
+    "transliteration": "لأشباه والنظائر"
+  },
+  "hi": {
+    "translation": "समानताएं और समांतर",
+    "transliteration": "समानताएं और समांतर"
+  }
+  ...
 }
-
-The more popular names should appear first in the array.
 `.trim(),
           },
           { role: 'user', content: book.primaryArabicName! },

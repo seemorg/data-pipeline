@@ -4,13 +4,12 @@ import { client } from '../../lib/typesense';
 
 const INDEX_SHORT_NAME = 'authors';
 
-const aliases = Object.keys(nameAliases as Record<string, string[]>)
-  // @ts-ignore
-  .filter(a => !!nameAliases[a] && nameAliases[a].length > 0)
+const typedAliases = nameAliases as Record<string, string[]>;
+const aliases = Object.keys(typedAliases)
+  .filter(a => !!typedAliases[a] && (typedAliases[a]?.length ?? 0) > 0)
   .map(alias => ({
     name: alias,
-    // @ts-ignore
-    aliases: [alias, ...nameAliases[alias]] as string[],
+    aliases: [alias, ...typedAliases[alias]!] as string[],
   }));
 
 const aliasChunks = chunk(aliases, 50) as (typeof aliases)[];

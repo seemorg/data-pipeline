@@ -1,0 +1,566 @@
+{
+  "ديوان": {
+    "english": [
+      "Diwan",
+      "Dewan"
+    ],
+    "persian": [
+      "دیوان"
+    ],
+    "urdu": [
+      "دیوان"
+    ],
+    "hindi": [
+      "दीवान"
+    ],
+    "french": [
+      "Diwan"
+    ],
+    "turkish": [
+      "Divan"
+    ],
+    "spanish": [
+      "Diván"
+    ],
+    "malay": [
+      "Dewan"
+    ],
+    "russian": [
+      "Диван"
+    ],
+    "bengali": [
+      "দিওয়ান"
+    ],
+    "hausa": [
+      "Diwan"
+    ],
+    "somali": [
+      "Diwaan"
+    ],
+    "pashto": [
+      "دیوان"
+    ]
+  },
+  "حجر": {
+    "english": [
+      "Hajar",
+      "Hajr"
+    ],
+    "persian": [
+      "حجر"
+    ],
+    "urdu": [
+      "حجر"
+    ],
+    "hindi": [
+      "हज़र"
+    ],
+    "french": [
+      "Hajar"
+    ],
+    "turkish": [
+      "Hacer"
+    ],
+    "spanish": [
+      "Hajar"
+    ],
+    "malay": [
+      "Hajar"
+    ],
+    "russian": [
+      "Хаджар"
+    ],
+    "bengali": [
+      "হাজার"
+    ],
+    "hausa": [
+      "Hajar"
+    ],
+    "somali": [
+      "Hajar"
+    ],
+    "pashto": [
+      "حجر"
+    ]
+  },
+  "بن": {
+    "english": [
+      "Bin",
+      "Ben",
+      "Ibn"
+    ],
+    "persian": [
+      "بن",
+      "بین"
+    ],
+    "urdu": [
+      "بن",
+      "ابن"
+    ],
+    "hindi": [
+      "बिन",
+      "इब्न"
+    ],
+    "french": [
+      "Bin",
+      "Ibn"
+    ],
+    "turkish": [
+      "Bin",
+      "İbn"
+    ],
+    "spanish": [
+      "Bin",
+      "Ibn"
+    ],
+    "malay": [
+      "Bin",
+      "Binti"
+    ],
+    "russian": [
+      "Бин",
+      "Ибн"
+    ],
+    "bengali": [
+      "বিন",
+      "ইবন"
+    ],
+    "hausa": [
+      "Dan",
+      "Bin"
+    ],
+    "somali": [
+      "Bin",
+      "Ibn"
+    ],
+    "pashto": [
+      "بن",
+      "ابن"
+    ]
+  },
+  "طالب": {
+    "english": [
+      "Talib",
+      "Taleb"
+    ],
+    "persian": [
+      "طالب"
+    ],
+    "urdu": [
+      "طالب"
+    ],
+    "hindi": [
+      "तालिब"
+    ],
+    "french": [
+      "Talib"
+    ],
+    "turkish": [
+      "Talib"
+    ],
+    "spanish": [
+      "Talib"
+    ],
+    "malay": [
+      "Talib"
+    ],
+    "russian": [
+      "Талиб"
+    ],
+    "bengali": [
+      "তালিব"
+    ],
+    "hausa": [
+      "Talib"
+    ],
+    "somali": [
+      "Talib"
+    ],
+    "pashto": [
+      "طالب"
+    ]
+  },
+  "أبو": {
+    "english": [
+      "Abu",
+      "Abou"
+    ],
+    "persian": [
+      "ابو"
+    ],
+    "urdu": [
+      "ابو"
+    ],
+    "hindi": [
+      "अबू"
+    ],
+    "french": [
+      "Abou"
+    ],
+    "turkish": [
+      "Ebu"
+    ],
+    "spanish": [
+      "Abu"
+    ],
+    "malay": [
+      "Abu"
+    ],
+    "russian": [
+      "Абу"
+    ],
+    "bengali": [
+      "আবু"
+    ],
+    "hausa": [
+      "Abu"
+    ],
+    "somali": [
+      "Abuu"
+    ],
+    "pashto": [
+      "ابو"
+    ]
+  },
+  "أوس": {
+    "english": [
+      "Aws",
+      "Aus"
+    ],
+    "persian": [
+      "اوس",
+      "آوس"
+    ],
+    "urdu": [
+      "اوس"
+    ],
+    "hindi": [
+      "औस",
+      "आउस"
+    ],
+    "french": [
+      "Aws"
+    ],
+    "turkish": [
+      "Evs",
+      "Avs"
+    ],
+    "spanish": [
+      "Aus"
+    ],
+    "malay": [
+      "Aus"
+    ],
+    "russian": [
+      "Аус",
+      "Авс"
+    ],
+    "bengali": [
+      "অউস"
+    ],
+    "hausa": [
+      "Aus"
+    ],
+    "somali": [
+      "Aws"
+    ],
+    "pashto": [
+      "اوس"
+    ]
+  },
+  "عمرو": {
+    "english": [
+      "Amr",
+      "Amro",
+      "Amru"
+    ],
+    "persian": [
+      "عمرو",
+      "امرؤ"
+    ],
+    "urdu": [
+      "عمرو",
+      "امرو"
+    ],
+    "hindi": [
+      "अम्र",
+      "अमरो"
+    ],
+    "french": [
+      "Amr",
+      "Amro"
+    ],
+    "turkish": [
+      "Amr"
+    ],
+    "spanish": [
+      "Amr",
+      "Amro"
+    ],
+    "malay": [
+      "Amr",
+      "Amro"
+    ],
+    "russian": [
+      "Амр"
+    ],
+    "bengali": [
+      "আমর",
+      "আমরো"
+    ],
+    "hausa": [
+      "Amr"
+    ],
+    "somali": [
+      "Camar",
+      "Amr"
+    ],
+    "pashto": [
+      "عمرو",
+      "امرو"
+    ]
+  },
+  "كلثوم": {
+    "english": [
+      "Kulthum",
+      "Kalthoum",
+      "Kalthum"
+    ],
+    "persian": [
+      "کلثوم"
+    ],
+    "urdu": [
+      "کلثوم"
+    ],
+    "hindi": [
+      "कुल्थुम"
+    ],
+    "french": [
+      "Koulthoum",
+      "Kalthoum"
+    ],
+    "turkish": [
+      "Kültüm"
+    ],
+    "spanish": [
+      "Kulzum"
+    ],
+    "malay": [
+      "Kulthum"
+    ],
+    "russian": [
+      "Культум"
+    ],
+    "bengali": [
+      "কুলথুম"
+    ],
+    "hausa": [
+      "Kulthum"
+    ],
+    "somali": [
+      "Kulthum"
+    ],
+    "pashto": [
+      "کلثوم"
+    ]
+  },
+  "الفحل": {
+    "english": [
+      "Al-Fahl",
+      "Al-Fahal",
+      "Al-Fahel"
+    ],
+    "persian": [
+      "الفحل"
+    ],
+    "urdu": [
+      "الفحل"
+    ],
+    "hindi": [
+      "अल-फहल"
+    ],
+    "french": [
+      "Al-Fahl"
+    ],
+    "turkish": [
+      "Al-Fahl"
+    ],
+    "spanish": [
+      "Al-Fahl"
+    ],
+    "malay": [
+      "Al-Fahl"
+    ],
+    "russian": [
+      "Аль-Фахл"
+    ],
+    "bengali": [
+      "আল-ফাহল"
+    ],
+    "hausa": [
+      "Al-Fahl"
+    ],
+    "somali": [
+      "Al-Fahl"
+    ],
+    "pashto": [
+      "الفحل"
+    ]
+  },
+  "علقمة": {
+    "english": [
+      "Alqama",
+      "Ulqama"
+    ],
+    "persian": [
+      "علقمه",
+      "القمه"
+    ],
+    "urdu": [
+      "علقمہ"
+    ],
+    "hindi": [
+      "अल्क़मा",
+      "उल्क़मा"
+    ],
+    "french": [
+      "Alqama"
+    ],
+    "turkish": [
+      "Alkame",
+      "Ulqame"
+    ],
+    "spanish": [
+      "Alqama"
+    ],
+    "malay": [
+      "Alqama"
+    ],
+    "russian": [
+      "Алькама"
+    ],
+    "bengali": [
+      "আলকামা",
+      "উলকামা"
+    ],
+    "hausa": [
+      "Alqama"
+    ],
+    "somali": [
+      "Alqama"
+    ],
+    "pashto": [
+      "علقمه"
+    ]
+  },
+  "معلقة": {
+    "english": [
+      "Mu'allaqah",
+      "Muallaqa",
+      "Mu'allaqa",
+      "Mu'allaqat"
+    ],
+    "persian": [
+      "معلقه",
+      "معلقات"
+    ],
+    "urdu": [
+      "معلقہ",
+      "معلقات"
+    ],
+    "hindi": [
+      "मुअल्लक़ा",
+      "मुअल्लक़ात"
+    ],
+    "french": [
+      "Mu'allaqa",
+      "Mu'allaqat"
+    ],
+    "turkish": [
+      "Muallaka",
+      "Muallakat"
+    ],
+    "spanish": [
+      "Mu'allaqa",
+      "Mu'allaqat"
+    ],
+    "malay": [
+      "Mu'allaqah",
+      "Mu'allaqat"
+    ],
+    "russian": [
+      "Муаллака",
+      "Муаллакат"
+    ],
+    "bengali": [
+      "মু'আল্লাকা",
+      "মু'আল্লাকাত"
+    ],
+    "hausa": [
+      "Mu'allaqa",
+      "Mu'allaqat"
+    ],
+    "somali": [
+      "Mu'allaqah",
+      "Mu'allaqat"
+    ],
+    "pashto": [
+      "معلقه",
+      "معلقات"
+    ]
+  },
+  "موطأ": {
+    "english": [
+      "Muwatta",
+      "Al-Muwatta"
+    ],
+    "persian": [
+      "موطا",
+      "الموطا"
+    ],
+    "urdu": [
+      "موطا",
+      "الموطأ"
+    ],
+    "hindi": [
+      "मुवत्ता",
+      "मुवत्ता इमाम मलिक"
+    ],
+    "french": [
+      "Le Muwatta",
+      "Muwatta"
+    ],
+    "turkish": [
+      "Muvatta",
+      "El-Muvatta"
+    ],
+    "spanish": [
+      "Muwatta",
+      "Al Muwatta"
+    ],
+    "malay": [
+      "Muwatta",
+      "Al-Muwatta'"
+    ],
+    "russian": [
+      "Муватта",
+      "Аль-Муватта"
+    ],
+    "bengali": [
+      "মুওত্তা",
+      "আল-মুওত্তা"
+    ],
+    "hausa": [
+      "Muwatta",
+      "Al-Muwatta"
+    ],
+    "somali": [
+      "Muwaṭṭa",
+      "Al-Muwaṭṭa"
+    ],
+    "pashto": [
+      "موطا",
+      "الموطا"
+    ]
+  }
+}

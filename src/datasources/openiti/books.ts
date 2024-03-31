@@ -15,8 +15,10 @@ const slugs = new Set<string>();
 
 export const getBooksData = async <ShouldPopulate extends boolean>({
   populateAuthor = true as ShouldPopulate,
+  limit,
 }: {
   populateAuthor?: ShouldPopulate;
+  limit?: number;
 } = {}): Promise<ReturnedBookDocument<ShouldPopulate>[]> => {
   const authorIdToAuthor = populateAuthor
     ? (await getAuthorsData({ populateBooks: false })).reduce(
@@ -34,79 +36,81 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
     )
   ).json();
 
-  return Object.values(booksData)
-    .filter(book => {
-      // filter out books without uri or don't have arabic or latin title
-      return !!book.uri && (book.title_ar.length > 0 || book.title_lat.length > 0);
-    })
-    .map(book => {
-      const [primaryArabicName, ...otherArabicNames] = dedupeStrings(book.title_ar);
-      const primaryArabicNameWithoutDiacritics = primaryArabicName
-        ? removeDiacritics(primaryArabicName)
-        : null;
+  // filter out books without uri or don't have arabic or latin title
+  const filteredData = Object.values(booksData).filter(book => {
+    return !!book.uri && (book.title_ar.length > 0 || book.title_lat.length > 0);
+  });
 
-      const [primaryLatinName, ...otherLatinNames] = dedupeStrings(book.title_lat);
-      const primaryLatinNameWithoutDiacritics = primaryLatinName
-        ? removeDiacritics(primaryLatinName)
-        : null;
+  return (limit ? filteredData.slice(0, limit) : filteredData).map(book => {
+    const [primaryArabicName, ...otherArabicNames] = dedupeStrings(book.title_ar);
+    const primaryArabicNameWithoutDiacritics = primaryArabicName
+      ? removeDiacritics(primaryArabicName)
+      : null;
 
-      const id = book.uri;
-      const [authorId, bookId] = book.uri.split('.');
-      const slug =
-        (bookIdToSlug as Record<string, string>)[id] ??
-        createUniqueSlug(bookId ?? id, slugs);
-      const author = authorId ? authorIdToAuthor[authorId] : undefined;
+    const [primaryLatinName, ...otherLatinNames] = dedupeStrings(book.title_lat);
+    const primaryLatinNameWithoutDiacritics = primaryLatinName
+      ? removeDiacritics(primaryLatinName)
+      : null;
 
-      let extraProperties: Record<string, any> = {};
+    const id = book.uri;
+    const [authorId, bookId] = book.uri.split('.');
+    const slug =
+      (bookIdToSlug as Record<string, string>)[id] ??
+      createUniqueSlug(bookId ?? id, slugs);
+    const author = authorId ? authorIdToAuthor[authorId] : undefined;
 
-      if (author) {
-        const { geographies, regions, year } = author;
-        extraProperties.geographies = geographies;
-        extraProperties.regions = regions;
-        extraProperties.year = year;
-      }
+    let extraProperties: Record<string, any> = {};
 
-      const bookNames = (
-        bookIdToNames as Record<string, { primary_name: string; variations: string[] }>
-      )[id];
+    if (author) {
+      const { geographies, regions, year } = author;
+      extraProperties.geographies = geographies;
+      extraProperties.regions = regions;
+      extraProperties.year = year;
+    }
 
-      const result = {
-        id,
-        slug,
-        authorId,
-        ...(primaryArabicNameWithoutDiacritics && {
-          primaryArabicName: primaryArabicNameWithoutDiacritics,
-        }),
-        otherArabicNames,
-        ...(bookNames
+    // TODO: add
+    const bookNames = null as unknown as null | {
+      primary_name: string;
+      variations: string[];
+    };
+
+    const result = {
+      id,
+      slug,
+      authorId,
+      ...(primaryArabicNameWithoutDiacritics && {
+        primaryArabicName: primaryArabicNameWithoutDiacritics,
+      }),
+      otherArabicNames,
+      ...(bookNames
+        ? {
+            primaryLatinName: bookNames.primary_name,
+          }
+        : primaryLatinNameWithoutDiacritics
           ? {
-              primaryLatinName: bookNames.primary_name,
+              primaryLatinName: primaryLatinNameWithoutDiacritics,
             }
-          : primaryLatinNameWithoutDiacritics
-            ? {
-                primaryLatinName: primaryLatinNameWithoutDiacritics,
-              }
-            : {}),
-        otherLatinNames: [
-          ...(otherLatinNames ?? []),
-          ...(bookNames
-            ? // if we already generated a primary name, use the on in the data as one of the variations
-              [...bookNames.variations, ...(primaryLatinName ? [primaryLatinName] : [])]
-            : []),
-        ],
-        genreTags: dedupeStrings(book.genre_tags.map(g => g.toLowerCase())),
-        versionIds: book.versions,
-        ...(author ? { author, ...extraProperties } : {}),
-      } satisfies Partial<BookDocument>;
+          : {}),
+      otherLatinNames: [
+        ...(otherLatinNames ?? []),
+        ...(bookNames
+          ? // if we already generated a primary name, use the on in the data as one of the variations
+            [...bookNames.variations, ...(primaryLatinName ? [primaryLatinName] : [])]
+          : []),
+      ],
+      genreTags: dedupeStrings(book.genre_tags.map(g => g.toLowerCase())),
+      versionIds: book.versions,
+      ...(author ? { author, ...extraProperties } : {}),
+    } satisfies Partial<BookDocument>;
 
-      return {
-        ...result,
-        _nameVariations: getNamesVariations([
-          primaryArabicName,
-          primaryLatinName,
-          ...result.otherArabicNames,
-          ...result.otherLatinNames,
-        ]),
-      } as ReturnedBookDocument<ShouldPopulate>;
-    });
+    return {
+      ...result,
+      _nameVariations: getNamesVariations([
+        primaryArabicName,
+        primaryLatinName,
+        ...result.otherArabicNames,
+        ...result.otherLatinNames,
+      ]),
+    } as ReturnedBookDocument<ShouldPopulate>;
+  });
 };
