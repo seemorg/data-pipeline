@@ -8,7 +8,7 @@ import { z } from 'zod';
 import { APIQueue } from '../../lib/openai-queue';
 import { env } from '@/env';
 
-const OVERWRITE = true;
+const OVERWRITE = false;
 const OUTPUT_PATH = path.resolve('output/book-aliases.json');
 const outputExists = fs.existsSync(OUTPUT_PATH);
 let output = {} as Record<string, Record<string, string[]>>;
@@ -41,106 +41,78 @@ const syncOutput = async () => {
   });
 };
 
-const languages = [
-  {
-    code: 'en',
-    name: 'English',
-  },
-  {
-    code: 'fa',
-    name: 'Persian',
-  },
-  {
-    code: 'ur',
-    name: 'Urdu',
-  },
-  {
-    code: 'hi',
-    name: 'Hindi',
-  },
-  {
-    code: 'fr',
-    name: 'French',
-  },
-  {
-    code: 'tr',
-    name: 'Turkish',
-  },
-  {
-    code: 'es',
-    name: 'Spanish',
-  },
-  {
-    code: 'ms',
-    name: 'Malay',
-  },
-  {
-    code: 'ru',
-    name: 'Russian',
-  },
-  {
-    code: 'bn',
-    name: 'Bengali',
-  },
-  {
-    code: 'ha',
-    name: 'Hausa',
-  },
-  {
-    code: 'so',
-    name: 'Somali',
-  },
-  {
-    code: 'ps',
-    name: 'Pashto',
-  },
-];
+// const languages = [
+//   {
+//     code: 'en',
+//     name: 'English',
+//   },
+//   {
+//     code: 'fa',
+//     name: 'Persian',
+//   },
+//   {
+//     code: 'ur',
+//     name: 'Urdu',
+//   },
+//   {
+//     code: 'hi',
+//     name: 'Hindi',
+//   },
+//   {
+//     code: 'fr',
+//     name: 'French',
+//   },
+//   {
+//     code: 'tr',
+//     name: 'Turkish',
+//   },
+//   {
+//     code: 'es',
+//     name: 'Spanish',
+//   },
+//   {
+//     code: 'ms',
+//     name: 'Malay',
+//   },
+//   {
+//     code: 'ru',
+//     name: 'Russian',
+//   },
+//   {
+//     code: 'bn',
+//     name: 'Bengali',
+//   },
+//   {
+//     code: 'ha',
+//     name: 'Hausa',
+//   },
+//   {
+//     code: 'so',
+//     name: 'Somali',
+//   },
+//   {
+//     code: 'ps',
+//     name: 'Pashto',
+//   },
+// ];
 
 const SYSTEM_PROMPT = `
-You are an assistant that takes an Arabic word as an input and returns a json output with the many possible spellings of the word when written in Urdu:
+You are an assistant that takes an Arabic word as an input and returns a json output with the many possible spellings of the word when written in English:
   
 The schema should match the following: 
 
 Input: موطأ
-Output: 
+Sample Output in English: 
 {
-  "variations": [...]
+  "variations": ["Muwatta", "Muwata", "Mowatta", "Mowata", "Muwatā", "Muwattā", "Mūwaṭṭā’"]
 }
 `.trim();
 
-// Mūwāṭā
-// Muwaṭṭa'
-// Al-Muwāṭṭā'
-// Mūwaṭā
-// Al-Muwaṭa
-//
-// Muwāṭa'
-// Al-Muwāṭa
-// Muwattaa
-// Mūwaṭā’
-// Muwattā
-//
-// Al-Muwaṭṭā
-// Muwata
-// Mūṭā’
-// Muwatta
-// Muwatta'
-// Al-Muwatta
-// Al-Muwatta'
-// Al-Muwaṭṭa'
-// Al-Muwaṭṭā’
-
 const schema = z.object({
-  ...languages.reduce(
-    (acc, lang) => {
-      acc[lang.code] = z.array(z.string()).optional();
-      return acc;
-    },
-    {} as Record<string, any>,
-  ),
+  variations: z.array(z.string()),
 });
 
-const books = await getBooksData({ populateAuthor: false, limit: 30 });
+const books = await getBooksData({ populateAuthor: false });
 const queue = new APIQueue(env.OPENAI_API_KEY, {
   'gpt-4-turbo-preview': {
     requestsPerMinute: 5_000,
@@ -148,7 +120,7 @@ const queue = new APIQueue(env.OPENAI_API_KEY, {
   },
 });
 
-const chunks = chunk(books, 3) as (typeof books)[];
+const chunks = chunk(books, 4) as (typeof books)[];
 
 let i = 1;
 for (const batch of chunks) {
@@ -180,10 +152,10 @@ for (const batch of chunks) {
         const result = completion?.choices?.[0]?.message?.content;
         if (!result) return;
 
-        const parsedResult = JSON.parse(result);
-        // if (!parsedResult.success) return;
+        const parsedResult = schema.safeParse(JSON.parse(result));
+        if (!parsedResult.success) return;
 
-        output[word] = { ...(output[word] ?? {}), ur: parsedResult.variations };
+        output[word] = { en: [...new Set(parsedResult.data.variations)] };
       } catch (e) {
         console.log('Error');
       }
@@ -197,25 +169,3 @@ for (const batch of chunks) {
 }
 
 await syncOutput();
-
-// try {
-//   const completion = await queue.request({
-//     model: 'gpt-4-turbo-preview',
-//     response_format: { type: 'json_object' },
-//     messages: [
-//       { role: 'system', content: SYSTEM_PROMPT },
-//       { role: 'user', content: '"موطأ"' },
-//     ],
-//   });
-
-//   const result = completion?.choices?.[0]?.message?.content;
-//   if (result) {
-//     const parsedResult = JSON.parse(result);
-//     // if (!parsedResult.success) return;
-
-//     output['موطأ'] = parsedResult;
-//   }
-// } catch (e) {
-//   console.log('Error');
-// }
-// await syncOutput();
