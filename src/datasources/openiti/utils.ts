@@ -15,7 +15,22 @@ export const getNamesVariations = (names: (string | null | undefined)[]) => {
       if (nameWithoutDiactrics !== name && !names.includes(nameWithoutDiactrics))
         newVariations.push(nameWithoutDiactrics);
 
-      const nameWithoutAl = nameWithoutDiactrics.replace(/(al-)/gi, '');
+      const nameWithoutSpecialChars = nameWithoutDiactrics.replace(
+        /[‏.»,!?;:"'،؛؟\-_(){}\[\]<>@#\$%\^&\*\+=/\\`~]/gi,
+        '',
+      );
+
+      if (
+        nameWithoutSpecialChars !== nameWithoutDiactrics &&
+        !names.includes(nameWithoutSpecialChars)
+      )
+        newVariations.push(nameWithoutSpecialChars);
+
+      const nameWithoutAl = nameWithoutDiactrics
+        .replace(/(al-)/gi, '')
+        .replace(/(al )/gi, '')
+        .replace(/(ال)/gi, '');
+
       if (nameWithoutAl !== nameWithoutDiactrics && !names.includes(nameWithoutAl))
         newVariations.push(nameWithoutAl);
     },

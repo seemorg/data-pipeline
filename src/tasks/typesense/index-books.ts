@@ -121,6 +121,9 @@ try {
 console.log('Linking new collection to alias...');
 await client.aliases().upsert(INDEX_SHORT_NAME, { collection_name: INDEX_NAME });
 
+const { indexAliases } = await import('./index-book-aliases');
+await indexAliases('books_1711914343930');
+
 // save distinct genres to file
 const tags = [
   ...books.reduce((acc, book) => {

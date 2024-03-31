@@ -130,7 +130,22 @@ for (const batch of chunks) {
   const processedBatch = batch.filter(book => book.primaryArabicName);
   if (processedBatch.length === 0) continue;
 
-  let wordsInChunk = processedBatch.flatMap(book => book.primaryArabicName!.split(' '));
+  let wordsInChunk = processedBatch
+    .flatMap(book =>
+      book.primaryArabicName!.split(' ').map(word => {
+        let trimmedWord = word.trim();
+
+        // remove numbers
+        trimmedWord = trimmedWord.replace(/[0-9]/g, '');
+
+        // remove punctuation
+        trimmedWord = trimmedWord.replace(/[^\w\s]/g, '');
+
+        return trimmedWord;
+      }),
+    )
+    .filter(word => !!word);
+
   if (!OVERWRITE) {
     wordsInChunk = wordsInChunk.filter(word => !output[word]);
   }

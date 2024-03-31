@@ -243,18 +243,8 @@ try {
 console.log('Linking new collection to alias...');
 await client.aliases().upsert(INDEX_SHORT_NAME, { collection_name: INDEX_NAME });
 
-// save distinct tags to file
-// const tags = [
-//   ...authors.reduce((acc, author) => {
-//     author.geographies.forEach(tag => {
-//       if (!acc.has(tag)) acc.add(tag);
-//     });
-//     return acc;
-//   }, new Set<string>()),
-// ];
+const { indexAliases: indexAuthorAliases } = await import('./index-author-aliases');
+await indexAuthorAliases(INDEX_NAME);
 
-// await fs.writeFile(
-//   path.resolve('output/distinct-tags.json'),
-//   JSON.stringify(tags, null, 2),
-//   'utf-8',
-// );
+const { indexAliases: indexBookAliases } = await import('./index-book-aliases');
+await indexBookAliases(INDEX_NAME);

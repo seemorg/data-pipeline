@@ -18,7 +18,9 @@ let authorBatchIdx = 1;
 for (const authors of chunkedAuthors) {
   console.log(`[AUTHORS] Seeding batch ${authorBatchIdx} / ${chunkedAuthors.length}`);
 
-  await db.insert(author).values(authors);
+  await db
+    .insert(author)
+    .values(authors.map(author => ({ ...author, numberOfBooks: author.booksCount })));
 
   const locationEntries = authors.flatMap(authorEntry => {
     return [...new Set(authorEntry.geographies.map(g => g.toLowerCase()))].map(

@@ -119,6 +119,9 @@ try {
 console.log('Linking new collection to alias...');
 await client.aliases().upsert(INDEX_SHORT_NAME, { collection_name: INDEX_NAME });
 
+const { indexAliases } = await import('./index-author-aliases');
+await indexAliases(INDEX_NAME);
+
 // save distinct tags to file
 const tags = [
   ...authors.reduce((acc, author) => {
