@@ -7,11 +7,8 @@
       "Dīwān"
     ],
     "ur": [
-      "Diwan",
-      "Dewan",
-      "Dīwān",
-      "Deewan",
-      "Dīvan"
+      "دیوان",
+      "دیواں"
     ]
   },
   "حجر": {
@@ -24,10 +21,7 @@
       "Higer"
     ],
     "ur": [
-      "حجر",
-      "هجر",
-      "حِجر",
-      "هِجر"
+      "حجر"
     ]
   },
   "بن": {
@@ -37,10 +31,8 @@
       "Bn"
     ],
     "ur": [
-      "Bin",
-      "Binn",
-      "Ben",
-      "Benn"
+      "بِن",
+      "بَن"
     ]
   },
   "طالب": {
@@ -53,12 +45,8 @@
       "Tālīb"
     ],
     "ur": [
-      "Talib",
-      "Taalib",
-      "Tālib",
-      "Tālīb",
-      "Taaleeb",
-      "Taalib"
+      "طالب",
+      "طلب"
     ]
   },
   "أبو": {
@@ -68,10 +56,9 @@
       "Aboo"
     ],
     "ur": [
-      "Abu",
-      "Abo",
-      "Abū",
-      "Aboo"
+      "ابو",
+      "ابُو",
+      "اَبُو"
     ]
   },
   "أوس": {
@@ -82,11 +69,9 @@
       "Ous"
     ],
     "ur": [
-      "Aws",
-      "Aos",
-      "Aus",
-      "Ows",
-      "Os"
+      "اوس",
+      "آوس",
+      "أوس"
     ]
   },
   "عمرو": {
@@ -99,11 +84,10 @@
       "'Amru"
     ],
     "ur": [
-      "Amro",
-      "Umaro",
-      "Omro",
-      "Amr",
-      "Umar"
+      "عمرو",
+      "عمرؤ",
+      "عمرُو",
+      "عمروُ"
     ]
   },
   "كلثوم": {
@@ -117,12 +101,9 @@
       "Kulsum"
     ],
     "ur": [
-      "Kulsoom",
-      "Kalsoom",
-      "Kulthum",
-      "Kalthum",
-      "Kulsoom",
-      "Kulsum"
+      "کلثوم",
+      "کلسوم",
+      "کلثوم"
     ]
   },
   "الفحل": {
@@ -138,12 +119,9 @@
       "AlFuhel"
     ],
     "ur": [
-      "Al-Fahl",
-      "Alfahl",
-      "Al-Fahal",
-      "Alfahal",
-      "Al-Fuhl",
-      "Alfuhl"
+      "الفحل",
+      "الفحُل",
+      "الفَحْل"
     ]
   },
   "علقمة": {
@@ -154,13 +132,8 @@
       "Alkamah"
     ],
     "ur": [
-      "Alqama",
-      "Alqamah",
-      "Ulqama",
-      "Ulkama",
-      "Alkama",
-      "Alquma",
-      "Alqumah"
+      "علقمہ",
+      "علقما"
     ]
   },
   "معلقة": {
@@ -174,13 +147,8 @@
       "Mulhaqah"
     ],
     "ur": [
-      "Muallaqa",
-      "Mu'allaqah",
-      "Muallaqah",
-      "Mua'llaqa",
-      "Mu'allaqa",
-      "Moallaqa",
-      "Mo'allaqah"
+      "معلقہ",
+      "معلقة"
     ]
   },
   "مالك": {
@@ -191,10 +159,8 @@
       "Málik"
     ],
     "ur": [
-      "Malik",
-      "Maalik",
-      "Malek",
-      "Maalek"
+      "مالك",
+      "مالک"
     ]
   },
   "عنترة": {
@@ -210,14 +176,10 @@
       "'Antar"
     ],
     "ur": [
-      "Antara",
-      "Antarah",
-      "Antera",
-      "Anterah",
-      "‘Antarah",
-      "‘Antara",
-      "‘Antera",
-      "‘Anterah"
+      "عنترہ",
+      "عنترا",
+      "انترہ",
+      "انترا"
     ]
   },
   "قميئة": {
@@ -232,13 +194,10 @@
       "Kamee’a"
     ],
     "ur": [
-      "Qami'ah",
-      "Qame'ah",
-      "Qami’a",
-      "Qame’a",
-      "Qami’ah",
-      "Qami’e",
-      "Qame'ah"
+      "قمیئہ",
+      "قميئه",
+      "قمئیہ",
+      "قمئيه"
     ]
   },
   "شداد": {
@@ -249,10 +208,8 @@
       "Shedad"
     ],
     "ur": [
-      "Shaddad",
-      "Shadad",
-      "Sheddad",
-      "Shedad"
+      "شداد",
+      "شدّاد"
     ]
   },
   "حبيب": {
@@ -263,9 +220,8 @@
       "Habeebe"
     ],
     "ur": [
-      "Habib",
-      "Habeeb",
-      "Habīb"
+      "حبیب",
+      "حبِیب"
     ]
   },
   "حلزة": {
@@ -276,10 +232,9 @@
       "Hulzah"
     ],
     "ur": [
-      "Halzah",
-      "Halza",
-      "Ḥalzah",
-      "Ḥalza"
+      "حِلزہ",
+      "حلزہ",
+      "حُلزہ"
     ]
   },
   "عروة": {
@@ -292,14 +247,8 @@
       "‘Urwat"
     ],
     "ur": [
-      "Urwah",
-      "Orwah",
-      "Urwa",
-      "Orwa",
-      "‘Urwa",
-      "‘Orwa",
-      "‘Urwah",
-      "‘Orwah"
+      "عُروہ",
+      "عروہ"
     ]
   },
   "الحارث": {
@@ -310,12 +259,9 @@
       "Al-Hareeth"
     ],
     "ur": [
-      "Al-Harith",
-      "Al-Haarith",
-      "Al-Haarath",
-      "Al-Harith",
-      "Al-Haareth",
-      "Al-Harath"
+      "الحارث",
+      "الحارِث",
+      "الحَارِث"
     ]
   },
   "حاجب": {
@@ -328,12 +274,8 @@
       "Ḥajeb"
     ],
     "ur": [
-      "Hajib",
-      "Haajib",
-      "Hājib",
-      "Hajeb",
-      "Haajeb",
-      "Hājeb"
+      "حاجِب",
+      "حاجَب"
     ]
   },
   "الورد": {
@@ -345,12 +287,10 @@
       "Alward"
     ],
     "ur": [
-      "Alward",
-      "Alwerd",
-      "Alvard",
-      "Alvird",
-      "Alurd",
-      "Alord"
+      "الورد",
+      "الورُد",
+      "اَلوَرْد",
+      "الوَرد"
     ]
   },
   "امرؤ": {
@@ -363,13 +303,8 @@
       "Imrū"
     ],
     "ur": [
-      "Amr",
-      "Amro",
-      "Amru",
-      "Omru",
-      "Omro",
-      "Umar",
-      "Omar"
+      "امرو",
+      "امرؤ"
     ]
   },
   "القيس": {
@@ -382,13 +317,8 @@
       "Al-Qayes"
     ],
     "ur": [
-      "Al-Qais",
-      "Al-Qays",
-      "Al-Qaisi",
-      "Al-Qayis",
-      "Al-Qa'is",
-      "Al-Qaeis",
-      "Al-Qayes"
+      "القیس",
+      "الکیس"
     ]
   },
   "حاتم": {
@@ -401,12 +331,10 @@
       "Hateem"
     ],
     "ur": [
-      "Hatem",
-      "Hatim",
-      "Haatem",
-      "Hateem",
-      "Hātim",
-      "Hātem"
+      "حاتم",
+      "حاطم",
+      "ہاتم",
+      "ہاطم"
     ]
   },
   "اليشكري": {
@@ -419,10 +347,8 @@
       "Al Yashkary"
     ],
     "ur": [
-      "Alyashkari",
-      "Al-Yashkari",
-      "Alyashkri",
-      "Al-Yashkri"
+      "الیشکری",
+      "الیشکرى"
     ]
   },
   "الطائي": {
@@ -436,12 +362,9 @@
       "Al-Taai"
     ],
     "ur": [
-      "Al-Tai",
-      "Al-Ta'i",
-      "Al-Taa'i",
-      "Al-Tā’ī",
-      "Al-Tāi",
-      "Al-Ṭā’ī"
+      "الطائی",
+      "الطاۓ",
+      "الطائے"
     ]
   },
   "يعمر": {
@@ -454,11 +377,8 @@
       "Y3amur"
     ],
     "ur": [
-      "Ya'mur",
-      "Yamur",
-      "Yaumar",
-      "Yamr",
-      "Yumar"
+      "یعمر",
+      "يعمر"
     ]
   },
   "ربيعة": {
@@ -471,10 +391,8 @@
       "Rabi3ah"
     ],
     "ur": [
-      "Rabi'a",
-      "Rabia",
-      "Rabiah",
-      "Rabi’ah"
+      "ربیعہ",
+      "ربیعة"
     ]
   },
   "لقيط": {
@@ -489,12 +407,8 @@
       "Luqeth"
     ],
     "ur": [
-      "Laqeet",
-      "Laqeet",
-      "Luqait",
-      "Luqit",
-      "Laqīṭ",
-      "Luqīṭ"
+      "لقیط",
+      "لقط"
     ]
   },
   "مهلهل": {
@@ -509,14 +423,8 @@
       "Mohalhal"
     ],
     "ur": [
-      "Muhallil",
-      "Muhallal",
-      "Mahallil",
-      "Mahallal",
-      "Muhalil",
-      "Muhalal",
-      "Mahalil",
-      "Mahalal"
+      "مہلہل",
+      "مهلهل"
     ]
   },
   "المثقب": {
@@ -530,12 +438,8 @@
       "Al-Muthqāb"
     ],
     "ur": [
-      "Al-Muthqab",
-      "Al-Musqab",
-      "Al-Muthqib",
-      "Al-Musqib",
-      "Al-Muthkab",
-      "Al-Muskab"
+      "المثقب",
+      "المثقب"
     ]
   },
   "الإيادي": {
@@ -548,12 +452,9 @@
       "Al-Iyaadi"
     ],
     "ur": [
-      "Al-Ayadi",
-      "Al-Eyadi",
-      "Al-Aiadi",
-      "Al-Iyadi",
-      "Al-Eyade",
-      "Al-Ayade"
+      "الایادی",
+      "الايادي",
+      "الئیادی"
     ]
   },
   "العبدي": {
@@ -568,10 +469,8 @@
       "Al-'Ubdy"
     ],
     "ur": [
-      "Al-Abdi",
-      "Al-‘Abdī",
-      "Al-Abdī",
-      "Al-'Abdi"
+      "العبدی",
+      "العبدي"
     ]
   },
   "قيس": {
@@ -582,10 +481,8 @@
       "Kays"
     ],
     "ur": [
-      "Qais",
-      "Qays",
-      "Qayss",
-      "Qaes"
+      "قیس",
+      "قائس"
     ]
   },
   "الخطيم": {
@@ -599,12 +496,8 @@
       "Al-Khaṭīm"
     ],
     "ur": [
-      "Al-Khatim",
-      "Al-Khateem",
-      "Al-Khatīm",
-      "Al-Khateam",
-      "Al-Khatem",
-      "Al-Khātīm"
+      "الخطیم",
+      "الخطيم"
     ]
   },
   "النابغة": {
@@ -619,12 +512,8 @@
       "An-Naabigha"
     ],
     "ur": [
-      "Al-Nabigha",
-      "An-Nabighah",
-      "Al-Nabighah",
-      "An-Nabigha",
-      "Al-Nabighā",
-      "An-Nabighā"
+      "النابغہ",
+      "النابغہ"
     ]
   },
   "القران": {
@@ -637,14 +526,8 @@
       "Al-Quraan"
     ],
     "ur": [
-      "Al-Qur'an",
-      "Al-Quran",
-      "Al-Qur’aan",
-      "Al-Qur’ān",
-      "Al-Qurān",
-      "Al-Koran",
-      "Al-Kur'an",
-      "Al-Kuran"
+      "القرآن",
+      "القرآن"
     ]
   },
   "الذبياني": {
@@ -659,13 +542,9 @@
       "Az-Zhubiani"
     ],
     "ur": [
-      "Al-Dhabyani",
-      "Al-Dhabiyanee",
-      "Al-Dhabiyani",
-      "Al-Dhabyaniy",
-      "Al-Zabiyanee",
-      "Al-Zabiyani",
-      "Al-Zhabyani"
+      "الذبیانی",
+      "الذبيانى",
+      "الذبیانى"
     ]
   },
   "جندل": {
@@ -676,11 +555,9 @@
       "Gindal"
     ],
     "ur": [
-      "Jandal",
-      "Jundal",
-      "Jundul",
-      "Jindal",
-      "Jindul"
+      "جندل",
+      "جندال",
+      "جندُل"
     ]
   },
   "سلامة": {
@@ -693,12 +570,8 @@
       "Salāmah"
     ],
     "ur": [
-      "Salamah",
-      "Salamat",
-      "Salaamah",
-      "Salaamat",
-      "Salaama",
-      "Salama"
+      "سلامت",
+      "سلامہ"
     ]
   },
   "الشنفرى": {
@@ -711,12 +584,8 @@
       "Ash-Shanfarā"
     ],
     "ur": [
-      "Ash-Shanfara",
-      "Al-Shanfara",
-      "Ash-Shanfari",
-      "Al-Shanfari",
-      "Ash-Shanfarā",
-      "Al-Shanfarā"
+      "الشنفری",
+      "الشنفرى"
     ]
   },
   "السموأل": {
@@ -733,12 +602,8 @@
       "As-Samaw'al"
     ],
     "ur": [
-      "Al-Samawal",
-      "Al-Samual",
-      "As-Samaw'al",
-      "Al-Samoual",
-      "As-Samu'al",
-      "Al-Samawael"
+      "السموءل",
+      "السموئل"
     ]
   },
   "السليك": {
@@ -751,10 +616,8 @@
       "As-Sulik"
     ],
     "ur": [
-      "السليک",
       "السلیک",
-      "السليق",
-      "السلیق"
+      "السليك"
     ]
   },
   "العبد": {
@@ -769,10 +632,9 @@
       "El‘abd"
     ],
     "ur": [
-      "Al-Abd",
-      "Al-Abed",
-      "Al-‘Abd",
-      "Al-‘Abed"
+      "العبد",
+      "الغلام",
+      "الخادم"
     ]
   },
   "طرفة": {
@@ -787,13 +649,9 @@
       "Ṭarfah"
     ],
     "ur": [
-      "Tarfah",
-      "Tarafah",
-      "Tarfah",
-      "Tarfā",
-      "Ṭarfah",
-      "Ṭarafah",
-      "Ṭarfā"
+      "طرفہ",
+      "طرفَہ",
+      "طُرفہ"
     ]
   },
   "جابر": {
@@ -805,11 +663,11 @@
       "Jabir"
     ],
     "ur": [
-      "Jaber",
-      "Jabir",
-      "Jābir",
-      "Jaaber",
-      "Jaabir"
+      "جابر",
+      "جابِر",
+      "جَابِر",
+      "جا بِر",
+      "جا بَر"
     ]
   },
   "ثابت": {
@@ -822,12 +680,9 @@
       "Ṯābiṯ"
     ],
     "ur": [
-      "Sabit",
-      "Thabit",
-      "Saabit",
-      "Thaabit",
-      "Sābit",
-      "Ṯābit"
+      "ثابت",
+      "سابت",
+      "صابت"
     ]
   },
   "سلمى": {
@@ -839,8 +694,7 @@
     ],
     "ur": [
       "سلمیٰ",
-      "سلمي",
-      "سلمى"
+      "سلمی"
     ]
   },
   "زهير": {
@@ -853,11 +707,9 @@
       "Zuhayre"
     ],
     "ur": [
-      "Zuhaīr",
-      "Zuhair",
-      "Zohair",
-      "Zuhayr",
-      "Zoheir"
+      "زہیر",
+      "زُہیر",
+      "زُہَیر"
     ]
   },
   "أبي": {
@@ -867,10 +719,8 @@
       "Abī"
     ],
     "ur": [
-      "Abi",
-      "Abee",
-      "Aby",
-      "Abbi"
+      "ابی",
+      "ابى"
     ]
   },
   "الغنوي": {
@@ -882,11 +732,8 @@
       "Al-Ghani"
     ],
     "ur": [
-      "Al-Ghina'i",
-      "Al-Ghaniwi",
-      "Al-Ghnawi",
-      "Al-Ghinaee",
-      "Al-Ghanwee"
+      "الغنوی",
+      "الغنوئی"
     ]
   },
   "طفيل": {
@@ -899,12 +746,8 @@
       "Ṭufayl"
     ],
     "ur": [
-      "Tufail",
-      "Tufayl",
-      "Tufile",
-      "Tufayle",
-      "Toofail",
-      "Toofayl"
+      "طفیل",
+      "طفيل"
     ]
   }
 }

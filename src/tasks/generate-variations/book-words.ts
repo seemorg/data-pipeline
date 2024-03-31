@@ -102,9 +102,9 @@ You are an assistant that takes an Arabic word as an input and returns a json ou
 The schema should match the following: 
 
 Input: موطأ
-Sample Output in English: 
+Output: 
 {
-  "variations": ["Muwatta", "Muwata", "Mowatta", "Mowata", "Muwatā", "Muwattā", "Mūwaṭṭā’"]
+  "variations": [...]
 }
 `.trim();
 
