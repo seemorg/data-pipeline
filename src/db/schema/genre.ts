@@ -1,18 +1,17 @@
-import { text, varchar, uniqueIndex } from "drizzle-orm/mysql-core";
-import { createTable } from "./utils";
-import { relations } from "drizzle-orm";
-import { genresToBooks } from ".";
+import { pgTable, text, uniqueIndex } from 'drizzle-orm/pg-core';
+import { relations } from 'drizzle-orm';
+import { genresToBooks } from '.';
 
-export const genre = createTable(
-  "genre",
+export const genre = pgTable(
+  'genre',
   {
-    id: varchar("id", { length: 300 }).primaryKey(), // author specific slug
-    slug: varchar("slug", { length: 500 }).notNull(), // general slug
-    name: text("name").notNull(),
+    id: text('id').primaryKey(), // author specific slug
+    slug: text('slug').notNull(), // general slug
+    name: text('name').notNull(),
   },
-  (table) => {
+  table => {
     return {
-      slugIdx: uniqueIndex("slug_index").on(table.slug),
+      slugIdx: uniqueIndex('genre_slug_index').on(table.slug),
     };
   },
 );

@@ -13,6 +13,10 @@ type ReturnedBookDocument<T extends boolean> = T extends true
 
 const slugs = new Set<string>();
 
+let authorsCache: Record<
+  string,
+  Awaited<ReturnType<typeof getAuthorsData>>[number]
+> | null = null;
 export const getBooksData = async <ShouldPopulate extends boolean>({
   populateAuthor = true as ShouldPopulate,
   limit,
@@ -20,15 +24,16 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
   populateAuthor?: ShouldPopulate;
   limit?: number;
 } = {}): Promise<ReturnedBookDocument<ShouldPopulate>[]> => {
-  const authorIdToAuthor = populateAuthor
-    ? (await getAuthorsData({ populateBooks: false })).reduce(
-        (acc, author) => {
-          acc[author.id] = author;
-          return acc;
-        },
-        {} as Record<string, Awaited<ReturnType<typeof getAuthorsData>>[number]>,
-      )
-    : {};
+  if (populateAuthor && authorsCache === null) {
+    authorsCache = (await getAuthorsData({ populateBooks: false })).reduce(
+      (acc, author) => {
+        acc[author.id] = author;
+        return acc;
+      },
+      {} as Record<string, Awaited<ReturnType<typeof getAuthorsData>>[number]>,
+    );
+  }
+  const authorIdToAuthor = populateAuthor ? authorsCache ?? {} : {};
 
   const booksData: Record<string, OpenITIBook> = await (
     await fetch(
@@ -36,9 +41,19 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
     )
   ).json();
 
+  let authorIdToBooksCount = {} as Record<string, number>;
   // filter out books without uri or don't have arabic or latin title
   const filteredData = Object.values(booksData).filter(book => {
-    return !!book.uri && (book.title_ar.length > 0 || book.title_lat.length > 0);
+    if (!!book.uri && (book.title_ar.length > 0 || book.title_lat.length > 0)) {
+      const authorId = book.uri.split('.')[0];
+      if (authorId) {
+        authorIdToBooksCount[authorId] = (authorIdToBooksCount[authorId] ?? 0) + 1;
+      }
+
+      return true;
+    } else {
+      return false;
+    }
   });
 
   return (limit ? filteredData.slice(0, limit) : filteredData).map(book => {
@@ -105,6 +120,7 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
 
     return {
       ...result,
+      _popularity: authorId ? authorIdToBooksCount[authorId] ?? 0 : 0,
       _nameVariations: getNamesVariations([
         primaryArabicName,
         primaryLatinName,

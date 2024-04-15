@@ -42,6 +42,10 @@ await client.collections().create({
       name: 'booksCount',
       type: 'int32',
     },
+    {
+      name: '_popularity',
+      type: 'int32',
+    },
   ],
 });
 

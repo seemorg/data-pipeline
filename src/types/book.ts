@@ -9,6 +9,7 @@ export type BookDocument = {
   primaryLatinName: string;
   otherLatinNames: string[];
   _nameVariations: string[];
+  _popularity: number;
   versionIds: string[];
   genreTags: string[];
 

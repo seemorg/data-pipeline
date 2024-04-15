@@ -78,6 +78,10 @@ await client.collections().create({
       optional: true,
     },
     {
+      name: '_popularity',
+      type: 'int32',
+    },
+    {
       name: 'books',
       type: 'object[]',
       index: false, // don't index books

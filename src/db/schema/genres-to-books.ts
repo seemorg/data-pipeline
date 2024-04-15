@@ -1,15 +1,18 @@
-import { primaryKey, varchar } from "drizzle-orm/mysql-core";
-import { createTable } from "./utils";
-import { relations } from "drizzle-orm";
-import { book, genre } from ".";
+import { pgTable, primaryKey, text } from 'drizzle-orm/pg-core';
+import { relations } from 'drizzle-orm';
+import { book, genre } from '.';
 
-export const genresToBooks = createTable(
-  "genres_to_books",
+export const genresToBooks = pgTable(
+  'genres_to_books',
   {
-    genreId: varchar("genre_id", { length: 300 }).notNull(),
-    bookId: varchar("book_id", { length: 300 }).notNull(),
+    genreId: text('genre_id')
+      .references(() => genre.id, { onDelete: 'cascade', onUpdate: 'cascade' })
+      .notNull(),
+    bookId: text('book_id')
+      .references(() => book.id, { onDelete: 'cascade', onUpdate: 'cascade' })
+      .notNull(),
   },
-  (t) => ({
+  t => ({
     pk: primaryKey({ columns: [t.genreId, t.bookId] }),
   }),
 );

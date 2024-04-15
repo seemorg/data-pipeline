@@ -1,6 +1,6 @@
 import { removeDiacritics } from '@/utils/diacritics';
 import geographiesWithRegions from '../../../data/distinct-locations-with-regions.json';
-import { dedupeStrings } from '@/utils/string';
+import { dedupeStrings, toTitleCase } from '@/utils/string';
 
 /**
  * This method returns an array of name variations for a given name.
@@ -88,5 +88,15 @@ const geoToRegionSlug = geographiesWithRegions.reduce(
 export const convertGeographiesToRegions = (geographies: string[]) => {
   return dedupeStrings(
     geographies.map(g => geoToRegionSlug[g.toLowerCase()]).filter(g => !!g) as string[],
+  );
+};
+
+export const toReadableName = (location: string) => {
+  return toTitleCase(
+    location
+      .replace(/-/g, ' ')
+      .replace(/_/g, ' ')
+      .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+      .trim(),
   );
 };

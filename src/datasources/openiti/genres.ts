@@ -32,5 +32,6 @@ export const getGenresData = async (): Promise<GenreDocument[]> => {
     slug: createUniqueSlug(toReadableName(id), slugs),
     name: toReadableName(id),
     booksCount,
+    _popularity: booksCount,
   }));
 };

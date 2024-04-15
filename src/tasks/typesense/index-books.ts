@@ -65,6 +65,10 @@ await client.collections().create({
       type: 'string[]',
     },
     {
+      name: '_popularity',
+      type: 'int32',
+    },
+    {
       name: 'year',
       type: 'int32',
       facet: true,
@@ -122,7 +126,7 @@ console.log('Linking new collection to alias...');
 await client.aliases().upsert(INDEX_SHORT_NAME, { collection_name: INDEX_NAME });
 
 const { indexAliases } = await import('./index-book-aliases');
-await indexAliases('books_1711914343930');
+await indexAliases(INDEX_NAME);
 
 // save distinct genres to file
 const tags = [

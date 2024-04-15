@@ -4,9 +4,10 @@ import { env } from '@/env';
 
 export default {
   schema: './src/db/schema/index.ts',
-  driver: 'mysql2',
+  out: './migrations',
+  driver: 'pg',
   dbCredentials: {
-    uri: env.DATABASE_URL,
+    connectionString: env.DATABASE_URL,
   },
   strict: true,
   verbose: true,

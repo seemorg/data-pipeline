@@ -75,6 +75,11 @@ await client.collections().create({
       optional: true,
     },
     {
+      name: '_popularity',
+      type: 'int32',
+      optional: true,
+    },
+    {
       name: 'author',
       type: 'object',
       optional: true,
@@ -131,8 +136,9 @@ for (const type of types) {
           otherArabicNames: authorDocument.otherArabicNames,
           primaryLatinName: authorDocument.primaryLatinName,
           otherLatinNames: authorDocument.otherLatinNames,
-          _nameVariations: authorDocument._nameVariations,
           booksCount: authorDocument.booksCount,
+          _nameVariations: authorDocument._nameVariations,
+          _popularity: authorDocument._popularity,
         };
       }
 
@@ -148,6 +154,7 @@ for (const type of types) {
           primaryLatinName: bookDocument.primaryLatinName,
           otherLatinNames: bookDocument.otherLatinNames,
           _nameVariations: bookDocument._nameVariations,
+          _popularity: bookDocument._popularity,
           author: {
             id: bookDocument.author.id,
             slug: bookDocument.author.slug,
@@ -157,6 +164,7 @@ for (const type of types) {
             primaryLatinName: bookDocument.author.primaryLatinName,
             otherLatinNames: bookDocument.author.otherLatinNames,
             _nameVariations: bookDocument.author._nameVariations,
+            _popularity: bookDocument.author._popularity,
           },
         };
       }
@@ -170,6 +178,7 @@ for (const type of types) {
           booksCount: genreDocument.booksCount,
           primaryArabicName: genreDocument.name,
           primaryLatinName: genreDocument.name,
+          _popularity: genreDocument._popularity,
         };
       }
 
@@ -181,8 +190,9 @@ for (const type of types) {
           primaryLatinName: regionDocument.name,
           primaryArabicName: regionDocument.arabicName,
           otherLatinNames: [regionDocument.currentName],
-          _nameVariations: regionDocument.subLocations,
           booksCount: regionDocument.booksCount,
+          _nameVariations: regionDocument.subLocations,
+          _popularity: regionDocument._popularity,
         };
       }
 

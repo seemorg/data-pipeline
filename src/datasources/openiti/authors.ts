@@ -20,29 +20,33 @@ type ReturnedAuthorDocument<T extends boolean> = T extends true
   ? AuthorDocument
   : Omit<AuthorDocument, 'books' | 'booksCount'>;
 
+let booksCache: Record<
+  string,
+  Omit<BookDocument, 'author' | 'authorId' | 'year' | 'geographies' | 'regions'>[]
+> | null = null;
 export const getAuthorsData = async <ShouldPopulate extends boolean>({
   populateBooks = true as ShouldPopulate,
 }: {
   populateBooks?: ShouldPopulate;
 } = {}): Promise<ReturnedAuthorDocument<ShouldPopulate>[]> => {
-  const authorIdToBooks = populateBooks
-    ? (await getBooksData({ populateAuthor: false })).reduce(
-        (acc, book) => {
-          const authorId = book.authorId;
+  if (!booksCache) {
+    booksCache = (await getBooksData({ populateAuthor: false })).reduce(
+      (acc, book) => {
+        const authorId = book.authorId;
 
-          if (acc[authorId]) {
-            acc[authorId]?.push(book);
-          } else {
-            acc[authorId] = [book];
-          }
-          return acc;
-        },
-        {} as Record<
-          string,
-          Omit<BookDocument, 'author' | 'authorId' | 'year' | 'geographies' | 'regions'>[]
-        >,
-      )
-    : {};
+        if (acc[authorId]) {
+          acc[authorId]?.push(book);
+        } else {
+          acc[authorId] = [book];
+        }
+        return acc;
+      },
+      {} as Record<
+        string,
+        Omit<BookDocument, 'author' | 'authorId' | 'year' | 'geographies' | 'regions'>[]
+      >,
+    );
+  }
 
   const authorsData: Record<string, OpenITIAuthor> = await (
     await fetch(
@@ -80,7 +84,7 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
       (authorIdToSlug as Record<string, string>)[id] ?? createUniqueSlug(id, slugs);
     const bio = getAuthorBio(id);
     const geographies = dedupeStrings(author.geo);
-    const books = authorIdToBooks[id] ?? undefined;
+    const books = (booksCache ?? {})[id] ?? [];
 
     const authorNames = (
       authorIdToNames as Record<string, { primary_name: string; variations: string[] }>
@@ -112,12 +116,14 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
       ],
       geographies,
       regions: convertGeographiesToRegions(geographies),
+      booksCount: books.length,
       ...(bio ? { bio } : {}),
-      ...(books ? { books, booksCount: books.length } : {}),
+      ...(books && populateBooks ? { books } : {}),
     } satisfies Partial<AuthorDocument>;
 
     return {
       ...result,
+      _popularity: result.booksCount,
       _nameVariations: getNamesVariations([
         primaryArabicName,
         primaryLatinName,

@@ -1,0 +1,76 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Author {
+  id                String   @id
+  slug              String   @unique
+  primaryArabicName String?
+  otherArabicNames  String[]
+  primaryLatinName  String?
+  otherLatinNames   String[]
+  year              Int
+  numberOfBooks     Int      @default(0)
+  bio               String?
+
+  books     Book[]
+  locations Location[]
+}
+
+model Book {
+  id                String   @id
+  slug              String
+  primaryArabicName String?
+  otherArabicNames  String[]
+  primaryLatinName  String?
+  otherLatinNames   String[]
+  versionIds        String[]
+  numberOfVersions  Int      @default(0)
+
+  genres Genre[]
+
+  author   Author @relation(fields: [authorId], references: [id], onDelete: NoAction, onUpdate: NoAction)
+  authorId String
+}
+
+model Genre {
+  id   String @id
+  slug String @unique
+  name String
+
+  books Book[]
+}
+
+enum LocationType {
+  Died
+  Born
+  Visited
+  Resided
+}
+
+model Location {
+  id       String       @id
+  slug     String
+  name     String
+  type     LocationType
+  cityCode String?
+
+  authors Author[]
+
+  region   Region? @relation(fields: [regionId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+  regionId String?
+
+  @@unique([slug, type])
+}
+
+model Region {
+  id           String  @id
+  slug         String  @unique
+  name         String?
+  current_name String?
+  arabic_name  String?
+  overview     String?
+
+  locations Location[]
+}

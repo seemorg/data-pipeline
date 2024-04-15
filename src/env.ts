@@ -16,6 +16,8 @@ export const env = createEnv({
     R2_ENDPOINT: z.string().min(1),
     R2_BUCKET: z.string().min(1),
     OPENAI_API_KEY: z.string().min(1),
+    AIRTABLE_API_TOKEN: z.string().min(1),
+    AIRTABLE_APP_ID: z.string().min(1),
   },
   client: {},
   runtimeEnv: {
@@ -29,6 +31,8 @@ export const env = createEnv({
     R2_ENDPOINT: process.env.R2_ENDPOINT,
     R2_BUCKET: process.env.R2_BUCKET,
     OPENAI_API_KEY: process.env.OPENAI_API_KEY,
+    AIRTABLE_API_TOKEN: process.env.AIRTABLE_API_TOKEN,
+    AIRTABLE_APP_ID: process.env.AIRTABLE_APP_ID,
   },
   skipValidation: !!process.env.SKIP_ENV_VALIDATION,
   emptyStringAsUndefined: true,

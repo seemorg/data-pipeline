@@ -62,6 +62,9 @@ export const getRegionsData = async (): Promise<RegionDocument[]> => {
       subLocationsCount: subLocations.length,
       authorsCount: regionSlugToCounts[region.slug]?.authorsCount ?? 0,
       booksCount: regionSlugToCounts[region.slug]?.booksCount ?? 0,
+      _popularity:
+        (regionSlugToCounts[region.slug]?.booksCount ?? 0) +
+        (regionSlugToCounts[region.slug]?.authorsCount ?? 0),
     };
   });
 };

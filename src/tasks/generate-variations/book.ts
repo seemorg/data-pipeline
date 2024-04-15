@@ -1,7 +1,9 @@
 // Given an input.json with a list of Arabic names, create an output.json with the same list of names but with more variations and transliterated into English.
 
 import { getBooksData } from '@/datasources/openiti/books';
+import { env } from '@/env';
 import { openai } from '@/lib/openai';
+import APIQueue from '@/lib/openai-queue';
 import { chunk } from '@/utils/array';
 import fs from 'fs';
 import path from 'path';
@@ -95,12 +97,25 @@ const schema = z.object({
   ps: languageSchema,
 });
 
-console.log('loading books...');
+const SYSTEM_PROMPT = (language: string = 'English') => `
+You are an assistant that takes an Arabic book name as input, and returns a json of the ${language} book name transliteration (name typed in the ${language} alphabet) and translation. 
 
-const books = await getBooksData({ populateAuthor: false, limit: 5 });
-console.log('done...');
+The output schema should match the following:
+{
+  "transliteration": ...,
+  "translation": ....
+}
+`;
 
-const chunks = chunk(books, 5) as (typeof books)[];
+const books = await getBooksData({ populateAuthor: false });
+const queue = new APIQueue(env.OPENAI_API_KEY, {
+  'gpt-4-turbo-preview': {
+    requestsPerMinute: 5_000,
+    tokensPerMinute: 600_000,
+  },
+});
+
+const chunks = chunk(books.slice(1000, 1005), 5) as (typeof books)[];
 
 let i = 1;
 for (const batch of chunks) {
@@ -116,50 +131,27 @@ for (const batch of chunks) {
 
   await Promise.all(
     processedBatch.map(async book => {
-      const completion = await openai.chat.completions.create({
-        messages: [
-          {
-            role: 'system',
-            content: `
-You are an assistant that takes an Arabic name for a book as input, and returns a json with each locale code that maps to a translation and transliteration of the name, both in that language.
-
-Supported locales are only: ${languages.map(l => `${l.code} (${l.name})`).join(', ')}
-  
-The schema should match the following: 
-Input: لأشباه والنظائر
-
-Output: 
-{
-  "en": {
-    "translation": "Similarities and Parallels",
-    "transliteration": "Al-Ashbah wa al-Nazair"
-  },
-  "ar": {
-    "translation": "لأشباه والنظائر",
-    "transliteration": "لأشباه والنظائر"
-  },
-  "hi": {
-    "translation": "समानताएं और समांतर",
-    "transliteration": "समानताएं और समांतर"
-  }
-  ...
-}
-`.trim(),
-          },
-          { role: 'user', content: book.primaryArabicName! },
-        ],
-        model: 'gpt-4-turbo-preview',
-        response_format: { type: 'json_object' },
-      });
-
       try {
-        const result = completion.choices[0]?.message.content;
+        const completion = await queue.request({
+          model: 'gpt-4-turbo-preview',
+          response_format: { type: 'json_object' },
+          messages: [
+            {
+              role: 'system',
+              content: SYSTEM_PROMPT('Urdu').trim(),
+            },
+            { role: 'user', content: book.primaryArabicName! },
+          ],
+        });
+
+        const result = completion?.choices?.[0]?.message?.content;
         if (!result) return;
 
-        const parsedResult = schema.safeParse(JSON.parse(result));
-        if (!parsedResult.success) return;
+        // const parsedResult = schema.safeParse(JSON.parse(result));
+        // if (!parsedResult.success) return;
 
-        output[book.id] = parsedResult.data;
+        // output[book.id] = parsedResult.data;
+        output[book.id] = JSON.parse(result);
       } catch (e) {}
     }),
   );

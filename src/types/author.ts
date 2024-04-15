@@ -10,6 +10,7 @@ export type AuthorDocument = {
   primaryLatinName?: string;
   otherLatinNames: string[];
   _nameVariations: string[];
+  _popularity: number;
   geographies: string[];
   regions: string[]; // region slugs
 

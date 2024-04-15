@@ -1,21 +1,23 @@
-import { text, varchar, uniqueIndex } from 'drizzle-orm/mysql-core';
-import { createTable } from './utils';
+import { pgTable, text, uniqueIndex } from 'drizzle-orm/pg-core';
 import { relations } from 'drizzle-orm';
 import { locationsToAuthors, region } from '.';
 
-export const location = createTable(
+export const location = pgTable(
   'location',
   {
-    id: varchar('id', { length: 300 }).primaryKey(), // author specific slug
-    slug: varchar('slug', { length: 500 }).notNull(), // general slug
+    id: text('id').primaryKey(), // author specific slug
+    slug: text('slug').notNull(), // general slug
     name: text('name').notNull(),
-    type: varchar('type', { length: 100 }).notNull(), // visited, resided, born, died
-    regionId: text('region_id'),
+    type: text('type').notNull(), // visited, resided, born, died
+    regionId: text('region_id').references(() => region.id, {
+      onDelete: 'cascade',
+      onUpdate: 'cascade',
+    }),
     city: text('city_code'),
   },
   table => {
     return {
-      slugIdx: uniqueIndex('slug_index').on(table.slug, table.type),
+      slugIdx: uniqueIndex('location_slug_index').on(table.slug, table.type),
     };
   },
 );

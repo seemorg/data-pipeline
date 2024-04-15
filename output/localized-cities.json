@@ -1,0 +1,632 @@
+{
+  "Ahwar": {
+    "ar": "أهوار"
+  },
+  "Farfarun": {
+    "ar": "فرفرون"
+  },
+  "al-Nawusa": {
+    "ar": "النواوسة"
+  },
+  "Rafh": {
+    "ar": "رفح"
+  },
+  "al-Haql": {
+    "ar": "الحقل"
+  },
+  "Makka": {
+    "ar": "مكة"
+  },
+  "Hinduwan, Hindijan": {
+    "ar": "هندوان، هنديجان"
+  },
+  "Ribat Afrawa": {
+    "ar": "ريبات افراوة"
+  },
+  "al-Madina, Madinta al-Nabi, Yathrib": {
+    "ar": "المدينة، مدينة النبي، يثرب"
+  },
+  "al-Kufa": {
+    "ar": "الكوفة"
+  },
+  "Balkh": {
+    "ar": "بلخ"
+  },
+  "Sana": {
+    "ar": "صنعاء"
+  },
+  "al-Basra": {
+    "ar": "البصرة"
+  },
+  "al-Hijaz": {
+    "ar": "الحجاز"
+  },
+  "Uman": {
+    "ar": "عمان"
+  },
+  "al-Qahira": {
+    "ar": "القاهرة"
+  },
+  "Marash": {
+    "ar": "مرعش"
+  },
+  "Shiraz": {
+    "ar": "شيراز"
+  },
+  "Marw, Marw al-Shahijan": {
+    "ar": "مرو, مرو الشاهيجان"
+  },
+  "al-Mawsil": {
+    "ar": "الموصل"
+  },
+  "Ghazza": {
+    "ar": "غزة"
+  },
+  "Bayrut": {
+    "ar": "بيروت"
+  },
+  "al-Ahwaz, Suq al-Ahwaz": {
+    "ar": "الأهواز، سوق الأهواز"
+  },
+  "al-Raqqa": {
+    "ar": "الرقة"
+  },
+  "Asqalan": {
+    "ar": "عسقلان"
+  },
+  "Baghdad": {
+    "ar": "بغداد"
+  },
+  "Fustat": {
+    "ar": "الفسطاط"
+  },
+  "Najran": {
+    "ar": "نجران"
+  },
+  "Tabuk": {
+    "ar": "تبوك"
+  },
+  "Mina": {
+    "ar": "ميناء"
+  },
+  "al-Rusafa": {
+    "ar": "الرصافة"
+  },
+  "al-Anbar": {
+    "ar": "الأنبار"
+  },
+  "Dimashq": {
+    "ar": "دمشق"
+  },
+  "Jasim": {
+    "ar": "جاسم"
+  },
+  "Shahrazur": {
+    "ar": "شهرزور"
+  },
+  "al-Qayrawan": {
+    "ar": "القيروان"
+  },
+  "Samarra": {
+    "ar": "سامراء"
+  },
+  "Wasit": {
+    "ar": "واسط"
+  },
+  "Wahran": {
+    "ar": "وهران"
+  },
+  "Washqa": {
+    "ar": "وشقة"
+  },
+  "Bukhara": {
+    "ar": "بخارى"
+  },
+  "Nih, Nih": {
+    "ar": "نيه، نيه"
+  },
+  "Saray Shahr": {
+    "ar": "سراي شهر"
+  },
+  "Sarmaqan, Jarmaqan, Ribat Sarmaqan": {
+    "ar": "سرمقان، جرمقان، رباط سرمقان"
+  },
+  "Kuh Sim, Jabal al-Fidda": {
+    "ar": "كه سيم، جبل الفضة"
+  },
+  "Qazwin": {
+    "ar": "قزوين"
+  },
+  "al-Rayy": {
+    "ar": "الري"
+  },
+  "Barwan": {
+    "ar": "بروان"
+  },
+  "Nazwa": {
+    "ar": "نزوى"
+  },
+  "al-Khuttal": {
+    "ar": "الخطال"
+  },
+  "Rabadha": {
+    "ar": "ربذة"
+  },
+  "Fasa": {
+    "ar": "فسا"
+  },
+  "Manbij": {
+    "ar": "منبج"
+  },
+  "Antakiyya": {
+    "ar": "أنطاكية"
+  },
+  "Hims": {
+    "ar": "حمص"
+  },
+  "Harran": {
+    "ar": "حران"
+  },
+  "Halab": {
+    "ar": "حلب"
+  },
+  "al-Tirmidh": {
+    "ar": "الترمذ"
+  },
+  "Tustar, Shushtar": {
+    "ar": "تستر، شوشتر"
+  },
+  "Isbahan, Isfahan": {
+    "ar": "اصفهان"
+  },
+  "Bardhaa": {
+    "ar": "برذعة"
+  },
+  "Saraqusa, Saraqusta": {
+    "ar": "سرقسطة"
+  },
+  "Nasa": {
+    "ar": "ناسا"
+  },
+  "Malazkird, Malazjird, Manazjird": {
+    "ar": "ملازكرد"
+  },
+  "Isbahan, Isfahan, al-Yahudiyya": {
+    "ar": "إصفهان، اليهودية"
+  },
+  "Amul": {
+    "ar": "عمول"
+  },
+  "Nayriz": {
+    "ar": "نيريز"
+  },
+  "al-Ramla": {
+    "ar": "الرملة"
+  },
+  "Samarqand": {
+    "ar": "سمرقند"
+  },
+  "Nasa, Nasiya": {
+    "ar": "نسا، ناسيا"
+  },
+  "Bayhaq": {
+    "ar": "بيهق"
+  },
+  "Naysabur": {
+    "ar": "نيسابور"
+  },
+  "Tus, Tabaran": {
+    "ar": "طوس، طبران"
+  },
+  "al-Iskandariyya": {
+    "ar": "الإسكندرية"
+  },
+  "Balis": {
+    "ar": "بالس"
+  },
+  "Qarmasin, Qarmisin": {
+    "ar": "قرماسين"
+  },
+  "al-Haditha": {
+    "ar": "الحديثة"
+  },
+  "al-Nahrawan": {
+    "ar": "النهروان"
+  },
+  "Hamadhan": {
+    "ar": "همدان"
+  },
+  "Ayla, Wayla": {
+    "ar": "عيلة, وايلة"
+  },
+  "Tabariyya": {
+    "ar": "طبرية"
+  },
+  "Atrabulus, Tarabulus": {
+    "ar": "طرابلس"
+  },
+  "Hulwan": {
+    "ar": "حلوان"
+  },
+  "al-Farama": {
+    "ar": "الفرما"
+  },
+  "Bayt al-Maqdis, al-Quds, Iliya": {
+    "ar": "بيت المقدس، القدس، إلياء"
+  },
+  "Uswan": {
+    "ar": "أسوان"
+  },
+  "Qumm": {
+    "ar": "قم"
+  },
+  "Jarjaraya": {
+    "ar": "جرجرايا"
+  },
+  "al-Karkh": {
+    "ar": "الكرخ"
+  },
+  "Qurtuba": {
+    "ar": "قرطبة"
+  },
+  "al-Qulzum": {
+    "ar": "القلزم"
+  },
+  "Jundaysabur": {
+    "ar": "جندیسابور"
+  },
+  "Istakhr": {
+    "ar": "اصطخر"
+  },
+  "Nihawand, Mah al-Basra": {
+    "ar": "نهاوند، محافظة البصرة"
+  },
+  "Farab, Barab": {
+    "ar": "فاراب, باراب"
+  },
+  "Ram Hurmuz, Ramahurmuz": {
+    "ar": "رام هرمز"
+  },
+  "Akka": {
+    "ar": "عكا"
+  },
+  "Kutha Rabba": {
+    "ar": "كوثى ربة"
+  },
+  "Daskara, Daskara al-Malik": {
+    "ar": "دسكرة، دسكرة الملك"
+  },
+  "Bust": {
+    "ar": "بست"
+  },
+  "Abhar": {
+    "ar": "أبهر"
+  },
+  "Ishbiliyya": {
+    "ar": "إشبيلية"
+  },
+  "Hara": {
+    "ar": "حراء"
+  },
+  "Jurjan": {
+    "ar": "جرجان"
+  },
+  "Takrit": {
+    "ar": "تكريت"
+  },
+  "Khuwarizm": {
+    "ar": "خوارزم"
+  },
+  "al-Hamma": {
+    "ar": "الحمة"
+  },
+  "Astarabadh": {
+    "ar": "آستارآباد"
+  },
+  "Askar Mukram": {
+    "ar": "عسكر مكرم"
+  },
+  "Malatin, Malatiya": {
+    "ar": "مالاتيا"
+  },
+  "Siraf": {
+    "ar": "سيراف"
+  },
+  "Nafzawa": {
+    "ar": "نفزاوة"
+  },
+  "Ukbara": {
+    "ar": "أكبرى"
+  },
+  "Libira, Ilbira": {
+    "ar": "ليبرا، إلبيرة"
+  },
+  "Tinnis": {
+    "ar": "تِنِّيس"
+  },
+  "Tihama": {
+    "ar": "تهامة"
+  },
+  "Qastalla": {
+    "ar": "قسطلة"
+  },
+  "Daylaman, al-Daylam": {
+    "ar": "ديلمان، الديلم"
+  },
+  "Asfarayin": {
+    "ar": "أصفرايين"
+  },
+  "Asadabadh": {
+    "ar": "أسد آباد"
+  },
+  "Atrabinush": {
+    "ar": "أطرابينوش"
+  },
+  "al-Jurjaniyya": {
+    "ar": "الجرجانية"
+  },
+  "Ghazna, Ghaznin": {
+    "ar": "غزنة، غزنين"
+  },
+  "Juwayn, Kuwayn": {
+    "ar": "جوين، كوين"
+  },
+  "al-Ghundijan": {
+    "ar": "الغندجان"
+  },
+  "Kath": {
+    "ar": "كاث"
+  },
+  "Lurqa": {
+    "ar": "لورقة"
+  },
+  "Kardiz": {
+    "ar": "كرديز"
+  },
+  "Balansiyya": {
+    "ar": "بلنسية"
+  },
+  "Maarra al-Numan": {
+    "ar": "مَعَرَّة النُّعمان"
+  },
+  "Labla": {
+    "ar": "لابلا"
+  },
+  "Mursiya": {
+    "ar": "مورسيا"
+  },
+  "Shatiba": {
+    "ar": "شاطبة"
+  },
+  "al-Mariyya": {
+    "ar": "المريّة"
+  },
+  "Najaf": {
+    "ar": "النجف"
+  },
+  "al-Masila": {
+    "ar": "المسيلة"
+  },
+  "al-Sughd": {
+    "ar": "السغد"
+  },
+  "Lishbuna": {
+    "ar": "لشبونة"
+  },
+  "Shantarin": {
+    "ar": "شانتارين"
+  },
+  "Batalyus, Batalyuth": {
+    "ar": "بطليوس، بطليوث"
+  },
+  "Sur": {
+    "ar": "صور"
+  },
+  "Qabis": {
+    "ar": "قابس"
+  },
+  "Bakharz": {
+    "ar": "بخارز"
+  },
+  "Dinawar, Mah al-Kufa": {
+    "ar": "دينور، مَحَّ الكوفة"
+  },
+  "Ajdabiyya": {
+    "ar": "اجدابيا"
+  },
+  "Baghshur": {
+    "ar": "بغشور"
+  },
+  "Bazda": {
+    "ar": "بازدا"
+  },
+  "Farghana": {
+    "ar": "فرغانة"
+  },
+  "Uzjand": {
+    "ar": "أوزجند"
+  },
+  "Baja": {
+    "ar": "باجا"
+  },
+  "Maysan": {
+    "ar": "ميسان"
+  },
+  "Zamakhshar": {
+    "ar": "زمخشار"
+  },
+  "Saraqusa": {
+    "ar": "سرقوسة"
+  },
+  "Sabta": {
+    "ar": "سبتة"
+  },
+  "Turtusha": {
+    "ar": "ترتوشة"
+  },
+  "Tabrish": {
+    "ar": "تبريز"
+  },
+  "Sabzawar": {
+    "ar": "سبزوار"
+  },
+  "Tabaristan": {
+    "ar": "طبرستان"
+  },
+  "al-Janad": {
+    "ar": "الجند"
+  },
+  "al-Nuqan, al-Mashhad": {
+    "ar": "النقعان، المشهد"
+  },
+  "Shayzar": {
+    "ar": "شيزر"
+  },
+  "Rahba Malik Ibn Tawq": {
+    "ar": "رحبة مالك بن توق"
+  },
+  "Wadiyash": {
+    "ar": "وادياش"
+  },
+  "Maliqa": {
+    "ar": "مالقة"
+  },
+  "Bajaya": {
+    "ar": "بجاية"
+  },
+  "Marghinan": {
+    "ar": "مرغينان"
+  },
+  "Kasan": {
+    "ar": "قازان"
+  },
+  "Qashan": {
+    "ar": "قشان"
+  },
+  "Sariya": {
+    "ar": "سارية"
+  },
+  "Mayyafariqin": {
+    "ar": "مايفارقين"
+  },
+  "Amid": {
+    "ar": "عميد"
+  },
+  "Gharnata": {
+    "ar": "غرناطة"
+  },
+  "Maragha": {
+    "ar": "مراغة"
+  },
+  "Jazira Ibn Umar": {
+    "ar": "جزيرة ابن عمر"
+  },
+  "Sarakhs": {
+    "ar": "سرخس"
+  },
+  "Tabriz": {
+    "ar": "تبريز"
+  },
+  "Tunis": {
+    "ar": "تونس"
+  },
+  "al-Madain": {
+    "ar": "المدائن"
+  },
+  "Fas": {
+    "ar": "فاس"
+  },
+  "Marw al-Rudh": {
+    "ar": "مرو الرود"
+  },
+  "Jayyan": {
+    "ar": "جيان"
+  },
+  "al-Fayyum": {
+    "ar": "الفيوم"
+  },
+  "Nawa": {
+    "ar": "نوى"
+  },
+  "Hama": {
+    "ar": "حماة"
+  },
+  "Sanhaja": {
+    "ar": "سانهاجا"
+  },
+  "Dimyat": {
+    "ar": "دمياط"
+  },
+  "Bilbays": {
+    "ar": "بلبيس"
+  },
+  "Yanbu": {
+    "ar": "ينبع"
+  },
+  "Balabakk": {
+    "ar": "بعلبك"
+  },
+  "Karak": {
+    "ar": "الكرك"
+  },
+  "Jabal Nafusa": {
+    "ar": "جبل نفوسة"
+  },
+  "Jazira al-Khadra": {
+    "ar": "جزيرة الخضراء"
+  },
+  "al-Jiza": {
+    "ar": "الجيزة"
+  },
+  "Qus": {
+    "ar": "قوص"
+  },
+  "Nabulus": {
+    "ar": "نابلس"
+  },
+  "al-Jazira": {
+    "ar": "الجزيرة"
+  },
+  "Bayt Lahm": {
+    "ar": "بيت لحم"
+  },
+  "Tanja": {
+    "ar": "طنجة"
+  },
+  "Busra": {
+    "ar": "بصرى"
+  },
+  "Tilimsan": {
+    "ar": "تلمسان"
+  },
+  "al-Biqa": {
+    "ar": "البقاع"
+  },
+  "Jabal Jalil": {
+    "ar": "جبل جليل"
+  },
+  "Banha al-Asal": {
+    "ar": "بنها الأسل"
+  },
+  "al-Hawf al-Sharqi": {
+    "ar": "الحوف الشرقي"
+  },
+  "Kazarun": {
+    "ar": "كازرون"
+  },
+  "Ardabil": {
+    "ar": "اردبيل"
+  },
+  "Karbala": {
+    "ar": "كربلاء"
+  },
+  "Daqahla": {
+    "ar": "دقهلة"
+  },
+  "Qannawj": {
+    "ar": "قنوج"
+  },
+  "al-Multan": {
+    "ar": "الملتان"
+  }
+}
