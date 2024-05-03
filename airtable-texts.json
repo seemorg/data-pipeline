@@ -1,0 +1,2406 @@
+[
+  {
+    "id": "rec0dWEHpV1ovhkAO",
+    "createdTime": "2024-04-14T16:57:04.000Z",
+    "fields": {
+      "id": 51,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec2P5o72lWnBLMs4"
+      ],
+      "OpenITI ID": [
+        "rec3ivhKmPMQfo7KW"
+      ],
+      "id (from OpenITI ID)": [
+        "الدر المنتقى في شرح الملتقى"
+      ]
+    }
+  },
+  {
+    "id": "rec16Q5KzrvPFFTNA",
+    "createdTime": "2024-04-14T17:25:43.000Z",
+    "fields": {
+      "id": 71,
+      "Name (Arabic)": "فقه حنفي/أحاديث الأحكام",
+      "Author": [
+        "recXYeY0rqgBlTsZN"
+      ],
+      "OpenITI ID": [
+        "recQGKlbeJzT5v1JN"
+      ],
+      "id (from OpenITI ID)": [
+        "اللباب في الجمع بين السنة والكتاب"
+      ]
+    }
+  },
+  {
+    "id": "rec2EHNQVVKXKVgWm",
+    "createdTime": "2024-04-16T00:07:00.000Z",
+    "fields": {
+      "id": 81,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recDAHVMTtHA2DfOz"
+      ],
+      "OpenITI ID": [
+        "reczymm9eiycdretX"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح تلخيص الجامع الكبير"
+      ]
+    }
+  },
+  {
+    "id": "rec3UNgY7STop7bBO",
+    "createdTime": "2024-04-14T16:19:04.000Z",
+    "fields": {
+      "id": 26,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec2P5o72lWnBLMs4"
+      ],
+      "OpenITI ID": [
+        "recYM6b4Js9fuvVSZ"
+      ],
+      "id (from OpenITI ID)": [
+        "الدر المختار شرح تنوير الأبصار "
+      ]
+    }
+  },
+  {
+    "id": "rec3wgyq3HOdYEREk",
+    "createdTime": "2024-04-14T17:26:54.000Z",
+    "fields": {
+      "id": 72,
+      "Name (Arabic)": "فقه حنفي/تاريخ/دراسات معاصرة",
+      "Author": [
+        "recapJyYtJim7hbRx"
+      ],
+      "OpenITI ID": [
+        "rec1sEZn7nRIl3Znf"
+      ],
+      "id (from OpenITI ID)": [
+        "المذهب الحنفي مراحله وطبقاته ضوابطه ومصطلحاته خصائصه ومؤلفاته"
+      ]
+    }
+  },
+  {
+    "id": "rec43x8P22o1BPtP1",
+    "createdTime": "2024-04-14T17:13:24.000Z",
+    "fields": {
+      "id": 64,
+      "Name (Arabic)": "فقه حنفي/حواشي",
+      "Author": [
+        "recFmgbOqHUxioBxD"
+      ],
+      "OpenITI ID": [
+        "recevxidAHmK6auAU"
+      ],
+      "id (from OpenITI ID)": [
+        "حاشية على تبيين الحقائق شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "rec4AXCDf75ZFWCDv",
+    "createdTime": "2024-04-14T17:14:15.000Z",
+    "fields": {
+      "id": 65,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recrgQuYcdLfxX2aZ"
+      ],
+      "OpenITI ID": [
+        "recYitJH4tBxcA9PA"
+      ],
+      "id (from OpenITI ID)": [
+        "الفقه النافع"
+      ]
+    }
+  },
+  {
+    "id": "rec4j9Qc2LdfHymFX",
+    "createdTime": "2024-04-14T17:18:46.000Z",
+    "fields": {
+      "id": 69,
+      "Name (Arabic)": "فقه مقارن/حنفي-شافعي",
+      "Author": [
+        "rec9HVoT8hqkld9Sw"
+      ],
+      "OpenITI ID": [
+        "recCWiO4bVgw3oYfD"
+      ],
+      "id (from OpenITI ID)": [
+        "التجريد (موسوعة القواعد الفقهية المقارنة)"
+      ]
+    }
+  },
+  {
+    "id": "rec53G3ALWB10Dxf1",
+    "createdTime": "2024-04-14T16:28:21.000Z",
+    "fields": {
+      "id": 32,
+      "Name (Arabic)": "فقه حنفي/حواشي",
+      "Author": [
+        "rec94ICGxEeMjwHy5"
+      ],
+      "OpenITI ID": [
+        "rec01bwb0luvBS8SB"
+      ],
+      "id (from OpenITI ID)": [
+        "حاشية على شرح العناية"
+      ]
+    }
+  },
+  {
+    "id": "rec57BjgKo4fkICn1",
+    "createdTime": "2024-04-16T00:19:59.000Z",
+    "fields": {
+      "id": 93,
+      "Name (Arabic)": "فقه حنفي/مختصرات",
+      "Author": [
+        "reci63xprBJCNabz5"
+      ],
+      "OpenITI ID": [
+        "recz8RAGojzlAGwVA"
+      ],
+      "id (from OpenITI ID)": [
+        "النقاية مختصر الوقاية"
+      ]
+    }
+  },
+  {
+    "id": "rec70EDMZOLgW9Ihu",
+    "createdTime": "2024-04-19T01:36:44.000Z",
+    "fields": {
+      "id": 135,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح متن تنوير الأبصار للمؤلف نفسه",
+      "Author": [
+        "recnIrYROKAg17iSt"
+      ],
+      "OpenITI ID": [
+        "recpIYHFraYWS9rli"
+      ],
+      "id (from OpenITI ID)": [
+        "منح الغفار لشرح تنوير الأبصار"
+      ]
+    }
+  },
+  {
+    "id": "rec7F1U23uClkPfAS",
+    "createdTime": "2024-04-14T16:28:55.000Z",
+    "fields": {
+      "id": 33,
+      "Name (Arabic)": "فقه حنفي/شروح/العبادات",
+      "Author": [
+        "recCGH8N7Yo9c7O0L"
+      ],
+      "OpenITI ID": [
+        "recpTPCwX6sHKarry"
+      ],
+      "id (from OpenITI ID)": [
+        "رشحات الأقلام شرح كفاية الغلام"
+      ]
+    }
+  },
+  {
+    "id": "rec8D4nSaUATqJajH",
+    "createdTime": "2024-04-16T00:11:50.000Z",
+    "fields": {
+      "id": 87,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recfuF72jeTfGuuev"
+      ],
+      "OpenITI ID": [
+        "recn73vlTodcFMpp2"
+      ],
+      "id (from OpenITI ID)": [
+        "الجامع الكبير"
+      ]
+    }
+  },
+  {
+    "id": "rec9Zl5EsOCbMS5Eg",
+    "createdTime": "2024-04-19T01:47:37.000Z",
+    "fields": {
+      "id": 142,
+      "Name (Arabic)": "فقه مقارن/فقه الخلاف/المذاهب الأربعة",
+      "Author": [
+        "rec5pc9VexjqrM9gc"
+      ],
+      "OpenITI ID": [
+        "recHLv1Xf72EQO5fZ"
+      ],
+      "id (from OpenITI ID)": [
+        "زبدة الأحكام في اختلاف الأئمة الأعلام"
+      ]
+    }
+  },
+  {
+    "id": "recAxvQK0VzTGCylr",
+    "createdTime": "2024-04-17T13:14:16.000Z",
+    "fields": {
+      "id": 123,
+      "Name (Arabic)": "فقه حنفي/ شروح/بمثابة شرح لمختصر القدوري",
+      "Author": [
+        "rechN7QBauXlv93vY"
+      ],
+      "OpenITI ID": [
+        "recqndU6RuX2UJ42D"
+      ],
+      "id (from OpenITI ID)": [
+        "كتاب الينابيع في معرفة الأصول والتفاريع"
+      ]
+    }
+  },
+  {
+    "id": "recB2RqmeUMvQ4inJ",
+    "createdTime": "2024-04-16T00:17:01.000Z",
+    "fields": {
+      "id": 91,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recijJyieBCO5LcZ1"
+      ],
+      "OpenITI ID": [
+        "recdjGz7IFHW01Ff5"
+      ],
+      "id (from OpenITI ID)": [
+        "المختار للفتوى"
+      ]
+    }
+  },
+  {
+    "id": "recB6mdl9DtTtp77A",
+    "createdTime": "2024-04-17T13:06:13.000Z",
+    "fields": {
+      "id": 117,
+      "Name (Arabic)": "فقه حنفي/حواشي",
+      "Author": [
+        "recWiwfghSO5aIyOu"
+      ],
+      "OpenITI ID": [
+        "recDaYSetcELSwtTc"
+      ],
+      "id (from OpenITI ID)": [
+        "حاشية على الهداية"
+      ]
+    }
+  },
+  {
+    "id": "recBBXSUevjNf6ZJJ",
+    "createdTime": "2024-04-14T17:22:49.000Z",
+    "fields": {
+      "id": 70,
+      "Name (Arabic)": "فقه حنفي/معاملات",
+      "Author": [
+        "recW6Iwi2VSNDt51h"
+      ],
+      "OpenITI ID": [
+        "rec1avMthRu8np6Wj"
+      ],
+      "id (from OpenITI ID)": [
+        " كتاب الحيطان "
+      ]
+    }
+  },
+  {
+    "id": "recBHGpcpp1x4mkXN",
+    "createdTime": "2024-04-17T13:07:33.000Z",
+    "fields": {
+      "id": 118,
+      "Name (Arabic)": "فقه حنفي/شروح/ شرح الفقه النافع لأبي القاسم السمرقندي",
+      "Author": [
+        "rec1WbAkAEXNenhf4"
+      ],
+      "OpenITI ID": [
+        "recgSPMGeAXxbMxv1"
+      ],
+      "id (from OpenITI ID)": [
+        "المستصفى من المستوفى"
+      ]
+    }
+  },
+  {
+    "id": "recC9TdpQZNZUokk2",
+    "createdTime": "2024-04-17T13:20:10.000Z",
+    "fields": {
+      "id": 126,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لوقاية الرواية في مسائل الهداية للمحبوبي",
+      "Author": [
+        "recz45KTAXJSnIJcK"
+      ],
+      "OpenITI ID": [
+        "rec9VG5i0gB6xz3bM"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الوقاية"
+      ]
+    }
+  },
+  {
+    "id": "recD1fbxmN4BJdFX0",
+    "createdTime": "2024-04-17T13:18:26.000Z",
+    "fields": {
+      "id": 125,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "reccm1PkEL8iMn4qB"
+      ],
+      "OpenITI ID": [
+        "rec8aAfKyduHjBfdb"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح النقاية مختصر الوقاية"
+      ]
+    }
+  },
+  {
+    "id": "recDy2UexUwhfUqHf",
+    "createdTime": "2024-04-14T15:50:11.000Z",
+    "fields": {
+      "id": 7,
+      "Name (Arabic)": "فقه حنفي/أحاديث الأحكام",
+      "Author": [
+        "recgfQ9qcduwQoJVM"
+      ],
+      "OpenITI ID": [
+        "recmJG7fdsMppTwJW"
+      ],
+      "id (from OpenITI ID)": [
+        "إعلاء السنن"
+      ]
+    }
+  },
+  {
+    "id": "recEAArG5hSgGs6Gb",
+    "createdTime": "2024-04-19T01:30:46.000Z",
+    "fields": {
+      "id": 133,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح للنقاية مختصر الوقاية للمحبوبي",
+      "Author": [
+        "recsisFi4K3XheUfO"
+      ],
+      "OpenITI ID": [
+        "recLxKSUgr19oo5IS"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح مختصر الوقاية"
+      ]
+    }
+  },
+  {
+    "id": "recF0sqkvQTG1gnak",
+    "createdTime": "2024-04-17T13:09:21.000Z",
+    "fields": {
+      "id": 119,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح متن وقاية الرواية في مسائل الهداية",
+      "Author": [
+        "recbOIH2Zri9av8Ga"
+      ],
+      "OpenITI ID": [
+        "rec9VG5i0gB6xz3bM"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الوقاية"
+      ]
+    }
+  },
+  {
+    "id": "recFaXRJ6eAwDQkqk",
+    "createdTime": "2024-04-14T16:54:21.000Z",
+    "fields": {
+      "id": 49,
+      "Name (Arabic)": "فقه حنفي/معاملات",
+      "Author": [
+        "rec70NChN3GDOuen9"
+      ],
+      "OpenITI ID": [
+        "recwfCjxpvOxCVmEu"
+      ],
+      "id (from OpenITI ID)": [
+        "مرشد الحيران إلى معرفة أحوال الإنسان"
+      ]
+    }
+  },
+  {
+    "id": "recFvt2yTuqxs660U",
+    "createdTime": "2024-04-14T16:33:05.000Z",
+    "fields": {
+      "id": 37,
+      "Name (Arabic)": "فقه حنفي/معاملات",
+      "Author": [
+        "recfuF72jeTfGuuev"
+      ],
+      "OpenITI ID": [
+        "rec8LthtzXYM8wDwu"
+      ],
+      "id (from OpenITI ID)": [
+        "السير الكبير"
+      ]
+    }
+  },
+  {
+    "id": "recFx68WL8NAF3MFj",
+    "createdTime": "2024-04-14T17:03:12.000Z",
+    "fields": {
+      "id": 56,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recn3izG6eHz5mp9r"
+      ],
+      "OpenITI ID": [
+        "rec0rlmcuM9DDVd1E"
+      ],
+      "id (from OpenITI ID)": [
+        "تحفة الملوك في مذهب أبي حنيفة النعمان"
+      ]
+    }
+  },
+  {
+    "id": "recG0Ecdr9uR6VLqx",
+    "createdTime": "2024-04-16T00:42:40.000Z",
+    "fields": {
+      "id": 109,
+      "Name (Arabic)": "فقه حنفي/منظومات/منظومة لمتن تنوير الأبصار للتمرتاشي",
+      "Author": [
+        "recTxmVvHDgD4QvUy"
+      ],
+      "OpenITI ID": [
+        "recTTNxN9qAASdCFz"
+      ],
+      "id (from OpenITI ID)": [
+        "حميد الآثار في نظم تنوير الأبصار"
+      ]
+    }
+  },
+  {
+    "id": "recG1tZQjhr41Ayw9",
+    "createdTime": "2024-04-16T00:49:17.000Z",
+    "fields": {
+      "id": 113,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recYQzpvrLB54UOuV"
+      ],
+      "OpenITI ID": [
+        "recaZ82XsBt2OLQUk"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recG91BY19KlF5yfq",
+    "createdTime": "2024-04-17T13:03:24.000Z",
+    "fields": {
+      "id": 115,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recTF1WzUbbUTMSMF"
+      ],
+      "OpenITI ID": [
+        "recRPqVljyIThA8nK"
+      ],
+      "id (from OpenITI ID)": [
+        "الوجيز شرح الجامع الكبير"
+      ]
+    }
+  },
+  {
+    "id": "recG9QibnAfDdBbs7",
+    "createdTime": "2024-04-19T01:46:41.000Z",
+    "fields": {
+      "id": 141,
+      "Name (Arabic)": "فقه الخلاف/شرح لمنظومة الخلافيات لنجم الدين النسفي",
+      "Author": [
+        "rec1WbAkAEXNenhf4"
+      ],
+      "OpenITI ID": [
+        "recAKg5nhEFBkbD9M"
+      ],
+      "id (from OpenITI ID)": [
+        "المصفى"
+      ]
+    }
+  },
+  {
+    "id": "recGKJPs3kLLDOExm",
+    "createdTime": "2024-04-16T00:27:25.000Z",
+    "fields": {
+      "id": 98,
+      "Name (Arabic)": "فقه حنفي/جامع مختصرات",
+      "Author": [
+        "rec2hbySriWhepOEG"
+      ],
+      "OpenITI ID": [
+        "recx6XrTP6puahpyZ"
+      ],
+      "id (from OpenITI ID)": [
+        "ملتقى الأبحر"
+      ]
+    }
+  },
+  {
+    "id": "recGNRJoXft1vn25v",
+    "createdTime": "2024-04-19T01:51:13.000Z",
+    "fields": {
+      "id": 144,
+      "Name (Arabic)": "فقه حنفي/فتاوى",
+      "Author": [
+        "recAcKJgMsKpRP6uv"
+      ],
+      "OpenITI ID": [
+        "reczN6937beZtP2EA"
+      ],
+      "id (from OpenITI ID)": [
+        "فتاوى قاضي خان"
+      ]
+    }
+  },
+  {
+    "id": "recGoaF1Hd2bynlFy",
+    "createdTime": "2024-04-16T00:34:52.000Z",
+    "fields": {
+      "id": 104,
+      "Name (Arabic)": "فقه حنفي/منظومات/منطومة لمتن بداية المبتدي للمرغيناني",
+      "Author": [
+        "rec7cA3yOOmNUdQry"
+      ],
+      "OpenITI ID": [
+        "recWtdkPVzGVyKup4"
+      ],
+      "id (from OpenITI ID)": [
+        "در المهتدي وذخر المقتدي"
+      ]
+    }
+  },
+  {
+    "id": "recGsjRAxDZmTgYev",
+    "createdTime": "2024-04-14T17:00:36.000Z",
+    "fields": {
+      "id": 55,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recYQzpvrLB54UOuV"
+      ],
+      "OpenITI ID": [
+        "recHgnmzTCk0QwaVo"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح النكت على زيادات الزيادات للسرخسي"
+      ]
+    }
+  },
+  {
+    "id": "recHEnoAcT2sJoXr7",
+    "createdTime": "2024-04-14T16:01:52.000Z",
+    "fields": {
+      "id": 14,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recBMi5fkpq2l17We"
+      ],
+      "OpenITI ID": [
+        "rec1se4g3FONTwvsC"
+      ],
+      "id (from OpenITI ID)": [
+        "خلاصة الدلائل في تنقيح المسائل"
+      ]
+    }
+  },
+  {
+    "id": "recHMwLwoctslADRj",
+    "createdTime": "2024-04-16T00:15:35.000Z",
+    "fields": {
+      "id": 90,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recX6j68D24bzHncE"
+      ],
+      "OpenITI ID": [
+        "recVisAhB67tvRJFC"
+      ],
+      "id (from OpenITI ID)": [
+        "وقاية الرواية في مسائل الهداية"
+      ]
+    }
+  },
+  {
+    "id": "recHjR5yK7b26OJCN",
+    "createdTime": "2024-04-16T00:23:55.000Z",
+    "fields": {
+      "id": 96,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recDhEKdrprySF2wP"
+      ],
+      "OpenITI ID": [
+        "recpm29aJR0r0YfmZ"
+      ],
+      "id (from OpenITI ID)": [
+        "مواهب الرحمن في مذهب أبي حنيفة النعمان"
+      ]
+    }
+  },
+  {
+    "id": "recIRpajC5xDC2Ers",
+    "createdTime": "2024-04-16T00:46:08.000Z",
+    "fields": {
+      "id": 111,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recW6Iwi2VSNDt51h"
+      ],
+      "OpenITI ID": [
+        "recaZ82XsBt2OLQUk"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recJ9wiaFqR1T31Gm",
+    "createdTime": "2024-04-17T13:22:09.000Z",
+    "fields": {
+      "id": 127,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح متن كنز الدقائق للنسفي",
+      "Author": [
+        "recNE0rbUURd6KctW"
+      ],
+      "OpenITI ID": [
+        "rec1XiQgUg40uTwrP"
+      ],
+      "id (from OpenITI ID)": [
+        "رمز الحقائق في شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recJJTWBRQIFQBzc9",
+    "createdTime": "2024-04-16T00:07:45.000Z",
+    "fields": {
+      "id": 82,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recVZkV6LGOf4C8C5"
+      ],
+      "OpenITI ID": [
+        "recaZ82XsBt2OLQUk"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recK7HYBH8foNdDtc",
+    "createdTime": "2024-04-16T00:14:20.000Z",
+    "fields": {
+      "id": 88,
+      "Name (Arabic)": "فقه حنفي/نوادر",
+      "Author": [
+        "rec7w29fHhcLKpWcx"
+      ],
+      "OpenITI ID": [
+        "recWg6w6kgSzrlLuz"
+      ],
+      "id (from OpenITI ID)": [
+        "نوادر المعلى"
+      ]
+    }
+  },
+  {
+    "id": "recL0G8xedvBHckvR",
+    "createdTime": "2024-04-14T16:34:40.000Z",
+    "fields": {
+      "id": 39,
+      "Name (Arabic)": "فقه حنفي/علاقات دولية/دراسات معاصرة",
+      "Author": [
+        "recjANrbGnYKOqB6T"
+      ],
+      "OpenITI ID": [
+        "recfhUoQNhEBXncD4"
+      ],
+      "id (from OpenITI ID)": [
+        "أصول العلاقات الدولية في فقه الإمام محمد بن الحسن الشيباني دراسة فقهية مقارنة"
+      ]
+    }
+  },
+  {
+    "id": "recL410krifAqT9vC",
+    "createdTime": "2024-04-17T13:02:06.000Z",
+    "fields": {
+      "id": 114,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recBMi5fkpq2l17We"
+      ],
+      "OpenITI ID": [
+        "recaZ82XsBt2OLQUk"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recLeHHDgZPpylwI4",
+    "createdTime": "2024-04-16T00:33:51.000Z",
+    "fields": {
+      "id": 103,
+      "Name (Arabic)": "فقه حنفي/منظومات",
+      "Author": [
+        "recRb9qJUap2JNMNF"
+      ],
+      "OpenITI ID": [
+        "rect4EljeWZYKZpnS"
+      ],
+      "id (from OpenITI ID)": [
+        "قيد الشرائد ونظم الفرائد"
+      ]
+    }
+  },
+  {
+    "id": "recM8q5doTV0v93l1",
+    "createdTime": "2024-04-14T16:27:48.000Z",
+    "fields": {
+      "id": 31,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recoMPnmh3gRGYFqe"
+      ],
+      "OpenITI ID": [
+        "rechjPxG8B7QtH1ea"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح العناية على الهداية"
+      ]
+    }
+  },
+  {
+    "id": "recMLdyfzobxQZcP9",
+    "createdTime": "2024-04-16T00:31:40.000Z",
+    "fields": {
+      "id": 102,
+      "Name (Arabic)": "فقه حنفي/ منظومات/ منظومة لكتاب كنز الدقائق",
+      "Author": [
+        "rec0o7nsa7jCy582v"
+      ],
+      "OpenITI ID": [
+        "rec5MaZ8T4f0kphSN"
+      ],
+      "id (from OpenITI ID)": [
+        "مستحسن الطرائق"
+      ]
+    }
+  },
+  {
+    "id": "recN0XGcZsS4YbkEO",
+    "createdTime": "2024-04-14T17:27:43.000Z",
+    "fields": {
+      "id": 73,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recCNRHPPQLgDrdnw"
+      ],
+      "OpenITI ID": [
+        "rec0fg4TG4cR7ccYX"
+      ],
+      "id (from OpenITI ID)": [
+        "المبسوط"
+      ]
+    }
+  },
+  {
+    "id": "recNCxflh4DixkaWV",
+    "createdTime": "2024-04-14T16:09:07.000Z",
+    "fields": {
+      "id": 21,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "rec7aJVlD82zpjU2E"
+      ],
+      "OpenITI ID": [
+        "rec0ca7cNaSxuOySR"
+      ],
+      "id (from OpenITI ID)": [
+        "مجمع البحرين وملتقى النيرين"
+      ]
+    }
+  },
+  {
+    "id": "recNwokAK9DA6iESs",
+    "createdTime": "2024-04-19T01:43:40.000Z",
+    "fields": {
+      "id": 139,
+      "Name (Arabic)": "فقه مقارن/فقه الخلاف/حنفي-شافعي",
+      "Author": [
+        "recnMapmjrbfshgr8"
+      ],
+      "OpenITI ID": [
+        "recVismjN7u6t27tV"
+      ],
+      "id (from OpenITI ID)": [
+        "رؤوس المسائل"
+      ]
+    }
+  },
+  {
+    "id": "recQ5mQ1cBEaxlP0G",
+    "createdTime": "2024-04-19T01:28:54.000Z",
+    "fields": {
+      "id": 131,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح للنقاية مختصر الوقاية للمحبوبي",
+      "Author": [
+        "rec95ckChdwojJhep"
+      ],
+      "OpenITI ID": [
+        "recwo3h2ODuqtkg0x"
+      ],
+      "id (from OpenITI ID)": [
+        "جامع الرموز"
+      ]
+    }
+  },
+  {
+    "id": "recQ7TQYvCBUhSOaN",
+    "createdTime": "2024-04-14T16:24:04.000Z",
+    "fields": {
+      "id": 29,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recw9HuU69F5LMsVg"
+      ],
+      "OpenITI ID": [
+        "recYKLal9mYCFj5FW"
+      ],
+      "id (from OpenITI ID)": [
+        "غنية ذوي الأحكام في بغية درر الأحكام"
+      ]
+    }
+  },
+  {
+    "id": "recQOHZGlwIFIxtfF",
+    "createdTime": "2024-04-14T17:07:26.000Z",
+    "fields": {
+      "id": 60,
+      "Name (Arabic)": "فقه مقارن/حنفي-حنفي/حنفي-شافعي",
+      "Author": [
+        "recDtt0PB2mUg7yuD"
+      ],
+      "OpenITI ID": [
+        "recKifEcGZSLo5taL"
+      ],
+      "id (from OpenITI ID)": [
+        "طريقة الخلاف في الفقه بين الأئمة الأسلاف"
+      ]
+    }
+  },
+  {
+    "id": "recQwryvfnRTRWxVq",
+    "createdTime": "2024-04-16T00:15:01.000Z",
+    "fields": {
+      "id": 89,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recdnC0TI4gOCXltU"
+      ],
+      "OpenITI ID": [
+        "recHGTpGz5yYU8KCP"
+      ],
+      "id (from OpenITI ID)": [
+        "بداية المبتدي"
+      ]
+    }
+  },
+  {
+    "id": "recRu7jnrRz4NKwN5",
+    "createdTime": "2024-04-14T16:04:02.000Z",
+    "fields": {
+      "id": 16,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recNjhivqpY2e01sC"
+      ],
+      "OpenITI ID": [
+        "recnHGNKqc0TPsbEp"
+      ],
+      "id (from OpenITI ID)": [
+        "النافع الكبير لمن يطالع الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recSILt0PLQ2A12u3",
+    "createdTime": "2024-04-14T17:31:13.000Z",
+    "fields": {
+      "id": 76,
+      "Name (Arabic)": "فقه حنفي/تعليقات",
+      "Author": [
+        "recqx5wC3HprN3g0U"
+      ],
+      "OpenITI ID": [
+        "recKvCyxyAwkTxg79"
+      ],
+      "id (from OpenITI ID)": [
+        "تقريرات الرافعي على رد المحتار على الدر المختار"
+      ]
+    }
+  },
+  {
+    "id": "recSSOklPPpQTzSxZ",
+    "createdTime": "2024-04-19T01:29:50.000Z",
+    "fields": {
+      "id": 132,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح متن مواهب الرحمن للمؤلف نفسه",
+      "Author": [
+        "recDhEKdrprySF2wP"
+      ],
+      "OpenITI ID": [
+        "recAAL4nc9xxxPNow"
+      ],
+      "id (from OpenITI ID)": [
+        "البرهان شرح مواهب الرحمن في مذهب أبي حنيفة النعمان"
+      ]
+    }
+  },
+  {
+    "id": "recSVe5CWaLDHO0kq",
+    "createdTime": "2024-04-14T16:30:44.000Z",
+    "fields": {
+      "id": 34,
+      "Name (Arabic)": "فقه حنفي/منظومات/العبادات",
+      "Author": [
+        "recCGH8N7Yo9c7O0L"
+      ],
+      "OpenITI ID": [
+        "recEx4adOi0eIyg0a"
+      ],
+      "id (from OpenITI ID)": [
+        "كفاية الغلام"
+      ]
+    }
+  },
+  {
+    "id": "recSeb2GENAXLGpJf",
+    "createdTime": "2024-04-14T16:06:53.000Z",
+    "fields": {
+      "id": 18,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recDj5Nmj8nmjQ5DS"
+      ],
+      "OpenITI ID": [
+        "rec6VSixQIywfBvbB"
+      ],
+      "id (from OpenITI ID)": [
+        "اللباب في شرح الكتاب"
+      ]
+    }
+  },
+  {
+    "id": "recSkCtnnLpODMkZn",
+    "createdTime": "2024-04-16T00:37:50.000Z",
+    "fields": {
+      "id": 106,
+      "Name (Arabic)": "فقه حنفي/منظومات/منظومة لمتن تنوير الأبصار ومتن ملتقى الأبحر",
+      "Author": [
+        "rec3U15BMZNSQeuoE"
+      ],
+      "OpenITI ID": [
+        "recP6tfl1jatg2FK3"
+      ],
+      "id (from OpenITI ID)": [
+        "خلاصة التنوير وذخيرة المحتاج"
+      ]
+    }
+  },
+  {
+    "id": "recSvAtQC9cCe4RUO",
+    "createdTime": "2024-04-14T16:46:32.000Z",
+    "fields": {
+      "id": 43,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recZBPpNrlkuxfVZW"
+      ],
+      "OpenITI ID": [
+        "recvpULFVfjjPUnJS"
+      ],
+      "id (from OpenITI ID)": [
+        "كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recTIWKHZF9K0KKLS",
+    "createdTime": "2024-04-14T17:04:05.000Z",
+    "fields": {
+      "id": 57,
+      "Name (Arabic)": "فقه حنفي/حواشي",
+      "Author": [
+        "recCwpi3qwbdLZNzC"
+      ],
+      "OpenITI ID": [
+        "recUlQHrvHf3DguZO"
+      ],
+      "id (from OpenITI ID)": [
+        "حاشية الطحطاوي على مراقي الفلاح شرح نور الإيضاح"
+      ]
+    }
+  },
+  {
+    "id": "recTzd5jQzm9Azkhz",
+    "createdTime": "2024-04-14T16:59:27.000Z",
+    "fields": {
+      "id": 54,
+      "Name (Arabic)": "فقه حنفي/شروح/نكت",
+      "Author": [
+        "recCNRHPPQLgDrdnw"
+      ],
+      "OpenITI ID": [
+        "reckWWU3mWF5Mr1kY"
+      ],
+      "id (from OpenITI ID)": [
+        "النكت وهو شرح لزيادات الزيادات للشيباني"
+      ]
+    }
+  },
+  {
+    "id": "recUcpEqHSVkOpFX4",
+    "createdTime": "2024-04-14T16:52:29.000Z",
+    "fields": {
+      "id": 48,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recff2NIrGrGJ48Hp"
+      ],
+      "OpenITI ID": [
+        "recjzXuBymiv2Dpj8"
+      ],
+      "id (from OpenITI ID)": [
+        "بدائع الصنائع في ترتيب الشرائع"
+      ]
+    }
+  },
+  {
+    "id": "recV3v71uqv0SQdiu",
+    "createdTime": "2024-04-14T16:17:46.000Z",
+    "fields": {
+      "id": 25,
+      "Name (Arabic)": "فقه حنفي/حواشي",
+      "Author": [
+        "recuFAnFduyh3D0hM"
+      ],
+      "OpenITI ID": [
+        "recikV7BBHkoOt7GY"
+      ],
+      "id (from OpenITI ID)": [
+        "منحة الخالق على البحر الرائق شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recVEVfhiPLQNrBiP",
+    "createdTime": "2024-04-16T00:29:43.000Z",
+    "fields": {
+      "id": 100,
+      "Name (Arabic)": "فقه حنفي/منظومات",
+      "Author": [
+        "recoeywFu1jxxoAOL"
+      ],
+      "OpenITI ID": [
+        "receTzG3298rqe4vj"
+      ],
+      "id (from OpenITI ID)": [
+        "منظومة الخلافيات"
+      ]
+    }
+  },
+  {
+    "id": "recVIMhnhtifgmYrO",
+    "createdTime": "2024-04-16T00:30:28.000Z",
+    "fields": {
+      "id": 101,
+      "Name (Arabic)": "فقه حنفي/منظومات/منظومة للجامع الصغير للشيباني",
+      "Author": [
+        "rec6ioQGfAHjKTNOg"
+      ],
+      "OpenITI ID": [
+        "recYL6vkXomxJ4H9E"
+      ],
+      "id (from OpenITI ID)": [
+        "لمعة البدر"
+      ]
+    }
+  },
+  {
+    "id": "recW0okQ7bXWqBIq2",
+    "createdTime": "2024-04-14T16:10:13.000Z",
+    "fields": {
+      "id": 22,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recdnC0TI4gOCXltU"
+      ],
+      "OpenITI ID": [
+        "rec5Prh1iFlIuGaoZ"
+      ],
+      "id (from OpenITI ID)": [
+        "الهداية شرح بداية المبتدي"
+      ]
+    }
+  },
+  {
+    "id": "recX8GTDRxFcGZHTY",
+    "createdTime": "2024-04-14T16:58:21.000Z",
+    "fields": {
+      "id": 53,
+      "Name (Arabic)": "فقه حنفي/أحاديث الأحكام",
+      "Author": [
+        "recMKgU7enaPJo95y"
+      ],
+      "OpenITI ID": [
+        "rec5CynzDj1MmpY8e"
+      ],
+      "id (from OpenITI ID)": [
+        "المعتصر من المختصر من مشكل الآثار"
+      ]
+    }
+  },
+  {
+    "id": "recXFQ9IF0wMXsjDo",
+    "createdTime": "2024-04-14T16:47:13.000Z",
+    "fields": {
+      "id": 44,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec956IP7V2ghi5RK"
+      ],
+      "OpenITI ID": [
+        "rec0l5E4OsAB8K8yg"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح مختصر الطحاوي"
+      ]
+    }
+  },
+  {
+    "id": "recY8vTnmvDwlCjd9",
+    "createdTime": "2024-04-16T00:06:17.000Z",
+    "fields": {
+      "id": 80,
+      "Name (Arabic)": "فقه حنفي/شروح /مخطوط",
+      "Author": [
+        "recYQzpvrLB54UOuV"
+      ],
+      "OpenITI ID": [
+        "recrYfQ4GLh8nGsCK"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الكبير"
+      ]
+    }
+  },
+  {
+    "id": "recYD9a7OMIaBPIn0",
+    "createdTime": "2024-04-16T00:05:45.000Z",
+    "fields": {
+      "id": 79,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recAT9AwyIvHvLw3D"
+      ],
+      "OpenITI ID": [
+        "recAEk1Dh72mVEI6o"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الزيادات"
+      ]
+    }
+  },
+  {
+    "id": "recYXAawaqAEzrpNP",
+    "createdTime": "2024-04-14T15:45:50.000Z",
+    "fields": {
+      "id": 6,
+      "Name (Arabic)": "فقه حنفي/رسائل",
+      "Author": [
+        "recuFAnFduyh3D0hM"
+      ],
+      "Genres": [
+        "rec73XK8i8SznZgpL",
+        "rec3dv7ncIhOKDHNS"
+      ],
+      "OpenITI ID": [
+        "reciBxfsiKUvnNX9q"
+      ],
+      "id (from OpenITI ID)": [
+        "مجموع رسائل"
+      ]
+    }
+  },
+  {
+    "id": "recZ2IAlW8kQSPn5L",
+    "createdTime": "2024-04-14T17:10:49.000Z",
+    "fields": {
+      "id": 61,
+      "Name (Arabic)": "فقه مقارن",
+      "Author": [
+        "rec956IP7V2ghi5RK"
+      ],
+      "OpenITI ID": [
+        "reccM07c1XMuy5PRo"
+      ],
+      "id (from OpenITI ID)": [
+        "مختصر اختلاف العلماء تصنيف أبي جعفر الطحاوي"
+      ]
+    }
+  },
+  {
+    "id": "recZ7nt3LHMNKnuuQ",
+    "createdTime": "2024-04-14T15:59:31.000Z",
+    "fields": {
+      "id": 12,
+      "Name (Arabic)": "فقه حنفي/ العبادات",
+      "Author": [
+        "recw9HuU69F5LMsVg"
+      ],
+      "OpenITI ID": [
+        "rec4Edg4BcByO1iSa"
+      ],
+      "id (from OpenITI ID)": [
+        "مراقي الفلاح بإمداد الفتاح شرح نور الإيضاح ونجاة الأرواح"
+      ]
+    }
+  },
+  {
+    "id": "recZz0CzWUaNDaj4l",
+    "createdTime": "2024-04-14T16:10:55.000Z",
+    "fields": {
+      "id": 23,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec5c0SqABPNomOpD"
+      ],
+      "OpenITI ID": [
+        "recnPWOPvTBO1a6Wb"
+      ],
+      "id (from OpenITI ID)": [
+        "النهر الفائق شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recaA1FSpNSUEeEwD",
+    "createdTime": "2024-04-19T01:44:49.000Z",
+    "fields": {
+      "id": 140,
+      "Name (Arabic)": "فقه الخلاف/شرح لمنظومة الخلافيات لنجم الدين النسفي",
+      "Author": [
+        "recIH1xPcit7xK1OB"
+      ],
+      "OpenITI ID": [
+        "reco3HyKt7RAiwyk0"
+      ],
+      "id (from OpenITI ID)": [
+        "حقائق المنظومة"
+      ]
+    }
+  },
+  {
+    "id": "recaUv2fZ3nhSackf",
+    "createdTime": "2024-04-14T16:51:44.000Z",
+    "fields": {
+      "id": 47,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recfuF72jeTfGuuev"
+      ],
+      "OpenITI ID": [
+        "rectZmvKi6yQGQFKR"
+      ],
+      "id (from OpenITI ID)": [
+        "الأصل/المبسوط"
+      ]
+    }
+  },
+  {
+    "id": "recaWkBmrm2abSt4U",
+    "createdTime": "2024-04-17T13:10:59.000Z",
+    "fields": {
+      "id": 120,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لكتاب الهداية للمرغيناني",
+      "Author": [
+        "reciC2UDsbIhHB72W"
+      ],
+      "OpenITI ID": [
+        "recAvrbGZh7hmpYAS"
+      ],
+      "id (from OpenITI ID)": [
+        "غاية البيان"
+      ]
+    }
+  },
+  {
+    "id": "recamKBErCHND2pAR",
+    "createdTime": "2024-04-14T16:05:27.000Z",
+    "fields": {
+      "id": 17,
+      "Name (Arabic)": "فقه حنفي/موسوعات",
+      "Author": [
+        "recW7HP0dvI4nZq1Z"
+      ],
+      "OpenITI ID": [
+        "recYXwSkw4Tosm2Ai"
+      ],
+      "id (from OpenITI ID)": [
+        "المحيط البرهاني لمسائل المبسوط والجامعين والسير والزيادات والنوادر والفتاوى الواقعات مدلله بدلائل المتقدمين"
+      ]
+    }
+  },
+  {
+    "id": "recazyEbr8e71WQiM",
+    "createdTime": "2024-04-16T00:08:22.000Z",
+    "fields": {
+      "id": 83,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recVhUE9lZLavgJFc"
+      ],
+      "OpenITI ID": [
+        "rec89vCBPUHMIWmtY"
+      ],
+      "id (from OpenITI ID)": [
+        " شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "reccXqXUHbxyRiMks",
+    "createdTime": "2024-04-14T16:08:29.000Z",
+    "fields": {
+      "id": 20,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recANFXTe7GzgfljT"
+      ],
+      "OpenITI ID": [
+        "recR93m1eCN7sVPu7"
+      ],
+      "id (from OpenITI ID)": [
+        "تحفة الفقهاء"
+      ]
+    }
+  },
+  {
+    "id": "recdffD1SIC5u2ME4",
+    "createdTime": "2024-04-14T16:16:50.000Z",
+    "fields": {
+      "id": 24,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec5c0SqABPNomOpD"
+      ],
+      "OpenITI ID": [
+        "recRktN84OAHB5Eaz"
+      ],
+      "id (from OpenITI ID)": [
+        "البحر الرائق شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recdqz1HG1ecoWR3w",
+    "createdTime": "2024-04-16T00:20:55.000Z",
+    "fields": {
+      "id": 94,
+      "Name (Arabic)": "فقه مقارن/مختصرات",
+      "Author": [
+        "recyV3iwcr7umq6ZJ"
+      ],
+      "OpenITI ID": [
+        "recW5QiiNn4pQ5pFs"
+      ],
+      "id (from OpenITI ID)": [
+        "عيون المذاهب"
+      ]
+    }
+  },
+  {
+    "id": "recdrRtlmO0zxWhAk",
+    "createdTime": "2024-04-14T15:53:55.000Z",
+    "fields": {
+      "id": 8,
+      "Name (Arabic)": "فقه حنفي/العبادات",
+      "Author": [
+        "reca9qCJJQ3I7strs"
+      ],
+      "OpenITI ID": [
+        "recnmAErNJ5ZwO35t"
+      ],
+      "id (from OpenITI ID)": [
+        "سبيل الفلاح في شرح نور الإيضاح"
+      ]
+    }
+  },
+  {
+    "id": "rece16mYbqP9E560x",
+    "createdTime": "2024-04-17T13:16:50.000Z",
+    "fields": {
+      "id": 124,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "reci3QYXhcZMOlVaT"
+      ],
+      "OpenITI ID": [
+        "recpbJZuXdhH6ujBm"
+      ],
+      "id (from OpenITI ID)": [
+        "الجوهرة النيرة على مختصر القدوري"
+      ]
+    }
+  },
+  {
+    "id": "receXDdPLLzI1V09J",
+    "createdTime": "2024-04-19T01:35:10.000Z",
+    "fields": {
+      "id": 134,
+      "Name (Arabic)": "فقه حنفي/شروح//شرح لملتقى الأبحر للحلبي",
+      "Author": [
+        "recCNMBfp2WN8xXgl"
+      ],
+      "OpenITI ID": [
+        "recYfGOQzQRkhDYqJ"
+      ],
+      "id (from OpenITI ID)": [
+        "مجرى الأنهر على ملتقى الأبحر"
+      ]
+    }
+  },
+  {
+    "id": "recefqQlYJrf503Bx",
+    "createdTime": "2024-04-14T16:19:52.000Z",
+    "fields": {
+      "id": 27,
+      "Name (Arabic)": "فقه حنفي/مختصرات",
+      "Author": [
+        "recCiojZVmB4yPUbD"
+      ],
+      "OpenITI ID": [
+        "reclaJ50PRhoD433X"
+      ],
+      "id (from OpenITI ID)": [
+        "مختصر الطحاوي"
+      ]
+    }
+  },
+  {
+    "id": "recfIUrUv6UVMt52H",
+    "createdTime": "2024-04-19T01:51:54.000Z",
+    "fields": {
+      "id": 145,
+      "Name (Arabic)": "فقه حنفي/فتاوى/منتقى من كتاب منية الفقهاء للقزبني",
+      "Author": [
+        "rect3UuNQTkTD0O71"
+      ],
+      "OpenITI ID": [
+        "recPFvpZFCJuw3rx6"
+      ],
+      "id (from OpenITI ID)": [
+        "قنية المنية"
+      ]
+    }
+  },
+  {
+    "id": "recfo7ehm9k0vGf9l",
+    "createdTime": "2024-04-17T13:12:04.000Z",
+    "fields": {
+      "id": 121,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لمجمع البحرين لابن الساعاتي",
+      "Author": [
+        "recZVLTUojJ0fI3H0"
+      ],
+      "OpenITI ID": [
+        "rectfnw6QbWiXMGW7"
+      ],
+      "id (from OpenITI ID)": [
+        "المنبع في شرح المجمع"
+      ]
+    }
+  },
+  {
+    "id": "recg84FksaBpGhQRZ",
+    "createdTime": "2024-04-16T00:09:13.000Z",
+    "fields": {
+      "id": 84,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recAT9AwyIvHvLw3D"
+      ],
+      "OpenITI ID": [
+        "recaZ82XsBt2OLQUk"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recgO2e9iNvcpEVOF",
+    "createdTime": "2024-04-19T01:40:50.000Z",
+    "fields": {
+      "id": 138,
+      "Name (Arabic)": "فقه مقارن/فقه الخلاف/حنفي-شافعي",
+      "Author": [
+        "recieHCMM8PLjSKX4"
+      ],
+      "OpenITI ID": [
+        "recbEtpcH2d4HQU0j"
+      ],
+      "id (from OpenITI ID)": [
+        "الأسرار"
+      ]
+    }
+  },
+  {
+    "id": "recgV5Ed6r2PRdxcd",
+    "createdTime": "2024-04-14T16:45:29.000Z",
+    "fields": {
+      "id": 42,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recNE0rbUURd6KctW"
+      ],
+      "OpenITI ID": [
+        "recaqJEBpy0GHehOK"
+      ],
+      "id (from OpenITI ID)": [
+        "منحة السلوك في شرح تحفة الملوك"
+      ]
+    }
+  },
+  {
+    "id": "recgvFj6YlpoXcfJU",
+    "createdTime": "2024-04-16T00:09:59.000Z",
+    "fields": {
+      "id": 85,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recTF1WzUbbUTMSMF"
+      ],
+      "OpenITI ID": [
+        "recSapVRYh7bhSoto"
+      ],
+      "id (from OpenITI ID)": [
+        "التحرير في شرح الجامع الكبير"
+      ]
+    }
+  },
+  {
+    "id": "rech169JLPPTZXoUK",
+    "createdTime": "2024-04-14T16:32:04.000Z",
+    "fields": {
+      "id": 36,
+      "Name (Arabic)": "فقه مقارن/ردود",
+      "Author": [
+        "rec2EzmlL2D4IrARo"
+      ],
+      "OpenITI ID": [
+        "recTpk4fGxCH8wFvd"
+      ],
+      "id (from OpenITI ID)": [
+        "اختلاف أبي حنيفة وابن أبي ليلى"
+      ]
+    }
+  },
+  {
+    "id": "rechExKq0plzpfp0o",
+    "createdTime": "2024-04-14T16:20:29.000Z",
+    "fields": {
+      "id": 28,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rectol1onZ0CHt8YI"
+      ],
+      "OpenITI ID": [
+        "rec5ldaYhFsLzfYBt"
+      ],
+      "id (from OpenITI ID)": [
+        "الدرر الحكام شرح غرر الأحكام"
+      ]
+    }
+  },
+  {
+    "id": "rechjKwIMw9nadeeE",
+    "createdTime": "2024-04-14T16:07:30.000Z",
+    "fields": {
+      "id": 19,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec6BqruI9Aeywz3m"
+      ],
+      "OpenITI ID": [
+        "recDaQPIkrXq9PAi0"
+      ],
+      "id (from OpenITI ID)": [
+        "التسهيل الضروري لمسائل القدوري"
+      ]
+    }
+  },
+  {
+    "id": "recihuTbvRzwJHSls",
+    "createdTime": "2024-04-16T00:39:35.000Z",
+    "fields": {
+      "id": 107,
+      "Name (Arabic)": "فقه حنفي/منظومات//تلخيص لمنظومة در المهتدي للهاملي",
+      "Author": [
+        "recWSB07tjiaPWseE"
+      ],
+      "OpenITI ID": [
+        "recrIRwENM13pVIpz"
+      ],
+      "id (from OpenITI ID)": [
+        "تحفة الطلاب"
+      ]
+    }
+  },
+  {
+    "id": "recjNq1AJgdvKy6gT",
+    "createdTime": "2024-04-16T00:18:31.000Z",
+    "fields": {
+      "id": 92,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recZBPpNrlkuxfVZW"
+      ],
+      "OpenITI ID": [
+        "rectxOZCsmzlQxGwo"
+      ],
+      "id (from OpenITI ID)": [
+        "الوافي"
+      ]
+    }
+  },
+  {
+    "id": "recjYP5oE4jV31dHZ",
+    "createdTime": "2024-04-14T16:35:52.000Z",
+    "fields": {
+      "id": 40,
+      "Name (Arabic)": "فقه حنفي/فقه الحج",
+      "Author": [
+        "rec53oZdO8sZb1ktD"
+      ],
+      "OpenITI ID": [
+        "rec1aJiVX75FugR9W"
+      ],
+      "id (from OpenITI ID)": [
+        "البحر العميق في مناسك المعتمر والحاج إلى البيت العتيق"
+      ]
+    }
+  },
+  {
+    "id": "recjiO7Cth1O09rtV",
+    "createdTime": "2024-04-16T00:25:28.000Z",
+    "fields": {
+      "id": 97,
+      "Name (Arabic)": "فقه حنفي/جامع مختصرات",
+      "Author": [
+        "recesotklJOv5MCzt"
+      ],
+      "OpenITI ID": [
+        "recmstZzOb4hcJ9Sn"
+      ],
+      "id (from OpenITI ID)": [
+        "مخزن الفقه"
+      ]
+    }
+  },
+  {
+    "id": "recklb92cKPrhjTDN",
+    "createdTime": "2024-04-19T01:24:53.000Z",
+    "fields": {
+      "id": 129,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لمتن كنز الدقائق",
+      "Author": [
+        "recFthivc6RR9z2xg"
+      ],
+      "OpenITI ID": [
+        "reckPRaMymWkabtPK"
+      ],
+      "id (from OpenITI ID)": [
+        "مستخلص الحقائق"
+      ]
+    }
+  },
+  {
+    "id": "recl8LGFG8lNcfhoa",
+    "createdTime": "2024-04-14T15:55:29.000Z",
+    "fields": {
+      "id": 9,
+      "Name (Arabic)": "فقه حنفي/العبادات",
+      "Author": [
+        "reca9qCJJQ3I7strs"
+      ],
+      "OpenITI ID": [
+        "recrtij2NPuqYe3s5"
+      ],
+      "id (from OpenITI ID)": [
+        "هبة الفتاح بتكملة نور الإيضاح"
+      ]
+    }
+  },
+  {
+    "id": "reclKkJZQ8zhXLPF4",
+    "createdTime": "2024-04-16T00:35:59.000Z",
+    "fields": {
+      "id": 105,
+      "Name (Arabic)": "فقه حنفي/منظومات/منظومة لمتن النقاية مختصر الوقاية",
+      "Author": [
+        "recNn8Xr2NPn4zKSw"
+      ],
+      "OpenITI ID": [
+        "rec88Mp8J7Wuigrpi"
+      ],
+      "id (from OpenITI ID)": [
+        "الفرائد السنية"
+      ]
+    }
+  },
+  {
+    "id": "reclTaHVhSWK2LZ01",
+    "createdTime": "2024-04-19T01:49:17.000Z",
+    "fields": {
+      "id": 143,
+      "Name (Arabic)": "فقه حنفي/الفتاوى والواقعات",
+      "Author": [
+        "recKb0eWR9pCv5PKk"
+      ],
+      "OpenITI ID": [
+        "reczBxYhz76BNt9f7"
+      ],
+      "id (from OpenITI ID)": [
+        "خلاصة الفتاوى"
+      ]
+    }
+  },
+  {
+    "id": "recltci5J6VADemKn",
+    "createdTime": "2024-04-14T16:00:36.000Z",
+    "fields": {
+      "id": 13,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec1mKudQt9DmS7lW"
+      ],
+      "OpenITI ID": [
+        "recbA61sBsVWLSzxh"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح فتح القدير على الهداية شرح بداية المبتدي"
+      ]
+    }
+  },
+  {
+    "id": "reclvES7XsC1Y7EB3",
+    "createdTime": "2024-04-14T17:29:25.000Z",
+    "fields": {
+      "id": 75,
+      "Name (Arabic)": "فقه حنفي/شروح/حواشي",
+      "Author": [
+        "rec86nIokwz5mZJDr"
+      ],
+      "OpenITI ID": [
+        "reczO3HlWaflgprVK"
+      ],
+      "id (from OpenITI ID)": [
+        "قرة عيون الأخيار تكملة رد المحتار على الدر المختار"
+      ]
+    }
+  },
+  {
+    "id": "reclzxsSGW2UvcQfW",
+    "createdTime": "2024-04-16T00:23:06.000Z",
+    "fields": {
+      "id": 95,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "rectol1onZ0CHt8YI"
+      ],
+      "OpenITI ID": [
+        "recCec4q5l1Unm3PV"
+      ],
+      "id (from OpenITI ID)": [
+        "غرر الأحكام"
+      ]
+    }
+  },
+  {
+    "id": "recm2AkufW5oNHigx",
+    "createdTime": "2024-04-14T17:17:39.000Z",
+    "fields": {
+      "id": 68,
+      "Name (Arabic)": "فقه حنفي/العبادات",
+      "Author": [
+        "recHestGjv8ldLa3r"
+      ],
+      "OpenITI ID": [
+        "recNNY0OdN7JYyGTA"
+      ],
+      "id (from OpenITI ID)": [
+        "الرسالة الوهبية في سنن الصلاة الرباعية"
+      ]
+    }
+  },
+  {
+    "id": "recmE467l1QLnuPwT",
+    "createdTime": "2024-04-14T17:17:07.000Z",
+    "fields": {
+      "id": 67,
+      "Name (Arabic)": "فقه حنفي/الحيل",
+      "Author": [
+        "recfuF72jeTfGuuev"
+      ],
+      "OpenITI ID": [
+        "recydhRJ1z7pfV3XT"
+      ],
+      "id (from OpenITI ID)": [
+        "المخارج في الحيل"
+      ]
+    }
+  },
+  {
+    "id": "recmUPHLrm7pxhqBl",
+    "createdTime": "2024-04-16T00:03:00.000Z",
+    "fields": {
+      "id": 77,
+      "Name (Arabic)": "فقه حنفي/تلخيص/مخطوط",
+      "Author": [
+        "recK5tjcsqDDW9LKa"
+      ],
+      "OpenITI ID": [
+        "recOMTehxl8jt3chr"
+      ],
+      "id (from OpenITI ID)": [
+        "تلخيص الجامع الكبير/التيسير بمعاني الجامع الكبير"
+      ]
+    }
+  },
+  {
+    "id": "recmfTnFogYnxI3kB",
+    "createdTime": "2024-04-16T00:28:45.000Z",
+    "fields": {
+      "id": 99,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recnIrYROKAg17iSt"
+      ],
+      "OpenITI ID": [
+        "reci1QNzrNTgBpQFO"
+      ],
+      "id (from OpenITI ID)": [
+        "تنوير الأبصار وجامع البحار"
+      ]
+    }
+  },
+  {
+    "id": "recntNOX62xijDPOk",
+    "createdTime": "2024-04-14T16:51:19.000Z",
+    "fields": {
+      "id": 46,
+      "Name (Arabic)": "فقه حنفي/مختصرات",
+      "Author": [
+        "rec9HVoT8hqkld9Sw"
+      ],
+      "OpenITI ID": [
+        "recTmWBJ0Ei7Pjbcu"
+      ],
+      "id (from OpenITI ID)": [
+        "مختصر القدوري"
+      ]
+    }
+  },
+  {
+    "id": "recoQAhvq8RX3Am21",
+    "createdTime": "2024-04-14T16:57:37.000Z",
+    "fields": {
+      "id": 52,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recijJyieBCO5LcZ1"
+      ],
+      "OpenITI ID": [
+        "reclG0UVfODSWLmOj"
+      ],
+      "id (from OpenITI ID)": [
+        "الاختيار لتعليل المختار"
+      ]
+    }
+  },
+  {
+    "id": "recocms1Pa1qFO9z3",
+    "createdTime": "2024-04-16T00:46:48.000Z",
+    "fields": {
+      "id": 112,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recf2Q58uB6kNpt0w"
+      ],
+      "OpenITI ID": [
+        "recaZ82XsBt2OLQUk"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recowXHLKxpiNOT14",
+    "createdTime": "2024-04-17T13:04:51.000Z",
+    "fields": {
+      "id": 116,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح الفقه النافع لأبي القاسم السمرقندي",
+      "Author": [
+        "rec547yxuNZSMKLXa"
+      ],
+      "OpenITI ID": [
+        "recIHobVhQl4ObGwE"
+      ],
+      "id (from OpenITI ID)": [
+        "كتاب المنافع في فوائد النافع"
+      ]
+    }
+  },
+  {
+    "id": "recowz0EI8jOdE38O",
+    "createdTime": "2024-04-17T13:13:16.000Z",
+    "fields": {
+      "id": 122,
+      "Name (Arabic)": "فقه حنفي/ شروح/ شرح لمنظومة قيد الشرائد",
+      "Author": [
+        "recRb9qJUap2JNMNF"
+      ],
+      "OpenITI ID": [
+        "recXqAqvdUQyFHEyn"
+      ],
+      "id (from OpenITI ID)": [
+        "عقد القلائد في حل قيد الشرائد"
+      ]
+    }
+  },
+  {
+    "id": "recoyIjL0gX25EbiH",
+    "createdTime": "2024-04-14T17:12:31.000Z",
+    "fields": {
+      "id": 63,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recKYFaP6QkXC85EL"
+      ],
+      "OpenITI ID": [
+        "reczpvyXAYwEeB3D1"
+      ],
+      "id (from OpenITI ID)": [
+        "تببين الحقائق شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recpE9o07a8ANuFDJ",
+    "createdTime": "2024-04-09T13:37:32.000Z",
+    "fields": {
+      "id": 5,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recNE0rbUURd6KctW"
+      ],
+      "Genres": [
+        "rec73XK8i8SznZgpL"
+      ],
+      "OpenITI ID": [
+        "rec4Hm46UbnTsp6Vf"
+      ],
+      "id (from OpenITI ID)": [
+        "البناية في شرح الهداية"
+      ]
+    }
+  },
+  {
+    "id": "recpHjsy5aPsr7OT2",
+    "createdTime": "2024-04-16T00:05:04.000Z",
+    "fields": {
+      "id": 78,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recYQzpvrLB54UOuV"
+      ],
+      "OpenITI ID": [
+        "recAEk1Dh72mVEI6o"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح الزيادات"
+      ]
+    }
+  },
+  {
+    "id": "recpy0cqPM7VHGsub",
+    "createdTime": "2024-04-14T17:11:46.000Z",
+    "fields": {
+      "id": 62,
+      "Name (Arabic)": "فقه مقارن",
+      "Author": [
+        "recCiojZVmB4yPUbD"
+      ],
+      "OpenITI ID": [
+        "recG5F0hddZJz7COQ"
+      ],
+      "id (from OpenITI ID)": [
+        "اختلاف العلماء"
+      ]
+    }
+  },
+  {
+    "id": "recqnJfE5Sqtkm4Qb",
+    "createdTime": "2024-04-19T01:38:06.000Z",
+    "fields": {
+      "id": 136,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لمنظومة ابن وهبان قيد الشرائد",
+      "Author": [
+        "recw9HuU69F5LMsVg"
+      ],
+      "OpenITI ID": [
+        "rec9ROc8fyJZrtAw1"
+      ],
+      "id (from OpenITI ID)": [
+        "تيسير المقاصد شرح نظم الفرائد"
+      ]
+    }
+  },
+  {
+    "id": "rectrkH9xw24mATpQ",
+    "createdTime": "2024-04-14T16:31:13.000Z",
+    "fields": {
+      "id": 35,
+      "Name (Arabic)": "فقه حنفي/رسائل",
+      "Author": [
+        "recpDYSsE37sBNDde"
+      ],
+      "OpenITI ID": [
+        "recJSe9D3abgyVfNU"
+      ],
+      "id (from OpenITI ID)": [
+        "رسالة إنقاذ الهالكين في حكم أخذ الأجرة على تلاوة القرآن الكريم"
+      ]
+    }
+  },
+  {
+    "id": "recuGCiGZEmQpjOdm",
+    "createdTime": "2024-04-14T15:56:14.000Z",
+    "fields": {
+      "id": 10,
+      "Name (Arabic)": "فقه حنفي/ ردود",
+      "Author": [
+        "recfuF72jeTfGuuev"
+      ],
+      "OpenITI ID": [
+        "recFY0TxLoz6QxsYw"
+      ],
+      "id (from OpenITI ID)": [
+        "الحجة على أهل المدينة"
+      ]
+    }
+  },
+  {
+    "id": "recuGhJOsTAUkgWAQ",
+    "createdTime": "2024-04-14T17:28:12.000Z",
+    "fields": {
+      "id": 74,
+      "Name (Arabic)": "فقه حنفي/شروح/حواشي",
+      "Author": [
+        "recuFAnFduyh3D0hM"
+      ],
+      "OpenITI ID": [
+        "recV1HnbUOHgokI6S"
+      ],
+      "id (from OpenITI ID)": [
+        "رد المحتار على الدر المختار (حاشية ابن عابدين)"
+      ]
+    }
+  },
+  {
+    "id": "recv7tOPUg8dmif7r",
+    "createdTime": "2024-04-14T16:24:59.000Z",
+    "fields": {
+      "id": 30,
+      "Name (Arabic)": "فقه حنفي/حواشي",
+      "Author": [
+        "recuFAnFduyh3D0hM"
+      ],
+      "OpenITI ID": [
+        "recwunQpLTe66gcX0"
+      ],
+      "id (from OpenITI ID)": [
+        "حاشية على غنية ذوي الأحكام في بغية درر الأحكام"
+      ]
+    }
+  },
+  {
+    "id": "recvCmNBrdVUnT3S2",
+    "createdTime": "2024-04-14T16:56:04.000Z",
+    "fields": {
+      "id": 50,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec5mR2hN7n6IQkEH"
+      ],
+      "OpenITI ID": [
+        "reciQjffjFSgCteSf"
+      ],
+      "id (from OpenITI ID)": [
+        "مجمع الأنهر في شرح ملتقى الأبحر"
+      ]
+    }
+  },
+  {
+    "id": "recvCq65rJs5DpVly",
+    "createdTime": "2024-04-14T16:33:32.000Z",
+    "fields": {
+      "id": 38,
+      "Name (Arabic)": "فقه حنفي/معاملات/شروح",
+      "Author": [
+        "recCNRHPPQLgDrdnw"
+      ],
+      "OpenITI ID": [
+        "recbIw3m3yrxw8dGy"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح كتاب السير الكبير"
+      ]
+    }
+  },
+  {
+    "id": "recvMEXmHqtNP2o6V",
+    "createdTime": "2024-04-19T01:39:24.000Z",
+    "fields": {
+      "id": 137,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لمتن كنز الدقائق",
+      "Author": [
+        "rec8a6HrlybcanZVk"
+      ],
+      "OpenITI ID": [
+        "rec1XiQgUg40uTwrP"
+      ],
+      "id (from OpenITI ID)": [
+        "رمز الحقائق في شرح كنز الدقائق"
+      ]
+    }
+  },
+  {
+    "id": "recvUfLg4edoV4RUi",
+    "createdTime": "2024-04-14T17:16:12.000Z",
+    "fields": {
+      "id": 66,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recS6Jj0Gmi2zNRpF"
+      ],
+      "OpenITI ID": [
+        "rec58absnrfgNf90f"
+      ],
+      "id (from OpenITI ID)": [
+        "مجمع الضمانات في مذهب الإمام الأعظم أبي حنيفة النعمان"
+      ]
+    }
+  },
+  {
+    "id": "recvs66qKWjKal9Rt",
+    "createdTime": "2024-04-19T01:26:29.000Z",
+    "fields": {
+      "id": 130,
+      "Name (Arabic)": "فقه حنفي/شروح/شرح لمنظومة ابن وهبان قيد الشرائد",
+      "Author": [
+        "recYJhmTsS0ye9vU5"
+      ],
+      "OpenITI ID": [
+        "recMeAmU35qUtsnvH"
+      ],
+      "id (from OpenITI ID)": [
+        "تفصيل عقد القلائد بتكميل قيد الشرائد"
+      ]
+    }
+  },
+  {
+    "id": "recwX1GAClaLvS23Q",
+    "createdTime": "2024-04-14T16:48:38.000Z",
+    "fields": {
+      "id": 45,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "recdcnpuXbVmsqBdF"
+      ],
+      "OpenITI ID": [
+        "recFCLsJsZzF3nbps"
+      ],
+      "id (from OpenITI ID)": [
+        "نتائج الأفكار في كشف الرموز والأسرار تكملة شرح فتح القدير لابن الهمام"
+      ]
+    }
+  },
+  {
+    "id": "recwjDpc47L9tIBkR",
+    "createdTime": "2024-04-14T15:57:57.000Z",
+    "fields": {
+      "id": 11,
+      "Name (Arabic)": "فقه حنفي/العبادات",
+      "Author": [
+        "recw9HuU69F5LMsVg"
+      ],
+      "OpenITI ID": [
+        "rechjIyg8h5WBWGtL"
+      ],
+      "id (from OpenITI ID)": [
+        "نور الإيضاح في الفقه على مذهب أبي حنيفة النعمان"
+      ]
+    }
+  },
+  {
+    "id": "recwwtMj3FMED1hRa",
+    "createdTime": "2024-04-16T00:44:00.000Z",
+    "fields": {
+      "id": 110,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec7brVM3H2IyhIN1"
+      ],
+      "OpenITI ID": [
+        "rec0l5E4OsAB8K8yg"
+      ],
+      "id (from OpenITI ID)": [
+        "شرح مختصر الطحاوي"
+      ]
+    }
+  },
+  {
+    "id": "recwz72K0Rj0kwbRJ",
+    "createdTime": "2024-04-14T16:44:12.000Z",
+    "fields": {
+      "id": 41,
+      "Name (Arabic)": "فقه حنفي/شروح",
+      "Author": [
+        "rec7Bdv2uq55XdA5B"
+      ],
+      "OpenITI ID": [
+        "rectj0VXuC3GVr9sI"
+      ],
+      "id (from OpenITI ID)": [
+        "التنبيه على مشكلات الهداية"
+      ]
+    }
+  },
+  {
+    "id": "recx0s77MiC6Bxrtn",
+    "createdTime": "2024-04-14T17:05:12.000Z",
+    "fields": {
+      "id": 58,
+      "Name (Arabic)": "فقه حنفي",
+      "Author": [
+        "recxpyTm5iHfOxT7V"
+      ],
+      "OpenITI ID": [
+        "recWgu2G2wjqQyK73"
+      ],
+      "id (from OpenITI ID)": [
+        "كتاب أحكام الوقف"
+      ]
+    }
+  },
+  {
+    "id": "recxCuFOp9DcxVRKU",
+    "createdTime": "2024-04-14T16:03:24.000Z",
+    "fields": {
+      "id": 15,
+      "Name (Arabic)": "فقه حنفي/متون",
+      "Author": [
+        "recfuF72jeTfGuuev"
+      ],
+      "OpenITI ID": [
+        "recAA2K80Dc3SdDgK"
+      ],
+      "id (from OpenITI ID)": [
+        "الجامع الصغير"
+      ]
+    }
+  },
+  {
+    "id": "recxmN1qRYsI4ltQI",
+    "createdTime": "2024-04-16T00:10:31.000Z",
+    "fields": {
+      "id": 86,
+      "Name (Arabic)": "فقه حنفي/شروح/مخطوط",
+      "Author": [
+        "recTaxcPv3FjylU9S"
+      ],
+      "OpenITI ID": [
+        "recCId8TCCQoHDMEO"
+      ],
+      "id (from OpenITI ID)": [
+        "الكفاية شرح الهداية"
+      ]
+    }
+  },
+  {
+    "id": "recyA6egZ2UytS0ZW",
+    "createdTime": "2024-04-16T00:41:11.000Z",
+    "fields": {
+      "id": 108,
+      "Name (Arabic)": "فقه حنفي/منظومات/فتاوى",
+      "Author": [
+        "rec8hVWsxT6bu8jR2"
+      ],
+      "OpenITI ID": [
+        "recM30r0ZMWqKfU65"
+      ],
+      "id (from OpenITI ID)": [
+        "الفتاوى النظم"
+      ]
+    }
+  },
+  {
+    "id": "recyl9DvYz3XbNzWx",
+    "createdTime": "2024-04-14T17:06:19.000Z",
+    "fields": {
+      "id": 59,
+      "Name (Arabic)": "فقه حنفي/حديث",
+      "Author": [
+        "recAgQrafayYMuo7I"
+      ],
+      "OpenITI ID": [
+        "recpQGhHrW8uq67Qn"
+      ],
+      "id (from OpenITI ID)": [
+        "المواهب اللطيفة شرح مسند الإمام أبي حنيفة"
+      ]
+    }
+  },
+  {
+    "id": "reczL8Zq1tEcFsdfG",
+    "createdTime": "2024-04-17T13:24:16.000Z",
+    "fields": {
+      "id": 128,
+      "Name (Arabic)": "فقه حنفي/حواشي/حاشية على شرح الوقاية للمحبوبي",
+      "Author": [
+        "recUze64jbr6gBsgx"
+      ],
+      "OpenITI ID": [
+        "recZcAwWtTenVr3LK"
+      ],
+      "id (from OpenITI ID)": [
+        "ذخيرة العقبى"
+      ]
+    }
+  }
+]

@@ -1,0 +1,207 @@
+{
+  "andalus": {
+    "ar": {
+      "overview": "تُعرف الأندلس في التاريخ الإسلامي باسم الأراضي التي شملت معظم ما هو اليوم إسبانيا والبرتغال. تميزت هذه المنطقة بكونها مركزاً للتقدم الفكري والعلمي خلال العصور الوسطى، حيث أثر المسلمون بشكل كبير على الفنون، العمارة، الفلسفة، والعلوم. بلغت الأندلس ذروة ازدهارها الحضاري في القرن العاشر الميلادي، واستمرت كمعقل إسلامي حتى سقوط غرناطة عام 1492، مما ميز نهاية حكم المسلمين في شبه الجزيرة الإيبيرية."
+    },
+    "fa": {
+      "overview": "الأندلس، منطقه‌ای تاریخی که امروزه بین کشورهای اسپانیا و پرتغال تقسیم شده است، یکی از مراکز علمی و فرهنگی جهان اسلام در قرون وسطی بود. این منطقه در نهایت به عنوان پایتخت خلافت اموی در اروپا ایفای نقش کرد و مرکزی برای پیشرفت علوم، فلسفه، هنر و معماری شد. الأندلس نقش مهمی در تأثیرگذاری و تبادل فرهنگی بین جهان اسلامی و اروپا داشته و سهم بسزایی در انتقال دانش به اروپا خصوصاً در دوران رنسانس داشت."
+    },
+    "ur": {
+      "overview": "الأندلس، جو موجودہ اسپین اور پرتگال کی سرزمین پر مشتمل ہے، ہمیشہ تاریخ اسلامی کا ایک اہم حصہ رہا ہے۔ 711ء میں مسلمانوں کے قبضے کے بعد، یہ خطہ اسلامی تہذیب و ثقافت کا مرکز بھی بن گیا۔ یہاں کی مساجد، قلعے اور معماری اب بھی اس دور کی شاندار تہذیب کی گواہی دیتے ہیں۔ اس علاقے میں مسلم حکمرانوں نے علم، فلسفہ، علم فلکیات، طب وغیرہ میں نمایاں پیش رفت کی، جس نے یورپی رینیسانس میں بھی کردار ادا کیا۔"
+    },
+    "hi": {
+      "overview": "अंडलूस, जिसे अरबी में الأندلस के नाम से जाना जाता है, वर्तमान स्पेन और पुर्तगाल का क्षेत्र था। इस्लामिक इतिहास में अंडलूस का बहुत महत्वपूर्ण स्थान है क्योंकि यह वह स्थान था जहां मुस्लिम, ईसाई और यहूदी संस्कृतियों का संगम हुआ। अंडलूसी युग में विज्ञान, दर्शन, कला और साहित्य में उल्लेखनीय योगदान दिया गया, जिसने यूरोपीय रेनेसां को प्रेरित किया।"
+    },
+    "fr": {
+      "overview": "L'Andalus, connu en arabe sous le nom الأندلس, englobe les régions actuelles de l'Espagne et du Portugal. Cette région historique a été un centre culturel et scientifique majeur durant le Moyen Âge. Suite à la conquête musulmane au début du VIIIe siècle, l'Andalus est devenu un lieu de convergence et d’échange entre les cultures musulmane, chrétienne et juive, enrichissant ainsi son patrimoine. Sa contribution à divers domaines, tels que la philosophie, les sciences et les arts, marque profondément l’héritage de l’Europe médiévale."
+    },
+    "tr": {
+      "overview": "Endülüs, İslam tarihi açısından büyük öneme sahip bölgedir. Arapça adı الأندلس olan bu topraklar, günümüzde İspanya ve Portekiz olarak bilinir. 711 yılında Müslümanların bölgeyi fethi ile başlayan Endülüs dönemi, İspanya'da 1492'ye kadar sürmüş, İslam sanatı, bilimi ve kültürünün batı dünyası üzerinde derin bir etkisi olmuştur. Bu etkileşim Avrupa Rönesansı'nı şekillendiren bilgi ve düşünce alışverişinde kritik bir rol oynamıştır."
+    },
+    "es": {
+      "overview": "Al-Ándalus, conocido en árabe como الأندلس, fue el nombre dado a las partes de la península Ibérica gobernadas por musulmanes entre 711 y 1492. Este territorio, hoy principalmente España y Portugal, fue un centro cultural y científico floreciente durante la Edad Media. La convivencia y la interacción entre musulmanes, cristianos y judíos en Al-Ándalus resultaron en un periodo significativo de coexistencia religiosa y transferencia de conocimiento, que tuvo un impacto duradero en el arte, la literatura y la ciencia europea."
+    },
+    "ms": {
+      "overview": "Andalus, atau al-Andalus dalam Bahasa Arab, merujuk kepada wilayah yang kini dikenali sebagai Sepanyol dan Portugal. Kawasan ini memainkan peranan penting dalam sejarah Islam, terutamanya sebagai pusat keilmuan, kebudayaan, dan seni. Kesultanan Islam di Andalus berlangsung dari abad ke-8 hingga ke-15, menampilkan zaman kegemilangan dalam bidang sains, falsafah, dan seni bina. Penarikan balik dan penaklukan semula oleh kerajaan Kristian telah mengakhiri kehadiran Islam di sana pada abad ke-15, tetapi warisannya masih ketara dalam banyak aspek kebudayaan di rantau ini."
+    },
+    "ru": {
+      "overview": "Андалус, известный на арабском как аль-Андалус, включал территории современных Испании и Португалии. Этот регион оставил значительный след в истории ислама, будучи центром культурного и научного расцвета в средние века. Основан в начале VIII века мусульманами, Андалус претерпел периоды как мощного процветания, так и внутренних раздоров, при этом оставаясь мостом между западными и восточными культурами."
+    },
+    "bn": {
+      "overview": "ইসলামিক ইতিহাসে আন্দালুসের অবস্থান অত্যন্ত গুরুত্বপূর্ণ। আরবি 'আল-আন্দালুস' নামে পরিচিত এই অঞ্চল বর্তমান স্পেন ও পর্তুগাল জুড়ে বিস্তৃত। ৭১১ সালে তারিক ইবন জিয়াদের নেতৃত্বে মুসলিম সেনারা এই অঞ্চলে প্রবেশ করে এবং ধীরে ধীরে ইউরোপে ইসলামের প্রসার ঘটাতে থাকে। ইসলামিক শাসনামলে এই অঞ্চল বৈজ্ঞানিক, সাহিত্যিক ও স্থাপত্য সংস্কৃতির এক অনন্য সম্মিলনভূমি হয়ে ওঠে যা ইতিহাসে চির স্মরণীয়।"
+    },
+    "ha": {
+      "overview": "Andalus, ko kamar yadda ake kira da Larabci, الأندلس, muhimmiyar ƙasa ce a tarihin Musulunci wacce a yau ta zama ƙasashen Spain da Portugal. Yanayin yankin ya shahara da bunkasar ilimi, fasaha, da al'adu a zamanin daular Islama. Musulmai sun samar da cigaba mai yawa musamman a fannoni kamar fasahar gine-gine, kimiyya da falsafa. Tarihin Andalus yana ɗaya daga cikin shaidar tasirin Islama a Turai, wanda ke nuna muhimmancin musayar al'adu da ilimi tsakanin Musulmai da sauran al'ummomi na zamani."
+    },
+    "so": {
+      "overview": "Andalus, oo Carabi loogu yeero الأندلس, waa magaca taariikheed ee gobollada hadda loo yaqaan Spain iyo Portugal. Gobolkan ayaa ahaa xarun muhiim u ah soo-saaridda iyo isdhaafsiga aqoonta diineed, dhaqameed iyo farsamooyinka intii lagu jiray xilliyadii Islaamka, gaar ahaan xilligii ay maamulayeen Muslimiinta. Andalus waxay ahayd meel ay ku kulmeen ilbaxnimooyinka Islaamka, Yurub, iyo Yuhuudda, waxayna door muhiim ah ka ciyaartay horumarka fikirka iyo aqoonta Yurub gaar ahaan xilliyada dhexe."
+    },
+    "ps": {
+      "overview": "الأندلس، چې په عربي کې د الأندلس په نامه یادیږي، اوسنی د اسپانیا او پرتګال ځایونه پکې شامل دي. دا سیمه د اسلامي تاریخ په مهم فصلونو کې لوی نقش لوبولی دی. په ۷۱۱ز کال کې مسلمانانو دا خطه فتح کړه او تر ۱۴۹۲ز پورې یې حکومت وکړ. د الاندلس دوره د علمي، فرهنګي، او مذهبي پرمختګ لپاره نوموړې ده. دا د اسلام او عرب فرهنګ د نفوذ ساحه په رڼا کې راوړي، په ځانګړې توګه په فلسفه، طب، علم الهیات، او هنر کې."
+    }
+  },
+  "egypt": {
+    "ar": {
+      "overview": "تعد مصر، أو جمهورية مصر العربية حالياً، إحدى أهم مناطق التاريخ الإسلامي. فقد كانت مركزًا حضاريًا ودينيًا هامًا منذ فجر الإسلام. بعد الفتح الإسلامي عام 641 ميلادية، أصبحت مصر قاعدة للحملات الإسلامية في أفريقيا وأوروبا. كما برزت القاهرة، عاصمتها، كمركز علمي وثقافي رائد، حيث تأسست الأزهر، أحد أقدم الجامعات في العالم ومركزًا رئيسيًا للتعليم الإسلامي. تاريخ مصر الإسلامي غني بالأحداث الرئيسية التي شكلت العالم الإسلامي والشرق الأوسط."
+    },
+    "fa": {
+      "overview": "مصر، با نام رسمی جمهوری عربی مصر، یکی از کشورهای مهم در تاریخ اسلام است. این کشور به عنوان مرکزی برای توسعه فرهنگی، علمی و دینی در جهان اسلام شناخته شده است. مصر از زمان فتح اسلامی در قرن هفتم میلادی، نقش کلیدی در ترویج و حفظ میراث اسلامی داشته و تاثیرات عمیقی بر تمدن اسلامی گذاشته است. مراکز علمی و دینی مصر، مانند الازهر، نقش محوری در تعلیم و تربیت علما و مفتیان اسلامی داشته‌اند."
+    },
+    "ur": {
+      "overview": "مصر، جسے عربی جمہوریہ مصر کے نام سے بھی جانا جاتا ہے، اسلامی تاریخ میں ایک انتہائی اہم خطہ رہا ہے۔ اُمویوں کے دور سے لے کر فاطمیوں، ایوبیوں، مملوکوں اور عثمانیوں تک، مصر نے مختلف اسلامی حکومتوں کی سازشوں اور تحریروں میں مرکزی کردار ادا کیا ہے۔ اس کی جغرافیائی اور معاشرتی اہمیت نے اسلامی دنیا میں اس کے کردار کو بہت زیادہ متاثر کیا ہے، جو ثقافت، علم، اور تجارت میں اس کی مرکزیت کو ظاهر کرتا ہے۔"
+    },
+    "hi": {
+      "overview": "मिस्र, जिसे अरब गणराज्य मिस्र के रूप में भी जाना जाता है, इस्लामी इतिहास में एक महत्वपूर्ण क्षेत्र रहा है। यह देश अपनी प्राचीन सभ्यता और पिरामिडों के लिए प्रसिद्ध है, परंतु इस्लामिक इतिहास में भी इसकी गहराई है। आठवीं शताबदी में मिस्र मुस्लिम कलिफाओं का केंद्र बन गया, जिसने इस क्षेत्र में इस्लामी कला, विद्या और संस्कृति का विकास किया। अफ्रीकी महाद्वीप में स्थित यह देश सुन्नी मुस्लिम प्रधान है।"
+    },
+    "fr": {
+      "overview": "L'Égypte, officiellement connue sous le nom de République arabe d'Égypte, est une région essentielle dans l'histoire islamique. Après la conquête musulmane en 641 sous Amr ibn al-As, l'Égypte devint un centre majeur de la civilisation islamique. Sa capitale, Le Caire, fondée en 969, abrite Al-Azhar, l'une des plus anciennes universités islamiques du monde. L'Égypte a également joué un rôle pivot dans l'évolution de diverses dynasties islamiques, notamment les Fatimides, les Ayyoubides et les Mamelouks."
+    },
+    "tr": {
+      "overview": "Mısır, İslam tarihi açısından önemli bir merkezdir. Hz. Ömer döneminde Müslümanların eline geçmiş ve İslam mimarisi ile kültürünün önemli yapılarını barındırmıştır. Fatımi, Eyyubi ve Memluk gibi dinamik İslami hanedanlıkların ev sahipliği yapmış, Kahire şehri özellikle İslam dünyasının ilim ve kültür başkenti olmuştur. Bu bölge, tarihi ve dini mirasıyla günümüzde de büyük bir öneme sahiptir."
+    },
+    "es": {
+      "overview": "Egipto, conocido históricamente como مصر en árabe, ha sido uno de los centros neurálgicos en la historia del Islam. Desde su incorporación al mundo islámico en el siglo VII, ha sido cuna de intelectuales y centro de aprendizaje. La universidad de Al-Azhar, fundada en el siglo X, es uno de los más antiguos centros de enseñanza islámica en el mundo, jugando un papel crucial en la formación teológica y jurídica suní. Hoy, la República Árabe de Egipto sigue siendo un referente significativo en el mundo islámico contemporáneo."
+    },
+    "ms": {
+      "overview": "Mesir, atau nama Arabnya مصر, kini dikenali sebagai Republik Arab Mesir, mempunyai peranan penting dalam sejarah Islam. Sejak zaman Firaun, Mesir telah menjadi pusat kebudayaan dan politik penting. Selepas penaklukan oleh Amr ibn al-As pada tahun 641, Mesir menjadi wilayah penting dalam empayar Islam dan memainkan peranan penting dalam pemahaman dan pengembangan ilmu-ilmu Islam, termasuk tafsir, hadith, dan fiqh, serta menjadi titik pertemuan tamadun dan kebudayaan dari pelbagai bahagian dunia."
+    },
+    "ru": {
+      "overview": "Египет, официально известный как Арабская Республика Египет, играл ключевую роль в истории ислама. После завоевания мусульманами в 7 веке, стал важнейшим центром исламской культуры и политики. В разные периоды он был центром различных исламских династий, включая Фатимидов, Айюбидов и Мамлюков. Столица Египта, Каир, является одним из крупнейших городов мира и важным религиозным и культурным центром исламского мира."
+    },
+    "bn": {
+      "overview": "মিশর, যার আরবি নাম مصر, নিঃসন্দেহে ইসলামিক ইতিহাসে একটি প্রধান অঞ্চল। এটি আজকের আরব প্রজাতন্ত্র মিশর হিসেবে পরিচিত। এ অঞ্চল অমুসলিম যুগ থেকেই ঐতিহাসিক গুরুত্ব বহন করে আসছিল এবং ইসলামের আগমনের পর এর সংস্কৃতিক ও ধর্মীয় অবস্থান আরও বৃদ্ধি পেয়েছে। আধুনিক যুগে মিশর তার অসামান্য ইসলামিক স্থাপত্য, বিশ্ববিদ্যালয় এবং ধর্মীয় জ্ঞানের কেন্দ্র হিসাবে পূর্ণতা লাভ করেছে।"
+    },
+    "ha": {
+      "overview": "Masar, wacce aka fi sani da Arab Republic of Egypt a yau, tana da muhimmanci a tarihin Musulunci tun daga lokacin da Islam ya shigo a ƙarni na bakwai. Tana cikin manyan cibiyoyin ilimi da al'adu a duniyar Islama, kuma birnin Al-Azhar na ɗaya daga cikin jami'o'in da suka fi tsoho kuma masu tasiri a duniyar Musulunci. Masar ta taka muhimmiyar rawa wajen yada addinin Musulunci a Afirka ta Arewa da sauran sassan duniya."
+    },
+    "so": {
+      "overview": "Masar, ama Jamhuuriyadda Carabta ee Masar sida loo yaqaan maanta, waa gobol leh muhiimad weyn taariikhda Islaamka. Waxaa loo tixgeliyaa inay tahay meel isgoys ah oo dhaqan, diin, iyo ganacsi. Masar waxay martigelisay xadaarado kala duwan iyo dhaqamo badan oo islaamka ka mid ah, waxaana ku yaalliin goobo badan oo taariikhi ah sida Al-Azhar, mid ka mid ah jaamacadaha ugu da'da weyn ee ilmiga diinta Islaamka. Waa hoyga dhaqdhaqaaqyo badan oo Islaam ah iyo hogaamiyeyaal diimeed oo saameyn ku yeeshay dunida Muslimka oo dhan."
+    },
+    "ps": {
+      "overview": "مصر، چې په عربي کې د مصر په نوم یادیږي، په اسلامي تاریخ کې یو مهم ریجن دی. دا هیواد په نړیوال معنی لري او د دريمې هجري پېړۍ راهیسې یې د اسلامي نړۍ مهمه برخه پاته دې. د عمر بن الخطاب په وخت کې د مسلمانو لخوا ونيول شو او وروسته په یو له علمي او فرهنګي مرکزونو بدل شو. مصر د اسلامي علومو، فلسفې او هنر د بډاینې مرکز وو او نن هم د اسلامي نړۍ په سیاسي، علمي او فرهنګي فعالیتونو کې مهم رول لوبولی شي."
+    }
+  },
+  "iraq": {
+    "ar": {
+      "overview": "العراق، أو جمهورية العراق حاليًا، يعد منطقة حيوية في التاريخ الإسلامي. بداية الإسلام شهدت العراق كمركز للعلم والثقافة، وكانت مسرحًا لأحداث هامة مثل معركة القادسية وفتح العراق. كذلك، شهدت تأسيس الخلافة العباسية في بغداد، والتي أصبحت عاصمة للعلم والفنون. تاريخ العراق الغني يجسد مرور العديد من العلماء والفقهاء الذين أثروا في الحضارة الإسلامية والعالمية."
+    },
+    "fa": {
+      "overview": "عراق، که به نام جمهوری عراق شناخته می‌شود، در تاریخ اسلام یکی از نقاط مهم بوده است. این کشور به دلیل موقعیت استراتژیک خود، مرکز تمدن اسلامی در طول دوران خلافت و منطقه‌ای کلیدی در توسعه فرهنگ و علوم اسلامی بوده‌ است. عراق، که در آن شهرهای معتبری مانند بغداد و کوفه قرار دارند، نقش اساسی در پیشبرد دانش و فرهنگ در جهان اسلام ایفا کرده است."
+    },
+    "ur": {
+      "overview": "عراق، جسے عربی میں العراق کہا جاتا ہے، اسلامی تاریخ میں ایک نہایت اہم خطہ رہا ہے۔ یہ وہ علاقہ ہے جہاں ابتدائی اسلامی خلافتیں قائم ہوئیں، خاص طور پر عباسی خلافت کا دار الحکومت بغداد اسی خطے میں تھا۔ عراق نے بہت سے علمی، فکری اور ثقافتی پیشرفتوں کا گہوارہ بننے کا اعزاز فراہم کیا ہے جو اسلامی تہذیب کی ترقی میں معاون رہا ہے۔ آج کا جمہوریہ عراق بھی اپنے تاریخی اہمیت کی وجہ سے دنیا بھر کے مسلمانوں کے لیے ایک مرکزی مقام رکھتا ہے۔"
+    },
+    "hi": {
+      "overview": "इराक, जो इस्लामिक इतिहास में एक महत्वपूर्ण क्षेत्र है, अरबी में العراق के नाम से जाना जाता है। इराक का आधुनिक नाम गणराज्य इराक है। यह क्षेत्र अपने समृद्ध इतिहास और इस्लामिक सभ्यता के विकास के लिए प्रसिद्ध है। इराक अब्बासियों की राजधानी बगदाद का घर था, जो मध्य युग में ज्ञान और संस्कृति का केंद्र बन गया। इसके अलावा, इराक ने कई महत्वपूर्ण धार्मिक और ऐतिहासिक स्थलों को संजोए रखा है, जो इस्लामी धर्म और संस्कृति के लिए महत्वपूर्ण हैं।"
+    },
+    "fr": {
+      "overview": "L'Irak, officiellement nommé République d'Irak et connu en arabe sous le nom de العراق, est une région d'une importance capitale dans l'histoire islamique. Foyer de civilisations anciennes comme la Mésopotamie, ce territoire a été le théâtre des premiers développements significatifs de l'islam après la mort du prophète Mahomet. Il comprend des villes historiques telles que Bagdad, qui fut un centre de savoir et de culture durant l'âge d'or islamique, jouant un rôle crucial dans la préservation et l'expansion du savoir scientifique et culturel."
+    },
+    "tr": {
+      "overview": "Irak, resmi ismiyle Irak Cumhuriyeti ve Arapça'da العراق olarak bilinir. İslam tarihi açısından son derece önemli bir bölge olan Irak, erken İslam döneminde Kuruluş ve Hilafet merkezi olmuştur. Özellikle Bağdat, Abbasi Halifeliği'nin başkenti olarak bilim, kültür ve sanatın önemli bir merkezi haline gelmiştir. Tarihsel süreç içinde birçok medeniyete ev sahipliği yapmış olan Irak, İslami ilimler ve kültürel miras bakımından zengin bir geçmişe sahiptir."
+    },
+    "es": {
+      "overview": "Irak, oficialmente conocido como la República de Irak, posee un significativo legado en la historia islámica. Este país, correspondiente al antiguo territorio de Mesopotamia, ha sido un centro esencial de aprendizaje, cultura y poder político desde los primeros días del Islam. Bagdad, su capital, fue el corazón del califato abasí, una era dorada de florecimiento científico, literario y filosófico que influyó profundamente en la civilización mundial."
+    },
+    "ms": {
+      "overview": "Iraq, atau dalam Bahasa Arab, العراق, kini dikenali sebagai Republik Iraq, memainkan peranan yang sangat penting dalam sejarah Islam. Sebagai pusat tamadun awal dan asas pengembangan ilmu, Iraq menjadi saksi kepada pembentukan dan perkembangan awal kekhalifahan Islam. Selain itu, Iraq juga adalah lokasi bagi beberapa kota suci dalam Islam seperti Najaf dan Karbala yang memiliki signifikansi mendalam dalam tradisi Syiah. Peristiwa bersejarah dan sumbangan ilmiah dari Iraq sangat berharga dalam memahami evolusi kebudayaan dan politik dalam sejarah Islam."
+    },
+    "ru": {
+      "overview": "Ирак, официально известный как Республика Ирак, играет важнейшую роль в истории ислама. С древних времён этот регион, тогда как часть Месопотамии, был центром цивилизаций. В ранний исламский период Ирак стал местом первых мечетей и учебных заведений, что существенно способствовало распространению и закреплению исламской культуры и науки. Позже, в период Аббасидского халифата, Багдад превратился в столицу мусульманского мира, стимулируя научные и философские достижения."
+    },
+    "bn": {
+      "overview": "ইরাক, যাকে আরবিতে 'العراق' বলা হয়, ইসলামিক ইতিহাসে এক অত্যন্ত গুরুত্বপূর্ণ অঞ্চল। এটি বর্তমানে ইরাক প্রজাতন্ত্র নামে পরিচিত। ইরাকের মাটিতেই ইসলামিক সভ্যতার বিস্তার ঘটে এবং এটি অবশ্যম্ভাবীভাবে বিশ্ব ইতিহাসের বহু ঘটনার সাক্ষী। ইরাক বাগদাদ ক্যালিফেট, যা ইসলামিক স্বর্ণযুগের প্রাণকেন্দ্র ছিল, তার স্থাপনা এবং উন্নয়নে বিশেষভাবে পরিচিত। এই অঞ্চল ইসলামিক শিক্ষা, সংস্কৃতি এবং বিজ্ঞানের প্রসারে অবদান রেখেছে।"
+    },
+    "ha": {
+      "overview": "Iraq, ko kamar yadda ake kira da sunan Larabci العراق, kasa ce da ke da muhimmanci sosai a tarihin Musulunci. Wannan yanki ya kasance tushen al'ummar Babila da Assuriya a dā, kuma daga baya ya zama cibiyar ilimi da al'adu na Daulatul Khilafar Islamiyya. Baghdad, babban birnin Iraq, a wancan lokaci shi ne cibiyar ilimi, inda malamai da masana suka taru don yada ilimi da bunkasa al'adu. Har zuwa yau, Iraq tana ci gaba da kasancewa muhimmin wuri wajen karatu da kuma fahimtar tarihin Musulunci."
+    },
+    "so": {
+      "overview": "Ciraaq, oo carabi ahaan loo yaqaan العراق, waana Jamhuuriyadda Ciraaq maanta. Dalkan, oo ku yaalla qalbiga bariga dhexe, wuxuu leeyahay taariikh hodan ah oo ku saabsan diinta Islaamka. Berritooyinkan waxaa soo maray xadaarado kala duwan, waxaana si gaar ah muhiim u ahaa bilowgii Islaamka iyo horumarkiisii. Ciraaq waxay hoy u ahayd caasimadii khilaafadii Cabaasiyiinta, Baqdaad, taasoo ahayd xarun cilmi iyo dhaqan. Maanta, waa mid ka mid ah meelaha ugu muhiimsan ee loo raadsado taariikhdii hore ee Islaamka iyo saameyntii ay ku lahayd dunida."
+    },
+    "ps": {
+      "overview": "عراق په تاریخ کې د اسلامي نړۍ په مهمو سیمو کې یو دی. هغه د العراق په نوم هم مشهور دی او اوسنیو وختونو کې د عراق جمهوریت په نوم یادیږي. عراق کې د اسلام اصلي بنسټونه ایښودل شوي وو، او د بغداد په خاصه توګه، کوم چې د خلافتونو دوران کې د علمي او فرهنګي انکشاف کاندید دی. د عراق تاریخ د مظلومیت او جنګونو زیاتې کیسې لري، مګر ده همیشه د مسلمانانو د پیژندنې او تاریخي ارزښتونو راجلب خاوره وه."
+    }
+  },
+  "jazirat-al-arab": {
+    "ar": {
+      "overview": "جزيرة العرب، المعروفة حالياً بالجزيرة العربية، تعد من أهم المناطق في التاريخ الإسلامي. هذه المنطقة هي مهد الإسلام، حيث بزغت رسالة النبي محمد صلى الله عليه وسلم، وانطلقت منها الفتوحات الإسلامية التي غيرت مجرى التاريخ. علاوة على ذلك، تمتاز بتضاريسها المتنوعة من الصحاري الشاسعة والجبال الشاهقة، وتشتهر بكونها مصدر غني للنفط والغاز، مما يعزز أهميتها الاقتصادية والجيوسياسية في العصر الحديث."
+    },
+    "fa": {
+      "overview": "جزیرة‌ العرب، که امروزه به نام شبه جزیره عربی شناخته می‌شود، مهد تمدن‌های باستانی بزرگ و خاستگاه دین اسلام است. این منطقه نقش بسیار مهمی در تاریخ اسلامی دارد، چرا که پیامبر اسلام، حضرت محمد (ص)، در مکه متولد شد و بعدها انقلابی را از مدینه رهبری کرد که جهان آن زمان را متحول ساخت. شبه جزیره عربی، با کشورهای غنی از نفت خود، همچنان قلب تپنده جهان اسلام به شمار می‌آید و نقش محوری در فرهنگ و سیاست منطقه ایفا می‌کند."
+    },
+    "ur": {
+      "overview": "جزیرۃ العرب، جو موجودہ عربین پیننسولا کے نام سے بھی جانا جاتا ہے، اسلام کی تاریخ میں ایک مرکزی اہمیت رکھتا ہے۔ یہ خطہ نبی محمد صلی اللہ علیہ وسلم کی ولادت اور نبوت کی جگہ ہے اور اسلامی تعلیمات کا آغاز یہیں سے ہوا۔ اس خطے میں مکہ اور مدینہ جیسے مقدس شہروں کا وجود اس کو روحانی اور تاریخی لحاظ سے انتہائی مقام دیتا ہے۔ اسلامی تاریخ میں اس خطے کی بصیرت و ترقی کے عوامل متعدد ہیں."
+    },
+    "hi": {
+      "overview": "जज़ीरत अल-अरब, जिसे अरबी में جزيرة العرب कहा जाता है, वर्तमान में अरब प्रायद्वीप के नाम से प्रसिद्ध है। यह इस्लामी इतिहास में एक महत्वपूर्ण क्षेत्र है क्योंकि यहीं पर इस्लाम का जन्म हुआ और इसका प्रारंभिक विकास हुआ। मुहम्मद साहब के जीवन और उपदेशों के केंद्र बिंदु के रूप में, यह प्रायद्वीप धार्मिक, सामाजिक और राजनीतिक परिवर्तनों का साक्षी रहा है। इस क्षेत्र का इतिहास और इसकी भूमिका इस्लामी संस्कृति और सभ्यता की उन्नति में अत्यंत महत्वपूर्ण है।"
+    },
+    "fr": {
+      "overview": "Jazirat al-Arab, également connue sous le nom de Péninsule Arabique, tient une place prééminente dans l'histoire islamique. Berceau de l'Islam, c’est ici que le prophète Muhammad est né et a commencé à prêcher, conduisant à la formation et à l'expansion rapide de l'Empire islamique. Cette région est vénérée pour abriter les deux villes saintes de l'Islam, la Mecque et Médine. Elle reste au cœur de la foi musulmane, centrée sur la spiritualité et l'histoire qui continue de toucher des millions de fidèles à travers le monde."
+    },
+    "tr": {
+      "overview": "Jazirat al-Arab ya da günümüzde kullanılan adıyla Arabistan Yarımadası, İslam tarihi açısından büyük öneme sahip bir bölgedir. İslam'ın doğum yeri olan bu yarımada, Hz. Muhammed'in doğup, büyüdüğü ve İslam'ı yaymaya başladığı yerdir. Coğrafi olarak stratejik bir konumda bulunması, çevre bölgelerle olan tarihi ve kültürel bağları, İslam medeniyetinin şekillenmesinde kritik roller oynamıştır. Bugün bile, bu tarihi mirasın etkileri, yarımada üzerindeki sosyal ve dinî pratiklerde görülebilir."
+    },
+    "es": {
+      "overview": "Jazirat al-Arab, conocida actualmente como Península Arábiga, ha sido fundamental en la historia islámica. Cuna del Islam, fue aquí donde el Profeta Muhammad recibió la revelación del Corán, dando inicio a una de las religiones y civilizaciones más influyentes del mundo. Su localización estratégica, entre África, Asia y Europa, ha jugado un papel crucial en el comercio y la difusión cultural, siendo además el epicentro de importantes rutas comerciales y peregrinaciones religiosas que continúan hasta hoy."
+    },
+    "ms": {
+      "overview": "Jazirat al-Arab, atau Semenanjung Arab dalam Bahasa Melayu, merupakan kawasan yang amat penting dalam sejarah Islam. Ia adalah tempat kelahiran Nabi Muhammad SAW dan asal-usul wahyu Al-Quran. Kawasan ini, yang dikenali dalam Arab sebagai جزيرة العرب, adalah pusat bagi perkembangan awal Islam dan penyebarannya ke seluruh dunia. Semenanjung ini meliputi negara-negara modern seperti Arab Saudi, Yaman, Oman, UAE, Kuwait, Qatar, dan Bahrain, masih kekal sebagai kawasan penting dalam geografi politik dan spiritual Islam."
+    },
+    "ru": {
+      "overview": "Джазират аль-Араб, известный современному миру как Аравийский полуостров, играет центральную роль в исламской истории. Это колыбель ислама, где пророк Мухаммад начал проповедовать ислам в 7 веке, что привело к значительным изменениям в социальной структуре и культуре региона. Аравийский полуостров охватывает территории современных Саудовской Аравии, Йемена, Омана, Объединённых Арабских Эмиратов, Катара, Кувейта и Бахрейна, оставаясь духовным центром для мусульман всего мира."
+    },
+    "bn": {
+      "overview": "জাজিরাত আল-আরাব, সাধারণভাবে আরব উপদ্বীপ হিসেবে পরিচিত, ইসলামী ইতিহাসের মূলভূমি হিসেবে সুপরিচিত। এটি মহানবী মুহাম্মদ (সাঃ) এর জন্ম ও দাওয়াতের স্থান। এখান থেকেই ইসলাম বিশ্বব্যাপী ছড়িয়ে পড়ে। এই উপদ্বীপের ভৌগোলিক গুরুত্ব এর ঐতিহাসিক এবং ধর্মীয় ভূমিকাকে আরও প্রকাশ করে। বিভিন্ন ইসলামী রাষ্ট্র এবং সাম্রাজ্যের উত্থান এবং পতনের সাক্ষী এই উপদ্বীপ আরব ও ইসলামী ঐতিহ্যের এক অবিচ্ছেদ্য অংশ বিবেচিত হয়।"
+    },
+    "ha": {
+      "overview": "Jazirat al-Arab, wacce aka fi sani da جزيرة العرب a Larabci, wato Tsibirin Larabawa a harshen Hausa, yanki ne mai matukar muhimmanci a tarihin Musulunci. Yankin da yanzu ake kira da Arabian Peninsula, ya kasance asalin addinin Musulunci kuma mahaifar Annabi Muhammadu SAW. Tsawon tarihi, wannan yanki ya zama cibiyar ilimi, al'adu, da kuma fadadawa na addinin Musulunci. Ya hada da kasashe kamar Saudiyya, Yemen, Oman, da sauransu, kuma ya ci gaba da zama muhimmin wuri ga miliyoyin musulmai a fadin duniya."
+    },
+    "so": {
+      "overview": "Jazirat al-Arab, ama Jasiiradda Carabta, waa dhul aad muhiim ugu ah taariikhda Islaamka. Kani waa goobtii uu ka soo bilowday diinta Islaamka qarnigii 7aad, markii Nabi Maxamed (NNKH) uu ku dhawaaqay risaalada Islaamka magaalada Maka. Dhul ballaaran oo ku fadhida qiyaastii 3.2 milyan km², jasiiraddu waxay hoy u tahay meelo muhiim ah sida Maka, Madiina, iyo Riyaad. Waxay saameyn weyn ku leedahay dhaqanka, dhaqaalaha, iyo siyaasada Bariga Dhexe ilaa maanta."
+    },
+    "ps": {
+      "overview": "د جزیرت العرب (عربی چاپیریال)، چې اوس ورته عربی چاپیریال ویل کیږي، د اسلامي تاریخ کې د خورا مهمو سیمو څخه ده. دا سیمه د محمد صلی الله علیه وسلم د زیږدنې ځای پیژندل شوې، چیرې چې هغه په 610 زیږدیز کال کې خپل لومړنی وحی ترلاسه کړ. العربه د اسلام د بنسټ اېښودنې او خپراو مهمه بنسټ وه، او نه یوازې د اسلامی نړۍ بلکې د ټولې منځنۍ ختیځې سیاسي او کلتورل تاریخ کې کلیدی رول لوبولی دی."
+    }
+  },
+  "sham": {
+    "ar": {
+      "overview": "تُعتبر منطقة الشام، والتي تشمل حاليًا سوريا ولبنان والأردن وفلسطين، من أهم المناطق في التاريخ الإسلامي. تعاقب عليها العديد من الحضارات وشهدت فتوحات إسلامية كبرى خلال القرن السابع الميلادي. كانت الشام مركزًا رئيسيًا للخلافة الأموية وشهدت تطورات هامة في الفنون والعلوم الإسلامية. تُعتبر الأرض التي ربطت المسلمين بأراضيهم القديمة والجديدة ولا تزال تحتفظ بأهميتها الدينية والتاريخية الكبيرة حتى اليوم."
+    },
+    "fa": {
+      "overview": "شام، که در عربی الشام خوانده می‌شود، امروزه به منطقۀ خاورمیانه‌ای اطلاق می‌شود که شامل سوریه، لبنان، اردن و فلسطین است. این منطقه دارای جایگاه ویژه‌ای در تاریخ اسلام دارد؛ زیرا نه تنها محل وقوع بسیاری از حوادث مهم دینی بوده، بلکه به عنوان مکانی برای گسترش فرهنگ و علم اسلامی نیز شناخته شده است. دوران حکومت‌های اسلامی مختلف، از خلافت راشدین تا دوران عباسیان و عثمانیان، شاهد تأثیرگذاری و پیشرفت‌های معنوی و فرهنگی در شام بوده است."
+    },
+    "ur": {
+      "overview": "الشام، جو اب لیوینٹ کے نام سے جانا جاتا ہے، جس میں شامل ہیں سیریا، لبنان، اردن، اور فلسطین، اسلامی تاریخ کے انتہائی اہم خطوں میں سے ایک رہا ہے۔ اس خطہ نے صدیوں تک مسلمانوں کی مذہبی، ثقافتی اور سیاسی تاریخ کو زبردست اثرات دیے ہیں۔ الشام کا عربی تعارف اور اس کی تاریخی و جغرافیایی حیثیت اسلامی تہذیب کی بنیادی جھلکیاں فراہم کرتی ہے۔"
+    },
+    "hi": {
+      "overview": "शाम, जिसे अरबी में الشام कहा जाता है, वर्तमान समय में लेवेंट के नाम से जाना जाता है, जिसमें सीरिया, लेबनान, जॉर्डन, और फिलिस्तीन शामिल हैं। यह क्षेत्र इस्लामिक इतिहास में गहराई से महत्वपूर्ण है, क्योंकि यह अनेकानेक धार्मिक, सांस्कृतिक और ऐतिहासिक घटनाओं का केंद्र रहा है। इस्लामिक सल्तनतों की स्थापना और विस्तार में शाम की केंद्रीय भूमिका इस्लामी जगत में उसे प्रमुख स्थान प्रदान करती है। इतिहासप्रेमियों के लिए यह क्षेत्र उसके धार्मिक और ऐतिहासिक महत्व के कारण विशेष रुचि का विषय है।"
+    },
+    "fr": {
+      "overview": "La région du Sham, connue en arabe comme الشام, et désignée actuellement sous le nom de Levant, inclut la Syrie, le Liban, la Jordanie et la Palestine. Historiquement, cette zone a joué un rôle central dans l'histoire islamique, notamment comme un des premiers territoires conquis après l'Hégire. Elle a été le théâtre de nombreuses batailles significatives et a grandement influencé la politique, la culture, et la religion de l'empire islamique."
+    },
+    "tr": {
+      "overview": "Şam, tarih boyunca İslam tarihinde önemli bir role sahip olmuştur. Şam; günümüzde Levant olarak bilinen Suriye, Lübnan, Ürdün ve Filistin topraklarını kapsar. Bölge, İslam'ın ilk yıllarında, Ömer bin Hattab zamanında fethedildi ve hızla önemli bir kültürel, eğitim ve dini merkez haline geldi. Ayrıca, Emevi Devleti'nin başkenti olarak bu dönemde İslami sanat ve mimarinin gelişiminde büyük bir etkisi olmuştur. Şam, aynı zamanda pek çok peygamberin yaşadığı ve kutsal kabul edilen bir yerdir."
+    },
+    "es": {
+      "overview": "La región del Sham, conocida históricamente en árabe como الشام y en la actualidad como Levante, abarca Siria, Líbano, Jordania y Palestina. Este territorio ha sido central en la historia islámica, siendo escenario de eventos clave desde los tiempos del profeta Mahoma hasta el desarrollo de los primeros califatos. Su posición geográfica lo convirtió en un puente cultural y comercial entre Oriente y Occidente, influyendo profundamente en la propagación del Islam y su enriquecimiento cultural."
+    },
+    "ms": {
+      "overview": "Sham, dikenali dalam Bahasa Arab sebagai الشام, merupakan wilayah yang kaya dengan sejarah Islam dan kini dikenali sebagai Levant, meliputi Syria, Lebanon, Jordan, dan Palestine. Wilayah ini memiliki peranan penting dalam penyebaran dan pengembangan Islam sejak abad awal, berfungsi sebagai pusat politik dan kebudayaan. Kepentingan Sham dalam sejarah Islam termasuk menjadi lokasi bagi beberapa peperangan penting serta peninggalan bersejarah yang masih dipelajari dan dikunjungi hingga hari ini."
+    },
+    "ru": {
+      "overview": "Шам, известный в истории как земля повествующая истоки множества цивилизаций, оказал значительное влияние на исламскую культуру и религию. Охватывая территории современной Сирии, Ливана, Иордании и Палестины, Шам был центром раннего распространения ислама после его возникновения в VII веке. Этот регион не только был свидетелем ключевых библейских событий, но и стал местом многочисленных исторических битв и культурного обмена между арабскими и европейскими цивилизациями на протяжении веков."
+    },
+    "bn": {
+      "overview": "‘শাম’ নামে পরিচিত এই অঞ্চলটি ইসলামিক ইতিহাসে একটি গুরুত্বপূর্ণ ভূমি। বর্তমানে লেভান্ত (সিরিয়া, লেবানন, জর্ডান, ফিলিস্তিন) হিসেবে পরিচিত, এটি প্রথম ইসলামি বিজয়ের পর মুসলিম শাসনাধীনে আসে। প্রাচীন শহরগুলো যেমন দামেস্ক, জেরুজালেম, আলেপ্পো এবং আম্মান ইসলামিক সাংস্কৃতিক, ধর্মীয় এবং ইতিহাসিক ঘটনাবলীর সাক্ষী বহন করে আসছে। এই অঞ্চলের ঐতিহাসিক গুরুত্ব ইহুদি, খ্রিস্টান এবং ইসলামিক ধর্মের মিলনস্থল হিসেবেও প্রতিষ্ঠিত।"
+    },
+    "ha": {
+      "overview": "Yankin Sham, wanda ake kira Levant a zamanin yau, ya hada da kasashen Syria, Lebanon, Jordan, da Palestine. A tarihin Musulunci, Sham yana da muhimmanci matuka saboda rawar da ya taka a farkon shekarun Musulunci, musamman zamanin halifofin da suka yi mulki bayan Annabi Muhammad (SAW). Wannan yanki ya zama cibiyar ilimi da al'adu, kuma ya taimaka wajen yada addinin Islam zuwa sauran sassa na duniya."
+    },
+    "so": {
+      "overview": "Sham, oo sidoo kale loo yaqaan al-Sham Arabiga, waxay tilmaamtaa gobolka loo yaqaan Levant-ka maanta, kaas oo ka kooban dalalka Suuriya, Lubnaan, Urdun, iyo Falastiin. Tani waxay ahayd mid ka mid ah gobolada ugu muhiimsan taariikhda Islaamka, halkaas oo dhacdooyin waaweyn sida kacdoonkii Arab iyo fidinta maamulka Muslimiinta hore ay ka dhaceen. Gobolkan ayaa sidoo kale ahaa goob muhiim u ah isku dhacyada diineed, dhaqan, iyo taariikhda amniga dheer ee gobolka."
+    },
+    "ps": {
+      "overview": "الشام چې په عربي کې د الشام په نوم پېژندل کېږي، له تاریخي پلوه د خورا مهمو سیمو څخه ده چې اوس مهال یې په لیوانت (سوریه، لبنان، اردن، فلسطین) په نوم یادېږي. د اسلامي تاریخ په دوران کې، شام د مسلمانانو لپاره د سیاسي، اقتصادي او دیني فعالیتونو مرکز و. دا سیمه د رسول الله صلی الله علیه وسلم د زمانې نه پخوا هم د مذهبي اهمیت خاوند وه او په اسلامي تاریخ کې یې مهم رول لوبولی دی."
+    }
+  }
+}

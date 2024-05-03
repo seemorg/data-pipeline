@@ -4,8 +4,20 @@ import { dedupeStrings } from '@/utils/string';
 import { createUniqueSlug, getNamesVariations } from './utils';
 import { getAuthorsData } from './authors';
 import bookIdToSlug from '../../../data/book-slugs.json';
-import bookIdToNames from '../../../output/book-name-variations.json';
 import { removeDiacritics } from '@/utils/diacritics';
+
+import localizedData1 from '../../../openai-batches/localize-books-output/batch-1.json';
+import localizedData2 from '../../../openai-batches/localize-books-output/batch-2.json';
+import localizedData3 from '../../../openai-batches/localize-books-output/batch-3.json';
+import { LocalizedArrayEntry, LocalizedEntry } from '@/types/LocalizedEntry';
+
+const localizedData = { ...localizedData1, ...localizedData2, ...localizedData3 };
+
+const getLocalizedDataForEntry = (id: string) => {
+  return Object.entries(
+    ((localizedData as any)[id] ?? {}) as Record<string, { primaryName: string }>,
+  );
+};
 
 type ReturnedBookDocument<T extends boolean> = T extends true
   ? BookDocument
@@ -83,36 +95,33 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
       extraProperties.year = year;
     }
 
-    // TODO: add
-    const bookNames = null as unknown as null | {
-      primary_name: string;
-      variations: string[];
-    };
+    const localizedEntry = getLocalizedDataForEntry(id);
+
+    const arabicName = primaryArabicNameWithoutDiacritics ?? primaryArabicName;
+    const latinName = primaryLatinNameWithoutDiacritics ?? primaryLatinName;
+
+    const primaryNames = [
+      ...(arabicName ? [{ text: arabicName, locale: 'ar' }] : []),
+      ...(latinName ? [{ text: latinName, locale: 'en' }] : []),
+      ...(localizedEntry ?? [])
+        .map(([locale, data]) => ({
+          text: data.primaryName,
+          locale,
+        }))
+        .filter(({ text }) => text),
+    ] as LocalizedEntry[];
+
+    const otherNames = [
+      { texts: otherArabicNames, locale: 'ar' },
+      { texts: otherLatinNames, locale: 'en' },
+    ] as LocalizedArrayEntry[];
 
     const result = {
       id,
       slug,
       authorId,
-      ...(primaryArabicNameWithoutDiacritics && {
-        primaryArabicName: primaryArabicNameWithoutDiacritics,
-      }),
-      otherArabicNames,
-      ...(bookNames
-        ? {
-            primaryLatinName: bookNames.primary_name,
-          }
-        : primaryLatinNameWithoutDiacritics
-          ? {
-              primaryLatinName: primaryLatinNameWithoutDiacritics,
-            }
-          : {}),
-      otherLatinNames: [
-        ...(otherLatinNames ?? []),
-        ...(bookNames
-          ? // if we already generated a primary name, use the on in the data as one of the variations
-            [...bookNames.variations, ...(primaryLatinName ? [primaryLatinName] : [])]
-          : []),
-      ],
+      primaryNames,
+      otherNames,
       genreTags: dedupeStrings(book.genre_tags.map(g => g.toLowerCase())),
       versionIds: book.versions,
       ...(author ? { author, ...extraProperties } : {}),
@@ -124,8 +133,8 @@ export const getBooksData = async <ShouldPopulate extends boolean>({
       _nameVariations: getNamesVariations([
         primaryArabicName,
         primaryLatinName,
-        ...result.otherArabicNames,
-        ...result.otherLatinNames,
+        ...primaryNames.map(({ text }) => text),
+        ...result.otherNames.flatMap(({ texts }) => texts),
       ]),
     } as ReturnedBookDocument<ShouldPopulate>;
   });

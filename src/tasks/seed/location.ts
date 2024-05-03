@@ -1,13 +1,18 @@
-import { db } from '../../db';
-import { location as locationTable } from '../../db/schema';
+import { db } from '@/db';
 
 import locationsWithRegions from '~/data/distinct-locations-with-regions.json';
-import regions from '../../../data/regions.json';
+import regions from '~/data/regions.json';
 
 import { getAuthorsData } from '@/datasources/openiti/authors';
 import { chunk } from '@/utils/array';
 import { toTitleCase } from '@/utils/string';
 import { createUniqueSlug } from '@/datasources/openiti/utils';
+import { LocationType } from '@prisma/client';
+import localizedData from '../../../openai-batches/localize-locations-output.json';
+
+const getLocalizedDataForEntry = (slug: string) => {
+  return Object.entries((localizedData as any)[slug] as Record<string, { name: string }>);
+};
 
 const allAuthors = await getAuthorsData({ populateBooks: false });
 
@@ -77,9 +82,16 @@ const toReadableName = (location: string) => {
 const shouldReset =
   process.argv.includes('--reset') || process.argv.includes('"--reset"');
 if (shouldReset) {
-  console.log('[LOCATIONS] Resetting genres table');
-  await db.delete(locationTable);
+  console.log('[LOCATIONS] Resetting locations table');
+  await db.location.deleteMany();
 }
+
+const typeToEnum: Record<string, LocationType> = {
+  visited: LocationType.Visited,
+  born: LocationType.Born,
+  died: LocationType.Died,
+  resided: LocationType.Resided,
+};
 
 let locationBatchIdx = 1;
 for (const locations of chunkedLocations) {
@@ -106,16 +118,36 @@ for (const locations of chunkedLocations) {
     });
   });
 
-  await db.insert(locationTable).values(
-    locationsWithTypes.map(locationEntry => ({
+  await db.location.createMany({
+    data: locationsWithTypes.map(locationEntry => ({
       id: locationEntry.id,
       slug: locationEntry.slug,
       name: locationEntry.name,
-      type: locationEntry.type,
+      type: typeToEnum[locationEntry.type]!,
       ...(locationEntry.regionId && { regionId: locationEntry.regionId }),
-      ...(locationEntry.city && { city: locationEntry.city }),
+      // ...(locationEntry.city && { cityCode: locationEntry.city }),
     })),
-  );
+  });
+
+  const cityNames = locationsWithTypes.flatMap(l => {
+    const result = [];
+
+    if (l.city) {
+      result.push({ locationId: l.id, text: l.city, locale: 'en' });
+      getLocalizedDataForEntry(l.city)?.forEach(([locale, data]) => {
+        if (data.name) result.push({ locationId: l.id, text: data.name, locale });
+        if (locale === 'fa')
+          result.push({ locationId: l.id, text: data.name, locale: 'ar' });
+      });
+    }
+
+    return result;
+  });
+
+  if (cityNames.length > 0)
+    await db.locationCityName.createMany({
+      data: cityNames,
+    });
 
   locationBatchIdx++;
 }

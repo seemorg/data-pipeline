@@ -43,22 +43,12 @@ await client.collections().create({
       facet: true,
     },
     {
-      name: 'primaryArabicName',
-      type: 'string',
-      optional: true,
+      name: 'primaryNames',
+      type: 'object[]',
     },
     {
-      name: 'otherArabicNames',
-      type: 'string[]',
-    },
-    {
-      name: 'primaryLatinName',
-      type: 'string',
-      optional: true,
-    },
-    {
-      name: 'otherLatinNames',
-      type: 'string[]',
+      name: 'otherNames',
+      type: 'object[]',
     },
     {
       name: '_nameVariations',

@@ -1,13 +1,14 @@
+import type { LocalizedArrayEntry, LocalizedEntry } from './LocalizedEntry';
 import type { AuthorDocument } from './author';
 
 export type BookDocument = {
   id: string;
   slug: string;
   authorId: string;
-  primaryArabicName: string;
-  otherArabicNames: string[];
-  primaryLatinName: string;
-  otherLatinNames: string[];
+
+  primaryNames: LocalizedEntry[];
+  otherNames: LocalizedArrayEntry[];
+
   _nameVariations: string[];
   _popularity: number;
   versionIds: string[];

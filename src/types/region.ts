@@ -1,9 +1,11 @@
+import { LocalizedEntry } from './LocalizedEntry';
+
 export type RegionDocument = {
   id: string;
   slug: string;
-  name: string;
-  currentName: string;
-  arabicName: string;
+
+  names: LocalizedEntry[];
+  currentNames: LocalizedEntry[];
 
   booksCount: number;
   authorsCount: number;

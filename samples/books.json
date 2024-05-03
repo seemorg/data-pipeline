@@ -1,0 +1,268 @@
+{
+  "0204Shafici.Risala": {
+    "fa": {
+      "primaryName": "رساله"
+    },
+    "ur": {
+      "primaryName": "الرسالة"
+    },
+    "hi": {
+      "primaryName": "रिसाला"
+    },
+    "fr": {
+      "primaryName": "Risala"
+    },
+    "tr": {
+      "primaryName": "Risale"
+    },
+    "es": {
+      "primaryName": "La Epístola"
+    },
+    "ms": {
+      "primaryName": "Risala"
+    },
+    "ru": {
+      "primaryName": "Рисала"
+    },
+    "bn": {
+      "primaryName": "রিসালা"
+    },
+    "ha": {
+      "primaryName": "Risala"
+    },
+    "so": {
+      "primaryName": "Risala"
+    },
+    "ps": {
+      "primaryName": "الرساله"
+    }
+  },
+  "0256Bukhari.Sahih": {
+    "fa": {
+      "primaryName": "صحیح بخاری"
+    },
+    "ur": {
+      "primaryName": "صحیح بخاری"
+    },
+    "hi": {
+      "primaryName": "सहीह बुखारी"
+    },
+    "fr": {
+      "primaryName": "Sahih al-Bukhari"
+    },
+    "tr": {
+      "primaryName": "Sahih-i Buhari"
+    },
+    "es": {
+      "primaryName": "Sahih al-Bujari"
+    },
+    "ms": {
+      "primaryName": "Sahih Bukhari"
+    },
+    "ru": {
+      "primaryName": "Сахих аль-Бухари"
+    },
+    "bn": {
+      "primaryName": "সহীহ বুখারি"
+    },
+    "ha": {
+      "primaryName": "Sahih Bukhari"
+    },
+    "so": {
+      "primaryName": "Saxiix Al-Bukhaari"
+    },
+    "ps": {
+      "primaryName": "صحيح بخاري"
+    }
+  },
+  "0273IbnMaja.Sunan": {
+    "fa": {
+      "primaryName": "سنن ابن ماجه"
+    },
+    "ur": {
+      "primaryName": "سنن ابن ماجہ"
+    },
+    "hi": {
+      "primaryName": "सुनन इब्न माजह"
+    },
+    "fr": {
+      "primaryName": "Sunan Ibn Majah"
+    },
+    "tr": {
+      "primaryName": "İbn Mâce'nin Süneni"
+    },
+    "es": {
+      "primaryName": "Sunan Ibn Maja"
+    },
+    "ms": {
+      "primaryName": "Sunan Ibn Majah"
+    },
+    "ru": {
+      "primaryName": "Сунан Ибн Маджа"
+    },
+    "bn": {
+      "primaryName": "সুনান ইবনে মাজাহ"
+    },
+    "ha": {
+      "primaryName": "Sunan Ibn Majah"
+    },
+    "so": {
+      "primaryName": "Sunan Ibn Majah"
+    },
+    "ps": {
+      "primaryName": "سنن ابن ماجه"
+    }
+  },
+  "0676Nawawi.RiyadSalihin": {
+    "fa": {
+      "primaryName": "ریاض الصالحین"
+    },
+    "ur": {
+      "primaryName": "ریاض الصالحین"
+    },
+    "hi": {
+      "primaryName": "रियाद अल-सालिहीन"
+    },
+    "fr": {
+      "primaryName": "Les jardins des vertueux"
+    },
+    "tr": {
+      "primaryName": "Salihlerin Bahçesi"
+    },
+    "es": {
+      "primaryName": "Los Jardines de los Justos"
+    },
+    "ms": {
+      "primaryName": "Riyadhus Shalihin"
+    },
+    "ru": {
+      "primaryName": "Рияд ас-Салихин"
+    },
+    "bn": {
+      "primaryName": "রিযাদুস সালিহীন"
+    },
+    "ha": {
+      "primaryName": "Gidajen Alheri"
+    },
+    "so": {
+      "primaryName": "Riyad al-salihin"
+    },
+    "ps": {
+      "primaryName": "رياض الصالحین"
+    }
+  },
+  "0774IbnKathir.Bidaya": {
+    "fa": {
+      "primaryName": "البدایة و النهایة"
+    },
+    "ur": {
+      "primaryName": "البداية والنهاية"
+    },
+    "hi": {
+      "primaryName": "अल-बिदायत व अल-निहायत"
+    },
+    "fr": {
+      "primaryName": "Le Commencement et la Fin"
+    },
+    "tr": {
+      "primaryName": "Başlangıç ve Son"
+    },
+    "es": {
+      "primaryName": "El principio y el fin"
+    },
+    "ms": {
+      "primaryName": "Permulaan dan Akhir"
+    },
+    "ru": {
+      "primaryName": "Аль-Бидайя ва-Нихайя"
+    },
+    "bn": {
+      "primaryName": "আল-বিদায়া ওয়ান নিহায়া"
+    },
+    "ha": {
+      "primaryName": "Farkon da Karshe"
+    },
+    "so": {
+      "primaryName": "Bilowgii iyo Dhammaadkii"
+    },
+    "ps": {
+      "primaryName": "البدایه و النهایه"
+    }
+  },
+  "0774IbnKathir.QisasAnbiya": {
+    "fa": {
+      "primaryName": "قصص الأنبیاء"
+    },
+    "ur": {
+      "primaryName": "قصص الانبیاء"
+    },
+    "hi": {
+      "primaryName": "पैगंबरों की कहानियां"
+    },
+    "fr": {
+      "primaryName": "Histoires des Prophètes"
+    },
+    "tr": {
+      "primaryName": "Peygamberler Tarihi"
+    },
+    "es": {
+      "primaryName": "Historias de los Profetas"
+    },
+    "ms": {
+      "primaryName": "Kisah Para Nabi"
+    },
+    "ru": {
+      "primaryName": "Истории пророков"
+    },
+    "bn": {
+      "primaryName": "নবীদের গল্প"
+    },
+    "ha": {
+      "primaryName": "Labaran Annabawa"
+    },
+    "so": {
+      "primaryName": "Sheekooyinka Anbiyada"
+    },
+    "ps": {
+      "primaryName": "قصص الانبیا"
+    }
+  },
+  "0774IbnKathir.TafsirQuran": {
+    "fa": {
+      "primaryName": "تفسیر القرآن العظیم"
+    },
+    "ur": {
+      "primaryName": "تفسير القرآن العظيم"
+    },
+    "hi": {
+      "primaryName": "तफ़सीर अल-क़ुरआन अल-अज़ीम"
+    },
+    "fr": {
+      "primaryName": "Tafsir al-Qur'an al-Azim"
+    },
+    "tr": {
+      "primaryName": "Tefsirü'l-Kur'an'ül-Azim"
+    },
+    "es": {
+      "primaryName": "Tafsir del Corán el Grandioso"
+    },
+    "ms": {
+      "primaryName": "Tafsir Al-Quran Al-Azim"
+    },
+    "ru": {
+      "primaryName": "Тафсир аль-Коран аль-Азим"
+    },
+    "bn": {
+      "primaryName": "তাফসীর আল-কুরআন আল-আজিম"
+    },
+    "ha": {
+      "primaryName": "Tafsirin Alkur'ani Mai Girma"
+    },
+    "so": {
+      "primaryName": "Tafsiirka Qur'aanka Kariimka ah"
+    },
+    "ps": {
+      "primaryName": "تفسیر القرآن العظیم"
+    }
+  }
+}

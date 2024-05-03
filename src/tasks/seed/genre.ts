@@ -1,5 +1,4 @@
-import { db } from '../../db';
-import { genre } from '../../db/schema';
+import { db } from '@/db';
 import { chunk } from '@/utils/array';
 import { getGenresData } from '@/datasources/openiti/genres';
 
@@ -10,7 +9,7 @@ const shouldReset =
   process.argv.includes('--reset') || process.argv.includes('"--reset"');
 if (shouldReset) {
   console.log('[GENRES] Resetting genres table');
-  await db.delete(genre);
+  await db.genre.deleteMany();
 }
 
 let genreBatchIdx = 1;
@@ -18,7 +17,14 @@ for (const genres of chunkedGenres) {
   console.log(`[GENRES] Seeding batch ${genreBatchIdx} / ${chunkedGenres.length}`);
 
   try {
-    await db.insert(genre).values(genres);
+    await db.genre.createMany({
+      data: genres.map(genre => ({
+        id: genre.id,
+        slug: genre.slug,
+        name: genre.name,
+        numberOfBooks: genre.booksCount,
+      })),
+    });
   } catch (e) {
     console.log(e);
     console.log(genres);

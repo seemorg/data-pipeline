@@ -1,0 +1,30 @@
+{
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-regions.jsonl": {
+    "fileId": "file-iJ3gJbNyZR7ida0eJSKVGEhQ",
+    "batchId": "batch_fueeB76MCaCDmYvtfazpR0lD"
+  },
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-locations.jsonl": {
+    "fileId": "file-HAn20PbeNinj3gskIrTUhE0r",
+    "batchId": "batch_AvZn7NdkWUqpJXy7gCqKlslt"
+  },
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-authors/batch-1.jsonl": {
+    "fileId": "file-oaIx8ytFhERfcR3Hn4Q36axJ",
+    "batchId": "batch_3DHxZdZBFCd6Ha9jxJhBLMxZ"
+  },
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-authors/batch-2.jsonl": {
+    "fileId": "file-1k0Lr1qdMOex6lpYmvYSgxg7",
+    "batchId": "batch_j4j8ikmE0iLw8k9gltbEl2vu"
+  },
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-books/batch-1.jsonl": {
+    "fileId": "file-D7WFno61hQCbmoLtztIcTTdA",
+    "batchId": "batch_Xpf5TnffkKMXYH0dLMgRMX81"
+  },
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-books/batch-2.jsonl": {
+    "fileId": "file-nH5722qxJjiY0PWIm9DxXtLC",
+    "batchId": "batch_si5EZp8c0oBMSrph6kQORXr2"
+  },
+  "/Users/ahmed/dev/seemore/data-pipeline/openai-batches/localize-books/batch-3.jsonl": {
+    "fileId": "file-ykq1ibXvcRvxx782yYEF0e3F",
+    "batchId": "batch_IjWuPYeU8ZJdWvC6lOkJ8PyL"
+  }
+}

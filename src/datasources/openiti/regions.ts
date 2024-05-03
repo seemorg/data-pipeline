@@ -3,7 +3,21 @@ import distinctRegions from '~/data/regions.json';
 import locationsWithRegions from '~/data/distinct-locations-with-regions.json';
 import { getAuthorsData } from './authors';
 
-export const getRegionsData = async (): Promise<RegionDocument[]> => {
+import localizedData from '~/openai-batches/localize-regions-output.json';
+import { LocalizedEntry } from '@/types/LocalizedEntry';
+
+const getLocalizedDataForEntry = (slug: string) => {
+  return Object.entries(
+    (localizedData as any)[slug] as Record<
+      string,
+      { overview: string; primaryName: string; currentName: string }
+    >,
+  );
+};
+
+export const getRegionsData = async (): Promise<
+  (RegionDocument & { overviews: LocalizedEntry[] })[]
+> => {
   const regionSlugToCities = locationsWithRegions.reduce(
     (acc, entry) => {
       const slug = entry.region?.slug;
@@ -52,12 +66,31 @@ export const getRegionsData = async (): Promise<RegionDocument[]> => {
   return allRegions.map(region => {
     const subLocations = [...new Set(regionSlugToCities[region.slug])] ?? [];
 
+    const localizedEntry = getLocalizedDataForEntry(region.slug);
+
+    const names = [
+      { locale: 'en', text: region.name },
+      { locale: 'ar', text: region.nameArabic },
+      ...localizedEntry.map(([locale, data]) => ({ locale, text: data.primaryName })),
+    ].filter(({ text }) => text);
+
+    const currentNames = [
+      { locale: 'en', text: region.currentPlace },
+      ...localizedEntry.map(([locale, data]) => ({ locale, text: data.currentName })),
+    ].filter(({ text }) => text);
+
+    const overviews = [
+      { locale: 'en', text: region.overview },
+      ...localizedEntry.map(([locale, data]) => ({ locale, text: data.overview })),
+    ].filter(({ text }) => text);
+
     return {
       id: region.slug,
       slug: region.slug,
-      name: region.name,
-      arabicName: region.nameArabic,
-      currentName: region.currentPlace,
+      names,
+      currentNames,
+      overviews,
+
       subLocations,
       subLocationsCount: subLocations.length,
       authorsCount: regionSlugToCounts[region.slug]?.authorsCount ?? 0,

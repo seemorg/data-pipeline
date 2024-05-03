@@ -1,0 +1,7982 @@
+{
+  "al-Haql": {
+    "fa": {
+      "name": "الحقل"
+    },
+    "ur": {
+      "name": "الحقل"
+    },
+    "hi": {
+      "name": "अल-हक्ल"
+    },
+    "fr": {
+      "name": "al-Haql"
+    },
+    "tr": {
+      "name": "El-Hakil"
+    },
+    "es": {
+      "name": "al-Haql"
+    },
+    "ms": {
+      "name": "al-Haql"
+    },
+    "ru": {
+      "name": "аль-Хауль"
+    },
+    "bn": {
+      "name": "আল-হাকল"
+    },
+    "ha": {
+      "name": "al-Haql"
+    },
+    "so": {
+      "name": "al-Haql"
+    },
+    "ps": {
+      "name": "الحقل"
+    }
+  },
+  "Ahwar": {
+    "fa": {
+      "name": "اهوار"
+    },
+    "ur": {
+      "name": "اہوار"
+    },
+    "hi": {
+      "name": "अहवार"
+    },
+    "fr": {
+      "name": "Ahwar"
+    },
+    "tr": {
+      "name": "Avhar"
+    },
+    "es": {
+      "name": "Ahwar"
+    },
+    "ms": {
+      "name": "Ahwar"
+    },
+    "ru": {
+      "name": "Ахвар"
+    },
+    "bn": {
+      "name": "আহর"
+    },
+    "ha": {
+      "name": "Ahwar"
+    },
+    "so": {
+      "name": "Ahwar"
+    },
+    "ps": {
+      "name": "اهوار"
+    }
+  },
+  "al-Nawusa": {
+    "fa": {
+      "name": "النواوسة"
+    },
+    "ur": {
+      "name": "النووسہ"
+    },
+    "hi": {
+      "name": "अल-नवूसा"
+    },
+    "fr": {
+      "name": "al-Nawusa"
+    },
+    "tr": {
+      "name": "Nevşehir"
+    },
+    "es": {
+      "name": "Nablus"
+    },
+    "ms": {
+      "name": "al-Nawusa"
+    },
+    "ru": {
+      "name": "эн-Навуса"
+    },
+    "bn": {
+      "name": "আল-নাউসা"
+    },
+    "ha": {
+      "name": "al-Nawusa"
+    },
+    "so": {
+      "name": "al-Nawusa"
+    },
+    "ps": {
+      "name": "الناوسا"
+    }
+  },
+  "Rafh": {
+    "fa": {
+      "name": "رفح"
+    },
+    "ur": {
+      "name": "رفح"
+    },
+    "hi": {
+      "name": "रफ़ह"
+    },
+    "fr": {
+      "name": "Rafh"
+    },
+    "tr": {
+      "name": "Rafha"
+    },
+    "es": {
+      "name": "Rafh"
+    },
+    "ms": {
+      "name": "Rafh"
+    },
+    "ru": {
+      "name": "Рафха"
+    },
+    "bn": {
+      "name": "রাফ"
+    },
+    "ha": {
+      "name": "Rafh"
+    },
+    "so": {
+      "name": "Rafh"
+    },
+    "ps": {
+      "name": "رفح"
+    }
+  },
+  "Farfarun": {
+    "fa": {
+      "name": "فرفرون"
+    },
+    "ur": {
+      "name": "فرفرون"
+    },
+    "hi": {
+      "name": "फारफारुन"
+    },
+    "fr": {
+      "name": "Farfarun"
+    },
+    "tr": {
+      "name": "Farfarun"
+    },
+    "es": {
+      "name": "Farfarun"
+    },
+    "ms": {
+      "name": "Farfarun"
+    },
+    "ru": {
+      "name": "Фарфарун"
+    },
+    "bn": {
+      "name": "ফারফারুন"
+    },
+    "ha": {
+      "name": "Farfarun"
+    },
+    "so": {
+      "name": "Farfarun"
+    },
+    "ps": {
+      "name": "فرفرون"
+    }
+  },
+  "Hinduwan, Hindijan": {
+    "fa": {
+      "name": "هندوان، هندیجان"
+    },
+    "ur": {
+      "name": "ہندوان، ہندیجان"
+    },
+    "hi": {
+      "name": "हिंदूवान, हिंदीजान"
+    },
+    "fr": {
+      "name": "Hindouan, Hindijan"
+    },
+    "tr": {
+      "name": "Hindivan"
+    },
+    "es": {
+      "name": "Hinduwan, Hindijan"
+    },
+    "ms": {
+      "name": "Hinduwan, Hindijan"
+    },
+    "ru": {
+      "name": "Хиндуван, Хиндиджан"
+    },
+    "bn": {
+      "name": "হিন্দুওয়ান, হিন্দিজান"
+    },
+    "ha": {
+      "name": "Hinduwan, Hindijan"
+    },
+    "so": {
+      "name": "Hinduwan, Hindijan"
+    },
+    "ps": {
+      "name": "هندوان، هندیجان"
+    }
+  },
+  "al-Madina, Madinta al-Nabi, Yathrib": {
+    "fa": {
+      "name": "المدینة المنورة"
+    },
+    "ur": {
+      "name": "المدينة، مدينة النبي، يثرب"
+    },
+    "hi": {
+      "name": "अल-मदीना, मदीनत अल-नबी, यथ्रिब"
+    },
+    "fr": {
+      "name": "Médine"
+    },
+    "tr": {
+      "name": "Medine"
+    },
+    "es": {
+      "name": "Medina"
+    },
+    "ms": {
+      "name": "al-Madina, Madinah al-Nabi, Yathrib"
+    },
+    "ru": {
+      "name": "аль-Мадина, Мадинат ан-Наби, Ясриб"
+    },
+    "bn": {
+      "name": "আল-মদীনা, মদীনত আল-নবী, ইয়াথরিব"
+    },
+    "ha": {
+      "name": "Madina, Birnin Manzon Allah, Yathrib"
+    },
+    "so": {
+      "name": "al-Madiina, Madiinat al-Nabi, Yathrib"
+    },
+    "ps": {
+      "name": "المدينې، مدینت النبي، یثرب"
+    }
+  },
+  "al-Kufa": {
+    "fa": {
+      "name": "الکوفه"
+    },
+    "ur": {
+      "name": "الکوفہ"
+    },
+    "hi": {
+      "name": "अल-कूफ़ा"
+    },
+    "fr": {
+      "name": "Koufa"
+    },
+    "tr": {
+      "name": "Kûfe"
+    },
+    "es": {
+      "name": "al-Kufa"
+    },
+    "ms": {
+      "name": "al-Kufa"
+    },
+    "ru": {
+      "name": "аль-Куфа"
+    },
+    "bn": {
+      "name": "আল-কুফা"
+    },
+    "ha": {
+      "name": "al-Kufa"
+    },
+    "so": {
+      "name": "al-Kufa"
+    },
+    "ps": {
+      "name": "الکوفه"
+    }
+  },
+  "Makka": {
+    "fa": {
+      "name": "مکه"
+    },
+    "ur": {
+      "name": "مکہ"
+    },
+    "hi": {
+      "name": "मक्का"
+    },
+    "fr": {
+      "name": "La Mecque"
+    },
+    "tr": {
+      "name": "Mekke"
+    },
+    "es": {
+      "name": "La Meca"
+    },
+    "ms": {
+      "name": "Mekah"
+    },
+    "ru": {
+      "name": "Мекка"
+    },
+    "bn": {
+      "name": "মক্কা"
+    },
+    "ha": {
+      "name": "Makka"
+    },
+    "so": {
+      "name": "Makka"
+    },
+    "ps": {
+      "name": "مکه"
+    }
+  },
+  "Ribat Afrawa": {
+    "fa": {
+      "name": "رباط افراوه"
+    },
+    "ur": {
+      "name": "رباط افروا"
+    },
+    "hi": {
+      "name": "रिबाट अफरावा"
+    },
+    "fr": {
+      "name": "Ribat Afrawa"
+    },
+    "tr": {
+      "name": "Ribat Afrawa"
+    },
+    "es": {
+      "name": "Ribat Afrawa"
+    },
+    "ms": {
+      "name": "Ribat Afrawa"
+    },
+    "ru": {
+      "name": "Рибат Афрава"
+    },
+    "bn": {
+      "name": "রিবাট আফরাওয়া"
+    },
+    "ha": {
+      "name": "Ribat Afrawa"
+    },
+    "so": {
+      "name": "Ribat Afrawa"
+    },
+    "ps": {
+      "name": "رباط افروا"
+    }
+  },
+  "Balkh": {
+    "fa": {
+      "name": "بلخ"
+    },
+    "ur": {
+      "name": "بلخ"
+    },
+    "hi": {
+      "name": "बल्ख"
+    },
+    "fr": {
+      "name": "Balkh"
+    },
+    "tr": {
+      "name": "Belh"
+    },
+    "es": {
+      "name": "Balkh"
+    },
+    "ms": {
+      "name": "Balkh"
+    },
+    "ru": {
+      "name": "Балх"
+    },
+    "bn": {
+      "name": "বালখ"
+    },
+    "ha": {
+      "name": "Balkh"
+    },
+    "so": {
+      "name": "Balkh"
+    },
+    "ps": {
+      "name": "بلخ"
+    }
+  },
+  "al-Basra": {
+    "fa": {
+      "name": "البصرة"
+    },
+    "ur": {
+      "name": "البصرة"
+    },
+    "hi": {
+      "name": "अल-बसरा"
+    },
+    "fr": {
+      "name": "Bassorah"
+    },
+    "tr": {
+      "name": "Basra"
+    },
+    "es": {
+      "name": "Basora"
+    },
+    "ms": {
+      "name": "al-Basra"
+    },
+    "ru": {
+      "name": "аль-Басра"
+    },
+    "bn": {
+      "name": "আল-বাসরা"
+    },
+    "ha": {
+      "name": "al-Basra"
+    },
+    "so": {
+      "name": "Al-Basra"
+    },
+    "ps": {
+      "name": "البصرة"
+    }
+  },
+  "Sana": {
+    "fa": {
+      "name": "صنعاء"
+    },
+    "ur": {
+      "name": "صنعاء"
+    },
+    "hi": {
+      "name": "साना"
+    },
+    "fr": {
+      "name": "Sanaa"
+    },
+    "tr": {
+      "name": "Sana"
+    },
+    "es": {
+      "name": "Sana"
+    },
+    "ms": {
+      "name": "Sana"
+    },
+    "ru": {
+      "name": "Сана"
+    },
+    "bn": {
+      "name": "সানা"
+    },
+    "ha": {
+      "name": "Sana"
+    },
+    "so": {
+      "name": "Saana"
+    },
+    "ps": {
+      "name": "صنعا"
+    }
+  },
+  "al-Hijaz": {
+    "fa": {
+      "name": "الحجاز"
+    },
+    "ur": {
+      "name": "الحجاز"
+    },
+    "hi": {
+      "name": "अल-हिजाज"
+    },
+    "fr": {
+      "name": "al-Hijaz"
+    },
+    "tr": {
+      "name": "Hicaz"
+    },
+    "es": {
+      "name": "al-Hiyaz"
+    },
+    "ms": {
+      "name": "al-Hijaz"
+    },
+    "ru": {
+      "name": "аль-Хиджаз"
+    },
+    "bn": {
+      "name": "আল-হিজাজ"
+    },
+    "ha": {
+      "name": "al-Hijaz"
+    },
+    "so": {
+      "name": "Al-Xijaaz"
+    },
+    "ps": {
+      "name": "الحجاز"
+    }
+  },
+  "Uman": {
+    "fa": {
+      "name": "اومان"
+    },
+    "ur": {
+      "name": "اومان"
+    },
+    "hi": {
+      "name": "उमन"
+    },
+    "fr": {
+      "name": "Ouman"
+    },
+    "tr": {
+      "name": "Uman"
+    },
+    "es": {
+      "name": "Umán"
+    },
+    "ms": {
+      "name": "Uman"
+    },
+    "ru": {
+      "name": "Умань"
+    },
+    "bn": {
+      "name": "উমান"
+    },
+    "ha": {
+      "name": "Uman"
+    },
+    "so": {
+      "name": "Umaan"
+    },
+    "ps": {
+      "name": "اومان"
+    }
+  },
+  "Shiraz": {
+    "fa": {
+      "name": "شیراز"
+    },
+    "ur": {
+      "name": "شیراز"
+    },
+    "hi": {
+      "name": "शिराज़"
+    },
+    "fr": {
+      "name": "Chiraz"
+    },
+    "tr": {
+      "name": "Şiraz"
+    },
+    "es": {
+      "name": "Shiraz"
+    },
+    "ms": {
+      "name": "Shiraz"
+    },
+    "ru": {
+      "name": "Шираз"
+    },
+    "bn": {
+      "name": "শিরাজ"
+    },
+    "ha": {
+      "name": "Shiraz"
+    },
+    "so": {
+      "name": "Shiraas"
+    },
+    "ps": {
+      "name": "شیراز"
+    }
+  },
+  "Marw, Marw al-Shahijan": {
+    "fa": {
+      "name": "مرو، مرو الشهیجان"
+    },
+    "ur": {
+      "name": "مارو، مارو الشاہیجان"
+    },
+    "hi": {
+      "name": "मारव, मारव अल-शहीजान"
+    },
+    "fr": {
+      "name": "Marw, Marw al-Shahijan"
+    },
+    "tr": {
+      "name": "Merv"
+    },
+    "es": {
+      "name": "Marw, Marw al-Shahijan"
+    },
+    "ms": {
+      "name": "Marw, Marw al-Shahijan"
+    },
+    "ru": {
+      "name": "Марв, Марв-эш-Шахиджан"
+    },
+    "bn": {
+      "name": "মার্ভ, মার্ভ আল-শাহিজান"
+    },
+    "ha": {
+      "name": "Marw, Marw al-Shahijan"
+    },
+    "so": {
+      "name": "Marw, Marw al-Shahijan"
+    },
+    "ps": {
+      "name": "مرو، مرو الشاهجان"
+    }
+  },
+  "Marash": {
+    "fa": {
+      "name": "مرعش"
+    },
+    "ur": {
+      "name": "مرعش"
+    },
+    "hi": {
+      "name": "माराश"
+    },
+    "fr": {
+      "name": "Marache"
+    },
+    "tr": {
+      "name": "Maraş"
+    },
+    "es": {
+      "name": "Marash"
+    },
+    "ms": {
+      "name": "Marash"
+    },
+    "ru": {
+      "name": "Мараш"
+    },
+    "bn": {
+      "name": "মারাশ"
+    },
+    "ha": {
+      "name": "Marash"
+    },
+    "so": {
+      "name": "Marash"
+    },
+    "ps": {
+      "name": "مرعش"
+    }
+  },
+  "al-Mawsil": {
+    "fa": {
+      "name": "الموصل"
+    },
+    "ur": {
+      "name": "الموصل"
+    },
+    "hi": {
+      "name": "अल-मौसिल"
+    },
+    "fr": {
+      "name": "Mossoul"
+    },
+    "tr": {
+      "name": "Musul"
+    },
+    "es": {
+      "name": "Mósul"
+    },
+    "ms": {
+      "name": "Mousil"
+    },
+    "ru": {
+      "name": "аль-Мосул"
+    },
+    "bn": {
+      "name": "আল-মওসিল"
+    },
+    "ha": {
+      "name": "Mausil"
+    },
+    "so": {
+      "name": "Muusil"
+    },
+    "ps": {
+      "name": "الموصل"
+    }
+  },
+  "al-Qahira": {
+    "fa": {
+      "name": "القاهرة"
+    },
+    "ur": {
+      "name": "القاهرة"
+    },
+    "hi": {
+      "name": "अल-क़ाहिरा"
+    },
+    "fr": {
+      "name": "Le Caire"
+    },
+    "tr": {
+      "name": "Kahire"
+    },
+    "es": {
+      "name": "El Cairo"
+    },
+    "ms": {
+      "name": "Kaherah"
+    },
+    "ru": {
+      "name": "Каир"
+    },
+    "bn": {
+      "name": "আল-কাহিরা"
+    },
+    "ha": {
+      "name": "Kairo"
+    },
+    "so": {
+      "name": "Qaahira"
+    },
+    "ps": {
+      "name": "القاهرة"
+    }
+  },
+  "Bayrut": {
+    "fa": {
+      "name": "بیروت"
+    },
+    "ur": {
+      "name": "بیروت"
+    },
+    "hi": {
+      "name": "बेरुत"
+    },
+    "fr": {
+      "name": "Beyrouth"
+    },
+    "tr": {
+      "name": "Beyrut"
+    },
+    "es": {
+      "name": "Beirut"
+    },
+    "ms": {
+      "name": "Beirut"
+    },
+    "ru": {
+      "name": "Бейрут"
+    },
+    "bn": {
+      "name": "বায়রুট"
+    },
+    "ha": {
+      "name": "Bayrut"
+    },
+    "so": {
+      "name": "Bayruut"
+    },
+    "ps": {
+      "name": "بيروت"
+    }
+  },
+  "al-Ahwaz, Suq al-Ahwaz": {
+    "fa": {
+      "name": "اهواز، سوق اهواز"
+    },
+    "ur": {
+      "name": "الاحواز، سوق الاحواز"
+    },
+    "hi": {
+      "name": "अल-अहवाज़, सुक अल-अहवाज़"
+    },
+    "fr": {
+      "name": "al-Ahwaz, Suq al-Ahwaz"
+    },
+    "tr": {
+      "name": "El-Ahvaz, Suq El-Ahvaz"
+    },
+    "es": {
+      "name": "Jauzán"
+    },
+    "ms": {
+      "name": "al-Ahwaz, Suq al-Ahwaz"
+    },
+    "ru": {
+      "name": "а-Ахваз, Сук-аль-Ахваз"
+    },
+    "bn": {
+      "name": "আল-আহওয়াজ, সুক আল-আহওয়াজ"
+    },
+    "ha": {
+      "name": "al-Ahwaz, Suq al-Ahwaz"
+    },
+    "so": {
+      "name": "Al-Ahwaz, Suuqa Al-Ahwaz"
+    },
+    "ps": {
+      "name": "الاهواز، سوق الاهواز"
+    }
+  },
+  "al-Raqqa": {
+    "fa": {
+      "name": "الرقة"
+    },
+    "ur": {
+      "name": "الرقہ"
+    },
+    "hi": {
+      "name": "अल-रक्का"
+    },
+    "fr": {
+      "name": "Raqqa"
+    },
+    "tr": {
+      "name": "Halep"
+    },
+    "es": {
+      "name": "Al-Raqa"
+    },
+    "ms": {
+      "name": "al-Raqqa"
+    },
+    "ru": {
+      "name": "Ар-Ракка"
+    },
+    "bn": {
+      "name": "আল-রাক্কা"
+    },
+    "ha": {
+      "name": "al-Raqqa"
+    },
+    "so": {
+      "name": "Ar-Raqqah"
+    },
+    "ps": {
+      "name": "الرقة"
+    }
+  },
+  "Ghazza": {
+    "fa": {
+      "name": "غزة"
+    },
+    "ur": {
+      "name": "غزہ"
+    },
+    "hi": {
+      "name": "गज़्ज़ा"
+    },
+    "fr": {
+      "name": "Gaza"
+    },
+    "tr": {
+      "name": "Gazze"
+    },
+    "es": {
+      "name": "Gaza"
+    },
+    "ms": {
+      "name": "Ghazza"
+    },
+    "ru": {
+      "name": "Газза"
+    },
+    "bn": {
+      "name": "গাজা"
+    },
+    "ha": {
+      "name": "Gaza"
+    },
+    "so": {
+      "name": "Qasa"
+    },
+    "ps": {
+      "name": "غزه"
+    }
+  },
+  "Asqalan": {
+    "fa": {
+      "name": "عسقلان"
+    },
+    "ur": {
+      "name": "عسقلان"
+    },
+    "hi": {
+      "name": "अस्कालान"
+    },
+    "fr": {
+      "name": "Askalan"
+    },
+    "tr": {
+      "name": "Aşkelon"
+    },
+    "es": {
+      "name": "Ascalón"
+    },
+    "ms": {
+      "name": "Asqalan"
+    },
+    "ru": {
+      "name": "Ашкелон"
+    },
+    "bn": {
+      "name": "আসকালান"
+    },
+    "ha": {
+      "name": "Asqalan"
+    },
+    "so": {
+      "name": "Asqalan"
+    },
+    "ps": {
+      "name": "اسقلان"
+    }
+  },
+  "Mina": {
+    "fa": {
+      "name": "مینا"
+    },
+    "ur": {
+      "name": "مینا"
+    },
+    "hi": {
+      "name": "मीना"
+    },
+    "fr": {
+      "name": "Mina"
+    },
+    "tr": {
+      "name": "Mina"
+    },
+    "es": {
+      "name": "Mina"
+    },
+    "ms": {
+      "name": "Mina"
+    },
+    "ru": {
+      "name": "Мина"
+    },
+    "bn": {
+      "name": "মিনা"
+    },
+    "ha": {
+      "name": "Mina"
+    },
+    "so": {
+      "name": "Mina"
+    },
+    "ps": {
+      "name": "مینه"
+    }
+  },
+  "Fustat": {
+    "fa": {
+      "name": "فسطاط"
+    },
+    "ur": {
+      "name": "فسطاط"
+    },
+    "hi": {
+      "name": "फुस्तात"
+    },
+    "fr": {
+      "name": "Fostat"
+    },
+    "tr": {
+      "name": "Füstat"
+    },
+    "es": {
+      "name": "Fustat"
+    },
+    "ms": {
+      "name": "Fustat"
+    },
+    "ru": {
+      "name": "Фустан"
+    },
+    "bn": {
+      "name": "ফুস্তাত"
+    },
+    "ha": {
+      "name": "Fustat"
+    },
+    "so": {
+      "name": "Fustat"
+    },
+    "ps": {
+      "name": "فسطاط"
+    }
+  },
+  "Tabuk": {
+    "fa": {
+      "name": "تبوك"
+    },
+    "ur": {
+      "name": "تبوک"
+    },
+    "hi": {
+      "name": "तबूक"
+    },
+    "fr": {
+      "name": "Tabouk"
+    },
+    "tr": {
+      "name": "Tebük"
+    },
+    "es": {
+      "name": "Tabuk"
+    },
+    "ms": {
+      "name": "Tabuk"
+    },
+    "ru": {
+      "name": "Табук"
+    },
+    "bn": {
+      "name": "তাবুক"
+    },
+    "ha": {
+      "name": "Tabuk"
+    },
+    "so": {
+      "name": "Tabuk"
+    },
+    "ps": {
+      "name": "تبوک"
+    }
+  },
+  "Baghdad": {
+    "fa": {
+      "name": "بغداد"
+    },
+    "ur": {
+      "name": "بغداد"
+    },
+    "hi": {
+      "name": "बगदाद"
+    },
+    "fr": {
+      "name": "Bagdad"
+    },
+    "tr": {
+      "name": "Bağdat"
+    },
+    "es": {
+      "name": "Bagdad"
+    },
+    "ms": {
+      "name": "Baghdad"
+    },
+    "ru": {
+      "name": "Багдад"
+    },
+    "bn": {
+      "name": "বাগদাদ"
+    },
+    "ha": {
+      "name": "Bagadaza"
+    },
+    "so": {
+      "name": "Baqdaad"
+    },
+    "ps": {
+      "name": "بغداد"
+    }
+  },
+  "Najran": {
+    "fa": {
+      "name": "نجران"
+    },
+    "ur": {
+      "name": "نجران"
+    },
+    "hi": {
+      "name": "नजरान"
+    },
+    "fr": {
+      "name": "Najran"
+    },
+    "tr": {
+      "name": "Necran"
+    },
+    "es": {
+      "name": "Nayran"
+    },
+    "ms": {
+      "name": "Najran"
+    },
+    "ru": {
+      "name": "Наджран"
+    },
+    "bn": {
+      "name": "নাজরান"
+    },
+    "ha": {
+      "name": "Najran"
+    },
+    "so": {
+      "name": "Najran"
+    },
+    "ps": {
+      "name": "نجران"
+    }
+  },
+  "Shahrazur": {
+    "fa": {
+      "name": "شهرزور"
+    },
+    "ur": {
+      "name": "شہرزور"
+    },
+    "hi": {
+      "name": "शहरज़ूर"
+    },
+    "fr": {
+      "name": "Chahrezour"
+    },
+    "tr": {
+      "name": "Şehrezor"
+    },
+    "es": {
+      "name": "Shahrazur"
+    },
+    "ms": {
+      "name": "Shahrazur"
+    },
+    "ru": {
+      "name": "Шахразур"
+    },
+    "bn": {
+      "name": "শাহরাজুর"
+    },
+    "ha": {
+      "name": "Shahrazur"
+    },
+    "so": {
+      "name": "Shahrazur"
+    },
+    "ps": {
+      "name": "شهرزور"
+    }
+  },
+  "Jasim": {
+    "fa": {
+      "name": "جاسم"
+    },
+    "ur": {
+      "name": "جسیم"
+    },
+    "hi": {
+      "name": "जसीम"
+    },
+    "fr": {
+      "name": "Jasim"
+    },
+    "tr": {
+      "name": "Yasim"
+    },
+    "es": {
+      "name": "Jasim"
+    },
+    "ms": {
+      "name": "Jasim"
+    },
+    "ru": {
+      "name": "Джасим"
+    },
+    "bn": {
+      "name": "জসিম"
+    },
+    "ha": {
+      "name": "Jasim"
+    },
+    "so": {
+      "name": "Jasim"
+    },
+    "ps": {
+      "name": "جسیم"
+    }
+  },
+  "Dimashq": {
+    "fa": {
+      "name": "دمشق"
+    },
+    "ur": {
+      "name": "دمشق"
+    },
+    "hi": {
+      "name": "दिमश्क"
+    },
+    "fr": {
+      "name": "Damas"
+    },
+    "tr": {
+      "name": "Şam"
+    },
+    "es": {
+      "name": "Damasco"
+    },
+    "ms": {
+      "name": "Damsyik"
+    },
+    "ru": {
+      "name": "Дамаск"
+    },
+    "bn": {
+      "name": "দিমাশক"
+    },
+    "ha": {
+      "name": "Dimashƙu"
+    },
+    "so": {
+      "name": "Dimishiq"
+    },
+    "ps": {
+      "name": "دمشق"
+    }
+  },
+  "al-Anbar": {
+    "fa": {
+      "name": "الانبار"
+    },
+    "ur": {
+      "name": "الانبار"
+    },
+    "hi": {
+      "name": "अल-अंबार"
+    },
+    "fr": {
+      "name": "al-Anbar"
+    },
+    "tr": {
+      "name": "El-Enbar"
+    },
+    "es": {
+      "name": "al-Anbar"
+    },
+    "ms": {
+      "name": "al-Anbar"
+    },
+    "ru": {
+      "name": "аль-Анбар"
+    },
+    "bn": {
+      "name": "আল-আনবার"
+    },
+    "ha": {
+      "name": "al-Anbar"
+    },
+    "so": {
+      "name": "al-Anbar"
+    },
+    "ps": {
+      "name": "الانبار"
+    }
+  },
+  "al-Rusafa": {
+    "fa": {
+      "name": "الرصافة"
+    },
+    "ur": {
+      "name": "الرصافة"
+    },
+    "hi": {
+      "name": "अल-रुसाफा"
+    },
+    "fr": {
+      "name": "ar-Roussafa"
+    },
+    "tr": {
+      "name": "Rusafa"
+    },
+    "es": {
+      "name": "al-Rusafa"
+    },
+    "ms": {
+      "name": "al-Rusafa"
+    },
+    "ru": {
+      "name": "ар-Русафа"
+    },
+    "bn": {
+      "name": "আল-রুসাফা"
+    },
+    "ha": {
+      "name": "al-Rusafa"
+    },
+    "so": {
+      "name": "al-Rusafa"
+    },
+    "ps": {
+      "name": "الرصافه"
+    }
+  },
+  "Washqa": {
+    "fa": {
+      "name": "واشقا"
+    },
+    "ur": {
+      "name": "وشقا"
+    },
+    "hi": {
+      "name": "वाश्का"
+    },
+    "fr": {
+      "name": "Washqa"
+    },
+    "tr": {
+      "name": "Washqa"
+    },
+    "es": {
+      "name": "Washqa"
+    },
+    "ms": {
+      "name": "Washqa"
+    },
+    "ru": {
+      "name": "Вашка"
+    },
+    "bn": {
+      "name": "ওয়াশকা"
+    },
+    "ha": {
+      "name": "Washqa"
+    },
+    "so": {
+      "name": "Washqa"
+    },
+    "ps": {
+      "name": "واشقا"
+    }
+  },
+  "Wahran": {
+    "fa": {
+      "name": "وهران"
+    },
+    "ur": {
+      "name": "وہران"
+    },
+    "hi": {
+      "name": "वाहरन"
+    },
+    "fr": {
+      "name": "Oran"
+    },
+    "tr": {
+      "name": "Vahran"
+    },
+    "es": {
+      "name": "Orán"
+    },
+    "ms": {
+      "name": "Wahran"
+    },
+    "ru": {
+      "name": "Варан"
+    },
+    "bn": {
+      "name": "ওয়াহরান"
+    },
+    "ha": {
+      "name": "Wahran"
+    },
+    "so": {
+      "name": "وهران"
+    },
+    "ps": {
+      "name": "وهران"
+    }
+  },
+  "al-Qayrawan": {
+    "fa": {
+      "name": "القیروان"
+    },
+    "ur": {
+      "name": "القيروان"
+    },
+    "hi": {
+      "name": "अल-कयरवान"
+    },
+    "fr": {
+      "name": "Kairouan"
+    },
+    "tr": {
+      "name": "Kairuan"
+    },
+    "es": {
+      "name": "Al-Qayrawan"
+    },
+    "ms": {
+      "name": "al-Qayrawan"
+    },
+    "ru": {
+      "name": "аль-Кайраван"
+    },
+    "bn": {
+      "name": "আল-কাইরোয়ান"
+    },
+    "ha": {
+      "name": "al-Kairawan"
+    },
+    "so": {
+      "name": "Al-Qayrawaan"
+    },
+    "ps": {
+      "name": "القيروان"
+    }
+  },
+  "Samarra": {
+    "fa": {
+      "name": "سامرا"
+    },
+    "ur": {
+      "name": "سامرہ"
+    },
+    "hi": {
+      "name": "सामर्रा"
+    },
+    "fr": {
+      "name": "Samarra"
+    },
+    "tr": {
+      "name": "Samarra"
+    },
+    "es": {
+      "name": "Samarra"
+    },
+    "ms": {
+      "name": "Samarra"
+    },
+    "ru": {
+      "name": "Самарра"
+    },
+    "bn": {
+      "name": "সামারা"
+    },
+    "ha": {
+      "name": "Samarra"
+    },
+    "so": {
+      "name": "Samarra"
+    },
+    "ps": {
+      "name": "سامرا"
+    }
+  },
+  "Wasit": {
+    "fa": {
+      "name": "واسط"
+    },
+    "ur": {
+      "name": "واسط"
+    },
+    "hi": {
+      "name": "वासित"
+    },
+    "fr": {
+      "name": "Wassit"
+    },
+    "tr": {
+      "name": "Vasit"
+    },
+    "es": {
+      "name": "Wasit"
+    },
+    "ms": {
+      "name": "Wasit"
+    },
+    "ru": {
+      "name": "Васит"
+    },
+    "bn": {
+      "name": "ওয়াসিট"
+    },
+    "ha": {
+      "name": "Wasit"
+    },
+    "so": {
+      "name": "Wasiit"
+    },
+    "ps": {
+      "name": "واست"
+    }
+  },
+  "Saray Shahr": {
+    "fa": {
+      "name": "سرای شهر"
+    },
+    "ur": {
+      "name": "سرائے شہر"
+    },
+    "hi": {
+      "name": "सराय शहर"
+    },
+    "fr": {
+      "name": "Saray Shahr"
+    },
+    "tr": {
+      "name": "Sarayşehir"
+    },
+    "es": {
+      "name": "Saray Shahr"
+    },
+    "ms": {
+      "name": "Saray Shahr"
+    },
+    "ru": {
+      "name": "Сарай-Шахр"
+    },
+    "bn": {
+      "name": "সারে শহর"
+    },
+    "ha": {
+      "name": "Saray Shahr"
+    },
+    "so": {
+      "name": "Saray Shahr"
+    },
+    "ps": {
+      "name": "سرای ښار"
+    }
+  },
+  "Sarmaqan, Jarmaqan, Ribat Sarmaqan": {
+    "fa": {
+      "name": "رباط سرمقان"
+    },
+    "ur": {
+      "name": "سرمقان"
+    },
+    "hi": {
+      "name": "सरमकान, जरमकान, रिबाट सरमकान"
+    },
+    "fr": {
+      "name": "Sarmaqan, Jarmaqan, Ribat Sarmaqan"
+    },
+    "tr": {
+      "name": "Sarmağan, Cırmağan, Ribat Sarmağan"
+    },
+    "es": {
+      "name": "Sarmaqan, Jarmaqan, Ribat Sarmaqan"
+    },
+    "ms": {
+      "name": "Sarmaqan, Jarmaqan, Ribat Sarmaqan"
+    },
+    "ru": {
+      "name": "Сармакан, Джармакан, Рибат Сармакан"
+    },
+    "bn": {
+      "name": "সার্মাকান, জার্মাকান, রিবাত সার্মাকান"
+    },
+    "ha": {
+      "name": "Sarmaqan, Jarmaqan, Ribat Sarmaqan"
+    },
+    "so": {
+      "name": "Sarmaqan"
+    },
+    "ps": {
+      "name": "سرمقان، جرمقان، ریبات سرمقان"
+    }
+  },
+  "Nih, Nih": {
+    "fa": {
+      "name": "نیه، نیه"
+    },
+    "ur": {
+      "name": "نئی نئی"
+    },
+    "hi": {
+      "name": "निह, निह"
+    },
+    "fr": {
+      "name": "Nih, Nih"
+    },
+    "tr": {
+      "name": "Niğde"
+    },
+    "es": {
+      "name": "Nih, Nih"
+    },
+    "ms": {
+      "name": "Nih"
+    },
+    "ru": {
+      "name": "Нижний Новгород"
+    },
+    "bn": {
+      "name": "নিহ, নিহ"
+    },
+    "ha": {
+      "name": "Nih, Nih"
+    },
+    "so": {
+      "name": "Nih, Nih"
+    },
+    "ps": {
+      "name": "نه، نه"
+    }
+  },
+  "Kuh Sim, Jabal al-Fidda": {
+    "fa": {
+      "name": "کوه سیم، جبل الفدا"
+    },
+    "ur": {
+      "name": "کوہ سم، جبل الفدا"
+    },
+    "hi": {
+      "name": "कुह सिम, जबल अल-फिद्दा"
+    },
+    "fr": {
+      "name": "Kuh Sim, Jabal al-Fidda"
+    },
+    "tr": {
+      "name": "Kuh Sim, Cebel el-Fidde"
+    },
+    "es": {
+      "name": "Kuh Sim, Jabal al-Fidda"
+    },
+    "ms": {
+      "name": "Kuh Sim, Jabal al-Fidda"
+    },
+    "ru": {
+      "name": "Кух Сим, Джабал аль-Фидда"
+    },
+    "bn": {
+      "name": "কুহ সিম, জাবাল আল-ফিদ্দা"
+    },
+    "ha": {
+      "name": "Kuh Sim, Jabal al-Fidda"
+    },
+    "so": {
+      "name": "Kuh Sim, Jabal al-Fidda"
+    },
+    "ps": {
+      "name": "کوه سیم، جبل الفدا"
+    }
+  },
+  "Bukhara": {
+    "fa": {
+      "name": "بخارا"
+    },
+    "ur": {
+      "name": "بخارا"
+    },
+    "hi": {
+      "name": "बुखारा"
+    },
+    "fr": {
+      "name": "Boukhara"
+    },
+    "tr": {
+      "name": "Buhara"
+    },
+    "es": {
+      "name": "Bujará"
+    },
+    "ms": {
+      "name": "Bukhara"
+    },
+    "ru": {
+      "name": "Бухара"
+    },
+    "bn": {
+      "name": "বুখারা"
+    },
+    "ha": {
+      "name": "Bukhara"
+    },
+    "so": {
+      "name": "Bukhaara"
+    },
+    "ps": {
+      "name": "بخارا"
+    }
+  },
+  "Barwan": {
+    "fa": {
+      "name": "بروان"
+    },
+    "ur": {
+      "name": "بروان"
+    },
+    "hi": {
+      "name": "बरवान"
+    },
+    "fr": {
+      "name": "Barouane"
+    },
+    "tr": {
+      "name": "Barvan"
+    },
+    "es": {
+      "name": "Barwan"
+    },
+    "ms": {
+      "name": "Barwan"
+    },
+    "ru": {
+      "name": "Барван"
+    },
+    "bn": {
+      "name": "বড়ওয়ান"
+    },
+    "ha": {
+      "name": "Barwan"
+    },
+    "so": {
+      "name": "Baraawe"
+    },
+    "ps": {
+      "name": "بروان"
+    }
+  },
+  "al-Rayy": {
+    "fa": {
+      "name": "الری"
+    },
+    "ur": {
+      "name": "الری"
+    },
+    "hi": {
+      "name": "अल-राय"
+    },
+    "fr": {
+      "name": "ar-Rayy"
+    },
+    "tr": {
+      "name": "Rey"
+    },
+    "es": {
+      "name": "al-Rayy"
+    },
+    "ms": {
+      "name": "al-Rayy"
+    },
+    "ru": {
+      "name": "Ар-Райй"
+    },
+    "bn": {
+      "name": "আল-রে"
+    },
+    "ha": {
+      "name": "Al-Rayy"
+    },
+    "so": {
+      "name": "ar-Ray"
+    },
+    "ps": {
+      "name": "الری"
+    }
+  },
+  "al-Khuttal": {
+    "fa": {
+      "name": "الختل"
+    },
+    "ur": {
+      "name": "الختل"
+    },
+    "hi": {
+      "name": "अल-खुत्तल"
+    },
+    "fr": {
+      "name": "al-Khuttal"
+    },
+    "tr": {
+      "name": "Huttaliye"
+    },
+    "es": {
+      "name": "al-Khuttal"
+    },
+    "ms": {
+      "name": "al-Khuttal"
+    },
+    "ru": {
+      "name": "Аль-Хуттал"
+    },
+    "bn": {
+      "name": "আল-খুত্তাল"
+    },
+    "ha": {
+      "name": "al-Khuttal"
+    },
+    "so": {
+      "name": "Al-Khuttal"
+    },
+    "ps": {
+      "name": "الختل"
+    }
+  },
+  "Qazwin": {
+    "fa": {
+      "name": "قزوین"
+    },
+    "ur": {
+      "name": "قزوین"
+    },
+    "hi": {
+      "name": "क़ज़वीन"
+    },
+    "fr": {
+      "name": "Qazvin"
+    },
+    "tr": {
+      "name": "Kazvin"
+    },
+    "es": {
+      "name": "Qazvín"
+    },
+    "ms": {
+      "name": "Qazwin"
+    },
+    "ru": {
+      "name": "Казвин"
+    },
+    "bn": {
+      "name": "কাজভিন"
+    },
+    "ha": {
+      "name": "Qazwin"
+    },
+    "so": {
+      "name": "Qazwin"
+    },
+    "ps": {
+      "name": "قزوین"
+    }
+  },
+  "Nazwa": {
+    "fa": {
+      "name": "نزوا"
+    },
+    "ur": {
+      "name": "نزوی"
+    },
+    "hi": {
+      "name": "नजवा"
+    },
+    "fr": {
+      "name": "Nazwa"
+    },
+    "tr": {
+      "name": "Nazwa"
+    },
+    "es": {
+      "name": "Nazwa"
+    },
+    "ms": {
+      "name": "Nazwa"
+    },
+    "ru": {
+      "name": "Назва"
+    },
+    "bn": {
+      "name": "নাজভা"
+    },
+    "ha": {
+      "name": "Nazwa"
+    },
+    "so": {
+      "name": "Nazwa"
+    },
+    "ps": {
+      "name": "نازوه"
+    }
+  },
+  "Fasa": {
+    "fa": {
+      "name": "فسا"
+    },
+    "ur": {
+      "name": "فسا"
+    },
+    "hi": {
+      "name": "फ़सा"
+    },
+    "fr": {
+      "name": "Fasa"
+    },
+    "tr": {
+      "name": "Fas"
+    },
+    "es": {
+      "name": "Fasa"
+    },
+    "ms": {
+      "name": "Fasa"
+    },
+    "ru": {
+      "name": "Фаса"
+    },
+    "bn": {
+      "name": "ফাসা"
+    },
+    "ha": {
+      "name": "Fasa"
+    },
+    "so": {
+      "name": "Fasa"
+    },
+    "ps": {
+      "name": "فسا"
+    }
+  },
+  "Rabadha": {
+    "fa": {
+      "name": "ربضه"
+    },
+    "ur": {
+      "name": "رابڑھا"
+    },
+    "hi": {
+      "name": "राबधा"
+    },
+    "fr": {
+      "name": "Rabadha"
+    },
+    "tr": {
+      "name": "Rabada"
+    },
+    "es": {
+      "name": "Rabadha"
+    },
+    "ms": {
+      "name": "Rabadha"
+    },
+    "ru": {
+      "name": "Рабадха"
+    },
+    "bn": {
+      "name": "রাবাধা"
+    },
+    "ha": {
+      "name": "Rabadha"
+    },
+    "so": {
+      "name": "Rabadha"
+    },
+    "ps": {
+      "name": "رباضه"
+    }
+  },
+  "Hims": {
+    "fa": {
+      "name": "حمص"
+    },
+    "ur": {
+      "name": "حمص"
+    },
+    "hi": {
+      "name": "हिम्स"
+    },
+    "fr": {
+      "name": "Homs"
+    },
+    "tr": {
+      "name": "Humus"
+    },
+    "es": {
+      "name": "Homs"
+    },
+    "ms": {
+      "name": "Homs"
+    },
+    "ru": {
+      "name": "Хомс"
+    },
+    "bn": {
+      "name": "হিমস"
+    },
+    "ha": {
+      "name": "Himis"
+    },
+    "so": {
+      "name": "حمص"
+    },
+    "ps": {
+      "name": "حمص"
+    }
+  },
+  "Antakiyya": {
+    "fa": {
+      "name": "انطاکیه"
+    },
+    "ur": {
+      "name": "انطاکیہ"
+    },
+    "hi": {
+      "name": "अंटाक्या"
+    },
+    "fr": {
+      "name": "Antioche"
+    },
+    "tr": {
+      "name": "Antakya"
+    },
+    "es": {
+      "name": "Antioquía"
+    },
+    "ms": {
+      "name": "Antakya"
+    },
+    "ru": {
+      "name": "Антакия"
+    },
+    "bn": {
+      "name": "আন্তাকিয়া"
+    },
+    "ha": {
+      "name": "Antakya"
+    },
+    "so": {
+      "name": "Antaakiya"
+    },
+    "ps": {
+      "name": "انتاکیه"
+    }
+  },
+  "Manbij": {
+    "fa": {
+      "name": "منبج"
+    },
+    "ur": {
+      "name": "منبج"
+    },
+    "hi": {
+      "name": "मंबिज"
+    },
+    "fr": {
+      "name": "Manbij"
+    },
+    "tr": {
+      "name": "Münbiç"
+    },
+    "es": {
+      "name": "Manbiy"
+    },
+    "ms": {
+      "name": "Manbij"
+    },
+    "ru": {
+      "name": "Манбидж"
+    },
+    "bn": {
+      "name": "মানবিজ"
+    },
+    "ha": {
+      "name": "Manbij"
+    },
+    "so": {
+      "name": "Manbij"
+    },
+    "ps": {
+      "name": "منبج"
+    }
+  },
+  "Halab": {
+    "fa": {
+      "name": "حلب"
+    },
+    "ur": {
+      "name": "حلب"
+    },
+    "hi": {
+      "name": "हलब"
+    },
+    "fr": {
+      "name": "Alep"
+    },
+    "tr": {
+      "name": "Halep"
+    },
+    "es": {
+      "name": "Alepo"
+    },
+    "ms": {
+      "name": "حلب"
+    },
+    "ru": {
+      "name": "Халеб"
+    },
+    "bn": {
+      "name": "হালাব"
+    },
+    "ha": {
+      "name": "Halab"
+    },
+    "so": {
+      "name": "Xalab"
+    },
+    "ps": {
+      "name": "حلب"
+    }
+  },
+  "al-Tirmidh": {
+    "fa": {
+      "name": "الترمذ"
+    },
+    "ur": {
+      "name": "الترمذ"
+    },
+    "hi": {
+      "name": "अल-तिर्मिध"
+    },
+    "fr": {
+      "name": "al-Tirmidh"
+    },
+    "tr": {
+      "name": "Termiz"
+    },
+    "es": {
+      "name": "al-Tirmidh"
+    },
+    "ms": {
+      "name": "al-Tirmidh"
+    },
+    "ru": {
+      "name": "Ат-Тирмиз"
+    },
+    "bn": {
+      "name": "আল-তির্মিধ"
+    },
+    "ha": {
+      "name": "al-Tirmidh"
+    },
+    "so": {
+      "name": "al-Tirmidh"
+    },
+    "ps": {
+      "name": "الترمذ"
+    }
+  },
+  "Tustar, Shushtar": {
+    "fa": {
+      "name": "شوشتر"
+    },
+    "ur": {
+      "name": "تستر، شوشتر"
+    },
+    "hi": {
+      "name": "तुस्तर, शुश्तर"
+    },
+    "fr": {
+      "name": "Shushtar"
+    },
+    "tr": {
+      "name": "Tüstar, Şuşter"
+    },
+    "es": {
+      "name": "Tustar"
+    },
+    "ms": {
+      "name": "Shushtar"
+    },
+    "ru": {
+      "name": "Тустар, Шуштар"
+    },
+    "bn": {
+      "name": "তুস্তার, শুশতার"
+    },
+    "ha": {
+      "name": "Tustar, Shushtar"
+    },
+    "so": {
+      "name": "Tustar, Shushtar"
+    },
+    "ps": {
+      "name": "توستر، شوشتر"
+    }
+  },
+  "Isbahan, Isfahan": {
+    "fa": {
+      "name": "اصفهان"
+    },
+    "ur": {
+      "name": "اصفہان"
+    },
+    "hi": {
+      "name": "इस्फ़हान"
+    },
+    "fr": {
+      "name": "Ispahan"
+    },
+    "tr": {
+      "name": "İsfahan"
+    },
+    "es": {
+      "name": "Isfahán"
+    },
+    "ms": {
+      "name": "Isfahan"
+    },
+    "ru": {
+      "name": "Исфахан"
+    },
+    "bn": {
+      "name": "ইসফাহান"
+    },
+    "ha": {
+      "name": "Isbahan, Isfahan"
+    },
+    "so": {
+      "name": "Isbahan, Iisfahaan"
+    },
+    "ps": {
+      "name": "اصفهان"
+    }
+  },
+  "Harran": {
+    "fa": {
+      "name": "هران"
+    },
+    "ur": {
+      "name": "ہاران"
+    },
+    "hi": {
+      "name": "हर्रान"
+    },
+    "fr": {
+      "name": "Harran"
+    },
+    "tr": {
+      "name": "Harran"
+    },
+    "es": {
+      "name": "Harrán"
+    },
+    "ms": {
+      "name": "Harran"
+    },
+    "ru": {
+      "name": "Харран"
+    },
+    "bn": {
+      "name": "হারান"
+    },
+    "ha": {
+      "name": "Harran"
+    },
+    "so": {
+      "name": "Harran"
+    },
+    "ps": {
+      "name": "هران"
+    }
+  },
+  "Isbahan, Isfahan, al-Yahudiyya": {
+    "fa": {
+      "name": "اصفهان"
+    },
+    "ur": {
+      "name": "اصفہان"
+    },
+    "hi": {
+      "name": "इस्फहान"
+    },
+    "fr": {
+      "name": "Ispahan"
+    },
+    "tr": {
+      "name": "İsfahan"
+    },
+    "es": {
+      "name": "Isfahán, Isfahán, al-Yahudiyya"
+    },
+    "ms": {
+      "name": "Isfahan"
+    },
+    "ru": {
+      "name": "Исфахан"
+    },
+    "bn": {
+      "name": "ইস্ফাহান"
+    },
+    "ha": {
+      "name": "Isbahan, Isfahan, al-Yahudiyya"
+    },
+    "so": {
+      "name": "Isbahan, Isfahan, al-Yahudiyya"
+    },
+    "ps": {
+      "name": "اسفهان، اسفهان، الیهودیه"
+    }
+  },
+  "Malazkird, Malazjird, Manazjird": {
+    "fa": {
+      "name": "ملازگرد"
+    },
+    "ur": {
+      "name": "ملازگرد"
+    },
+    "hi": {
+      "name": "मलाज़्किर्ड"
+    },
+    "fr": {
+      "name": "Malazgirt"
+    },
+    "tr": {
+      "name": "Malazgirt"
+    },
+    "es": {
+      "name": "Malazgirt"
+    },
+    "ms": {
+      "name": "Malazgirt"
+    },
+    "ru": {
+      "name": "Малазгирд"
+    },
+    "bn": {
+      "name": "মালাজকির্দ, মালাজজির্দ, মানাজজির্দ"
+    },
+    "ha": {
+      "name": "Malazkird, Malazjird, Manazjird"
+    },
+    "so": {
+      "name": "Malazgirt"
+    },
+    "ps": {
+      "name": "مالازگرد، مالازجرد، منازجرد"
+    }
+  },
+  "Bardhaa": {
+    "fa": {
+      "name": "بردهاء"
+    },
+    "ur": {
+      "name": "بردها"
+    },
+    "hi": {
+      "name": "बर्धा"
+    },
+    "fr": {
+      "name": "Barda"
+    },
+    "tr": {
+      "name": "Berd"
+    },
+    "es": {
+      "name": "Bardhaa"
+    },
+    "ms": {
+      "name": "Bardhaa"
+    },
+    "ru": {
+      "name": "Барда"
+    },
+    "bn": {
+      "name": "বরধা"
+    },
+    "ha": {
+      "name": "Bardhaa"
+    },
+    "so": {
+      "name": "Bardheere"
+    },
+    "ps": {
+      "name": "بردھا"
+    }
+  },
+  "Saraqusa, Saraqusta": {
+    "fa": {
+      "name": "سارقوستا"
+    },
+    "ur": {
+      "name": "سرقسطہ، سراقوسطہ"
+    },
+    "hi": {
+      "name": "सारागुसा, साराक्वेस्ता"
+    },
+    "fr": {
+      "name": "Saragosse"
+    },
+    "tr": {
+      "name": "Saragossa"
+    },
+    "es": {
+      "name": "Zaragoza"
+    },
+    "ms": {
+      "name": "Saraqusa, Saraqusta"
+    },
+    "ru": {
+      "name": "Сарагоса"
+    },
+    "bn": {
+      "name": "সারাকুসা, সারাকুস্তা"
+    },
+    "ha": {
+      "name": "Saraqusa, Saraqusta"
+    },
+    "so": {
+      "name": "Saarqoosta"
+    },
+    "ps": {
+      "name": "سرقسطه، سراقسطه"
+    }
+  },
+  "Nasa": {
+    "fa": {
+      "name": "ناسا"
+    },
+    "ur": {
+      "name": "ناسا"
+    },
+    "hi": {
+      "name": "नासा"
+    },
+    "fr": {
+      "name": "Nasa"
+    },
+    "tr": {
+      "name": "Nasa"
+    },
+    "es": {
+      "name": "Nasa"
+    },
+    "ms": {
+      "name": "Nasa"
+    },
+    "ru": {
+      "name": "Наса"
+    },
+    "bn": {
+      "name": "নাসা"
+    },
+    "ha": {
+      "name": "Nasa"
+    },
+    "so": {
+      "name": "Nasa"
+    },
+    "ps": {
+      "name": "نسا"
+    }
+  },
+  "Nasa, Nasiya": {
+    "fa": {
+      "name": "ناسا، ناسیا"
+    },
+    "ur": {
+      "name": "ناسا، نسیہ"
+    },
+    "hi": {
+      "name": "नासा, नसिया"
+    },
+    "fr": {
+      "name": "Nasa, Nasiya"
+    },
+    "tr": {
+      "name": "Nas, Nasiya"
+    },
+    "es": {
+      "name": "Nasa, Nasiya"
+    },
+    "ms": {
+      "name": "Nasa, Nasiya"
+    },
+    "ru": {
+      "name": "Наса, Насия"
+    },
+    "bn": {
+      "name": "নাসা, নাসিয়া"
+    },
+    "ha": {
+      "name": "Birnin Nasa, Nasiya"
+    },
+    "so": {
+      "name": "Nasa, Nasiya"
+    },
+    "ps": {
+      "name": "ناسا، نسیه"
+    }
+  },
+  "Nayriz": {
+    "fa": {
+      "name": "نیریز"
+    },
+    "ur": {
+      "name": "نیریز"
+    },
+    "hi": {
+      "name": "नायरिज"
+    },
+    "fr": {
+      "name": "Nayriz"
+    },
+    "tr": {
+      "name": "Neyriz"
+    },
+    "es": {
+      "name": "Nayriz"
+    },
+    "ms": {
+      "name": "Nayriz"
+    },
+    "ru": {
+      "name": "Нейриз"
+    },
+    "bn": {
+      "name": "নায়রিজ"
+    },
+    "ha": {
+      "name": "Nayriz"
+    },
+    "so": {
+      "name": "Nayriz"
+    },
+    "ps": {
+      "name": "نیریز"
+    }
+  },
+  "Amul": {
+    "fa": {
+      "name": "آمل"
+    },
+    "ur": {
+      "name": "امول"
+    },
+    "hi": {
+      "name": "अमुल"
+    },
+    "fr": {
+      "name": "Amoul"
+    },
+    "tr": {
+      "name": "Amul"
+    },
+    "es": {
+      "name": "Amul"
+    },
+    "ms": {
+      "name": "Amul"
+    },
+    "ru": {
+      "name": "Амуль"
+    },
+    "bn": {
+      "name": "আমুল"
+    },
+    "ha": {
+      "name": "Amul"
+    },
+    "so": {
+      "name": "Amul"
+    },
+    "ps": {
+      "name": "آمل"
+    }
+  },
+  "al-Ramla": {
+    "fa": {
+      "name": "الرملة"
+    },
+    "ur": {
+      "name": "الرملة"
+    },
+    "hi": {
+      "name": "अल-रमला"
+    },
+    "fr": {
+      "name": "Ramla"
+    },
+    "tr": {
+      "name": "Ramla"
+    },
+    "es": {
+      "name": "Ramla"
+    },
+    "ms": {
+      "name": "al-Ramla"
+    },
+    "ru": {
+      "name": "ар-Рамла"
+    },
+    "bn": {
+      "name": "আল-রামলা"
+    },
+    "ha": {
+      "name": "al-Ramla"
+    },
+    "so": {
+      "name": "Al-Ramla"
+    },
+    "ps": {
+      "name": "الرملة"
+    }
+  },
+  "Samarqand": {
+    "fa": {
+      "name": "سمرقند"
+    },
+    "ur": {
+      "name": "سمرقند"
+    },
+    "hi": {
+      "name": "समरकंद"
+    },
+    "fr": {
+      "name": "Samarcande"
+    },
+    "tr": {
+      "name": "Semerkant"
+    },
+    "es": {
+      "name": "Samarcanda"
+    },
+    "ms": {
+      "name": "Samarqand"
+    },
+    "ru": {
+      "name": "Самарканд"
+    },
+    "bn": {
+      "name": "সামারকান্দ"
+    },
+    "ha": {
+      "name": "Samarqand"
+    },
+    "so": {
+      "name": "Samarqand"
+    },
+    "ps": {
+      "name": "سمرقند"
+    }
+  },
+  "Balis": {
+    "fa": {
+      "name": "بلیس"
+    },
+    "ur": {
+      "name": "بالش"
+    },
+    "hi": {
+      "name": "बालीस"
+    },
+    "fr": {
+      "name": "Baliss"
+    },
+    "tr": {
+      "name": "Balıkesir"
+    },
+    "es": {
+      "name": "Balís"
+    },
+    "ms": {
+      "name": "Balis"
+    },
+    "ru": {
+      "name": "Балис"
+    },
+    "bn": {
+      "name": "বালিস"
+    },
+    "ha": {
+      "name": "Balis"
+    },
+    "so": {
+      "name": "Balis"
+    },
+    "ps": {
+      "name": "بالیس"
+    }
+  },
+  "Naysabur": {
+    "fa": {
+      "name": "نیشابور"
+    },
+    "ur": {
+      "name": "نیشاپور"
+    },
+    "hi": {
+      "name": "नैसाबुर"
+    },
+    "fr": {
+      "name": "Nishapur"
+    },
+    "tr": {
+      "name": "Neyşabur"
+    },
+    "es": {
+      "name": "Nishapur"
+    },
+    "ms": {
+      "name": "Neisabur"
+    },
+    "ru": {
+      "name": "Нейшабур"
+    },
+    "bn": {
+      "name": "নাইসাপুর"
+    },
+    "ha": {
+      "name": "Naysabur"
+    },
+    "so": {
+      "name": "Naysabur"
+    },
+    "ps": {
+      "name": "نیسابور"
+    }
+  },
+  "Bayhaq": {
+    "fa": {
+      "name": "بایهق"
+    },
+    "ur": {
+      "name": "بیہق"
+    },
+    "hi": {
+      "name": "बैहक"
+    },
+    "fr": {
+      "name": "Bayhaq"
+    },
+    "tr": {
+      "name": "Beyhak"
+    },
+    "es": {
+      "name": "Bayhaq"
+    },
+    "ms": {
+      "name": "Bayhaq"
+    },
+    "ru": {
+      "name": "Байхак"
+    },
+    "bn": {
+      "name": "বায়হাক"
+    },
+    "ha": {
+      "name": "Bayhaq"
+    },
+    "so": {
+      "name": "Bayhaq"
+    },
+    "ps": {
+      "name": "بيهق"
+    }
+  },
+  "Tus, Tabaran": {
+    "fa": {
+      "name": "طوس، تبران"
+    },
+    "ur": {
+      "name": "توس، تبران"
+    },
+    "hi": {
+      "name": "तुस, तबरान"
+    },
+    "fr": {
+      "name": "Tus, Tabaran"
+    },
+    "tr": {
+      "name": "Tus, Tabaran"
+    },
+    "es": {
+      "name": "Tus, Tabarán"
+    },
+    "ms": {
+      "name": "Tus, Tabaran"
+    },
+    "ru": {
+      "name": "Тус, Табаран"
+    },
+    "bn": {
+      "name": "তুস, টাবারান"
+    },
+    "ha": {
+      "name": "Tus, Tabaran"
+    },
+    "so": {
+      "name": "Tus, Tabaran"
+    },
+    "ps": {
+      "name": "توس، تباران"
+    }
+  },
+  "al-Iskandariyya": {
+    "fa": {
+      "name": "الاسکندریه"
+    },
+    "ur": {
+      "name": "الاسکندریہ"
+    },
+    "hi": {
+      "name": "अल-इस्कंदरिया"
+    },
+    "fr": {
+      "name": "Alexandrie"
+    },
+    "tr": {
+      "name": "İskenderiye"
+    },
+    "es": {
+      "name": "Alejandría"
+    },
+    "ms": {
+      "name": "Iskandariah"
+    },
+    "ru": {
+      "name": "Александрия"
+    },
+    "bn": {
+      "name": "আল-ইস্কান্দারিয়া"
+    },
+    "ha": {
+      "name": "Iskandariyya"
+    },
+    "so": {
+      "name": "Iskandariya"
+    },
+    "ps": {
+      "name": "الاسکندریه"
+    }
+  },
+  "al-Haditha": {
+    "fa": {
+      "name": "الحدیثه"
+    },
+    "ur": {
+      "name": "الحدیثہ"
+    },
+    "hi": {
+      "name": "अल-हदीथा"
+    },
+    "fr": {
+      "name": "al-Haditha"
+    },
+    "tr": {
+      "name": "el-Hadise"
+    },
+    "es": {
+      "name": "al-Haditha"
+    },
+    "ms": {
+      "name": "al-Haditha"
+    },
+    "ru": {
+      "name": "аль-Хадита"
+    },
+    "bn": {
+      "name": "আল-হাদিথা"
+    },
+    "ha": {
+      "name": "al-Haditha"
+    },
+    "so": {
+      "name": "الحديثة"
+    },
+    "ps": {
+      "name": "الحدیثه"
+    }
+  },
+  "Ayla, Wayla": {
+    "fa": {
+      "name": "ایلا، وایلا"
+    },
+    "ur": {
+      "name": "ایلا، وائلا"
+    },
+    "hi": {
+      "name": "अयला, वेला"
+    },
+    "fr": {
+      "name": "Ayla, Wayla"
+    },
+    "tr": {
+      "name": "Geçersiz şehir ismi"
+    },
+    "es": {
+      "name": "Ayla, Wayla"
+    },
+    "ms": {
+      "name": "Ayla, Wayla"
+    },
+    "ru": {
+      "name": "Айла, Вайла"
+    },
+    "bn": {
+      "name": "আয়লা, ওয়ায়লা"
+    },
+    "ha": {
+      "name": "Ayla, Wayla"
+    },
+    "so": {
+      "name": "Ayla, Wayla"
+    },
+    "ps": {
+      "name": "ایلا، ویلا"
+    }
+  },
+  "Qarmasin, Qarmisin": {
+    "fa": {
+      "name": "قرمسین"
+    },
+    "ur": {
+      "name": "قرمسین، قرمسین"
+    },
+    "hi": {
+      "name": "करमासिन, करमिसिन"
+    },
+    "fr": {
+      "name": "Kermanshah"
+    },
+    "tr": {
+      "name": "Keremşah"
+    },
+    "es": {
+      "name": "Keremshah"
+    },
+    "ms": {
+      "name": "Kuching"
+    },
+    "ru": {
+      "name": "Кармасин"
+    },
+    "bn": {
+      "name": "কার্মাসিন, কার্মিসিন"
+    },
+    "ha": {
+      "name": "Karmasin"
+    },
+    "so": {
+      "name": "Qarmasin, Qarmisin"
+    },
+    "ps": {
+      "name": "قرمسین، قرمسین"
+    }
+  },
+  "Hamadhan": {
+    "fa": {
+      "name": "همدان"
+    },
+    "ur": {
+      "name": "ہمدان"
+    },
+    "hi": {
+      "name": "हमदान"
+    },
+    "fr": {
+      "name": "Hamedan"
+    },
+    "tr": {
+      "name": "Hemedan"
+    },
+    "es": {
+      "name": "Hamadán"
+    },
+    "ms": {
+      "name": "Hamadan"
+    },
+    "ru": {
+      "name": "Хамадан"
+    },
+    "bn": {
+      "name": "হামাদান"
+    },
+    "ha": {
+      "name": "Hamadhan"
+    },
+    "so": {
+      "name": "Hamaadaan"
+    },
+    "ps": {
+      "name": "همدان"
+    }
+  },
+  "al-Nahrawan": {
+    "fa": {
+      "name": "النهروان"
+    },
+    "ur": {
+      "name": "النهروان"
+    },
+    "hi": {
+      "name": "अल-नहरवान"
+    },
+    "fr": {
+      "name": "al-Nahrawan"
+    },
+    "tr": {
+      "name": "en-Nehravan"
+    },
+    "es": {
+      "name": "al-Nahrawan"
+    },
+    "ms": {
+      "name": "al-Nahrawan"
+    },
+    "ru": {
+      "name": "ан-Нараван"
+    },
+    "bn": {
+      "name": "আল-নাহরাওয়ান"
+    },
+    "ha": {
+      "name": "al-Nahrawan"
+    },
+    "so": {
+      "name": "al-Nahrawan"
+    },
+    "ps": {
+      "name": "النهروان"
+    }
+  },
+  "Atrabulus, Tarabulus": {
+    "fa": {
+      "name": "طرابلس"
+    },
+    "ur": {
+      "name": "طرابلس"
+    },
+    "hi": {
+      "name": "अत्राबुलस, तराबुलस"
+    },
+    "fr": {
+      "name": "Tripoli"
+    },
+    "tr": {
+      "name": "Trablus"
+    },
+    "es": {
+      "name": "Trípoli"
+    },
+    "ms": {
+      "name": "طرابلس"
+    },
+    "ru": {
+      "name": "Триполи"
+    },
+    "bn": {
+      "name": "ত্রিপোলি"
+    },
+    "ha": {
+      "name": "Tarabulus"
+    },
+    "so": {
+      "name": "Tarabulus"
+    },
+    "ps": {
+      "name": "ترابلس"
+    }
+  },
+  "Tabariyya": {
+    "fa": {
+      "name": "طبریه"
+    },
+    "ur": {
+      "name": "طبریہ"
+    },
+    "hi": {
+      "name": "तबरिया"
+    },
+    "fr": {
+      "name": "Tibériade"
+    },
+    "tr": {
+      "name": "Tiberias"
+    },
+    "es": {
+      "name": "Tiberíades"
+    },
+    "ms": {
+      "name": "Tabariyya"
+    },
+    "ru": {
+      "name": "Таверия"
+    },
+    "bn": {
+      "name": "তাবারিয়্যা"
+    },
+    "ha": {
+      "name": "Tabariyya"
+    },
+    "so": {
+      "name": "Tiberias"
+    },
+    "ps": {
+      "name": "تبریه"
+    }
+  },
+  "Bayt al-Maqdis, al-Quds, Iliya": {
+    "fa": {
+      "name": "بیت المقدس، القدس، ایلیا"
+    },
+    "ur": {
+      "name": "بیت المقدس، القدس، ایلیا"
+    },
+    "hi": {
+      "name": "बैत अल-मकदिस, अल-क़ुद्स, इलिया"
+    },
+    "fr": {
+      "name": "Jérusalem"
+    },
+    "tr": {
+      "name": "Kudüs"
+    },
+    "es": {
+      "name": "Jerusalén"
+    },
+    "ms": {
+      "name": "Baitulmuqaddis"
+    },
+    "ru": {
+      "name": "Бейт-аль-Макдис, аль-Кудс, Илия"
+    },
+    "bn": {
+      "name": "বায়ত আল-মাকদিস, আল-কুদস, ইলিয়া"
+    },
+    "ha": {
+      "name": "Kudus"
+    },
+    "so": {
+      "name": "QUDUS"
+    },
+    "ps": {
+      "name": "بیت المقدس، القدس، ایلیا"
+    }
+  },
+  "Hulwan": {
+    "fa": {
+      "name": "هلوان"
+    },
+    "ur": {
+      "name": "حلوان"
+    },
+    "hi": {
+      "name": "हुलवान"
+    },
+    "fr": {
+      "name": "Houlouan"
+    },
+    "tr": {
+      "name": "Hülvân"
+    },
+    "es": {
+      "name": "Hulwan"
+    },
+    "ms": {
+      "name": "Hulwan"
+    },
+    "ru": {
+      "name": "Хулван"
+    },
+    "bn": {
+      "name": "হুলওয়ান"
+    },
+    "ha": {
+      "name": "Hulwan"
+    },
+    "so": {
+      "name": "Hulwaan"
+    },
+    "ps": {
+      "name": "هلوان"
+    }
+  },
+  "al-Farama": {
+    "fa": {
+      "name": "الفرما"
+    },
+    "ur": {
+      "name": "الفرما"
+    },
+    "hi": {
+      "name": "अल-फरामा"
+    },
+    "fr": {
+      "name": "al-Farama"
+    },
+    "tr": {
+      "name": "el-Farama"
+    },
+    "es": {
+      "name": "al-Farama"
+    },
+    "ms": {
+      "name": "al-Farama"
+    },
+    "ru": {
+      "name": "аль-Фарама"
+    },
+    "bn": {
+      "name": "আল-ফারামা"
+    },
+    "ha": {
+      "name": "al-Farama"
+    },
+    "so": {
+      "name": "al-Farama"
+    },
+    "ps": {
+      "name": "الفرما"
+    }
+  },
+  "Jarjaraya": {
+    "fa": {
+      "name": "جارجارایا"
+    },
+    "ur": {
+      "name": "جرجریہ"
+    },
+    "hi": {
+      "name": "जर्जरया"
+    },
+    "fr": {
+      "name": "Jarjaraya"
+    },
+    "tr": {
+      "name": "Jarjaraya"
+    },
+    "es": {
+      "name": "Jarjaraya"
+    },
+    "ms": {
+      "name": "Jarjaraya"
+    },
+    "ru": {
+      "name": "Джарджарая"
+    },
+    "bn": {
+      "name": "জারজারায়া"
+    },
+    "ha": {
+      "name": "Jarjaraya"
+    },
+    "so": {
+      "name": "Jarjaraya"
+    },
+    "ps": {
+      "name": "جرجریا"
+    }
+  },
+  "Qurtuba": {
+    "fa": {
+      "name": "قرطبة"
+    },
+    "ur": {
+      "name": "قرطبہ"
+    },
+    "hi": {
+      "name": "क़ुर्तुबा"
+    },
+    "fr": {
+      "name": "Cordoue"
+    },
+    "tr": {
+      "name": "Kurtuba"
+    },
+    "es": {
+      "name": "Córdoba"
+    },
+    "ms": {
+      "name": "Qurtuba"
+    },
+    "ru": {
+      "name": "Куртуба"
+    },
+    "bn": {
+      "name": "কর্তুবা"
+    },
+    "ha": {
+      "name": "Kurtuba"
+    },
+    "so": {
+      "name": "Qurtuba"
+    },
+    "ps": {
+      "name": "قرطبه"
+    }
+  },
+  "Qumm": {
+    "fa": {
+      "name": "قم"
+    },
+    "ur": {
+      "name": "قم"
+    },
+    "hi": {
+      "name": "क़ुम"
+    },
+    "fr": {
+      "name": "Qoumm"
+    },
+    "tr": {
+      "name": "Kum"
+    },
+    "es": {
+      "name": "Qumm"
+    },
+    "ms": {
+      "name": "Qumm"
+    },
+    "ru": {
+      "name": "Кумм"
+    },
+    "bn": {
+      "name": "কুম"
+    },
+    "ha": {
+      "name": "Qumm"
+    },
+    "so": {
+      "name": "Qumm"
+    },
+    "ps": {
+      "name": "قُم"
+    }
+  },
+  "al-Karkh": {
+    "fa": {
+      "name": "الکرخ"
+    },
+    "ur": {
+      "name": "الکرخ"
+    },
+    "hi": {
+      "name": "अल-कारख़"
+    },
+    "fr": {
+      "name": "al-Karkh"
+    },
+    "tr": {
+      "name": "Kerkük"
+    },
+    "es": {
+      "name": "al-Karkh"
+    },
+    "ms": {
+      "name": "al-Karkh"
+    },
+    "ru": {
+      "name": "аль-Карх"
+    },
+    "bn": {
+      "name": "আল-কারখ"
+    },
+    "ha": {
+      "name": "al-Karkh"
+    },
+    "so": {
+      "name": "al-Karkh"
+    },
+    "ps": {
+      "name": "الکرخ"
+    }
+  },
+  "Uswan": {
+    "fa": {
+      "name": "اصوان"
+    },
+    "ur": {
+      "name": "اسوان"
+    },
+    "hi": {
+      "name": "उसवान"
+    },
+    "fr": {
+      "name": "Uswan"
+    },
+    "tr": {
+      "name": "Usvan"
+    },
+    "es": {
+      "name": "Uswan"
+    },
+    "ms": {
+      "name": "Uswan"
+    },
+    "ru": {
+      "name": "Усван"
+    },
+    "bn": {
+      "name": "উসওয়ান"
+    },
+    "ha": {
+      "name": "Uswan"
+    },
+    "so": {
+      "name": "Uswan"
+    },
+    "ps": {
+      "name": "اوسوان"
+    }
+  },
+  "al-Qulzum": {
+    "fa": {
+      "name": "القلزم"
+    },
+    "ur": {
+      "name": "القلزم"
+    },
+    "hi": {
+      "name": "अल-क़ुल्ज़ुम"
+    },
+    "fr": {
+      "name": "Le Caire"
+    },
+    "tr": {
+      "name": "Kızıldeniz"
+    },
+    "es": {
+      "name": "Suez"
+    },
+    "ms": {
+      "name": "al-Qulzum"
+    },
+    "ru": {
+      "name": "аль-Кульзум"
+    },
+    "bn": {
+      "name": "আল-কুলজুম"
+    },
+    "ha": {
+      "name": "al-Qulzum"
+    },
+    "so": {
+      "name": "القلزم"
+    },
+    "ps": {
+      "name": "القلزم"
+    }
+  },
+  "Nihawand, Mah al-Basra": {
+    "fa": {
+      "name": "نهاوند، ماه البصرة"
+    },
+    "ur": {
+      "name": "نہاوند، مہ البصرہ"
+    },
+    "hi": {
+      "name": "नीहवंद, मह अल-बसरा"
+    },
+    "fr": {
+      "name": "Nihawand, Mah al-Basra"
+    },
+    "tr": {
+      "name": "Nihavend, Mehal-ı Basra"
+    },
+    "es": {
+      "name": "Nihawand, Mah al-Basra"
+    },
+    "ms": {
+      "name": "Nihawand, Mah al-Basra"
+    },
+    "ru": {
+      "name": "Нехаванд, Мах аль-Басра"
+    },
+    "bn": {
+      "name": "নিহাওয়ান্দ, মাহ আল-বাসরা"
+    },
+    "ha": {
+      "name": "Nihawand, Mah al-Basra"
+    },
+    "so": {
+      "name": "Nihawand, Mah al-Basra"
+    },
+    "ps": {
+      "name": "نهاوند، مه الم البصرة"
+    }
+  },
+  "Farab, Barab": {
+    "fa": {
+      "name": "فراب، براب"
+    },
+    "ur": {
+      "name": "فَراب، بَراب"
+    },
+    "hi": {
+      "name": "फराब, बराब"
+    },
+    "fr": {
+      "name": "Farab, Barab"
+    },
+    "tr": {
+      "name": "Farab, Barab"
+    },
+    "es": {
+      "name": "Farab, Barab"
+    },
+    "ms": {
+      "name": "Farab"
+    },
+    "ru": {
+      "name": "Фараб, Бараб"
+    },
+    "bn": {
+      "name": "ফারাব, বারাব"
+    },
+    "ha": {
+      "name": "Farab"
+    },
+    "so": {
+      "name": "Farab, Barab"
+    },
+    "ps": {
+      "name": "فراب، براب"
+    }
+  },
+  "Jundaysabur": {
+    "fa": {
+      "name": "جندی‌شاپور"
+    },
+    "ur": {
+      "name": "جندیصابر"
+    },
+    "hi": {
+      "name": "जुनडेसाबुर"
+    },
+    "fr": {
+      "name": "Jundaysabur"
+    },
+    "tr": {
+      "name": "Jundaysabur"
+    },
+    "es": {
+      "name": "Jundaysabur"
+    },
+    "ms": {
+      "name": "Jundaysabur"
+    },
+    "ru": {
+      "name": "Джундайсабур"
+    },
+    "bn": {
+      "name": "জুন্ডেসাবুর"
+    },
+    "ha": {
+      "name": "Jundaysabur"
+    },
+    "so": {
+      "name": "Jundaysabur"
+    },
+    "ps": {
+      "name": "جندیصابور"
+    }
+  },
+  "Istakhr": {
+    "fa": {
+      "name": "استخر"
+    },
+    "ur": {
+      "name": "اصطخر"
+    },
+    "hi": {
+      "name": "इस्ताखर"
+    },
+    "fr": {
+      "name": "Istakhr"
+    },
+    "tr": {
+      "name": "İstahr"
+    },
+    "es": {
+      "name": "Istakhr"
+    },
+    "ms": {
+      "name": "Istakhr"
+    },
+    "ru": {
+      "name": "Истахр"
+    },
+    "bn": {
+      "name": "ইস্তাখর"
+    },
+    "ha": {
+      "name": "Istakhr"
+    },
+    "so": {
+      "name": "Istakhr"
+    },
+    "ps": {
+      "name": "استخر"
+    }
+  },
+  "Bust": {
+    "fa": {
+      "name": "بوست"
+    },
+    "ur": {
+      "name": "بسط"
+    },
+    "hi": {
+      "name": "बस्ट"
+    },
+    "fr": {
+      "name": "Bust"
+    },
+    "tr": {
+      "name": "Bust"
+    },
+    "es": {
+      "name": "Busto"
+    },
+    "ms": {
+      "name": "Bust"
+    },
+    "ru": {
+      "name": "Буст"
+    },
+    "bn": {
+      "name": "বাস্ট"
+    },
+    "ha": {
+      "name": "Bust"
+    },
+    "so": {
+      "name": "Bust"
+    },
+    "ps": {
+      "name": "بست"
+    }
+  },
+  "Ram Hurmuz, Ramahurmuz": {
+    "fa": {
+      "name": "رامهرمز"
+    },
+    "ur": {
+      "name": "رام هرمز، رامهرمز"
+    },
+    "hi": {
+      "name": "राम हुरमुज़"
+    },
+    "fr": {
+      "name": "Ramhormoz"
+    },
+    "tr": {
+      "name": "Ramhormoz"
+    },
+    "es": {
+      "name": "Ramhormoz"
+    },
+    "ms": {
+      "name": "Ramhormoz"
+    },
+    "ru": {
+      "name": "Рамгурмез"
+    },
+    "bn": {
+      "name": "রাম হুরমুজ, রামাহুরমুজ"
+    },
+    "ha": {
+      "name": "Ram Hurmuz, Ramahurmuz"
+    },
+    "so": {
+      "name": "Ram Hurmuz, Ramahurmuz"
+    },
+    "ps": {
+      "name": "رام هرمز، رامهرمز"
+    }
+  },
+  "Akka": {
+    "fa": {
+      "name": "عكا"
+    },
+    "ur": {
+      "name": "عکا"
+    },
+    "hi": {
+      "name": "अक्का"
+    },
+    "fr": {
+      "name": "Akka"
+    },
+    "tr": {
+      "name": "Akka"
+    },
+    "es": {
+      "name": "Akka"
+    },
+    "ms": {
+      "name": "Akka"
+    },
+    "ru": {
+      "name": "Акка"
+    },
+    "bn": {
+      "name": "আক্কা"
+    },
+    "ha": {
+      "name": "Akka"
+    },
+    "so": {
+      "name": "Akka"
+    },
+    "ps": {
+      "name": "اکا"
+    }
+  },
+  "Daskara, Daskara al-Malik": {
+    "fa": {
+      "name": "دسكرة، دسكرة الملك"
+    },
+    "ur": {
+      "name": "ڈسکارہ، ڈسکارہ ال ملک"
+    },
+    "hi": {
+      "name": "दस्कारा, दस्कारा अल-मलिक"
+    },
+    "fr": {
+      "name": "Daskara, Daskara al-Malik"
+    },
+    "tr": {
+      "name": "Daskara, Daskara el-Malik"
+    },
+    "es": {
+      "name": "Daskara al-Malik"
+    },
+    "ms": {
+      "name": "Daskara, Daskara al-Malik"
+    },
+    "ru": {
+      "name": "Даскара, Даскара аль-Малик"
+    },
+    "bn": {
+      "name": "ডাসকারা, ডাসকারা আল-মালিক"
+    },
+    "ha": {
+      "name": "Daskara, Daskara al-Malik"
+    },
+    "so": {
+      "name": "Daskara, Daskara al-Malik"
+    },
+    "ps": {
+      "name": "دسکاره، دسکاره الملک"
+    }
+  },
+  "Kutha Rabba": {
+    "fa": {
+      "name": "کوته رابا"
+    },
+    "ur": {
+      "name": "کٹھہ ربہ"
+    },
+    "hi": {
+      "name": "कुठा रब्बा"
+    },
+    "fr": {
+      "name": "Kutha Rabba"
+    },
+    "tr": {
+      "name": "Rabba Şehri"
+    },
+    "es": {
+      "name": "Ciudad de Rabba"
+    },
+    "ms": {
+      "name": "Bandar Rabba"
+    },
+    "ru": {
+      "name": "Кутха Рабба"
+    },
+    "bn": {
+      "name": "কুথা রাব্বা"
+    },
+    "ha": {
+      "name": "Birnin Tokyo"
+    },
+    "so": {
+      "name": "Kutha Rabba"
+    },
+    "ps": {
+      "name": "کوټه ربا"
+    }
+  },
+  "Ishbiliyya": {
+    "fa": {
+      "name": "اشبیلیه"
+    },
+    "ur": {
+      "name": "اشبيلية"
+    },
+    "hi": {
+      "name": "इशबिलिया"
+    },
+    "fr": {
+      "name": "Séville"
+    },
+    "tr": {
+      "name": "Sevilla"
+    },
+    "es": {
+      "name": "Sevilla"
+    },
+    "ms": {
+      "name": "Seville"
+    },
+    "ru": {
+      "name": "Ишбилия"
+    },
+    "bn": {
+      "name": "ইশবিলিয়্যা"
+    },
+    "ha": {
+      "name": "Sibili"
+    },
+    "so": {
+      "name": "Ishbiliya"
+    },
+    "ps": {
+      "name": "اشبیلیه"
+    }
+  },
+  "Takrit": {
+    "fa": {
+      "name": "تكريت"
+    },
+    "ur": {
+      "name": "تکریت"
+    },
+    "hi": {
+      "name": "तकरीत"
+    },
+    "fr": {
+      "name": "Takrit"
+    },
+    "tr": {
+      "name": "Tikrit"
+    },
+    "es": {
+      "name": "Takrit"
+    },
+    "ms": {
+      "name": "Takrit"
+    },
+    "ru": {
+      "name": "Тикрит"
+    },
+    "bn": {
+      "name": "তাক্রিত"
+    },
+    "ha": {
+      "name": "Takrit"
+    },
+    "so": {
+      "name": "Takrit"
+    },
+    "ps": {
+      "name": "تکریت"
+    }
+  },
+  "Jurjan": {
+    "fa": {
+      "name": "گرگان"
+    },
+    "ur": {
+      "name": "جرجان"
+    },
+    "hi": {
+      "name": "जुर्जन"
+    },
+    "fr": {
+      "name": "Djurdjan"
+    },
+    "tr": {
+      "name": "Gürgan"
+    },
+    "es": {
+      "name": "Jurjan"
+    },
+    "ms": {
+      "name": "Jurjan"
+    },
+    "ru": {
+      "name": "Джурджан"
+    },
+    "bn": {
+      "name": "জুরজান"
+    },
+    "ha": {
+      "name": "Jurjan"
+    },
+    "so": {
+      "name": "Jurjan"
+    },
+    "ps": {
+      "name": "جرجان"
+    }
+  },
+  "Hara": {
+    "fa": {
+      "name": "هراء"
+    },
+    "ur": {
+      "name": "ہارا"
+    },
+    "hi": {
+      "name": "हरा"
+    },
+    "fr": {
+      "name": "Hara"
+    },
+    "tr": {
+      "name": "Hara"
+    },
+    "es": {
+      "name": "Hara"
+    },
+    "ms": {
+      "name": "Hara"
+    },
+    "ru": {
+      "name": "Хара"
+    },
+    "bn": {
+      "name": "হারা"
+    },
+    "ha": {
+      "name": "Hara"
+    },
+    "so": {
+      "name": "Hara"
+    },
+    "ps": {
+      "name": "هره"
+    }
+  },
+  "Abhar": {
+    "fa": {
+      "name": "ابهر"
+    },
+    "ur": {
+      "name": "ابھر"
+    },
+    "hi": {
+      "name": "अभार"
+    },
+    "fr": {
+      "name": "Abhar"
+    },
+    "tr": {
+      "name": "Ebhâr"
+    },
+    "es": {
+      "name": "Abhar"
+    },
+    "ms": {
+      "name": "Abhar"
+    },
+    "ru": {
+      "name": "Абхар"
+    },
+    "bn": {
+      "name": "আভার"
+    },
+    "ha": {
+      "name": "Abhar"
+    },
+    "so": {
+      "name": "Abhar"
+    },
+    "ps": {
+      "name": "ابهار"
+    }
+  },
+  "Malatin, Malatiya": {
+    "fa": {
+      "name": "مالاتیا"
+    },
+    "ur": {
+      "name": "ملاطیہ، ملاتیا"
+    },
+    "hi": {
+      "name": "मालतीन, मलातिया"
+    },
+    "fr": {
+      "name": "Malatya"
+    },
+    "tr": {
+      "name": "Malatya"
+    },
+    "es": {
+      "name": "Malatya"
+    },
+    "ms": {
+      "name": "Malatin, Malatiya"
+    },
+    "ru": {
+      "name": "Малатин, Малатья"
+    },
+    "bn": {
+      "name": "মালাতিন, মালাতিয়া"
+    },
+    "ha": {
+      "name": "Malatin, Malatiya"
+    },
+    "so": {
+      "name": "Malatiin, Malatiya"
+    },
+    "ps": {
+      "name": "ملتین، ملاتیا"
+    }
+  },
+  "al-Hamma": {
+    "fa": {
+      "name": "الحمة"
+    },
+    "ur": {
+      "name": "الحمہ"
+    },
+    "hi": {
+      "name": "अल-हम्मा"
+    },
+    "fr": {
+      "name": "al-Hamma"
+    },
+    "tr": {
+      "name": "El Hamma"
+    },
+    "es": {
+      "name": "Al-Hamma"
+    },
+    "ms": {
+      "name": "al-Hamma"
+    },
+    "ru": {
+      "name": "аль-Хамма"
+    },
+    "bn": {
+      "name": "আল-হাম্মা"
+    },
+    "ha": {
+      "name": "al-Hamma"
+    },
+    "so": {
+      "name": "al-Hamma"
+    },
+    "ps": {
+      "name": "الحمه"
+    }
+  },
+  "Astarabadh": {
+    "fa": {
+      "name": "آسترآباد"
+    },
+    "ur": {
+      "name": "آستر آباد"
+    },
+    "hi": {
+      "name": "अस्तराबाद"
+    },
+    "fr": {
+      "name": "Astarabadh"
+    },
+    "tr": {
+      "name": "Gorgan"
+    },
+    "es": {
+      "name": "Astarabadh"
+    },
+    "ms": {
+      "name": "Astarabad"
+    },
+    "ru": {
+      "name": "Астарабад"
+    },
+    "bn": {
+      "name": "আস্তারাবাদ"
+    },
+    "ha": {
+      "name": "Astarabadh"
+    },
+    "so": {
+      "name": "Astarabadh"
+    },
+    "ps": {
+      "name": "استرآباد"
+    }
+  },
+  "Askar Mukram": {
+    "fa": {
+      "name": "عسکر مکرم"
+    },
+    "ur": {
+      "name": "اسکر مکرم"
+    },
+    "hi": {
+      "name": "अस्कर मुकरम"
+    },
+    "fr": {
+      "name": "Askar Mukram"
+    },
+    "tr": {
+      "name": "Askar Mukram"
+    },
+    "es": {
+      "name": "Askar Mukram"
+    },
+    "ms": {
+      "name": "Askar Mukram"
+    },
+    "ru": {
+      "name": "Аскар Мукрам"
+    },
+    "bn": {
+      "name": "আস্কার মুকরাম"
+    },
+    "ha": {
+      "name": "Askar Mukram"
+    },
+    "so": {
+      "name": "Askar Mukram"
+    },
+    "ps": {
+      "name": "اسکر مکرم"
+    }
+  },
+  "Khuwarizm": {
+    "fa": {
+      "name": "خوارزم"
+    },
+    "ur": {
+      "name": "خوارزم"
+    },
+    "hi": {
+      "name": "ख्वारिज़्म"
+    },
+    "fr": {
+      "name": "Khwarizm"
+    },
+    "tr": {
+      "name": "Harezm"
+    },
+    "es": {
+      "name": "Jwarizm"
+    },
+    "ms": {
+      "name": "Khuwarizm"
+    },
+    "ru": {
+      "name": "Хорезм"
+    },
+    "bn": {
+      "name": "খোয়ারিজম"
+    },
+    "ha": {
+      "name": "Khuwarizm"
+    },
+    "so": {
+      "name": "Khwarizm"
+    },
+    "ps": {
+      "name": "خوارزم"
+    }
+  },
+  "Siraf": {
+    "fa": {
+      "name": "سیراف"
+    },
+    "ur": {
+      "name": "سراف"
+    },
+    "hi": {
+      "name": "सिराफ"
+    },
+    "fr": {
+      "name": "Siraf"
+    },
+    "tr": {
+      "name": "Siraf"
+    },
+    "es": {
+      "name": "Siraf"
+    },
+    "ms": {
+      "name": "Siraf"
+    },
+    "ru": {
+      "name": "Сираф"
+    },
+    "bn": {
+      "name": "সিরাফ"
+    },
+    "ha": {
+      "name": "Siraf"
+    },
+    "so": {
+      "name": "Siraf"
+    },
+    "ps": {
+      "name": "سراف"
+    }
+  },
+  "Nafzawa": {
+    "fa": {
+      "name": "نفزاوة"
+    },
+    "ur": {
+      "name": "نفزاوہ"
+    },
+    "hi": {
+      "name": "नाफज़ावा"
+    },
+    "fr": {
+      "name": "Nefzaoua"
+    },
+    "tr": {
+      "name": "Nefzava"
+    },
+    "es": {
+      "name": "Nafzawa"
+    },
+    "ms": {
+      "name": "Nafzawa"
+    },
+    "ru": {
+      "name": "Нафзава"
+    },
+    "bn": {
+      "name": "নাফজাওয়া"
+    },
+    "ha": {
+      "name": "Nafzawa"
+    },
+    "so": {
+      "name": "Nafsaawa"
+    },
+    "ps": {
+      "name": "نفزوه"
+    }
+  },
+  "Ukbara": {
+    "fa": {
+      "name": "اوکباره"
+    },
+    "ur": {
+      "name": "اکبرہ"
+    },
+    "hi": {
+      "name": "उकबारा"
+    },
+    "fr": {
+      "name": "Ukbara"
+    },
+    "tr": {
+      "name": "Ukbara"
+    },
+    "es": {
+      "name": "Ukbara"
+    },
+    "ms": {
+      "name": "Ukbara"
+    },
+    "ru": {
+      "name": "Укбара"
+    },
+    "bn": {
+      "name": "উকবারা"
+    },
+    "ha": {
+      "name": "Ukbara"
+    },
+    "so": {
+      "name": "Ukbara"
+    },
+    "ps": {
+      "name": "اوکباره"
+    }
+  },
+  "Tinnis": {
+    "fa": {
+      "name": "تنیس"
+    },
+    "ur": {
+      "name": "ٹنس"
+    },
+    "hi": {
+      "name": "टिनिस"
+    },
+    "fr": {
+      "name": "Tinnis"
+    },
+    "tr": {
+      "name": "Tunus"
+    },
+    "es": {
+      "name": "Tinnis"
+    },
+    "ms": {
+      "name": "Tinnis"
+    },
+    "ru": {
+      "name": "Тиннис"
+    },
+    "bn": {
+      "name": "তিন্নিস"
+    },
+    "ha": {
+      "name": "Tinnis"
+    },
+    "so": {
+      "name": "Tinnis"
+    },
+    "ps": {
+      "name": "ټینس"
+    }
+  },
+  "Libira, Ilbira": {
+    "fa": {
+      "name": "البیره"
+    },
+    "ur": {
+      "name": "لبیرا، البیرا"
+    },
+    "hi": {
+      "name": "लीबिरा, इल्बिरा"
+    },
+    "fr": {
+      "name": "Libira, Ilbira"
+    },
+    "tr": {
+      "name": "İlibira"
+    },
+    "es": {
+      "name": "Libira, Ilbira"
+    },
+    "ms": {
+      "name": "Libira, Ilbira"
+    },
+    "ru": {
+      "name": "Либира, Ильбира"
+    },
+    "bn": {
+      "name": "লিবিরা, ইলবিরা"
+    },
+    "ha": {
+      "name": "Libira, Ilbira"
+    },
+    "so": {
+      "name": "Libira, Ilbira"
+    },
+    "ps": {
+      "name": "لیبرا، البرا"
+    }
+  },
+  "Asadabadh": {
+    "fa": {
+      "name": "اسدآباد"
+    },
+    "ur": {
+      "name": "اسد آباد"
+    },
+    "hi": {
+      "name": "असदाबाद"
+    },
+    "fr": {
+      "name": "Asadabad"
+    },
+    "tr": {
+      "name": "Esetabad"
+    },
+    "es": {
+      "name": "Asadabad"
+    },
+    "ms": {
+      "name": "Asadabadh"
+    },
+    "ru": {
+      "name": "Асадабад"
+    },
+    "bn": {
+      "name": "আসাদাবাদ"
+    },
+    "ha": {
+      "name": "Asadabadh"
+    },
+    "so": {
+      "name": "Asadabadh"
+    },
+    "ps": {
+      "name": "اسد آباد"
+    }
+  },
+  "Tihama": {
+    "fa": {
+      "name": "تهامة"
+    },
+    "ur": {
+      "name": "تہامہ"
+    },
+    "hi": {
+      "name": "तिहामा"
+    },
+    "fr": {
+      "name": "Tihama"
+    },
+    "tr": {
+      "name": "Tihama"
+    },
+    "es": {
+      "name": "Tihama"
+    },
+    "ms": {
+      "name": "Tihama"
+    },
+    "ru": {
+      "name": "Тихама"
+    },
+    "bn": {
+      "name": "তিহামা"
+    },
+    "ha": {
+      "name": "Tihama"
+    },
+    "so": {
+      "name": "Tihama"
+    },
+    "ps": {
+      "name": "تهامه"
+    }
+  },
+  "Qastalla": {
+    "fa": {
+      "name": "قستله"
+    },
+    "ur": {
+      "name": "قسطلہ"
+    },
+    "hi": {
+      "name": "कास्ताला"
+    },
+    "fr": {
+      "name": "Qastalla"
+    },
+    "tr": {
+      "name": "Kastalya"
+    },
+    "es": {
+      "name": "Castalla"
+    },
+    "ms": {
+      "name": "Qastalla"
+    },
+    "ru": {
+      "name": "Касталла"
+    },
+    "bn": {
+      "name": "কাস্তাল্লা"
+    },
+    "ha": {
+      "name": "Kastilla"
+    },
+    "so": {
+      "name": "Qastalla"
+    },
+    "ps": {
+      "name": "قسطله"
+    }
+  },
+  "Daylaman, al-Daylam": {
+    "fa": {
+      "name": "دیلمان، الدیلم"
+    },
+    "ur": {
+      "name": "دیلمان، الدیلم"
+    },
+    "hi": {
+      "name": "दैलमान, अल-दैलम"
+    },
+    "fr": {
+      "name": "Daylaman, al-Daylam"
+    },
+    "tr": {
+      "name": "Deylam"
+    },
+    "es": {
+      "name": "Daylaman, al-Daylam"
+    },
+    "ms": {
+      "name": "Daylaman, al-Daylam"
+    },
+    "ru": {
+      "name": "Дейламан"
+    },
+    "bn": {
+      "name": "দাইলমান, আল-দায়লাম"
+    },
+    "ha": {
+      "name": "Daylaman, al-Daylam"
+    },
+    "so": {
+      "name": "Daylaman, al-Daylam"
+    },
+    "ps": {
+      "name": "دیلمان، ال دیلم"
+    }
+  },
+  "Asfarayin": {
+    "fa": {
+      "name": "آسفراین"
+    },
+    "ur": {
+      "name": "اصفراین"
+    },
+    "hi": {
+      "name": "अस्फरायिन"
+    },
+    "fr": {
+      "name": "Asfarayin"
+    },
+    "tr": {
+      "name": "Asfarayın"
+    },
+    "es": {
+      "name": "Asfarayin"
+    },
+    "ms": {
+      "name": "Asfarayin"
+    },
+    "ru": {
+      "name": "Асфараин"
+    },
+    "bn": {
+      "name": "আসফারাইন"
+    },
+    "ha": {
+      "name": "Asfarayin"
+    },
+    "so": {
+      "name": "Asfarayin"
+    },
+    "ps": {
+      "name": "اسفراین"
+    }
+  },
+  "al-Jurjaniyya": {
+    "fa": {
+      "name": "الجرجانیه"
+    },
+    "ur": {
+      "name": "الجرجانیہ"
+    },
+    "hi": {
+      "name": "अल-जुर्जनिय्या"
+    },
+    "fr": {
+      "name": "al-Jurjaniyya"
+    },
+    "tr": {
+      "name": "Cürcani"
+    },
+    "es": {
+      "name": "al-Yurjaniyya"
+    },
+    "ms": {
+      "name": "al-Jurjaniyya"
+    },
+    "ru": {
+      "name": "Аль-Джурджания"
+    },
+    "bn": {
+      "name": "আল-জুরজানিয়্যা"
+    },
+    "ha": {
+      "name": "al-Jurjaniyya"
+    },
+    "so": {
+      "name": "al-Jurjaniyya"
+    },
+    "ps": {
+      "name": "الجرجانیه"
+    }
+  },
+  "Ghazna, Ghaznin": {
+    "fa": {
+      "name": "غزنی"
+    },
+    "ur": {
+      "name": "غزنی، غزنین"
+    },
+    "hi": {
+      "name": "ग़ज़नी"
+    },
+    "fr": {
+      "name": "Ghazni"
+    },
+    "tr": {
+      "name": "Gazne"
+    },
+    "es": {
+      "name": "Gazni, Gaznin"
+    },
+    "ms": {
+      "name": "Ghazni"
+    },
+    "ru": {
+      "name": "Газни"
+    },
+    "bn": {
+      "name": "গাজনি, গাজনিন"
+    },
+    "ha": {
+      "name": "Gazna, Gaznin"
+    },
+    "so": {
+      "name": "Gazna, Gaznin"
+    },
+    "ps": {
+      "name": "غزني"
+    }
+  },
+  "Atrabinush": {
+    "fa": {
+      "name": "اترابینوش"
+    },
+    "ur": {
+      "name": "اترابینش"
+    },
+    "hi": {
+      "name": "एट्राबिनश"
+    },
+    "fr": {
+      "name": "Atrabinush"
+    },
+    "tr": {
+      "name": "Atrabinuş"
+    },
+    "es": {
+      "name": "Atrabinush"
+    },
+    "ms": {
+      "name": "Atrabinush"
+    },
+    "ru": {
+      "name": "Атрабинуш"
+    },
+    "bn": {
+      "name": "এট্রাবিনুশ"
+    },
+    "ha": {
+      "name": "Atrabinush"
+    },
+    "so": {
+      "name": "Atrabinush"
+    },
+    "ps": {
+      "name": "اټرابینوش"
+    }
+  },
+  "al-Ghundijan": {
+    "fa": {
+      "name": "الغندیجان"
+    },
+    "ur": {
+      "name": "الغندیجان"
+    },
+    "hi": {
+      "name": "अल-घुंडीजान"
+    },
+    "fr": {
+      "name": "al-Ghundijan"
+    },
+    "tr": {
+      "name": "Gündoğan"
+    },
+    "es": {
+      "name": "al-Ghundijan"
+    },
+    "ms": {
+      "name": "al-Ghundijan"
+    },
+    "ru": {
+      "name": "аль-Гундиджан"
+    },
+    "bn": {
+      "name": "আল-ঘুন্দিজান"
+    },
+    "ha": {
+      "name": "al-Ghundijan"
+    },
+    "so": {
+      "name": "al-Ghundiijan"
+    },
+    "ps": {
+      "name": "الغنډيجان"
+    }
+  },
+  "Juwayn, Kuwayn": {
+    "fa": {
+      "name": "جوین، کوین"
+    },
+    "ur": {
+      "name": "جوین، کوین"
+    },
+    "hi": {
+      "name": "जुवेन, कुवैन"
+    },
+    "fr": {
+      "name": "Djouwayn, Koweït"
+    },
+    "tr": {
+      "name": "Huveyne"
+    },
+    "es": {
+      "name": "Juwayn, Kuwayn"
+    },
+    "ms": {
+      "name": "Juwayn, Kuwayn"
+    },
+    "ru": {
+      "name": "Джувейн, Кувейн"
+    },
+    "bn": {
+      "name": "জুওয়ান, কুওয়ান"
+    },
+    "ha": {
+      "name": "Juwayn, Kuwayn"
+    },
+    "so": {
+      "name": "Juwayn, Kuwayn"
+    },
+    "ps": {
+      "name": "جوین، کوین"
+    }
+  },
+  "Kath": {
+    "fa": {
+      "name": "کات"
+    },
+    "ur": {
+      "name": "کاتھ"
+    },
+    "hi": {
+      "name": "काठ"
+    },
+    "fr": {
+      "name": "Kath"
+    },
+    "tr": {
+      "name": "Katmandu"
+    },
+    "es": {
+      "name": "Katmandú"
+    },
+    "ms": {
+      "name": "Kath"
+    },
+    "ru": {
+      "name": "Кат"
+    },
+    "bn": {
+      "name": "কাঠ"
+    },
+    "ha": {
+      "name": "Kath"
+    },
+    "so": {
+      "name": "Kath"
+    },
+    "ps": {
+      "name": "کاټ"
+    }
+  },
+  "Maarra al-Numan": {
+    "fa": {
+      "name": "معرة النعمان"
+    },
+    "ur": {
+      "name": "معرة النعمان"
+    },
+    "hi": {
+      "name": "मार्रा अल-नुमान"
+    },
+    "fr": {
+      "name": "Maarrat al-Nouman"
+    },
+    "tr": {
+      "name": "Mâratünnuman"
+    },
+    "es": {
+      "name": "Maarat al-Numan"
+    },
+    "ms": {
+      "name": "Maarra al-Numan"
+    },
+    "ru": {
+      "name": "Мааррат-ан-Нуман"
+    },
+    "bn": {
+      "name": "মাররা আল-নুমান"
+    },
+    "ha": {
+      "name": "Maarra al-Numan"
+    },
+    "so": {
+      "name": "Maarra al-Numan"
+    },
+    "ps": {
+      "name": "معرة النعمان"
+    }
+  },
+  "Kardiz": {
+    "fa": {
+      "name": "کاردیز"
+    },
+    "ur": {
+      "name": "کاردیز"
+    },
+    "hi": {
+      "name": "कार्डिज़"
+    },
+    "fr": {
+      "name": "Kardiz"
+    },
+    "tr": {
+      "name": "Kardiz"
+    },
+    "es": {
+      "name": "Kardiz"
+    },
+    "ms": {
+      "name": "Kardiz"
+    },
+    "ru": {
+      "name": "Кардиз"
+    },
+    "bn": {
+      "name": "কার্ডিজ"
+    },
+    "ha": {
+      "name": "Kardiz"
+    },
+    "so": {
+      "name": "Kardiz"
+    },
+    "ps": {
+      "name": "کردیز"
+    }
+  },
+  "Balansiyya": {
+    "fa": {
+      "name": "بلنسیه"
+    },
+    "ur": {
+      "name": "بلنسیہ"
+    },
+    "hi": {
+      "name": "बलांसिया"
+    },
+    "fr": {
+      "name": "Valence"
+    },
+    "tr": {
+      "name": "Valensiya"
+    },
+    "es": {
+      "name": "Valencia"
+    },
+    "ms": {
+      "name": "Valencia"
+    },
+    "ru": {
+      "name": "Валенсия"
+    },
+    "bn": {
+      "name": "বালানসিয়্যা"
+    },
+    "ha": {
+      "name": "Balansiyya"
+    },
+    "so": {
+      "name": "Balansiya"
+    },
+    "ps": {
+      "name": "بلنسيه"
+    }
+  },
+  "Lurqa": {
+    "fa": {
+      "name": "لورگا"
+    },
+    "ur": {
+      "name": "لرقہ"
+    },
+    "hi": {
+      "name": "लुर्का"
+    },
+    "fr": {
+      "name": "Lurqa"
+    },
+    "tr": {
+      "name": "Lurqa"
+    },
+    "es": {
+      "name": "Lurqa"
+    },
+    "ms": {
+      "name": "Lurqa"
+    },
+    "ru": {
+      "name": "Лурка"
+    },
+    "bn": {
+      "name": "লুর্কা"
+    },
+    "ha": {
+      "name": "Lurqa"
+    },
+    "so": {
+      "name": "Lurqa"
+    },
+    "ps": {
+      "name": "لورقه"
+    }
+  },
+  "Labla": {
+    "fa": {
+      "name": "لبلا"
+    },
+    "ur": {
+      "name": "لابلا"
+    },
+    "hi": {
+      "name": "लाबला"
+    },
+    "fr": {
+      "name": "Labla"
+    },
+    "tr": {
+      "name": "Labla"
+    },
+    "es": {
+      "name": "Labla"
+    },
+    "ms": {
+      "name": "Labla"
+    },
+    "ru": {
+      "name": "Лабла"
+    },
+    "bn": {
+      "name": "লাবলা"
+    },
+    "ha": {
+      "name": "Labla"
+    },
+    "so": {
+      "name": "Labla"
+    },
+    "ps": {
+      "name": "لابلا"
+    }
+  },
+  "al-Mariyya": {
+    "fa": {
+      "name": "المریه"
+    },
+    "ur": {
+      "name": "المريّة"
+    },
+    "hi": {
+      "name": "अल-मरिय्या"
+    },
+    "fr": {
+      "name": "Almería"
+    },
+    "tr": {
+      "name": "Almería"
+    },
+    "es": {
+      "name": "Almería"
+    },
+    "ms": {
+      "name": "al-Mariyya"
+    },
+    "ru": {
+      "name": "аль-Марийя"
+    },
+    "bn": {
+      "name": "আল-মারিয়্যা"
+    },
+    "ha": {
+      "name": "Al-Mariyya"
+    },
+    "so": {
+      "name": "Al-Mariyya"
+    },
+    "ps": {
+      "name": "الماریه"
+    }
+  },
+  "Shatiba": {
+    "fa": {
+      "name": "شطیبه"
+    },
+    "ur": {
+      "name": "شَتیبہ"
+    },
+    "hi": {
+      "name": "शतीबा"
+    },
+    "fr": {
+      "name": "Châtiba"
+    },
+    "tr": {
+      "name": "Şatıba"
+    },
+    "es": {
+      "name": "Játiva"
+    },
+    "ms": {
+      "name": "Shatiba"
+    },
+    "ru": {
+      "name": "Шатиба"
+    },
+    "bn": {
+      "name": "সাতিবা"
+    },
+    "ha": {
+      "name": "Shatiba"
+    },
+    "so": {
+      "name": "Shaatiiba"
+    },
+    "ps": {
+      "name": "شاتیبا"
+    }
+  },
+  "Mursiya": {
+    "fa": {
+      "name": "مورسیا"
+    },
+    "ur": {
+      "name": "مرسیہ"
+    },
+    "hi": {
+      "name": "मुर्सिया"
+    },
+    "fr": {
+      "name": "Murcie"
+    },
+    "tr": {
+      "name": "Murcia"
+    },
+    "es": {
+      "name": "Murcia"
+    },
+    "ms": {
+      "name": "Murcia"
+    },
+    "ru": {
+      "name": "Мурсия"
+    },
+    "bn": {
+      "name": "মুর্সিয়া"
+    },
+    "ha": {
+      "name": "Murciya"
+    },
+    "so": {
+      "name": "Murisiya"
+    },
+    "ps": {
+      "name": "مورسیا"
+    }
+  },
+  "Najaf": {
+    "fa": {
+      "name": "نجف"
+    },
+    "ur": {
+      "name": "نجف"
+    },
+    "hi": {
+      "name": "नजफ"
+    },
+    "fr": {
+      "name": "Najaf"
+    },
+    "tr": {
+      "name": "Necef"
+    },
+    "es": {
+      "name": "Nayaf"
+    },
+    "ms": {
+      "name": "Najaf"
+    },
+    "ru": {
+      "name": "Ан-Наджаф"
+    },
+    "bn": {
+      "name": "নাজাফ"
+    },
+    "ha": {
+      "name": "Najaf"
+    },
+    "so": {
+      "name": "Najaf"
+    },
+    "ps": {
+      "name": "نجف"
+    }
+  },
+  "al-Sughd": {
+    "fa": {
+      "name": "سغد"
+    },
+    "ur": {
+      "name": "السغد"
+    },
+    "hi": {
+      "name": "अल-सुघ्द"
+    },
+    "fr": {
+      "name": "Sughd"
+    },
+    "tr": {
+      "name": "Sugd"
+    },
+    "es": {
+      "name": "Sughd"
+    },
+    "ms": {
+      "name": "al-Sughd"
+    },
+    "ru": {
+      "name": "Согд"
+    },
+    "bn": {
+      "name": "আল-সুঘদ"
+    },
+    "ha": {
+      "name": "al-Sughd"
+    },
+    "so": {
+      "name": "al-Sughd"
+    },
+    "ps": {
+      "name": "السغد"
+    }
+  },
+  "Lishbuna": {
+    "fa": {
+      "name": "لیسبون"
+    },
+    "ur": {
+      "name": "لشبونہ"
+    },
+    "hi": {
+      "name": "लिश्बुना"
+    },
+    "fr": {
+      "name": "Lisbonne"
+    },
+    "tr": {
+      "name": "Lizbon"
+    },
+    "es": {
+      "name": "Lisboa"
+    },
+    "ms": {
+      "name": "Lisbon"
+    },
+    "ru": {
+      "name": "Лиссабон"
+    },
+    "bn": {
+      "name": "লিসবন"
+    },
+    "ha": {
+      "name": "Lishbuna"
+    },
+    "so": {
+      "name": "Lisbon"
+    },
+    "ps": {
+      "name": "لیسبونه"
+    }
+  },
+  "Shantarin": {
+    "fa": {
+      "name": "شانتارین"
+    },
+    "ur": {
+      "name": "شانتارین"
+    },
+    "hi": {
+      "name": "शांतारिन"
+    },
+    "fr": {
+      "name": "Shantarin"
+    },
+    "tr": {
+      "name": "Şantarin"
+    },
+    "es": {
+      "name": "Shantarín"
+    },
+    "ms": {
+      "name": "Shantarin"
+    },
+    "ru": {
+      "name": "Шанталин"
+    },
+    "bn": {
+      "name": "শান্তারিন"
+    },
+    "ha": {
+      "name": "Shantarin"
+    },
+    "so": {
+      "name": "Shantarin"
+    },
+    "ps": {
+      "name": "شانترین"
+    }
+  },
+  "Batalyus, Batalyuth": {
+    "fa": {
+      "name": "باتالیوس، باتالیوث"
+    },
+    "ur": {
+      "name": "بتالیوس، بتالیوتھ"
+    },
+    "hi": {
+      "name": "बटेलियस, बटेलियुथ"
+    },
+    "fr": {
+      "name": "Batalyus, Batalyuth"
+    },
+    "tr": {
+      "name": "Batalyus, Batalyuth"
+    },
+    "es": {
+      "name": "Batalyus, Batalyuth"
+    },
+    "ms": {
+      "name": "Batalyus, Batalyuth"
+    },
+    "ru": {
+      "name": "Баталюс, Баталют"
+    },
+    "bn": {
+      "name": "বাতালিউস, বাতালিউথ"
+    },
+    "ha": {
+      "name": "Batalyus, Batalyuth"
+    },
+    "so": {
+      "name": "Batalyus, Batalyuth"
+    },
+    "ps": {
+      "name": "باټالیوس، باټالیوت"
+    }
+  },
+  "al-Masila": {
+    "fa": {
+      "name": "الماسیلا"
+    },
+    "ur": {
+      "name": "المسیلہ"
+    },
+    "hi": {
+      "name": "अल-मसीला"
+    },
+    "fr": {
+      "name": "al-Masila"
+    },
+    "tr": {
+      "name": "el-Mesile"
+    },
+    "es": {
+      "name": "al-Masila"
+    },
+    "ms": {
+      "name": "al-Masila"
+    },
+    "ru": {
+      "name": "аль-Масила"
+    },
+    "bn": {
+      "name": "আল-মাসিলা"
+    },
+    "ha": {
+      "name": "al-Masila"
+    },
+    "so": {
+      "name": "al-Masila"
+    },
+    "ps": {
+      "name": "المسيلة"
+    }
+  },
+  "Sur": {
+    "fa": {
+      "name": "صور"
+    },
+    "ur": {
+      "name": "صور"
+    },
+    "hi": {
+      "name": "सुर"
+    },
+    "fr": {
+      "name": "Sur"
+    },
+    "tr": {
+      "name": "Sur"
+    },
+    "es": {
+      "name": "Sur"
+    },
+    "ms": {
+      "name": "Sur"
+    },
+    "ru": {
+      "name": "Сур"
+    },
+    "bn": {
+      "name": "সুর"
+    },
+    "ha": {
+      "name": "Sur"
+    },
+    "so": {
+      "name": "Sur"
+    },
+    "ps": {
+      "name": "سور"
+    }
+  },
+  "Dinawar, Mah al-Kufa": {
+    "fa": {
+      "name": "دینور، محل الکوفه"
+    },
+    "ur": {
+      "name": "دینور، مح الکوفہ"
+    },
+    "hi": {
+      "name": "दीनवर, मह अल-कूफा"
+    },
+    "fr": {
+      "name": "Dinawar, Mah al-Koufa"
+    },
+    "tr": {
+      "name": "Dinevâr, Mah-ı Kufa"
+    },
+    "es": {
+      "name": "Dinawar, Mah al-Kufa"
+    },
+    "ms": {
+      "name": "Dinawar, Mah al-Kufa"
+    },
+    "ru": {
+      "name": "Динавар, Мах-аль-Куфа"
+    },
+    "bn": {
+      "name": "দিনাওয়ার, মাহ আল-কুফা"
+    },
+    "ha": {
+      "name": "Dinawar, Mah al-Kufa"
+    },
+    "so": {
+      "name": "Dinaawar, Maax al-Kufa"
+    },
+    "ps": {
+      "name": "دینور، مہ الکوفه"
+    }
+  },
+  "Bakharz": {
+    "fa": {
+      "name": "بخرز"
+    },
+    "ur": {
+      "name": "بخارز"
+    },
+    "hi": {
+      "name": "बख़र्ज़"
+    },
+    "fr": {
+      "name": "Bakharz"
+    },
+    "tr": {
+      "name": "Bakharz"
+    },
+    "es": {
+      "name": "Bakharz"
+    },
+    "ms": {
+      "name": "Bakharz"
+    },
+    "ru": {
+      "name": "Бахарз"
+    },
+    "bn": {
+      "name": "বাখার্জ"
+    },
+    "ha": {
+      "name": "Bakharz"
+    },
+    "so": {
+      "name": "Bakharz"
+    },
+    "ps": {
+      "name": "باخرز"
+    }
+  },
+  "Qabis": {
+    "fa": {
+      "name": "قابس"
+    },
+    "ur": {
+      "name": "قابس"
+    },
+    "hi": {
+      "name": "क़बीस"
+    },
+    "fr": {
+      "name": "Gabès"
+    },
+    "tr": {
+      "name": "Gabes"
+    },
+    "es": {
+      "name": "Gabès"
+    },
+    "ms": {
+      "name": "Qabis"
+    },
+    "ru": {
+      "name": "Габес"
+    },
+    "bn": {
+      "name": "কাবিস"
+    },
+    "ha": {
+      "name": "Qabis"
+    },
+    "so": {
+      "name": "Qabiis"
+    },
+    "ps": {
+      "name": "قابس"
+    }
+  },
+  "Ajdabiyya": {
+    "fa": {
+      "name": "اجدابیا"
+    },
+    "ur": {
+      "name": "اجدابیہ"
+    },
+    "hi": {
+      "name": "अजदाबिया"
+    },
+    "fr": {
+      "name": "Ajdabiya"
+    },
+    "tr": {
+      "name": "Ecdabiye"
+    },
+    "es": {
+      "name": "Ajdabiya"
+    },
+    "ms": {
+      "name": "Ajdabiyya"
+    },
+    "ru": {
+      "name": "Адждабия"
+    },
+    "bn": {
+      "name": "আজদাবিয়্যা"
+    },
+    "ha": {
+      "name": "Ajdabiyya"
+    },
+    "so": {
+      "name": "Ajdabiyya"
+    },
+    "ps": {
+      "name": "اجدابیا"
+    }
+  },
+  "Baja": {
+    "fa": {
+      "name": "باخا"
+    },
+    "ur": {
+      "name": "باجا"
+    },
+    "hi": {
+      "name": "बाजा"
+    },
+    "fr": {
+      "name": "Basse"
+    },
+    "tr": {
+      "name": "Baja"
+    },
+    "es": {
+      "name": "Baja"
+    },
+    "ms": {
+      "name": "Baja"
+    },
+    "ru": {
+      "name": "Баха"
+    },
+    "bn": {
+      "name": "বাজা"
+    },
+    "ha": {
+      "name": "Baja"
+    },
+    "so": {
+      "name": "Baja"
+    },
+    "ps": {
+      "name": "باجا"
+    }
+  },
+  "Bazda": {
+    "fa": {
+      "name": "بازدا"
+    },
+    "ur": {
+      "name": "بزدا"
+    },
+    "hi": {
+      "name": "बाजदा"
+    },
+    "fr": {
+      "name": "Bazda"
+    },
+    "tr": {
+      "name": "Bazda"
+    },
+    "es": {
+      "name": "Bazda"
+    },
+    "ms": {
+      "name": "Bazda"
+    },
+    "ru": {
+      "name": "Базда"
+    },
+    "bn": {
+      "name": "বাজদা"
+    },
+    "ha": {
+      "name": "Bazda"
+    },
+    "so": {
+      "name": "Bazda"
+    },
+    "ps": {
+      "name": "بزدا"
+    }
+  },
+  "Farghana": {
+    "fa": {
+      "name": "فرغانه"
+    },
+    "ur": {
+      "name": "فرغانہ"
+    },
+    "hi": {
+      "name": "फ़रग़ना"
+    },
+    "fr": {
+      "name": "Ferghana"
+    },
+    "tr": {
+      "name": "Fergana"
+    },
+    "es": {
+      "name": "Ferganá"
+    },
+    "ms": {
+      "name": "Farghana"
+    },
+    "ru": {
+      "name": "Фергана"
+    },
+    "bn": {
+      "name": "ফারঘানা"
+    },
+    "ha": {
+      "name": "Farghana"
+    },
+    "so": {
+      "name": "Farghana"
+    },
+    "ps": {
+      "name": "فرغانه"
+    }
+  },
+  "Uzjand": {
+    "fa": {
+      "name": "ازجند"
+    },
+    "ur": {
+      "name": "ازجند"
+    },
+    "hi": {
+      "name": "उज्जैंड"
+    },
+    "fr": {
+      "name": "Uzjand"
+    },
+    "tr": {
+      "name": "Uzjand"
+    },
+    "es": {
+      "name": "Uzjand"
+    },
+    "ms": {
+      "name": "Uzjand"
+    },
+    "ru": {
+      "name": "Узжанд"
+    },
+    "bn": {
+      "name": "উজ্জান্দ"
+    },
+    "ha": {
+      "name": "Uzjand"
+    },
+    "so": {
+      "name": "Uzjand"
+    },
+    "ps": {
+      "name": "اوزجند"
+    }
+  },
+  "Baghshur": {
+    "fa": {
+      "name": "باغشور"
+    },
+    "ur": {
+      "name": "باغشور"
+    },
+    "hi": {
+      "name": "बघशुर"
+    },
+    "fr": {
+      "name": "Baghshur"
+    },
+    "tr": {
+      "name": "Bağşur"
+    },
+    "es": {
+      "name": "Baghshur"
+    },
+    "ms": {
+      "name": "Baghshur"
+    },
+    "ru": {
+      "name": "Багшур"
+    },
+    "bn": {
+      "name": "বাঘশুর"
+    },
+    "ha": {
+      "name": "Baghshur"
+    },
+    "so": {
+      "name": "Baghshur"
+    },
+    "ps": {
+      "name": "بغشور"
+    }
+  },
+  "Maysan": {
+    "fa": {
+      "name": "میسان"
+    },
+    "ur": {
+      "name": "میسان"
+    },
+    "hi": {
+      "name": "मैसन"
+    },
+    "fr": {
+      "name": "Maysan"
+    },
+    "tr": {
+      "name": "Maysan"
+    },
+    "es": {
+      "name": "Maysán"
+    },
+    "ms": {
+      "name": "Maysan"
+    },
+    "ru": {
+      "name": "Майсан"
+    },
+    "bn": {
+      "name": "মাইসান"
+    },
+    "ha": {
+      "name": "Maysan"
+    },
+    "so": {
+      "name": "Maysan"
+    },
+    "ps": {
+      "name": "میسان"
+    }
+  },
+  "Turtusha": {
+    "fa": {
+      "name": "ترتوشا"
+    },
+    "ur": {
+      "name": "ترتوشہ"
+    },
+    "hi": {
+      "name": "टर्टुशा"
+    },
+    "fr": {
+      "name": "Turtusha"
+    },
+    "tr": {
+      "name": "Turtușa"
+    },
+    "es": {
+      "name": "Turtusha"
+    },
+    "ms": {
+      "name": "Turtusha"
+    },
+    "ru": {
+      "name": "Туртуша"
+    },
+    "bn": {
+      "name": "টার্টুশা"
+    },
+    "ha": {
+      "name": "Turtusha"
+    },
+    "so": {
+      "name": "Turtusha"
+    },
+    "ps": {
+      "name": "تورتوشه"
+    }
+  },
+  "Saraqusa": {
+    "fa": {
+      "name": "ساراگوسا"
+    },
+    "ur": {
+      "name": "سرقوسہ"
+    },
+    "hi": {
+      "name": "सरैक्यूस"
+    },
+    "fr": {
+      "name": "Syracuse"
+    },
+    "tr": {
+      "name": "Siraküza"
+    },
+    "es": {
+      "name": "Saraqusa"
+    },
+    "ms": {
+      "name": "Saraqusa"
+    },
+    "ru": {
+      "name": "Сиракузы"
+    },
+    "bn": {
+      "name": "সারাগুসা"
+    },
+    "ha": {
+      "name": "Saraqusa"
+    },
+    "so": {
+      "name": "Saraqusa"
+    },
+    "ps": {
+      "name": "سرقوسه"
+    }
+  },
+  "Zamakhshar": {
+    "fa": {
+      "name": "زمخشر"
+    },
+    "ur": {
+      "name": "زمخشر"
+    },
+    "hi": {
+      "name": "ज़मख़्शर"
+    },
+    "fr": {
+      "name": "Zamakhshar"
+    },
+    "tr": {
+      "name": "Zemahşer"
+    },
+    "es": {
+      "name": "Zamakhshar"
+    },
+    "ms": {
+      "name": "Zamakhshar"
+    },
+    "ru": {
+      "name": "Замахшар"
+    },
+    "bn": {
+      "name": "জামাখশার"
+    },
+    "ha": {
+      "name": "Zamakhshar"
+    },
+    "so": {
+      "name": "Zamakhshar"
+    },
+    "ps": {
+      "name": "زمخشر"
+    }
+  },
+  "Sabta": {
+    "fa": {
+      "name": "سبتة"
+    },
+    "ur": {
+      "name": "سبتة"
+    },
+    "hi": {
+      "name": "सब्ता"
+    },
+    "fr": {
+      "name": "Sebta"
+    },
+    "tr": {
+      "name": "Ceuta"
+    },
+    "es": {
+      "name": "Ceuta"
+    },
+    "ms": {
+      "name": "Sabta"
+    },
+    "ru": {
+      "name": "Сабта"
+    },
+    "bn": {
+      "name": "সবতা"
+    },
+    "ha": {
+      "name": "Sabta"
+    },
+    "so": {
+      "name": "Sabta"
+    },
+    "ps": {
+      "name": "سبته"
+    }
+  },
+  "Tabrish": {
+    "fa": {
+      "name": "تبریز"
+    },
+    "ur": {
+      "name": "تبریز"
+    },
+    "hi": {
+      "name": "तबरीश"
+    },
+    "fr": {
+      "name": "Tabriz"
+    },
+    "tr": {
+      "name": "Tebriz"
+    },
+    "es": {
+      "name": "Tabriz"
+    },
+    "ms": {
+      "name": "Tabriz"
+    },
+    "ru": {
+      "name": "Тебриз"
+    },
+    "bn": {
+      "name": "তাব্রিজ"
+    },
+    "ha": {
+      "name": "Tabrish"
+    },
+    "so": {
+      "name": "Tabrish"
+    },
+    "ps": {
+      "name": "تبریز"
+    }
+  },
+  "Tabaristan": {
+    "fa": {
+      "name": "تبرستان"
+    },
+    "ur": {
+      "name": "تبرستان"
+    },
+    "hi": {
+      "name": "तबरिस्तान"
+    },
+    "fr": {
+      "name": "Tabaristan"
+    },
+    "tr": {
+      "name": "Taparistan"
+    },
+    "es": {
+      "name": "Tabaristán"
+    },
+    "ms": {
+      "name": "Tabaristan"
+    },
+    "ru": {
+      "name": "Табаристан"
+    },
+    "bn": {
+      "name": "তাবারিস্তান"
+    },
+    "ha": {
+      "name": "Tabaristan"
+    },
+    "so": {
+      "name": "Tabaristan"
+    },
+    "ps": {
+      "name": "تبرستان"
+    }
+  },
+  "Sabzawar": {
+    "fa": {
+      "name": "سبزوار"
+    },
+    "ur": {
+      "name": "سبزوار"
+    },
+    "hi": {
+      "name": "सब्ज़वार"
+    },
+    "fr": {
+      "name": "Sabzawar"
+    },
+    "tr": {
+      "name": "Sabzevar"
+    },
+    "es": {
+      "name": "Sabzawar"
+    },
+    "ms": {
+      "name": "Sabzawar"
+    },
+    "ru": {
+      "name": "Сабзавар"
+    },
+    "bn": {
+      "name": "সাবজাওয়ার"
+    },
+    "ha": {
+      "name": "Sabzawar"
+    },
+    "so": {
+      "name": "Sabzawar"
+    },
+    "ps": {
+      "name": "سبزوار"
+    }
+  },
+  "al-Nuqan, al-Mashhad": {
+    "fa": {
+      "name": "النقعان، المشهد"
+    },
+    "ur": {
+      "name": "النُقان، المشهد"
+    },
+    "hi": {
+      "name": "अल-नुक़न, अल-मशहद"
+    },
+    "fr": {
+      "name": "al-Nuqan, al-Mashhad"
+    },
+    "tr": {
+      "name": "el-Nuqan, el-Meşhed"
+    },
+    "es": {
+      "name": "Al-Nuqan, Al-Mashhad"
+    },
+    "ms": {
+      "name": "al-Nuqan, al-Mashhad"
+    },
+    "ru": {
+      "name": "аль-Нукан, аль-Машхад"
+    },
+    "bn": {
+      "name": "আল-নুকান, আল-মাশাদ"
+    },
+    "ha": {
+      "name": "al-Nuqan, al-Mashhad"
+    },
+    "so": {
+      "name": "al-Nuqan, al-Mashhad"
+    },
+    "ps": {
+      "name": "النقعن، المشهد"
+    }
+  },
+  "al-Janad": {
+    "fa": {
+      "name": "الجند"
+    },
+    "ur": {
+      "name": "الجند"
+    },
+    "hi": {
+      "name": "अल-जनद"
+    },
+    "fr": {
+      "name": "al-Janad"
+    },
+    "tr": {
+      "name": "el-Ceneviz"
+    },
+    "es": {
+      "name": "al-Janad"
+    },
+    "ms": {
+      "name": "al-Janad"
+    },
+    "ru": {
+      "name": "аль-Джанад"
+    },
+    "bn": {
+      "name": "আল-জানাদ"
+    },
+    "ha": {
+      "name": "al-Janad"
+    },
+    "so": {
+      "name": "al-Janad"
+    },
+    "ps": {
+      "name": "الجند"
+    }
+  },
+  "Rahba Malik Ibn Tawq": {
+    "fa": {
+      "name": "رحبة مالک ابن طوق"
+    },
+    "ur": {
+      "name": "رہبہ ملک ابن طوق"
+    },
+    "hi": {
+      "name": "रहबा मलिक इब्न तौक"
+    },
+    "fr": {
+      "name": "Rahba Malik Ibn Tawq"
+    },
+    "tr": {
+      "name": "Rahba Malik İbn Tavk"
+    },
+    "es": {
+      "name": "Rahba Malik Ibn Tawq"
+    },
+    "ms": {
+      "name": "Rahba Malik Ibn Tawq"
+    },
+    "ru": {
+      "name": "Рахба Малик ибн Тавк"
+    },
+    "bn": {
+      "name": "রাহবা মালিক ইবন তাওক"
+    },
+    "ha": {
+      "name": "Rahba Malik Ibn Tawq"
+    },
+    "so": {
+      "name": "Rahba Malik Ibn Tawq"
+    },
+    "ps": {
+      "name": "رهبه مالک ابن توق"
+    }
+  },
+  "Maliqa": {
+    "fa": {
+      "name": "مالیقا"
+    },
+    "ur": {
+      "name": "ملیقہ"
+    },
+    "hi": {
+      "name": "मालिका"
+    },
+    "fr": {
+      "name": "Maliqa"
+    },
+    "tr": {
+      "name": "Malika"
+    },
+    "es": {
+      "name": "Maliqa"
+    },
+    "ms": {
+      "name": "Maliqa"
+    },
+    "ru": {
+      "name": "Малика"
+    },
+    "bn": {
+      "name": "মালিকা"
+    },
+    "ha": {
+      "name": "Maliqa"
+    },
+    "so": {
+      "name": "Maliqa"
+    },
+    "ps": {
+      "name": "ماليقه"
+    }
+  },
+  "Bajaya": {
+    "fa": {
+      "name": "باجایا"
+    },
+    "ur": {
+      "name": "بجایا"
+    },
+    "hi": {
+      "name": "बजाया"
+    },
+    "fr": {
+      "name": "Béjaïa"
+    },
+    "tr": {
+      "name": "Bacaya"
+    },
+    "es": {
+      "name": "Bahía"
+    },
+    "ms": {
+      "name": "Bajaya"
+    },
+    "ru": {
+      "name": "Баджая"
+    },
+    "bn": {
+      "name": "বাজায়া"
+    },
+    "ha": {
+      "name": "Bajaya"
+    },
+    "so": {
+      "name": "Bajaya"
+    },
+    "ps": {
+      "name": "بجایه"
+    }
+  },
+  "Wadiyash": {
+    "fa": {
+      "name": "وادیاش"
+    },
+    "ur": {
+      "name": "وادیاش"
+    },
+    "hi": {
+      "name": "वडियाश"
+    },
+    "fr": {
+      "name": "Wadiyash"
+    },
+    "tr": {
+      "name": "Wadiyash"
+    },
+    "es": {
+      "name": "Wadiyash"
+    },
+    "ms": {
+      "name": "Wadiyash"
+    },
+    "ru": {
+      "name": "Вадияш"
+    },
+    "bn": {
+      "name": "ওয়াদিয়াশ"
+    },
+    "ha": {
+      "name": "Wadiyash"
+    },
+    "so": {
+      "name": "Wadiyash"
+    },
+    "ps": {
+      "name": "وديعش"
+    }
+  },
+  "Shayzar": {
+    "fa": {
+      "name": "شیزر"
+    },
+    "ur": {
+      "name": "شیزر"
+    },
+    "hi": {
+      "name": "शायज़ार"
+    },
+    "fr": {
+      "name": "Chayzar"
+    },
+    "tr": {
+      "name": "Şeyzar"
+    },
+    "es": {
+      "name": "Shayzar"
+    },
+    "ms": {
+      "name": "Syazara"
+    },
+    "ru": {
+      "name": "Шейзар"
+    },
+    "bn": {
+      "name": "শায়জার"
+    },
+    "ha": {
+      "name": "Shayzar"
+    },
+    "so": {
+      "name": "Shayzar"
+    },
+    "ps": {
+      "name": "شيزر"
+    }
+  },
+  "Kasan": {
+    "fa": {
+      "name": "قزوین"
+    },
+    "ur": {
+      "name": "کاسان"
+    },
+    "hi": {
+      "name": "कसान"
+    },
+    "fr": {
+      "name": "Kazan"
+    },
+    "tr": {
+      "name": "Kazan"
+    },
+    "es": {
+      "name": "Kazán"
+    },
+    "ms": {
+      "name": "Kasan"
+    },
+    "ru": {
+      "name": "Казань"
+    },
+    "bn": {
+      "name": "কাসন"
+    },
+    "ha": {
+      "name": "Kano"
+    },
+    "so": {
+      "name": "Kazan"
+    },
+    "ps": {
+      "name": "کسان"
+    }
+  },
+  "Sariya": {
+    "fa": {
+      "name": "ساریه"
+    },
+    "ur": {
+      "name": "ساریہ"
+    },
+    "hi": {
+      "name": "सरिया"
+    },
+    "fr": {
+      "name": "Sariya"
+    },
+    "tr": {
+      "name": "Sarıyer"
+    },
+    "es": {
+      "name": "Sariya"
+    },
+    "ms": {
+      "name": "Sariya"
+    },
+    "ru": {
+      "name": "Сария"
+    },
+    "bn": {
+      "name": "সারিয়া"
+    },
+    "ha": {
+      "name": "Sariya"
+    },
+    "so": {
+      "name": "Sariya"
+    },
+    "ps": {
+      "name": "سریه"
+    }
+  },
+  "Mayyafariqin": {
+    "fa": {
+      "name": "میافارقین"
+    },
+    "ur": {
+      "name": "میافارقین"
+    },
+    "hi": {
+      "name": "मेयाफ़ारिक़िन"
+    },
+    "fr": {
+      "name": "Mayyafariqin"
+    },
+    "tr": {
+      "name": "Silvan"
+    },
+    "es": {
+      "name": "Mayyafariqin"
+    },
+    "ms": {
+      "name": "Mayyafariqin"
+    },
+    "ru": {
+      "name": "Майяфариквин"
+    },
+    "bn": {
+      "name": "মায়্যাফারিকিন"
+    },
+    "ha": {
+      "name": "Mayyafariqin"
+    },
+    "so": {
+      "name": "Mayyafariqin"
+    },
+    "ps": {
+      "name": "ميفرقين"
+    }
+  },
+  "Marghinan": {
+    "fa": {
+      "name": "مارغینان"
+    },
+    "ur": {
+      "name": "مرغینان"
+    },
+    "hi": {
+      "name": "मार्घिनन"
+    },
+    "fr": {
+      "name": "Marguilan"
+    },
+    "tr": {
+      "name": "Margilan"
+    },
+    "es": {
+      "name": "Marguilán"
+    },
+    "ms": {
+      "name": "Marghinan"
+    },
+    "ru": {
+      "name": "Маргилан"
+    },
+    "bn": {
+      "name": "মারঘিনান"
+    },
+    "ha": {
+      "name": "Marghinan"
+    },
+    "so": {
+      "name": "Marghinan"
+    },
+    "ps": {
+      "name": "مرغینان"
+    }
+  },
+  "Qashan": {
+    "fa": {
+      "name": "قمصان"
+    },
+    "ur": {
+      "name": "قاشان"
+    },
+    "hi": {
+      "name": "कशान"
+    },
+    "fr": {
+      "name": "Qashan"
+    },
+    "tr": {
+      "name": "Kaşan"
+    },
+    "es": {
+      "name": "Qashan"
+    },
+    "ms": {
+      "name": "Qashan"
+    },
+    "ru": {
+      "name": "Кашан"
+    },
+    "bn": {
+      "name": "ক্যাশান"
+    },
+    "ha": {
+      "name": "Qashan"
+    },
+    "so": {
+      "name": "Qashan"
+    },
+    "ps": {
+      "name": "قشان"
+    }
+  },
+  "Gharnata": {
+    "fa": {
+      "name": "غرناطة"
+    },
+    "ur": {
+      "name": "غرناطہ"
+    },
+    "hi": {
+      "name": "ग्रेनाडा"
+    },
+    "fr": {
+      "name": "Grenade"
+    },
+    "tr": {
+      "name": "Granada"
+    },
+    "es": {
+      "name": "Granada"
+    },
+    "ms": {
+      "name": "Granada"
+    },
+    "ru": {
+      "name": "Гранада"
+    },
+    "bn": {
+      "name": "গারনাটা"
+    },
+    "ha": {
+      "name": "Garnata"
+    },
+    "so": {
+      "name": "Qarnada"
+    },
+    "ps": {
+      "name": "غرناطه"
+    }
+  },
+  "Maragha": {
+    "fa": {
+      "name": "مراغه"
+    },
+    "ur": {
+      "name": "مراغہ"
+    },
+    "hi": {
+      "name": "माराघा"
+    },
+    "fr": {
+      "name": "Maragha"
+    },
+    "tr": {
+      "name": "Mercevin"
+    },
+    "es": {
+      "name": "Maragha"
+    },
+    "ms": {
+      "name": "Maragha"
+    },
+    "ru": {
+      "name": "Марага"
+    },
+    "bn": {
+      "name": "মারাঘা"
+    },
+    "ha": {
+      "name": "Maragha"
+    },
+    "so": {
+      "name": "Maragha"
+    },
+    "ps": {
+      "name": "مراغه"
+    }
+  },
+  "Sarakhs": {
+    "fa": {
+      "name": "سرخس"
+    },
+    "ur": {
+      "name": "سرخس"
+    },
+    "hi": {
+      "name": "सराख्स"
+    },
+    "fr": {
+      "name": "Sarakhs"
+    },
+    "tr": {
+      "name": "Saraks"
+    },
+    "es": {
+      "name": "Sarakhs"
+    },
+    "ms": {
+      "name": "Sarakhs"
+    },
+    "ru": {
+      "name": "Саракхс"
+    },
+    "bn": {
+      "name": "সারাখস"
+    },
+    "ha": {
+      "name": "Sarakhs"
+    },
+    "so": {
+      "name": "Sarakhs"
+    },
+    "ps": {
+      "name": "سرخس"
+    }
+  },
+  "Jazira Ibn Umar": {
+    "fa": {
+      "name": "جزیره ابن عمر"
+    },
+    "ur": {
+      "name": "جزیرہ ابن عمر"
+    },
+    "hi": {
+      "name": "जज़ीरा इब्न उमर"
+    },
+    "fr": {
+      "name": "Djazirat Ibn Oumar"
+    },
+    "tr": {
+      "name": "Cizre"
+    },
+    "es": {
+      "name": "Yazira Ibn Umar"
+    },
+    "ms": {
+      "name": "Jazira Ibn Umar"
+    },
+    "ru": {
+      "name": "Джазира Ибн Умар"
+    },
+    "bn": {
+      "name": "জাজিরা ইবন ওমর"
+    },
+    "ha": {
+      "name": "Jazira Ibn Umar"
+    },
+    "so": {
+      "name": "Jaziiradda Ibnu Cumar"
+    },
+    "ps": {
+      "name": "جزیره ابن عمر"
+    }
+  },
+  "Amid": {
+    "fa": {
+      "name": "دیاربکر"
+    },
+    "ur": {
+      "name": "امد"
+    },
+    "hi": {
+      "name": "अमिद"
+    },
+    "fr": {
+      "name": "Amid"
+    },
+    "tr": {
+      "name": "Diyarbakır"
+    },
+    "es": {
+      "name": "Amid"
+    },
+    "ms": {
+      "name": "Amid"
+    },
+    "ru": {
+      "name": "Амид"
+    },
+    "bn": {
+      "name": "আমিদ"
+    },
+    "ha": {
+      "name": "Amid"
+    },
+    "so": {
+      "name": "Camar"
+    },
+    "ps": {
+      "name": "امید"
+    }
+  },
+  "Tabriz": {
+    "fa": {
+      "name": "تبریز"
+    },
+    "ur": {
+      "name": "تبریز"
+    },
+    "hi": {
+      "name": "तबरीज़"
+    },
+    "fr": {
+      "name": "Tabriz"
+    },
+    "tr": {
+      "name": "Tebriz"
+    },
+    "es": {
+      "name": "Tabriz"
+    },
+    "ms": {
+      "name": "Tabriz"
+    },
+    "ru": {
+      "name": "Тебриз"
+    },
+    "bn": {
+      "name": "তাবরিজ"
+    },
+    "ha": {
+      "name": "Taburiz"
+    },
+    "so": {
+      "name": "Tabriis"
+    },
+    "ps": {
+      "name": "تبریز"
+    }
+  },
+  "Marw al-Rudh": {
+    "fa": {
+      "name": "مرو الرود"
+    },
+    "ur": {
+      "name": "مرو الرود"
+    },
+    "hi": {
+      "name": "मार्व अल-रुध"
+    },
+    "fr": {
+      "name": "Marw al-Rudh"
+    },
+    "tr": {
+      "name": "Merv"
+    },
+    "es": {
+      "name": "Marw al-Rudh"
+    },
+    "ms": {
+      "name": "Marw al-Rudh"
+    },
+    "ru": {
+      "name": "Марв-ар-Рудх"
+    },
+    "bn": {
+      "name": "মারওয়াল-রুধ"
+    },
+    "ha": {
+      "name": "Marw al-Rudh"
+    },
+    "so": {
+      "name": "Marw al-Rudh"
+    },
+    "ps": {
+      "name": "مرو الروض"
+    }
+  },
+  "Tunis": {
+    "fa": {
+      "name": "تونس"
+    },
+    "ur": {
+      "name": "تونس"
+    },
+    "hi": {
+      "name": "त्यूनिस"
+    },
+    "fr": {
+      "name": "Tunis"
+    },
+    "tr": {
+      "name": "Tunus"
+    },
+    "es": {
+      "name": "Túnez"
+    },
+    "ms": {
+      "name": "Tunis"
+    },
+    "ru": {
+      "name": "Тунис"
+    },
+    "bn": {
+      "name": "তিউনিস"
+    },
+    "ha": {
+      "name": "Tunis"
+    },
+    "so": {
+      "name": "Tunis"
+    },
+    "ps": {
+      "name": "تونس"
+    }
+  },
+  "Fas": {
+    "fa": {
+      "name": "فاس"
+    },
+    "ur": {
+      "name": "فاس"
+    },
+    "hi": {
+      "name": "फ़ास"
+    },
+    "fr": {
+      "name": "Fès"
+    },
+    "tr": {
+      "name": "Fas"
+    },
+    "es": {
+      "name": "Fez"
+    },
+    "ms": {
+      "name": "Fes"
+    },
+    "ru": {
+      "name": "Фас"
+    },
+    "bn": {
+      "name": "ফাস"
+    },
+    "ha": {
+      "name": "Fas"
+    },
+    "so": {
+      "name": "Fas"
+    },
+    "ps": {
+      "name": "فاس"
+    }
+  },
+  "al-Madain": {
+    "fa": {
+      "name": "المدائن"
+    },
+    "ur": {
+      "name": "المدائن"
+    },
+    "hi": {
+      "name": "अल-मदैन"
+    },
+    "fr": {
+      "name": "al-Madain"
+    },
+    "tr": {
+      "name": "Medain"
+    },
+    "es": {
+      "name": "Ciudad"
+    },
+    "ms": {
+      "name": "al-Madain"
+    },
+    "ru": {
+      "name": "аль-Мадаин"
+    },
+    "bn": {
+      "name": "আল-মাদাইন"
+    },
+    "ha": {
+      "name": "al-Madain"
+    },
+    "so": {
+      "name": "al-Madain"
+    },
+    "ps": {
+      "name": "المدائن"
+    }
+  },
+  "al-Fayyum": {
+    "fa": {
+      "name": "الفيوم"
+    },
+    "ur": {
+      "name": "الفيوم"
+    },
+    "hi": {
+      "name": "अल-फ़ैय्यूम"
+    },
+    "fr": {
+      "name": "El-Fayoum"
+    },
+    "tr": {
+      "name": "Fayyum"
+    },
+    "es": {
+      "name": "El Fayum"
+    },
+    "ms": {
+      "name": "al-Fayyum"
+    },
+    "ru": {
+      "name": "эль-Фаюм"
+    },
+    "bn": {
+      "name": "আল-ফাইয়ুম"
+    },
+    "ha": {
+      "name": "al-Fayyum"
+    },
+    "so": {
+      "name": "al-Fayyum"
+    },
+    "ps": {
+      "name": "الفيوم"
+    }
+  },
+  "Jayyan": {
+    "fa": {
+      "name": "جیان"
+    },
+    "ur": {
+      "name": "جیان"
+    },
+    "hi": {
+      "name": "जय्यान"
+    },
+    "fr": {
+      "name": "Gaillon"
+    },
+    "tr": {
+      "name": "Ceyhan"
+    },
+    "es": {
+      "name": "Jaián"
+    },
+    "ms": {
+      "name": "Jayyan"
+    },
+    "ru": {
+      "name": "Джайян"
+    },
+    "bn": {
+      "name": "জায়্যান"
+    },
+    "ha": {
+      "name": "Jayyan"
+    },
+    "so": {
+      "name": "Jayyan"
+    },
+    "ps": {
+      "name": "جېن"
+    }
+  },
+  "Nawa": {
+    "fa": {
+      "name": "نوا"
+    },
+    "ur": {
+      "name": "نوا"
+    },
+    "hi": {
+      "name": "नवा"
+    },
+    "fr": {
+      "name": "Nawa"
+    },
+    "tr": {
+      "name": "Neva"
+    },
+    "es": {
+      "name": "Nawa"
+    },
+    "ms": {
+      "name": "Nawa"
+    },
+    "ru": {
+      "name": "Нава"
+    },
+    "bn": {
+      "name": "নওয়া"
+    },
+    "ha": {
+      "name": "Nawa"
+    },
+    "so": {
+      "name": "Nawa"
+    },
+    "ps": {
+      "name": "نوه"
+    }
+  },
+  "Sanhaja": {
+    "fa": {
+      "name": "سانهاخا"
+    },
+    "ur": {
+      "name": "سانہاجا"
+    },
+    "hi": {
+      "name": "संहाजा"
+    },
+    "fr": {
+      "name": "Sanhaja"
+    },
+    "tr": {
+      "name": "Sanhaca"
+    },
+    "es": {
+      "name": "Sanhaja"
+    },
+    "ms": {
+      "name": "Sanhaja"
+    },
+    "ru": {
+      "name": "Санхаджа"
+    },
+    "bn": {
+      "name": "সানহাজা"
+    },
+    "ha": {
+      "name": "Sanhaja"
+    },
+    "so": {
+      "name": "Sanhaja"
+    },
+    "ps": {
+      "name": "سانهاجا"
+    }
+  },
+  "Hama": {
+    "fa": {
+      "name": "حماه"
+    },
+    "ur": {
+      "name": "حماہ"
+    },
+    "hi": {
+      "name": "हामा"
+    },
+    "fr": {
+      "name": "Hama"
+    },
+    "tr": {
+      "name": "Hama"
+    },
+    "es": {
+      "name": "Hama"
+    },
+    "ms": {
+      "name": "Hama"
+    },
+    "ru": {
+      "name": "Хама"
+    },
+    "bn": {
+      "name": "হামা"
+    },
+    "ha": {
+      "name": "Hama"
+    },
+    "so": {
+      "name": "Hama"
+    },
+    "ps": {
+      "name": "حماه"
+    }
+  },
+  "Karak": {
+    "fa": {
+      "name": "کرک"
+    },
+    "ur": {
+      "name": "کرک"
+    },
+    "hi": {
+      "name": "कराक"
+    },
+    "fr": {
+      "name": "Karak"
+    },
+    "tr": {
+      "name": "Karak"
+    },
+    "es": {
+      "name": "Karak"
+    },
+    "ms": {
+      "name": "Karak"
+    },
+    "ru": {
+      "name": "Карак"
+    },
+    "bn": {
+      "name": "কারাক"
+    },
+    "ha": {
+      "name": "Karak"
+    },
+    "so": {
+      "name": "Karak"
+    },
+    "ps": {
+      "name": "کرک"
+    }
+  },
+  "Yanbu": {
+    "fa": {
+      "name": "ینبع"
+    },
+    "ur": {
+      "name": "ینبع"
+    },
+    "hi": {
+      "name": "यान्बु"
+    },
+    "fr": {
+      "name": "Yanbu"
+    },
+    "tr": {
+      "name": "Yenbu"
+    },
+    "es": {
+      "name": "Yanbu"
+    },
+    "ms": {
+      "name": "Yanbu"
+    },
+    "ru": {
+      "name": "Янбу"
+    },
+    "bn": {
+      "name": "ইয়ানবু"
+    },
+    "ha": {
+      "name": "Yanbu"
+    },
+    "so": {
+      "name": "Yanbu"
+    },
+    "ps": {
+      "name": "یانبو"
+    }
+  },
+  "Dimyat": {
+    "fa": {
+      "name": "دمياط"
+    },
+    "ur": {
+      "name": "دمیاط"
+    },
+    "hi": {
+      "name": "दिमयात"
+    },
+    "fr": {
+      "name": "Dimyat"
+    },
+    "tr": {
+      "name": "Dimyat"
+    },
+    "es": {
+      "name": "Dimyat"
+    },
+    "ms": {
+      "name": "Dimyat"
+    },
+    "ru": {
+      "name": "Димьят"
+    },
+    "bn": {
+      "name": "দিময়াত"
+    },
+    "ha": {
+      "name": "Dimyat"
+    },
+    "so": {
+      "name": "Dimyaat"
+    },
+    "ps": {
+      "name": "دمیاط"
+    }
+  },
+  "Bilbays": {
+    "fa": {
+      "name": "بلبيس"
+    },
+    "ur": {
+      "name": "بلبیس"
+    },
+    "hi": {
+      "name": "बिलबैस"
+    },
+    "fr": {
+      "name": "Bilbays"
+    },
+    "tr": {
+      "name": "Bilbeys"
+    },
+    "es": {
+      "name": "Bilbays"
+    },
+    "ms": {
+      "name": "Bilbays"
+    },
+    "ru": {
+      "name": "Бильбейс"
+    },
+    "bn": {
+      "name": "বিলবেইস"
+    },
+    "ha": {
+      "name": "Bilbays"
+    },
+    "so": {
+      "name": "Bilbays"
+    },
+    "ps": {
+      "name": "بلبيس"
+    }
+  },
+  "Balabakk": {
+    "fa": {
+      "name": "بعلبک"
+    },
+    "ur": {
+      "name": "بعلبک"
+    },
+    "hi": {
+      "name": "बालबक्क"
+    },
+    "fr": {
+      "name": "Baalbek"
+    },
+    "tr": {
+      "name": "Balabak"
+    },
+    "es": {
+      "name": "Balabak"
+    },
+    "ms": {
+      "name": "Balabak"
+    },
+    "ru": {
+      "name": "Баалбек"
+    },
+    "bn": {
+      "name": "বালাবক্ক"
+    },
+    "ha": {
+      "name": "Balabakk"
+    },
+    "so": {
+      "name": "Balabakk"
+    },
+    "ps": {
+      "name": "بلبک"
+    }
+  },
+  "Jazira al-Khadra": {
+    "fa": {
+      "name": "جزیره الخضراء"
+    },
+    "ur": {
+      "name": "جزیرہ الخضراء"
+    },
+    "hi": {
+      "name": "जज़ीरा अल-ख़द्रा"
+    },
+    "fr": {
+      "name": "Jazira al-Khadra"
+    },
+    "tr": {
+      "name": "Hesira' al-Hazra"
+    },
+    "es": {
+      "name": "La Isla Verde"
+    },
+    "ms": {
+      "name": "Jazira al-Khadra"
+    },
+    "ru": {
+      "name": "Джазира-аль-Хадра"
+    },
+    "bn": {
+      "name": "জাজিরা আল-খাদরা"
+    },
+    "ha": {
+      "name": "Tsibirin Kore"
+    },
+    "so": {
+      "name": "Jasiiradda Khadra"
+    },
+    "ps": {
+      "name": "جزیره الخضره"
+    }
+  },
+  "al-Jiza": {
+    "fa": {
+      "name": "الجیزه"
+    },
+    "ur": {
+      "name": "الجیزہ"
+    },
+    "hi": {
+      "name": "अल-जीज़ा"
+    },
+    "fr": {
+      "name": "Al-Jizah"
+    },
+    "tr": {
+      "name": "Cize"
+    },
+    "es": {
+      "name": "Guiza"
+    },
+    "ms": {
+      "name": "al-Jiza"
+    },
+    "ru": {
+      "name": "аль-Джиза"
+    },
+    "bn": {
+      "name": "আল-জিজা"
+    },
+    "ha": {
+      "name": "al-Jiza"
+    },
+    "so": {
+      "name": "Al-Jiza"
+    },
+    "ps": {
+      "name": "الجيزة"
+    }
+  },
+  "Qus": {
+    "fa": {
+      "name": "قوص"
+    },
+    "ur": {
+      "name": "قص"
+    },
+    "hi": {
+      "name": "कुस"
+    },
+    "fr": {
+      "name": "Qous"
+    },
+    "tr": {
+      "name": "Kus"
+    },
+    "es": {
+      "name": "Qus"
+    },
+    "ms": {
+      "name": "Qus"
+    },
+    "ru": {
+      "name": "Кус"
+    },
+    "bn": {
+      "name": "কুস"
+    },
+    "ha": {
+      "name": "Qus"
+    },
+    "so": {
+      "name": "Qus"
+    },
+    "ps": {
+      "name": "قس"
+    }
+  },
+  "Nabulus": {
+    "fa": {
+      "name": "نابلس"
+    },
+    "ur": {
+      "name": "نابلس"
+    },
+    "hi": {
+      "name": "नाबुलुस"
+    },
+    "fr": {
+      "name": "Naplouse"
+    },
+    "tr": {
+      "name": "Nablus"
+    },
+    "es": {
+      "name": "Nablus"
+    },
+    "ms": {
+      "name": "Nablus"
+    },
+    "ru": {
+      "name": "Набулус"
+    },
+    "bn": {
+      "name": "নাবুলুস"
+    },
+    "ha": {
+      "name": "Nabulus"
+    },
+    "so": {
+      "name": "Nabulus"
+    },
+    "ps": {
+      "name": "نابلس"
+    }
+  },
+  "Jabal Nafusa": {
+    "fa": {
+      "name": "جبل نفوسة"
+    },
+    "ur": {
+      "name": "جبل نفوسہ"
+    },
+    "hi": {
+      "name": "जबल नफूसा"
+    },
+    "fr": {
+      "name": "Djebel Nefousa"
+    },
+    "tr": {
+      "name": "Cebel-i Nefusa"
+    },
+    "es": {
+      "name": "Yabal Nafusa"
+    },
+    "ms": {
+      "name": "Jabal Nafusa"
+    },
+    "ru": {
+      "name": "Джабал-Нафуса"
+    },
+    "bn": {
+      "name": "জাবাল নাফুসা"
+    },
+    "ha": {
+      "name": "Jabal Nafusa"
+    },
+    "so": {
+      "name": "Jabal Nafusa"
+    },
+    "ps": {
+      "name": "جبل نفوسه"
+    }
+  },
+  "Busra": {
+    "fa": {
+      "name": "بصره"
+    },
+    "ur": {
+      "name": "بصرہ"
+    },
+    "hi": {
+      "name": "बुसरा"
+    },
+    "fr": {
+      "name": "Bousra"
+    },
+    "tr": {
+      "name": "Bursa"
+    },
+    "es": {
+      "name": "Bursa"
+    },
+    "ms": {
+      "name": "Busra"
+    },
+    "ru": {
+      "name": "Бусра"
+    },
+    "bn": {
+      "name": "বুসরা"
+    },
+    "ha": {
+      "name": "Busra"
+    },
+    "so": {
+      "name": "Buusara"
+    },
+    "ps": {
+      "name": "بصره"
+    }
+  },
+  "Tanja": {
+    "fa": {
+      "name": "طنجة"
+    },
+    "ur": {
+      "name": "تنجہ"
+    },
+    "hi": {
+      "name": "तांजा"
+    },
+    "fr": {
+      "name": "Tanger"
+    },
+    "tr": {
+      "name": "Tanca"
+    },
+    "es": {
+      "name": "Tánger"
+    },
+    "ms": {
+      "name": "Tanjung"
+    },
+    "ru": {
+      "name": "Танжер"
+    },
+    "bn": {
+      "name": "তানজা"
+    },
+    "ha": {
+      "name": "Tanja"
+    },
+    "so": {
+      "name": "Tanja"
+    },
+    "ps": {
+      "name": "تنجة"
+    }
+  },
+  "Tilimsan": {
+    "fa": {
+      "name": "تلمسان"
+    },
+    "ur": {
+      "name": "تلمسان"
+    },
+    "hi": {
+      "name": "तिलिमसान"
+    },
+    "fr": {
+      "name": "Tlemcen"
+    },
+    "tr": {
+      "name": "Tlemsen"
+    },
+    "es": {
+      "name": "Tlemecén"
+    },
+    "ms": {
+      "name": "Tilimsan"
+    },
+    "ru": {
+      "name": "Тилимсан"
+    },
+    "bn": {
+      "name": "তিলিমসান"
+    },
+    "ha": {
+      "name": "Tilimsan"
+    },
+    "so": {
+      "name": "Tilimsan"
+    },
+    "ps": {
+      "name": "تلمسان"
+    }
+  },
+  "al-Jazira": {
+    "fa": {
+      "name": "الجزیره"
+    },
+    "ur": {
+      "name": "الجزیرہ"
+    },
+    "hi": {
+      "name": "अल-जज़ीरा"
+    },
+    "fr": {
+      "name": "al-Jazira"
+    },
+    "tr": {
+      "name": "Cezire"
+    },
+    "es": {
+      "name": "al-Yazira"
+    },
+    "ms": {
+      "name": "al-Jazira"
+    },
+    "ru": {
+      "name": "аль-Джазира"
+    },
+    "bn": {
+      "name": "আল-জাজিরা"
+    },
+    "ha": {
+      "name": "Zazirar Larabawa"
+    },
+    "so": {
+      "name": "Jasiiradda"
+    },
+    "ps": {
+      "name": "الجزیره"
+    }
+  },
+  "Bayt Lahm": {
+    "fa": {
+      "name": "بیت لحم"
+    },
+    "ur": {
+      "name": "بیت لحم"
+    },
+    "hi": {
+      "name": "बेत लहम"
+    },
+    "fr": {
+      "name": "Bethléem"
+    },
+    "tr": {
+      "name": "Beytüllahim"
+    },
+    "es": {
+      "name": "Belén"
+    },
+    "ms": {
+      "name": "Bayt Lahm"
+    },
+    "ru": {
+      "name": "Вифлеем"
+    },
+    "bn": {
+      "name": "বেত লেহেম"
+    },
+    "ha": {
+      "name": "Bayt Lahm"
+    },
+    "so": {
+      "name": "Bayt Lahm"
+    },
+    "ps": {
+      "name": "بيت لحم"
+    }
+  },
+  "Kazarun": {
+    "fa": {
+      "name": "کازرون"
+    },
+    "ur": {
+      "name": "کازرون"
+    },
+    "hi": {
+      "name": "कज़ारुन"
+    },
+    "fr": {
+      "name": "Kazarun"
+    },
+    "tr": {
+      "name": "Kazırun"
+    },
+    "es": {
+      "name": "Kazarún"
+    },
+    "ms": {
+      "name": "Kazarun"
+    },
+    "ru": {
+      "name": "Казарун"
+    },
+    "bn": {
+      "name": "কাজারুন"
+    },
+    "ha": {
+      "name": "Kazarun"
+    },
+    "so": {
+      "name": "Kazarun"
+    },
+    "ps": {
+      "name": "کزرون"
+    }
+  },
+  "Banha al-Asal": {
+    "fa": {
+      "name": "بنها العسل"
+    },
+    "ur": {
+      "name": "بنھا العسل"
+    },
+    "hi": {
+      "name": "बन्हा अल-असल"
+    },
+    "fr": {
+      "name": "Banha al-Asal"
+    },
+    "tr": {
+      "name": "Banha el-Asal"
+    },
+    "es": {
+      "name": "Banha al-Asal"
+    },
+    "ms": {
+      "name": "Banha al-Asal"
+    },
+    "ru": {
+      "name": "Банья-аль-Асал"
+    },
+    "bn": {
+      "name": "বানহা আল-আসাল"
+    },
+    "ha": {
+      "name": "Banha al-Asal"
+    },
+    "so": {
+      "name": "Banha al-Casal"
+    },
+    "ps": {
+      "name": "بنھا العسل"
+    }
+  },
+  "al-Hawf al-Sharqi": {
+    "fa": {
+      "name": "الحوف الشرقي"
+    },
+    "ur": {
+      "name": "الہوف الشرقی"
+    },
+    "hi": {
+      "name": "अल-हव्फ़ अल-शर्क़ी"
+    },
+    "fr": {
+      "name": "al-Hawf al-Sharqi"
+    },
+    "tr": {
+      "name": "El-Hauf eş-Şarki"
+    },
+    "es": {
+      "name": "al-Hawf al-Sharqi"
+    },
+    "ms": {
+      "name": "al-Hawf al-Sharqi"
+    },
+    "ru": {
+      "name": "аль-Хаф аш-Шарки"
+    },
+    "bn": {
+      "name": "আল-হাওফ আল-শারকি"
+    },
+    "ha": {
+      "name": "al-Hawf al-Sharqi"
+    },
+    "so": {
+      "name": "Xaafu-Sharqi"
+    },
+    "ps": {
+      "name": "الحوف الشرقي"
+    }
+  },
+  "al-Biqa": {
+    "fa": {
+      "name": "البقاع"
+    },
+    "ur": {
+      "name": "البقاع"
+    },
+    "hi": {
+      "name": "अल-बिका"
+    },
+    "fr": {
+      "name": "la Bekaa"
+    },
+    "tr": {
+      "name": "el-Bika"
+    },
+    "es": {
+      "name": "la Bekaa"
+    },
+    "ms": {
+      "name": "al-Biqa"
+    },
+    "ru": {
+      "name": "аль-Бика"
+    },
+    "bn": {
+      "name": "আল-বিকা"
+    },
+    "ha": {
+      "name": "al-Biqa"
+    },
+    "so": {
+      "name": "al-Biqa"
+    },
+    "ps": {
+      "name": "البقاع"
+    }
+  },
+  "Jabal Jalil": {
+    "fa": {
+      "name": "جبل جلیل"
+    },
+    "ur": {
+      "name": "جبل جلیل"
+    },
+    "hi": {
+      "name": "जबल जलील"
+    },
+    "fr": {
+      "name": "Jabal Jalil"
+    },
+    "tr": {
+      "name": "Cebel-i Lübnan"
+    },
+    "es": {
+      "name": "Jabal Jalil"
+    },
+    "ms": {
+      "name": "Jabal Jalil"
+    },
+    "ru": {
+      "name": "Джабаль Джалиль"
+    },
+    "bn": {
+      "name": "জাবাল জালিল"
+    },
+    "ha": {
+      "name": "Jabal Jalil"
+    },
+    "so": {
+      "name": "Jabal Jalil"
+    },
+    "ps": {
+      "name": "جبل جليل"
+    }
+  },
+  "al-Multan": {
+    "fa": {
+      "name": "الملتان"
+    },
+    "ur": {
+      "name": "الملتان"
+    },
+    "hi": {
+      "name": "अल-मुलतान"
+    },
+    "fr": {
+      "name": "Multan"
+    },
+    "tr": {
+      "name": "Multan"
+    },
+    "es": {
+      "name": "Multán"
+    },
+    "ms": {
+      "name": "al-Multan"
+    },
+    "ru": {
+      "name": "аль-Мултан"
+    },
+    "bn": {
+      "name": "আল-মুলতান"
+    },
+    "ha": {
+      "name": "al-Multan"
+    },
+    "so": {
+      "name": "al-Multan"
+    },
+    "ps": {
+      "name": "المُلتان"
+    }
+  },
+  "Daqahla": {
+    "fa": {
+      "name": "دقهلة"
+    },
+    "ur": {
+      "name": "دقهلہ"
+    },
+    "hi": {
+      "name": "दकहला"
+    },
+    "fr": {
+      "name": "Dakahlia"
+    },
+    "tr": {
+      "name": "Dakahlia"
+    },
+    "es": {
+      "name": "Daqahla"
+    },
+    "ms": {
+      "name": "Daqahla"
+    },
+    "ru": {
+      "name": "Дакахлия"
+    },
+    "bn": {
+      "name": "দাকাহলা"
+    },
+    "ha": {
+      "name": "Daqahla"
+    },
+    "so": {
+      "name": "Daqahla"
+    },
+    "ps": {
+      "name": "دقهلا"
+    }
+  },
+  "Ardabil": {
+    "fa": {
+      "name": "اردبیل"
+    },
+    "ur": {
+      "name": "اردبیل"
+    },
+    "hi": {
+      "name": "अर्दबिल"
+    },
+    "fr": {
+      "name": "Ardabil"
+    },
+    "tr": {
+      "name": "Ardabil"
+    },
+    "es": {
+      "name": "Ardabil"
+    },
+    "ms": {
+      "name": "Ardabil"
+    },
+    "ru": {
+      "name": "Ардебиль"
+    },
+    "bn": {
+      "name": "আরদাবিল"
+    },
+    "ha": {
+      "name": "Ardabil"
+    },
+    "so": {
+      "name": "Ardabil"
+    },
+    "ps": {
+      "name": "اردبیل"
+    }
+  },
+  "Karbala": {
+    "fa": {
+      "name": "کربلا"
+    },
+    "ur": {
+      "name": "کربلا"
+    },
+    "hi": {
+      "name": "कर्बला"
+    },
+    "fr": {
+      "name": "Karbala"
+    },
+    "tr": {
+      "name": "Kerbela"
+    },
+    "es": {
+      "name": "Karbala"
+    },
+    "ms": {
+      "name": "Karbala"
+    },
+    "ru": {
+      "name": "Кербела"
+    },
+    "bn": {
+      "name": "কারবালা"
+    },
+    "ha": {
+      "name": "Karbala"
+    },
+    "so": {
+      "name": "Karbala"
+    },
+    "ps": {
+      "name": "کربلا"
+    }
+  },
+  "Qannawj": {
+    "fa": {
+      "name": "قنوج"
+    },
+    "ur": {
+      "name": "قنوج"
+    },
+    "hi": {
+      "name": "कन्नौज"
+    },
+    "fr": {
+      "name": "Qannawj"
+    },
+    "tr": {
+      "name": "Kanoca"
+    },
+    "es": {
+      "name": "Qannawj"
+    },
+    "ms": {
+      "name": "Qannawj"
+    },
+    "ru": {
+      "name": "Каннавдж"
+    },
+    "bn": {
+      "name": "কান্নাউজ"
+    },
+    "ha": {
+      "name": "Kano"
+    },
+    "so": {
+      "name": "Qannawj"
+    },
+    "ps": {
+      "name": "قنوج"
+    }
+  }
+}

@@ -2,7 +2,6 @@
 
 import { getBooksData } from '@/datasources/openiti/books';
 import { env } from '@/env';
-import { openai } from '@/lib/openai';
 import APIQueue from '@/lib/openai-queue';
 import { chunk } from '@/utils/array';
 import fs from 'fs';
@@ -11,65 +10,6 @@ import { z } from 'zod';
 
 const OUTPUT_PATH = path.resolve('output/book-name-variations.json');
 const outputExists = fs.existsSync(OUTPUT_PATH);
-
-const languages = [
-  {
-    code: 'ar',
-    name: 'Arabic',
-  },
-  {
-    code: 'en',
-    name: 'English',
-  },
-  {
-    code: 'fa',
-    name: 'Persian',
-  },
-  {
-    code: 'ur',
-    name: 'Urdu',
-  },
-  {
-    code: 'hi',
-    name: 'Hindi',
-  },
-  {
-    code: 'fr',
-    name: 'French',
-  },
-  {
-    code: 'tr',
-    name: 'Turkish',
-  },
-  {
-    code: 'es',
-    name: 'Spanish',
-  },
-  {
-    code: 'ms',
-    name: 'Malay',
-  },
-  {
-    code: 'ru',
-    name: 'Russian',
-  },
-  {
-    code: 'bn',
-    name: 'Bengali',
-  },
-  {
-    code: 'ha',
-    name: 'Hausa',
-  },
-  {
-    code: 'so',
-    name: 'Somali',
-  },
-  {
-    code: 'ps',
-    name: 'Pashto',
-  },
-];
 
 const languageSchema = z.object({
   translation: z.string(),

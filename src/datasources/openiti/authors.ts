@@ -9,8 +9,22 @@ import { dedupeStrings } from '@/utils/string';
 import authorBios from '../../../data/author-bios.json';
 import authorIdToSlug from '../../../data/author-slugs.json';
 import { getBooksData } from './books';
-import authorIdToNames from '../../../output/author-name-variations.json';
 import { removeDiacritics } from '@/utils/diacritics';
+
+import localizedData1 from '../../../openai-batches/localize-authors-output/batch-1.json';
+import localizedData2 from '../../../openai-batches/localize-authors-output/batch-2.json';
+import { LocalizedArrayEntry, LocalizedEntry } from '@/types/LocalizedEntry';
+
+const localizedData = { ...localizedData1, ...localizedData2 };
+
+const getLocalizedDataForEntry = (id: string) => {
+  return Object.entries(
+    ((localizedData as any)[id] ?? {}) as Record<
+      string,
+      { primaryName: string; bio?: string }
+    >,
+  );
+};
 
 const getAuthorBio = (id: string) => {
   return (authorBios as Record<string, { bio: string }>)[id]?.bio ?? undefined;
@@ -26,8 +40,10 @@ let booksCache: Record<
 > | null = null;
 export const getAuthorsData = async <ShouldPopulate extends boolean>({
   populateBooks = true as ShouldPopulate,
+  limit,
 }: {
   populateBooks?: ShouldPopulate;
+  limit?: number;
 } = {}): Promise<ReturnedAuthorDocument<ShouldPopulate>[]> => {
   if (!booksCache) {
     booksCache = (await getBooksData({ populateAuthor: false })).reduce(
@@ -59,7 +75,8 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
 
   const slugs = new Set<string>();
 
-  return Object.values(authorsData).map(author => {
+  const all = Object.values(authorsData);
+  return (limit ? all.slice(0, limit) : all).map(author => {
     const [primaryArabicName, ...otherArabicNames] = dedupeStrings(author.author_ar);
     const primaryArabicNameWithoutDiacritics = primaryArabicName
       ? removeDiacritics(primaryArabicName)
@@ -86,38 +103,47 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
     const geographies = dedupeStrings(author.geo);
     const books = (booksCache ?? {})[id] ?? [];
 
-    const authorNames = (
-      authorIdToNames as Record<string, { primary_name: string; variations: string[] }>
-    )[id];
+    const localizedEntry = getLocalizedDataForEntry(id);
+
+    const arabicName = primaryArabicNameWithoutDiacritics ?? primaryArabicName;
+    const latinName = primaryLatinNameWithoutDiacritics ?? primaryLatinName;
+
+    const primaryNames = [
+      ...(arabicName ? [{ text: arabicName, locale: 'ar' }] : []),
+      ...(latinName ? [{ text: latinName, locale: 'en' }] : []),
+      ...(localizedEntry ?? [])
+        .map(([locale, data]) => ({
+          text: data.primaryName,
+          locale,
+        }))
+        .filter(({ text }) => text),
+    ] as LocalizedEntry[];
+
+    const bios = [
+      ...(bio ? [{ text: bio, locale: 'en' }] : []),
+      ...(localizedEntry ?? [])
+        .map(([locale, data]) => ({
+          text: data.bio,
+          locale,
+        }))
+        .filter(({ text }) => text),
+    ] as LocalizedEntry[];
+
+    const otherNames = [
+      { texts: otherArabicNames, locale: 'ar' },
+      { texts: otherLatinNames, locale: 'en' },
+    ] as LocalizedArrayEntry[];
 
     const result = {
       id,
       slug,
       year: Number(author.date),
-      ...(primaryArabicNameWithoutDiacritics && {
-        primaryArabicName: primaryArabicNameWithoutDiacritics,
-      }),
-      otherArabicNames,
-      ...(authorNames
-        ? {
-            primaryLatinName: authorNames.primary_name,
-          }
-        : primaryLatinNameWithoutDiacritics
-          ? {
-              primaryLatinName: primaryLatinNameWithoutDiacritics,
-            }
-          : {}),
-      otherLatinNames: [
-        ...(otherLatinNames ?? []),
-        ...(authorNames
-          ? // if we already generated a primary name, use the on in the data as one of the variations
-            [...authorNames.variations, ...(primaryLatinName ? [primaryLatinName] : [])]
-          : []),
-      ],
+      primaryNames,
+      bios,
+      otherNames,
       geographies,
       regions: convertGeographiesToRegions(geographies),
       booksCount: books.length,
-      ...(bio ? { bio } : {}),
       ...(books && populateBooks ? { books } : {}),
     } satisfies Partial<AuthorDocument>;
 
@@ -127,8 +153,8 @@ export const getAuthorsData = async <ShouldPopulate extends boolean>({
       _nameVariations: getNamesVariations([
         primaryArabicName,
         primaryLatinName,
-        ...result.otherArabicNames,
-        ...result.otherLatinNames,
+        ...primaryNames.map(({ text }) => text),
+        ...result.otherNames.flatMap(({ texts }) => texts),
       ]),
     } as ReturnedAuthorDocument<ShouldPopulate>;
   });

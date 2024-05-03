@@ -1,0 +1,230 @@
+{
+  "0241IbnHanbal": {
+    "fa": {
+      "primaryName": "احمد بن حنبل"
+    },
+    "ur": {
+      "primaryName": "احمد بن حنبل"
+    },
+    "hi": {
+      "primaryName": "अहमद बिन हनबल"
+    },
+    "fr": {
+      "primaryName": "Ahmad Ibn Hanbal"
+    },
+    "tr": {
+      "primaryName": "Ahmed bin Hanbel"
+    },
+    "es": {
+      "primaryName": "Ahmad Ibn Hanbal"
+    },
+    "ms": {
+      "primaryName": "Ahmad bin Hanbal"
+    },
+    "ru": {
+      "primaryName": "Ахмад ибн Ханбал"
+    },
+    "bn": {
+      "primaryName": "আহমদ ইবনে হানবাল"
+    },
+    "ha": {
+      "primaryName": "Ahmad bin Hanbal"
+    },
+    "so": {
+      "primaryName": "Axmed bin Hanbal"
+    },
+    "ps": {
+      "primaryName": "احمد بن حنبل"
+    }
+  },
+  "0256Bukhari": {
+    "fa": {
+      "primaryName": "بخاری"
+    },
+    "ur": {
+      "primaryName": "البخاری"
+    },
+    "hi": {
+      "primaryName": "अल-बुखारी"
+    },
+    "fr": {
+      "primaryName": "al-Boukhari"
+    },
+    "tr": {
+      "primaryName": "Buhari"
+    },
+    "es": {
+      "primaryName": "Al-Bujari"
+    },
+    "ms": {
+      "primaryName": "al-Bukhari"
+    },
+    "ru": {
+      "primaryName": "Аль-Бухари"
+    },
+    "bn": {
+      "primaryName": "আল-বুখারি"
+    },
+    "ha": {
+      "primaryName": "al-buhari"
+    },
+    "so": {
+      "primaryName": "al-buhari"
+    },
+    "ps": {
+      "primaryName": "البخاري"
+    }
+  },
+  "0273IbnMaja": {
+    "fa": {
+      "primaryName": "ابن ماجه"
+    },
+    "ur": {
+      "primaryName": "ابن ماجه"
+    },
+    "hi": {
+      "primaryName": "इब्न माजा"
+    },
+    "fr": {
+      "primaryName": "Ibn Majah"
+    },
+    "tr": {
+      "primaryName": "İbn Mace"
+    },
+    "es": {
+      "primaryName": "Ibn Maja"
+    },
+    "ms": {
+      "primaryName": "Ibn Maja"
+    },
+    "ru": {
+      "primaryName": "Ибн Маджа"
+    },
+    "bn": {
+      "primaryName": "ইবনে মাজা"
+    },
+    "ha": {
+      "primaryName": "Ibn Maja"
+    },
+    "so": {
+      "primaryName": "Ibn Maja"
+    },
+    "ps": {
+      "primaryName": "ابن ماجه"
+    }
+  },
+  "0456IbnHazm": {
+    "fa": {
+      "primaryName": "ابن حزم"
+    },
+    "ur": {
+      "primaryName": "ابن حزم"
+    },
+    "hi": {
+      "primaryName": "इब्न हज़्म"
+    },
+    "fr": {
+      "primaryName": "Ibn Hazm"
+    },
+    "tr": {
+      "primaryName": "İbn Hazm"
+    },
+    "es": {
+      "primaryName": "Ibn Hazm"
+    },
+    "ms": {
+      "primaryName": "Ibn Hazm"
+    },
+    "ru": {
+      "primaryName": "Ибн Хазм"
+    },
+    "bn": {
+      "primaryName": "ইবনে হাজম"
+    },
+    "ha": {
+      "primaryName": "Ibn Hazm"
+    },
+    "so": {
+      "primaryName": "Ibn Hazm"
+    },
+    "ps": {
+      "primaryName": "ابن حزم"
+    }
+  },
+  "0676Nawawi": {
+    "fa": {
+      "primaryName": "نووی"
+    },
+    "ur": {
+      "primaryName": "النووی"
+    },
+    "hi": {
+      "primaryName": "अल-नववी"
+    },
+    "fr": {
+      "primaryName": "al-Nawawi"
+    },
+    "tr": {
+      "primaryName": "Nevavi"
+    },
+    "es": {
+      "primaryName": "al-Nawawi"
+    },
+    "ms": {
+      "primaryName": "al-Nawawi"
+    },
+    "ru": {
+      "primaryName": "Ан-Навави"
+    },
+    "bn": {
+      "primaryName": "আল-নওয়াবি"
+    },
+    "ha": {
+      "primaryName": "al-Nawawi"
+    },
+    "so": {
+      "primaryName": "Al-Nawawi"
+    },
+    "ps": {
+      "primaryName": "النووي"
+    }
+  },
+  "0728IbnTaymiyya": {
+    "fa": {
+      "primaryName": "ابن تیمیه"
+    },
+    "ur": {
+      "primaryName": "ابن تيمية"
+    },
+    "hi": {
+      "primaryName": "इब्न तैमिया"
+    },
+    "fr": {
+      "primaryName": "Ibn Taymiyyah"
+    },
+    "tr": {
+      "primaryName": "İbn Teymiyye"
+    },
+    "es": {
+      "primaryName": "Ibn Taymiyya"
+    },
+    "ms": {
+      "primaryName": "Ibn Taymiyyah"
+    },
+    "ru": {
+      "primaryName": "Ибн Таймийя"
+    },
+    "bn": {
+      "primaryName": "ইবনে তায়মিয়া"
+    },
+    "ha": {
+      "primaryName": "Ibn Taymiyya"
+    },
+    "so": {
+      "primaryName": "Ibn Taymiyya"
+    },
+    "ps": {
+      "primaryName": "ابن تيمية"
+    }
+  }
+}

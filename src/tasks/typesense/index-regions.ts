@@ -25,6 +25,7 @@ if (!hasCollectionAliases) {
 
 await client.collections().create({
   name: INDEX_NAME,
+  enable_nested_fields: true,
   fields: [
     {
       name: 'id',
@@ -35,16 +36,12 @@ await client.collections().create({
       type: 'string',
     },
     {
-      name: 'name',
-      type: 'string',
+      name: 'names',
+      type: 'object[]',
     },
     {
-      name: 'arabicName',
-      type: 'string',
-    },
-    {
-      name: 'currentName',
-      type: 'string',
+      name: 'currentNames',
+      type: 'object[]',
     },
 
     {
