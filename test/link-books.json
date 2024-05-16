@@ -1,0 +1,6350 @@
+{
+  "0011CamirIbnTufayl.Diwan": {
+    "id": 149871,
+    "name": "ديوان عامر بن الطفيل"
+  },
+  "0041LabidIbnRabica.Diwan": {
+    "id": 35077,
+    "name": "ديوان لبيد بن ربيعة العامري"
+  },
+  "0060MucawiyaIbnAbiSufyan.Diwan": {
+    "id": 149482,
+    "name": "ديوان معاوية بن أبي سفيان"
+  },
+  "0063AbuDihbilJumahi.Diwan": {
+    "id": 149016,
+    "name": "ديوان أبي دهبل الجمحي"
+  },
+  "0080LaylaAkhyaliyya.Diwan": {
+    "id": 149874,
+    "name": "ديوان ليلى الأخيلية"
+  },
+  "0104MujahidIbnJabr.Tafsir": {
+    "id": 12810,
+    "name": "تفسير مجاهد"
+  },
+  "0128IbnAbiHabibMisri.AhadithYazid": {
+    "id": 30310,
+    "name": "أحاديث يزيد بن أبي حبيب المصري - ضمن «أحاديث الشيوخ الكبار»"
+  },
+  "0131ZubayrHamdani.NuskhatZubayr": {
+    "id": 29699,
+    "name": "نسخة الزبير بن عدي"
+  },
+  "0141MusaIbnCuqba.AhadithMinMaghazi": {
+    "id": 1342,
+    "name": "أحاديث منتخبة من مغازي موسى بن عقبة"
+  },
+  "0150AbuHanifa.FiqhAbsat": {
+    "id": 6387,
+    "name": "الفقه الأبسط"
+  },
+  "0150AbuHanifa.FiqhAkbar": {
+    "id": 6388,
+    "name": "الفقه الأكبر"
+  },
+  "0150AbuHanifa.Musnad": {
+    "id": 29120,
+    "name": "مسند أبي حنيفة رواية الحصكفي"
+  },
+  "0156IbnAbiCuruba.Manasik": {
+    "id": 9811,
+    "name": "المناسك لابن أبي عروبة"
+  },
+  "0161SufyanThawri.Faraid": {
+    "id": 26488,
+    "name": "الفرائض للثوري"
+  },
+  "0161SufyanThawri.Tafsir": {
+    "id": 2229,
+    "name": "تفسير سفيان الثوري"
+  },
+  "0168IbnTahman.Mashyakha": {
+    "id": 24831,
+    "name": "مشيخة ابن طهمان"
+  },
+  "0170AbuZaydQurashi.JamharatAshcarCarab": {
+    "id": 1487,
+    "name": "جمهرة أشعار العرب"
+  },
+  "0175LaythIbnSacd.CasharatAhadith": {
+    "id": 9556,
+    "name": "عشرة أحاديث من الجزء المنتقى الأول والثاني من حديث الليث"
+  },
+  "0175LaythIbnSacd.Cawali": {
+    "id": 5676,
+    "name": "عوالي الليث بن سعد"
+  },
+  "0175LaythIbnSacd.MajlisMinFawaid": {
+    "id": 9812,
+    "name": "مجلس من فوائد الليث بن سعد"
+  },
+  "0181IbnMubarak.Musnad": {
+    "id": 23101,
+    "name": "مسند ابن المبارك"
+  },
+  "0182AbuYusufYacqub.RaddCalaSiyarAwzaci": {
+    "id": 7225,
+    "name": "الرد على سير الأوزاعي"
+  },
+  "0183AbuHayyaNumayri.Shicr": {
+    "id": 148540,
+    "name": "شعر أبي حية النميري"
+  },
+  "0185IbnCimranMawsili.Zuhd": {
+    "id": 29289,
+    "name": "الزهد للمعافى بن عمران الموصلي"
+  },
+  "0188IbnMuhammadFazari.Siyar": {
+    "id": 29344,
+    "name": "السير لأبي إسحاق الفزاري"
+  },
+  "0189IbnHamzaKisai.MushtabihatQuran": {
+    "id": 29986,
+    "name": "مشتبهات القرآن"
+  },
+  "0191IbnQasimMisri.MajalisIbnQasim": {
+    "id": 96602,
+    "name": "مجالس ابن القاسم التي سأل عنها مالكا"
+  },
+  "0195MuarrijSadusi.HadhfMinNasabQuraysh": {
+    "id": 496,
+    "name": "حذف من نسب قريش"
+  },
+  "0197IbnWahbQurashi.MuharabaMinMuwattaIbnWahb": {
+    "id": 30173,
+    "name": "كتاب المحاربة من موطأ ابن وهب"
+  },
+  "0197IbnWahbQurashi.QadaMinMuwattaIbnWahb": {
+    "id": 30522,
+    "name": "الموطأ كتاب القضاء في البيوع"
+  },
+  "0197IbnWahbQurashi.TafsirQuran": {
+    "id": 37361,
+    "name": "تفسير القرآن من الجامع لابن وهب"
+  },
+  "0200SayfIbnCumar.Fitna": {
+    "id": 7536,
+    "name": "الفتنة ووقعة الجمل"
+  },
+  "0204AbuDawudTayalisi.Musnad": {
+    "id": 1456,
+    "name": "مسند أبي داود الطيالسي"
+  },
+  "0206AbuCamrShaybani.Jim": {
+    "id": 7302,
+    "name": "الجيم"
+  },
+  "0207IbnBakkarQaysi.Juz": {
+    "id": 11475,
+    "name": "جزء بكر بن بكار"
+  },
+  "0209AbuCubayda.Khayl": {
+    "id": 790,
+    "name": "الخيل"
+  },
+  "0209AbuCubayda.MajazQuran": {
+    "id": 23630,
+    "name": "مجاز القرآن"
+  },
+  "0209AbuCubayda.SharhNaqaidJarir": {
+    "id": 13609,
+    "name": "شرح نقائض جرير والفرزدق"
+  },
+  "0211CabdRazzaqSancani.Tafsir": {
+    "id": 21791,
+    "name": "تفسير عبد الرزاق"
+  },
+  "0213IbnHisham.Tijan": {
+    "id": 37473,
+    "name": "التيجان في ملوك حمير"
+  },
+  "0214IbnCabdHakamMisri.SiratCumarIbnCabdCaziz": {
+    "id": 6656,
+    "name": "سيرة عمر بن عبد العزيز"
+  },
+  "0215AbuZaydAnsari.NawadirFiLugha": {
+    "id": 133417,
+    "name": "النوادر في اللغة لأبي زيد الأنصاري"
+  },
+  "0216IbnQuraybAsmaci.Asmaciyyat": {
+    "id": 6905,
+    "name": "الأصمعيات"
+  },
+  "0216IbnQuraybAsmaci.FuhulatShucara": {
+    "id": 1597,
+    "name": "فحولة الشعراء"
+  },
+  "0216IbnQuraybAsmaci.Ibl": {
+    "id": 9208,
+    "name": "الإبل"
+  },
+  "0216IbnQuraybAsmaci.KhalqInsan": {
+    "id": 5405,
+    "name": "خلق الإنسان"
+  },
+  "0216IbnQuraybAsmaci.Sha": {
+    "id": 8826,
+    "name": "الشاء"
+  },
+  "0219IbnZubayrHumaydi.Musnad": {
+    "id": 8493,
+    "name": "مسند الحميدي"
+  },
+  "0221IbnAbiIyasCasqalani.Juz": {
+    "id": 29703,
+    "name": "جزء آدم بن أبي إياس"
+  },
+  "0222IbnBakkarDabi.AkhbarWafidat": {
+    "id": 6717,
+    "name": "أخبار الوافدات من النساء على معاوية بن أبي سفيان"
+  },
+  "0223IbnSalihKatibLayth.Nuskha": {
+    "id": 9633,
+    "name": "نسخة عبد الله بن صالح كاتب الليث"
+  },
+  "0224QasimIbnSallam.LughatQabail": {
+    "id": 920,
+    "name": "لغات القبائل الواردة في القرآن الكريم"
+  },
+  "0228IbnHammadKhuzaci.Fitan": {
+    "id": 13047,
+    "name": "الفتن لنعيم بن حماد"
+  },
+  "0230AbuMushal.Nawadir": {
+    "id": 5376,
+    "name": "نوادر أبي مسحل"
+  },
+  "0231AbuNasrBahili.SharhDiwanDhiRumma": {
+    "id": 16545,
+    "name": "ديوان ذي الرمة شرح الباهلي"
+  },
+  "0233YahyaIbnMacin.HadithYahya": {
+    "id": 9294,
+    "name": "الجزء الثاني من حديث يحيى بن معين الفوائد رواية أبي بكر المروزي"
+  },
+  "0233YahyaIbnMacin.MinKalamFiRijal": {
+    "id": 5954,
+    "name": "من كلام أبي زكريا يحيى بن معين في الرجال"
+  },
+  "0233YahyaIbnMacin.SualatIbnJunayd": {
+    "id": 12698,
+    "name": "سؤالات ابن الجنيد"
+  },
+  "0234AbuHasanSacdi.TasmiyatManRuwiya": {
+    "id": 5893,
+    "name": "تسمية من روي عنه من أولاد العشرة - ت جماز"
+  },
+  "0235IbnAbiShayba.Adab": {
+    "id": 638,
+    "name": "الأدب لابن أبي شيبة"
+  },
+  "0235IbnAbiShayba.Musnad": {
+    "id": 13155,
+    "name": "مسند ابن أبي شيبة"
+  },
+  "0236AbuCabdAllahZubayri.NasabQuraysh": {
+    "id": 2922,
+    "name": "نسب قريش"
+  },
+  "0238IbnHabibQurtubi.AshratSaca": {
+    "id": 26569,
+    "name": "أشراط الساعة وذهاب الأخيار وبقاء الأشرار لعبد الملك بن حبيب"
+  },
+  "0238IbnHabibQurtubi.MukhtasarFiTibb": {
+    "id": 10705,
+    "name": "العلاج بالأعشاب"
+  },
+  "0239CumaraIbnCaqil.Diwan": {
+    "id": 149872,
+    "name": "ديوان عمارة بن عقيل"
+  },
+  "0240IbnKhayyatCusfuri.Musnad": {
+    "id": 12863,
+    "name": "مسند خليفة بن خياط"
+  },
+  "0240IbnKhayyatCusfuri.Tarikh": {
+    "id": 6615,
+    "name": "تاريخ خليفة بن خياط"
+  },
+  "0244IbnSikkit.Alfaz": {
+    "id": 13249,
+    "name": "كتاب الألفاظ لابن السكيت"
+  },
+  "0244IbnSikkit.IslahMantiq": {
+    "id": 7508,
+    "name": "إصلاح المنطق"
+  },
+  "0244IbnSikkit.QalbWaIbdal": {
+    "id": 5420,
+    "name": "القلب والإبدال"
+  },
+  "0245LuwaynMissisi.JuzHadith": {
+    "id": 29848,
+    "name": "حديث لوين المصيصي"
+  },
+  "0246AhmadDawraqi.MusnadSacdIbnAbiWaqqas": {
+    "id": 13166,
+    "name": "مسند سعد بن أبي وقاص"
+  },
+  "0249CabdIbnHamid.MinCawaliMusnad": {
+    "id": 21676,
+    "name": "من عوالي مسند عبد بن حميد"
+  },
+  "0254MuammalIbnIhab.JuzMuammal": {
+    "id": 13102,
+    "name": "جزء المؤمل"
+  },
+  "0256Bukhari.QiraaKhalfaImam": {
+    "id": 8218,
+    "name": "القراءة خلف الإمام للبخاري"
+  },
+  "0256Bukhari.QuratCaynanyn": {
+    "id": 1613,
+    "name": "قرة العينين برفع اليدين في الصلاة"
+  },
+  "0256Bukhari.TarikhSaghir": {
+    "id": 5782,
+    "name": "التاريخ الأوسط"
+  },
+  "0257AbuHiffanMihzami.AkhbarAbiNuwas": {
+    "id": 5369,
+    "name": "أخبار أبي نواس"
+  },
+  "0258IbnYahyaNaysaburi.Juz": {
+    "id": 30368,
+    "name": "جزء محمد بن يحيى الذهلي"
+  },
+  "0259IbnYacqubJuzjani.AhwalRijal": {
+    "id": 25803,
+    "name": "أحوال الرجال"
+  },
+  "0260AbuCaliZacfarani.MusnadBilal": {
+    "id": 13165,
+    "name": "مسند بلال بن رباح"
+  },
+  "0262IbnMatarWasiti.Hadith": {
+    "id": 29709,
+    "name": "حديث بشر بن مطر"
+  },
+  "0265IbnHarbMawsili.HadithSufyanIbnCuyayna": {
+    "id": 29708,
+    "name": "الثاني من حديث سفيان بن عيينة للطائي"
+  },
+  "0267HammadIbnIshaq.TarikatNabi": {
+    "id": 22657,
+    "name": "تركة النبي"
+  },
+  "0270IbnCaffanKufi.AmaliWaQiraa": {
+    "id": 12998,
+    "name": "الأمالي والقراءة"
+  },
+  "0271IbnSinanQazzaz.JuzMinHadith": {
+    "id": 9399,
+    "name": "جزء من أحاديث القزاز عن شيوخه"
+  },
+  "0272IbnCassamIsbahani.JuzIbnCassam": {
+    "id": 9051,
+    "name": "جزء أحمد بن عصام"
+  },
+  "0273AbuBakrAthram.Sunan": {
+    "id": 26550,
+    "name": "سنن أبي بكر الأثرم"
+  },
+  "0275AbuBakrMarrudhi.AkhbarShuyukh": {
+    "id": 9356,
+    "name": "أخبار الشيوخ وأخلاقهم"
+  },
+  "0279Baladhuri.FutuhBuldan": {
+    "id": 12221,
+    "name": "فتوح البلدان"
+  },
+  "0281AbuZurcaDimashqi.Tarikh": {
+    "id": 30741,
+    "name": "تاريخ أبي زرعة الدمشقي"
+  },
+  "0282AbuHanifaDinawari.AkhbarTiwal": {
+    "id": 9760,
+    "name": "الأخبار الطوال"
+  },
+  "0283BaghandiKabir.AmaliBaghandi": {
+    "id": 8202,
+    "name": "أمالي الباغندي"
+  },
+  "0284Bandaniji.Taqfiya": {
+    "id": 14041,
+    "name": "التقفية في اللغة"
+  },
+  "0285IbnIbrahimSancani.Hadith": {
+    "id": 30427,
+    "name": "حديث إسحاق الدبري عن عبد الرزاق"
+  },
+  "0286IbnWaddahQurtubi.Bidac": {
+    "id": 8208,
+    "name": "البدع والنهي عنها"
+  },
+  "0287IbnAbiCasim.Awail": {
+    "id": 13001,
+    "name": "الأوائل لابن أبي عاصم"
+  },
+  "0287IbnAbiCasim.Sunna": {
+    "id": 5930,
+    "name": "السنة لابن أبي عاصم"
+  },
+  "0287IbnAbiCasim.Zuhd": {
+    "id": 13026,
+    "name": "الزهد لابن أبي عاصم"
+  },
+  "0290MufaddalIbnSalama.Fakhir": {
+    "id": 9236,
+    "name": "الفاخر"
+  },
+  "0291IbnYahyaThaclab.Fasih": {
+    "id": 96608,
+    "name": "الفصيح"
+  },
+  "0291IbnYahyaThaclab.MajalisThaclab": {
+    "id": 605,
+    "name": "مجالس ثعلب"
+  },
+  "0291IbnYahyaThaclab.QawacidShicr": {
+    "id": 3018,
+    "name": "قواعد الشعر"
+  },
+  "0292SacidBardhaci.SualatLiAbiZurca": {
+    "id": 812,
+    "name": "سؤالات البرذعي لأبي زرعة الرازي - ت الأزهري"
+  },
+  "0295IbnHasanHarrani.FawaidMuntaqa": {
+    "id": 29712,
+    "name": "فوائد منتقاة من حديث أبي شعيب الحراني"
+  },
+  "0297IbnAbiShaybaAbuJacfar.Carsh": {
+    "id": 12444,
+    "name": "العرش وما روي فيه"
+  },
+  "0300IbnZakariyaHajari.Tacliqat": {
+    "id": 664,
+    "name": "التعليقات والنوادر"
+  },
+  "0301AbuBakrFaryabi.DalailNubuwwa": {
+    "id": 13116,
+    "name": "دلائل النبوة للفريابي"
+  },
+  "0301AbuBakrFaryabi.FadailQuran": {
+    "id": 9320,
+    "name": "فضائل القرآن للفريابي"
+  },
+  "0302AbuMuhammadAshyabBaghdadi.Juz": {
+    "id": 29702,
+    "name": "جزء القاسم بن موسى الأشيب"
+  },
+  "0303IbnSufyanNasawi.Arbacuna": {
+    "id": 8205,
+    "name": "الأربعون للنسوي"
+  },
+  "0304YamutIbnMuzarrac.Amali": {
+    "id": 651,
+    "name": "أمالي ابن المزرع"
+  },
+  "0305IbnZakariyaMutarriz.Fawaid": {
+    "id": 9563,
+    "name": "فوائد أبي بكر القاسم المطرز وأماليه"
+  },
+  "0306Wakic.AkhbarQudat": {
+    "id": 150,
+    "name": "أخبار القضاة"
+  },
+  "0309IbnMarzuban.DhammThuqala": {
+    "id": 6769,
+    "name": "ذم الثقلاء"
+  },
+  "0309IbnMarzuban.FadlKilab": {
+    "id": 11342,
+    "name": "فضل الكلاب على كثير ممن لبس الثياب"
+  },
+  "0309IbnMarzuban.Murua": {
+    "id": 9640,
+    "name": "المروءة"
+  },
+  "0311AbuBakrKhallal.AmrBiMacruf": {
+    "id": 8248,
+    "name": "الأمر بالمعروف والنهي عن المنكر - من «الجامع» للخلال"
+  },
+  "0313IbnIshaqSarraj.Musnad": {
+    "id": 26668,
+    "name": "حديث السراج"
+  },
+  "0317AbuQasimBaghawi.HikayatShucba": {
+    "id": 29715,
+    "name": "حكايات شعبة بن الحجاج"
+  },
+  "0317AbuQasimBaghawi.JuzFiMasailIbnHanbal": {
+    "id": 12853,
+    "name": "جزء في مسائل عن أبي عبد الله أحمد بن حنبل"
+  },
+  "0317AbuQasimBaghawi.JuzThalathaWaThalathina": {
+    "id": 13101,
+    "name": "جزء البغوي"
+  },
+  "0317AbuQasimBaghawi.MucjamSahaba": {
+    "id": 23100,
+    "name": "معجم الصحابة للبغوي"
+  },
+  "0317AbuQasimBaghawi.MusnadCuthman": {
+    "id": 9922,
+    "name": "مسند عثمان بن عفان لأبي القاسم البغوي"
+  },
+  "0317AbuQasimBaghawi.MusnadUsama": {
+    "id": 13158,
+    "name": "مسند أسامة بن زيد"
+  },
+  "0318AbuCarubaHarrani.Ahadith": {
+    "id": 13098,
+    "name": "جزء أبي عروبة الحراني برواية الحاكم"
+  },
+  "0319AbuQasimKacbi.QubulAkhbar": {
+    "id": 14538,
+    "name": "قبول الأخبار ومعرفة الرجال"
+  },
+  "0320HakimTirmidhi.AcdaWaNafs": {
+    "id": 6794,
+    "name": "الأعضاء والنفس"
+  },
+  "0320HakimTirmidhi.AdabNafs": {
+    "id": 37054,
+    "name": "أدب النفس"
+  },
+  "0320HakimTirmidhi.Amthal": {
+    "id": 6893,
+    "name": "الأمثال من الكتاب والسنة"
+  },
+  "0320HakimTirmidhi.CaqlWaHawa": {
+    "id": 652,
+    "name": "العقل والهوى"
+  },
+  "0320HakimTirmidhi.Manhiyyat": {
+    "id": 25950,
+    "name": "المنهيات"
+  },
+  "0320HakimTirmidhi.NawadirUsul": {
+    "id": 720,
+    "name": "نوادر الأصول في أحاديث الرسول"
+  },
+  "0320HakimTirmidhi.RiyadatNafs": {
+    "id": 37033,
+    "name": "رياضة النفس"
+  },
+  "0321IbnDuraydAzdi.FawaidWaAkhbar": {
+    "id": 26986,
+    "name": "الفوائد والأخبار لابن دريد"
+  },
+  "0321IbnDuraydAzdi.Ishtiqaq": {
+    "id": 9211,
+    "name": "الاشتقاق"
+  },
+  "0321IbnDuraydAzdi.JamharatLugha": {
+    "id": 7032,
+    "name": "جمهرة اللغة"
+  },
+  "0321IbnDuraydAzdi.Malahin": {
+    "id": 29605,
+    "name": "الملاحن"
+  },
+  "0321IbnDuraydAzdi.MatarWaSahab": {
+    "id": 593,
+    "name": "المطر والسحاب"
+  },
+  "0321IbnDuraydAzdi.Mujtana": {
+    "id": 13665,
+    "name": "المجتنى"
+  },
+  "0321IbnDuraydAzdi.TacliqMinAmali": {
+    "id": 26237,
+    "name": "تعليق من أمالي ابن دريد"
+  },
+  "0323CaliHimyari.Juz": {
+    "id": 9212,
+    "name": "جزء علي بن محمد الحميري"
+  },
+  "0324Ashcari.MaqalatIslamiyyin": {
+    "id": 37614,
+    "name": "مقالات الإسلاميين ت ريتر"
+  },
+  "0324Ashcari.RisalaIlaAhlThughr": {
+    "id": 11214,
+    "name": "رسالة إلى أهل الثغر بباب الأبواب"
+  },
+  "0325IbnCabdSamadBaghdadi.Amali": {
+    "id": 9305,
+    "name": "الجزء الأول من أمالي أبي إسحاق"
+  },
+  "0327AbuBakrKharaiti.FadilatShukr": {
+    "id": 13140,
+    "name": "فضيلة الشكر لله على نعمته"
+  },
+  "0327AbuBakrKharaiti.MakarimAkhlaq": {
+    "id": 9595,
+    "name": "مكارم الأخلاق للخرائطي"
+  },
+  "0327AbuBakrKharaiti.MuntaqaMinMakarim": {
+    "id": 11930,
+    "name": "المنتقى من كتاب مكارم الأخلاق ومعاليها"
+  },
+  "0328AbuBakrIbnAnbari.Addad": {
+    "id": 17077,
+    "name": "الأضداد لابن الأنباري"
+  },
+  "0328AbuBakrIbnAnbari.IdahWaqfWaIbtida": {
+    "id": 14255,
+    "name": "إيضاح الوقف والابتداء"
+  },
+  "0328AbuBakrIbnAnbari.MajlisMinAmali": {
+    "id": 26738,
+    "name": "مجلس من أمالي ابن الأنباري"
+  },
+  "0328AbuBakrIbnAnbari.MudhakkarWaMuannath": {
+    "id": 17819,
+    "name": "المذكر والمؤنث"
+  },
+  "0328AbuBakrIbnAnbari.SharhQasaidSabc": {
+    "id": 124335,
+    "name": "شرح القصائد السبع الطوال الجاهليات"
+  },
+  "0328AbuBakrIbnAnbari.ZahirFiMacani": {
+    "id": 5644,
+    "name": "الزاهر في معاني كلمات الناس"
+  },
+  "0331IbnMukhalladCattar.Amali": {
+    "id": 29858,
+    "name": "مجلس من أمالي أبي عبد الله العطار"
+  },
+  "0331IbnMukhalladCattar.Fawaid": {
+    "id": 1305,
+    "name": "فوائد محمد بن مخلد"
+  },
+  "0331IbnMukhalladCattar.Juz": {
+    "id": 30373,
+    "name": "جزء أبي عبد الله العطار"
+  },
+  "0331IbnMukhalladCattar.MuntaqaHadith": {
+    "id": 29859,
+    "name": "منتقى حديث أبي عبد الله محمد بن مخلد"
+  },
+  "0332IbnWalladTamimi.Intisar": {
+    "id": 29555,
+    "name": "الانتصار لسيبويه على المبرد"
+  },
+  "0332IbnWalladTamimi.MaqsurWaMamdud": {
+    "id": 14565,
+    "name": "المقصور والممدود لابن ولاد"
+  },
+  "0333AbuCarabTamimi.Mihan": {
+    "id": 6706,
+    "name": "المحن"
+  },
+  "0334IbnHaikHamdani.Iklil": {
+    "id": 352,
+    "name": "الإكليل"
+  },
+  "0334IbnHaikHamdani.SifatJaziratCarab": {
+    "id": 12521,
+    "name": "صفة جزيرة العرب"
+  },
+  "0335IbnKulaybShashi.Musnad": {
+    "id": 13066,
+    "name": "المسند للشاشي"
+  },
+  "0336IbnAhmadTusi.Juz": {
+    "id": 10498,
+    "name": "الجزء الثاني من حديث أبي محمد حاجب بن أحمد الطوسي"
+  },
+  "0337IbnIshaqZajjaji.Akhbar": {
+    "id": 666,
+    "name": "أخبار أبي القاسم الزجاجي"
+  },
+  "0337IbnIshaqZajjaji.Amali": {
+    "id": 1336,
+    "name": "أمالي الزجاجي"
+  },
+  "0337IbnIshaqZajjaji.HurufMacani": {
+    "id": 6989,
+    "name": "حروف المعاني والصفات"
+  },
+  "0337IbnIshaqZajjaji.IdahCilalNahw": {
+    "id": 143170,
+    "name": "الإيضاح في علل النحو"
+  },
+  "0337IbnIshaqZajjaji.IshtiqaqAsmaAllah": {
+    "id": 14275,
+    "name": "اشتقاق أسماء الله"
+  },
+  "0337IbnIshaqZajjaji.Lamat": {
+    "id": 6966,
+    "name": "اللامات"
+  },
+  "0338AbuJacfarNahhas.NasikhWaMansukh": {
+    "id": 13073,
+    "name": "الناسخ والمنسوخ للنحاس"
+  },
+  "0338AbuJacfarNahhas.QatcWaItinaf": {
+    "id": 20966,
+    "name": "القطع والائتناف"
+  },
+  "0339AbuJacfarIbnBukhturi.MajmucMusannafat": {
+    "id": 5737,
+    "name": "مجموع فيه مصنفات أبي جعفر ابن البختري"
+  },
+  "0340IbnAcrabiBasri.Mucjam": {
+    "id": 21494,
+    "name": "معجم ابن الأعرابي"
+  },
+  "0340IbnAcrabiBasri.ZuhdWaSifatZahidin": {
+    "id": 13029,
+    "name": "الزهد وصفة الزاهدين لابن الأعرابي"
+  },
+  "0343IbnSulaymanAtrabulusi.Hadith": {
+    "id": 29862,
+    "name": "جزء من حديث خيثمة الأطرابلسي"
+  },
+  "0344IbnSammak.Amali": {
+    "id": 29863,
+    "name": "الثاني من أمالي ابن السماك"
+  },
+  "0345IbnCabdWahidGhulamThaclab.CasharatFiGharibLugha": {
+    "id": 7053,
+    "name": "العشرات في غريب اللغة"
+  },
+  "0345IbnCabdWahidGhulamThaclab.MaqsurWaMamdud": {
+    "id": 14569,
+    "name": "المقصور والممدود المنسوب لأبي عمر الزاهد"
+  },
+  "0345IbnCabdWahidGhulamThaclab.YaqutatSirat": {
+    "id": 6887,
+    "name": "ياقوتة الصراط في تفسير غريب القرآن"
+  },
+  "0346AsammNaysaburi.Majmuc": {
+    "id": 38194,
+    "name": "مجموع فيه مصنفات أبي العباس الأصم وإسماعيل الصفار"
+  },
+  "0347IbnDurustawayh.TashihFasih": {
+    "id": 14443,
+    "name": "تصحيح الفصيح وشرحه"
+  },
+  "0348IbnMuhammadKhuldi.Fawaid": {
+    "id": 9310,
+    "name": "الفوائد والزهد والرقائق والمراثي"
+  },
+  "0350IbnIbrahimFarabi.MucjamDiwanAdab": {
+    "id": 9263,
+    "name": "معجم ديوان الأدب"
+  },
+  "0351AbuTayyibLughawi.Ittibac": {
+    "id": 37469,
+    "name": "الإتباع"
+  },
+  "0352IbnDuhaymShaybani.Fawaid": {
+    "id": 30543,
+    "name": "فوائد ابن دحيم"
+  },
+  "0353IbnMuhammadMakki.Fawaid": {
+    "id": 9323,
+    "name": "فوائد أبي محمد الفاكهي"
+  },
+  "0354IbnHibbanBusti.Majruhin": {
+    "id": 151099,
+    "name": "المجروحين لابن حبان ت حمدي"
+  },
+  "0354IbnHibbanBusti.MashahirCulamaAmsar": {
+    "id": 896,
+    "name": "مشاهير علماء الأمصار"
+  },
+  "0354IbnHibbanBusti.RawdatCuqala": {
+    "id": 6944,
+    "name": "روضة العقلاء ونزهة الفضلاء"
+  },
+  "0354IbnHibbanBusti.Thiqat": {
+    "id": 5816,
+    "name": "الثقات لابن حبان"
+  },
+  "0356AbuCaliQali.BaricFiLugha": {
+    "id": 14320,
+    "name": "البارع في اللغة"
+  },
+  "0356AbuCaliQali.Ittibac": {
+    "id": 6934,
+    "name": "الإتباع لأبي علي القالي"
+  },
+  "0356AbuCaliQali.MaqsurWaMamdud": {
+    "id": 20949,
+    "name": "المقصور والممدود لأبي علي القالي"
+  },
+  "0357IbnMuhammadKinani.Hadith": {
+    "id": 29722,
+    "name": "حديث أبي القاسم الكناني"
+  },
+  "0359AbuBakrNasibi.Fawaid": {
+    "id": 29779,
+    "name": "فوائد أبي بكر النصيبي"
+  },
+  "0359AbuBakrNasibi.Hadith": {
+    "id": 29897,
+    "name": "حديث أبي بكر بن خلاد النصيبي"
+  },
+  "0360AbuBakrAjurri.FadlQiyamLayl": {
+    "id": 12745,
+    "name": "فضل عشر ذي الحجة للطبراني"
+  },
+  "0361IbnIbrahimTustari.MudhakkarWaMuannath": {
+    "id": 99,
+    "name": "المذكر والمؤنث"
+  },
+  "0362SariRaffa.MuhibbWaMahbub": {
+    "id": 731,
+    "name": "المحب والمحبوب والمشموم والمشروب"
+  },
+  "0365IbnCadiJurjani.AsamiManRawaCanhum": {
+    "id": 5862,
+    "name": "من روى عنهم البخاري في الصحيح"
+  },
+  "0367IbnQutiyya.Afcal": {
+    "id": 16406,
+    "name": "كتاب الأفعال لابن القوطية"
+  },
+  "0368AbuSacidSirafi.FawaitKitabSibawayhi": {
+    "id": 18283,
+    "name": "فوائت كتاب سيبويه"
+  },
+  "0368AbuSacidSirafi.SharhKitabSibawayhi": {
+    "id": 17726,
+    "name": "شرح كتاب سيبويه"
+  },
+  "0369AbuShaykhIsbahani.Fawaid": {
+    "id": 8268,
+    "name": "الفوائد لأبي الشيخ الأصبهاني"
+  },
+  "0369AbuShaykhIsbahani.Hikayat": {
+    "id": 29724,
+    "name": "حكايات عن أبي الشيخ الأصبهاني"
+  },
+  "0370AbuMansurAzhari.MacaniQiraat": {
+    "id": 8229,
+    "name": "معاني القراءات للأزهري"
+  },
+  "0370AbuMansurAzhari.TahdhibLugha": {
+    "id": 7031,
+    "name": "تهذيب اللغة"
+  },
+  "0370AbuMansurAzhari.ZahirFiGharibAlfazShafici": {
+    "id": 11319,
+    "name": "الزاهر في غريب ألفاظ الشافعي"
+  },
+  "0371AhmadJurjani.IctiqadAimmatHadith": {
+    "id": 10472,
+    "name": "اعتقاد أئمة الحديث"
+  },
+  "0372AbuSacidQayruwani.TahdhibMudawwana": {
+    "id": 8487,
+    "name": "التهذيب في اختصار المدونة"
+  },
+  "0373AbuLaythSamarqandi.CuyunMasail": {
+    "id": 14335,
+    "name": "عيون المسائل للسمرقندي الحنفي"
+  },
+  "0373AbuLaythSamarqandi.TanbihGhafilin": {
+    "id": 10488,
+    "name": "تنبيه الغافلين بأحاديث سيد الأنبياء والمرسلين للسمرقندي"
+  },
+  "0374IbnHusaynAzdi.AhadithMuntaqat": {
+    "id": 29727,
+    "name": "أحاديث منتقاة في غرائب ألفاظ رسول الله مما يحتاج إلى استعماله"
+  },
+  "0374IbnHusaynAzdi.AsmaManYucrafBiKunya": {
+    "id": 5779,
+    "name": "أسماء من يعرف بكنيته"
+  },
+  "0374IbnHusaynAzdi.Makhzun": {
+    "id": 1458,
+    "name": "المخزون في علم الحديث"
+  },
+  "0375IbnHamzaBasri.Tanbihat": {
+    "id": 226,
+    "name": "التنبيهات على أغاليط الرواة"
+  },
+  "0377IbnAhmadCasqalani.TanbihWaRadd": {
+    "id": 6537,
+    "name": "التنبيه والرد على أهل الأهواء والبدع"
+  },
+  "0378HakimKabir.CawaliMalik": {
+    "id": 26365,
+    "name": "عوالي مالك رواية أبي أحمد الحاكم"
+  },
+  "0379IbnMuzaffarBazzaz.HadithShucba": {
+    "id": 5732,
+    "name": "حديث شعبة بن الحجاج"
+  },
+  "0380AbuBakrKalabadhi.TacarrufLiMadhhabAhlTasawwuf": {
+    "id": 6518,
+    "name": "التعرف لمذهب أهل التصوف"
+  },
+  "0381AbuQasimJawhari.MusnadMuwatta": {
+    "id": 21479,
+    "name": "مسند الموطأ للجوهري"
+  },
+  "0382IbnCabdAllahCaskari.AkhbarMusahhifin": {
+    "id": 6722,
+    "name": "أخبار المصحفين"
+  },
+  "0382IbnCabdAllahCaskari.MasunFiAdab": {
+    "id": 5502,
+    "name": "المصون في الأدب"
+  },
+  "0382IbnCabdAllahCaskari.TashifatMuhaddithin": {
+    "id": 2449,
+    "name": "تصحيفات المحدثين"
+  },
+  "0383IbnCabbasKhwarizmi.Amthal": {
+    "id": 10497,
+    "name": "الأمثال المولدة"
+  },
+  "0383IbnCabbasKhwarizmi.MufidCulum": {
+    "id": 10262,
+    "name": "مفيد العلوم ومبيد الهموم"
+  },
+  "0384AbuHasanRummani.ManazilHuruf": {
+    "id": 6997,
+    "name": "منازل الحروف"
+  },
+  "0384AbuHasanRummani.NukatFiIcjazQuran": {
+    "id": 13981,
+    "name": "النكت في إعجاز القرآن"
+  },
+  "0384AbuHasanRummani.RisalatHudud": {
+    "id": 6981,
+    "name": "رسالة الحدود"
+  },
+  "0384AbuHasanRummani.SharhKitabSibawayhi": {
+    "id": 18282,
+    "name": "شرح كتاب سيبويه للرماني"
+  },
+  "0385Daraqutni.AhadithAllatiKhulifaFihaMalikIbnAnas": {
+    "id": 5651,
+    "name": "الأحاديث التي خولف فيها مالك بن أنس"
+  },
+  "0385Daraqutni.AhadithMuwatta": {
+    "id": 1518,
+    "name": "أحاديث الموطأ وذكر اتفاق الرواة عن مالك"
+  },
+  "0385Daraqutni.DhikrAsmaTabicin": {
+    "id": 5881,
+    "name": "ذكر أسماء التابعين ومن بعدهم ممن صحت روايته عن الثقات عند البخاري ومسلم"
+  },
+  "0385Daraqutni.FadailSahaba": {
+    "id": 8238,
+    "name": "فضائل الصحابة للدارقطني"
+  },
+  "0385Daraqutni.FawaidAfrad": {
+    "id": 8338,
+    "name": "الثالث والثمانون من الفوائد الأفراد"
+  },
+  "0385Daraqutni.IlzamatWaTatabbuc": {
+    "id": 21474,
+    "name": "الإلزامات والتتبع للدارقطني"
+  },
+  "0385Daraqutni.Sunan": {
+    "id": 9771,
+    "name": "سنن الدارقطني"
+  },
+  "0385Daraqutni.TacliqatCalaMajruhin": {
+    "id": 10843,
+    "name": "تعليقات الدارقطني على المجروحين لابن حبان"
+  },
+  "0386AbuTalibMakki.QutQulub": {
+    "id": 482,
+    "name": "قوت القلوب في معاملة المحبوب ووصف طريق المريد إلى مقام التوحيد"
+  },
+  "0387IbnBattaCukbari.SabcunaFiJihad": {
+    "id": 1582,
+    "name": "سبعون حديثا في الجهاد"
+  },
+  "0388AbuSulaymanKhattabi.AclamHadith": {
+    "id": 16946,
+    "name": "أعلام الحديث (شرح صحيح البخاري)"
+  },
+  "0388AbuSulaymanKhattabi.BayanIcjazQuran": {
+    "id": 13900,
+    "name": "بيان إعجاز القرآن"
+  },
+  "0388AbuSulaymanKhattabi.IslahGhalatMuhaddithin": {
+    "id": 6923,
+    "name": "إصلاح غلط المحدثين"
+  },
+  "0388AbuSulaymanKhattabi.MacalimSunan": {
+    "id": 1442,
+    "name": "معالم السنن"
+  },
+  "0388AbuSulaymanKhattabi.ShanDuca": {
+    "id": 95700,
+    "name": "شأن الدعاء"
+  },
+  "0390IbnAkhiMimiDaqqaq.Fawaid": {
+    "id": 9564,
+    "name": "فوائد ابن أخي ميمي الدقاق"
+  },
+  "0392IbnAbiShurayhHarawi.AhadithMia": {
+    "id": 29734,
+    "name": "الأحاديث المائة الشريحية"
+  },
+  "0393IbnHammadJawhari.SihahTajLugha": {
+    "id": 23235,
+    "name": "الصحاح تاج اللغة وصحاح العربية"
+  },
+  "0394IbnMuhammadAzhari.MuntaqaHadith": {
+    "id": 26545,
+    "name": "منتقى حديث أبي نعيم الأزهري"
+  },
+  "0395AbuHilalCaskari.Awail": {
+    "id": 10529,
+    "name": "الأوائل للعسكري"
+  },
+  "0395AbuHilalCaskari.DiwanMacani": {
+    "id": 6909,
+    "name": "ديوان المعاني"
+  },
+  "0395AbuHilalCaskari.Talkhis": {
+    "id": 37471,
+    "name": "التلخيص في معرفة أسماء الأشياء"
+  },
+  "0395AbuHilalCaskari.WujuhWaNazair": {
+    "id": 37586,
+    "name": "الوجوه والنظائر لأبي هلال العسكري - معتزلي"
+  },
+  "0396IbnCataRudhbari.Amali": {
+    "id": 29871,
+    "name": "ثلاثة مجالس من أمالي أبي عبد الله الروذباري"
+  },
+  "0397IbnQassar.CuyunAdilla": {
+    "id": 14608,
+    "name": "عيون الأدلة في مسائل الخلاف بين فقهاء الأمصار"
+  },
+  "0398BadicZamanHamadhani.Maqamat": {
+    "id": 28113,
+    "name": "مقامات بديع الزمان الهمذاني"
+  },
+  "0399IbnAbiZamanaynIlbiri.MuntakhabAhkam": {
+    "id": 133419,
+    "name": "منتخب الأحكام لابن أبي زمنين"
+  },
+  "0399IbnAbiZamanaynIlbiri.QudwatGhazi": {
+    "id": 30760,
+    "name": "قدوة الغازي"
+  },
+  "0400IbnHusaynYamani.MudahatAmthal": {
+    "id": 674,
+    "name": "مضاهاة أمثال كليلة ودمنة"
+  },
+  "0401AbuCubaydHarawi.Gharibayn": {
+    "id": 16782,
+    "name": "الغريبين في القرآن والحديث"
+  },
+  "0403AbuBakrBaqillani.IcjazQuran": {
+    "id": 953,
+    "name": "إعجاز القرآن للباقلاني"
+  },
+  "0403AbuBakrBaqillani.TamhidAwail": {
+    "id": 6389,
+    "name": "تمهيد الأوائل وتلخيص الدلائل"
+  },
+  "0403AbuBakrBaqillani.TaqribWaIrshad": {
+    "id": 17883,
+    "name": "التقريب والإرشاد (الصغير)"
+  },
+  "0405AbuCabbasCasmi.Juz": {
+    "id": 26563,
+    "name": "جزء أبي العباس العصمي"
+  },
+  "0406IbnFurakIsbahani.MushkilHadith": {
+    "id": 5899,
+    "name": "مشكل الحديث وبيانه"
+  },
+  "0406IbnFurakIsbahani.Tafsir": {
+    "id": 10523,
+    "name": "تفسير ابن فورك"
+  },
+  "0408IbnCabdCazizTaymi.JuzHadith": {
+    "id": 12852,
+    "name": "جزء ابن ثرثال"
+  },
+  "0409CabdGhaniAzdi.Mutawarin": {
+    "id": 1139,
+    "name": "المتوارين"
+  },
+  "0410IbnMardawayh.Majalis": {
+    "id": 26497,
+    "name": "مجلسان من الأمالي أحدهما في صفات الله لابن مردويه"
+  },
+  "0413AbuMutarrifQunazici.TafsirMuwatta": {
+    "id": 16787,
+    "name": "تفسير الموطأ للقنازعي"
+  },
+  "0414AbuQasimRazi.IslamZaydIbnHaritha": {
+    "id": 9368,
+    "name": "إسلام زيد بن حارثة وغيره من أحاديث الشيوخ"
+  },
+  "0414AbuQasimRazi.MusnadMuqallin": {
+    "id": 13164,
+    "name": "مسند المقلين من الأمراء والسلاطين لتمام بن محمد الدمشقي"
+  },
+  "0415CaliIbnBishranUmawi.Amali": {
+    "id": 30399,
+    "name": "الثاني من أمالي أبي الحسين بن بشران"
+  },
+  "0415CaliIbnBishranUmawi.Fawaid": {
+    "id": 9383,
+    "name": "الجزء الأول والثاني من فوائد ابن بشران"
+  },
+  "0416IbnTahhan.TarikhCulamaAhlMisr": {
+    "id": 130963,
+    "name": "تاريخ علماء أهل مصر"
+  },
+  "0418HibatAllahLalikai.SharhUsulIctiqad": {
+    "id": 9200,
+    "name": "شرح أصول اعتقاد أهل السنة والجماعة"
+  },
+  "0419IbnMuhammadBushanji.Hadith": {
+    "id": 29749,
+    "name": "حديث أبي الحسين بن العالي"
+  },
+  "0420IbnCabdAllahKhatibIskafi.DurratTanzil": {
+    "id": 1340,
+    "name": "درة التنزيل وغرة التأويل"
+  },
+  "0421IbnMuhammadMarzuqi.AmaliMarzuqi": {
+    "id": 722,
+    "name": "أمالي المرزوقي"
+  },
+  "0421IbnMuhammadMarzuqi.AzminaWaAmkina": {
+    "id": 11469,
+    "name": "الأزمنة والأمكنة"
+  },
+  "0421IbnMuhammadMarzuqi.SharhDiwanHamasa": {
+    "id": 26536,
+    "name": "شرح ديوان الحماسة"
+  },
+  "0422QadiCabdWahhabThaclabi.CuyunMasail": {
+    "id": 14467,
+    "name": "عيون المسائل للقاضي عبد الوهاب المالكي"
+  },
+  "0422QadiCabdWahhabThaclabi.Ishraf": {
+    "id": 14245,
+    "name": "الإشراف على نكت مسائل الخلاف"
+  },
+  "0422QadiCabdWahhabThaclabi.Macuna": {
+    "id": 9627,
+    "name": "المعونة على مذهب عالم المدينة"
+  },
+  "0422QadiCabdWahhabThaclabi.SharhRisala": {
+    "id": 18609,
+    "name": "شرح الرسالة"
+  },
+  "0422QadiCabdWahhabThaclabi.TalqinFiFiqh": {
+    "id": 7262,
+    "name": "التلقين في الفقة المالكي"
+  },
+  "0425IbnYasirJawbari.Ahadith": {
+    "id": 29814,
+    "name": "أحاديث أبي الحسن الجوبري"
+  },
+  "0426IbnShuhaydAshjaci.TawabicWaZawabic": {
+    "id": 12858,
+    "name": "رسالة التوابع والزوابع"
+  },
+  "0427IbnCaliShahrazuri.Hadith": {
+    "id": 21691,
+    "name": "من حديث الفقيه أبي القاسم الشهرزوري عن شيوخه"
+  },
+  "0428AbuCaliHashimi.IrshadIlaSabilRashad": {
+    "id": 13571,
+    "name": "الإرشاد إلى سبيل الرشاد"
+  },
+  "0429AbuMansurThacalibi.AhsanMaSamictu": {
+    "id": 25011,
+    "name": "أحسن ما سمعت"
+  },
+  "0429AbuMansurThacalibi.IcjazWaIjaz": {
+    "id": 23741,
+    "name": "الإعجاز والإيجاز"
+  },
+  "0429AbuMansurThacalibi.KhassKhass": {
+    "id": 7830,
+    "name": "خاص الخاص"
+  },
+  "0429AbuMansurThacalibi.Lutf": {
+    "id": 595,
+    "name": "اللطف واللطائف"
+  },
+  "0429AbuMansurThacalibi.ManGhabaCanhuMutrib": {
+    "id": 28115,
+    "name": "من غاب عنه المطرب"
+  },
+  "0429AbuMansurThacalibi.Muntahal": {
+    "id": 21105,
+    "name": "المنتحل"
+  },
+  "0429AbuMansurThacalibi.MutanabbiWaMaLahu": {
+    "id": 37032,
+    "name": "أبو الطيب المتنبي وما له وما عليه"
+  },
+  "0429AbuMansurThacalibi.TahsinQabih": {
+    "id": 6040,
+    "name": "تحسين القبيح وتقبيح الحسن"
+  },
+  "0429AbuMansurThacalibi.Tamthil": {
+    "id": 5683,
+    "name": "التمثيل والمحاضرة"
+  },
+  "0429AbuMansurThacalibi.ThimarQulub": {
+    "id": 6896,
+    "name": "ثمار القلوب في المضاف والمنسوب"
+  },
+  "0430AbuHasanHufi.Burhan": {
+    "id": 14114,
+    "name": "البرهان في علوم القرآن للإمام الحوفي - سورة يوسف"
+  },
+  "0431IbnFadlMisri.Fawaid": {
+    "id": 29767,
+    "name": "فوائد أبي عبد الله الفراء"
+  },
+  "0433IbnAhmadCamidi.IbanaCanSariqat": {
+    "id": 37468,
+    "name": "الإبانة عن سرقات المتنبي لفظا ومعنى"
+  },
+  "0434IbnAhmadHarawi.Masmucat": {
+    "id": 9855,
+    "name": "جزء فيه أحاديث من مسموعات للشيخ الحافظ أبي ذر عبيد بن أحمد بن محمد الهروي (وهو مطبوع ضمن كتاب الفوائد)"
+  },
+  "0435MuhallabAndalusi.MukhtasarNasih": {
+    "id": 37837,
+    "name": "المختصر النصيح في تهذيب الكتاب الجامع الصحيح"
+  },
+  "0436HusaynSaymari.AkhbarAbiHanifa": {
+    "id": 6651,
+    "name": "أخبار أبي حنيفة وأصحابه"
+  },
+  "0437IbnJamic.Hadith": {
+    "id": 27086,
+    "name": "حديث السكن بن جميع"
+  },
+  "0438IbnYusufJuwayni.MawqifImam": {
+    "id": 12106,
+    "name": "موقف الإمام والمأموم"
+  },
+  "0438IbnYusufJuwayni.RisalaFiIthbat": {
+    "id": 6475,
+    "name": "رسالة في إثبات الاستواء والفوقية ومسألة الحرف والصوت في القرآن المجيد"
+  },
+  "0439IbnMuhammadKhallal.AkhbarThuqala": {
+    "id": 26758,
+    "name": "أخبار الثقلاء للخلال"
+  },
+  "0439IbnMuhammadKhallal.Amali": {
+    "id": 30446,
+    "name": "مجلسان من أمالي الخلال"
+  },
+  "0439IbnMuhammadKhallal.DhikrManLamYakunLahuIllaHadithWahid": {
+    "id": 12546,
+    "name": "ذكر من لم يكن عنده إلا حديث واحد للخلال"
+  },
+  "0440AbuRayhanBiruni.Jamahir": {
+    "id": 699,
+    "name": "الجماهر في معرفة الجواهر"
+  },
+  "0440AbuRayhanBiruni.TahqiqMaLilHind": {
+    "id": 11655,
+    "name": "تحقيق ما للهند من مقولة مقبولة في العقل أو مرذولة"
+  },
+  "0441IbnCaliSuri.FawaidCawali": {
+    "id": 12721,
+    "name": "الفوائد العوالي المؤرخة من الصحاح والغرائب لمحمد بن علي الصوري"
+  },
+  "0441IbnCaliSuri.FawaidMuntaqat": {
+    "id": 5693,
+    "name": "الفوائد المنتقاة والغرائب الحسان عن الشيوخ الكوفيين للصوري"
+  },
+  "0442AbuQasimThamanini.SharhTasrif": {
+    "id": 124334,
+    "name": "شرح التصريف للثمانيني"
+  },
+  "0443IbnCaliShamukhi.Ahadith": {
+    "id": 8272,
+    "name": "أحاديث الشاموخي"
+  },
+  "0444AbuCamrDani.AhrufSabca": {
+    "id": 5526,
+    "name": "الأحرف السبعة للقرآن"
+  },
+  "0444AbuCamrDani.BayanFiCaddAyyQuran": {
+    "id": 5542,
+    "name": "البيان في عد آي القرآن"
+  },
+  "0444AbuCamrDani.CilmHadith": {
+    "id": 30386,
+    "name": "كتاب في علم الحديث للداني"
+  },
+  "0444AbuCamrDani.FarqBaynaDadWaZa": {
+    "id": 26988,
+    "name": "الفرق بين الضاد والظاء فى كتاب الله ﷿ وفى المشهور من الكلام"
+  },
+  "0444AbuCamrDani.JamicBayanFiQiraatSabc": {
+    "id": 37649,
+    "name": "جامع البيان في القراءات السبع"
+  },
+  "0444AbuCamrDani.MuhkamFiNaqtMasahif": {
+    "id": 5552,
+    "name": "المحكم في نقط المصاحف"
+  },
+  "0444AbuCamrDani.MuqnicFiRasmMasahif": {
+    "id": 10918,
+    "name": "المقنع في رسم مصاحف الأمصار"
+  },
+  "0444AbuCamrDani.Naqt": {
+    "id": 10920,
+    "name": "النقط"
+  },
+  "0444AbuCamrDani.TaysirFiQiraatSabc": {
+    "id": 147812,
+    "name": "التيسير في القراءات السبع ت الشغدلي"
+  },
+  "0445IbnHasanZuzani.QishrFasr": {
+    "id": 37491,
+    "name": "قشر الفسر"
+  },
+  "0446AbuYaclaKhalili.Fawaid": {
+    "id": 8240,
+    "name": "فوائد أبي يعلى الخليلي"
+  },
+  "0447IbnAyyubRazi.CawaliMalik": {
+    "id": 26655,
+    "name": "عوالي مالك رواية سليم الرازي"
+  },
+  "0448HilalSabi.RusumDarKhilafa": {
+    "id": 8173,
+    "name": "رسوم دار الخلافة"
+  },
+  "0448HilalSabi.TuhfatUmara": {
+    "id": 26106,
+    "name": "تحفة الأمراء في تاريخ الوزراء"
+  },
+  "0449AbuCalaMacarri.FusulWaGhayat": {
+    "id": 612,
+    "name": "الفصول والغايات"
+  },
+  "0449AbuCalaMacarri.MucjizAhmad": {
+    "id": 29591,
+    "name": "اللامع العزيزي شرح ديوان المتنبي"
+  },
+  "0449AbuCalaMacarri.RisalatGhufran": {
+    "id": 1589,
+    "name": "رسالة الغفران"
+  },
+  "0449AbuCalaMacarri.RisalatMalaika": {
+    "id": 18276,
+    "name": "رسالة الملائكة ت الجندي"
+  },
+  "0449AbuCalaMacarri.RisalatSahilWaShajih": {
+    "id": 563,
+    "name": "رسالة الصاهل والشاجح"
+  },
+  "0451AbuCuthmanBuhayri.Fawaid": {
+    "id": 29959,
+    "name": "الرابع من فوائد أبي عثمان البحيري"
+  },
+  "0455IbnFuraja.FathCalaAbiFath": {
+    "id": 37025,
+    "name": "الفتح على أبي الفتح"
+  },
+  "0456IbnHazm.AkhlaqWaSiyar": {
+    "id": 6874,
+    "name": "الأخلاق والسير في مداواة النفوس"
+  },
+  "0456IbnHazm.FisalFiMilal": {
+    "id": 6521,
+    "name": "الفصل في الملل والأهواء والنحل"
+  },
+  "0456IbnHazm.MaratibIjmac": {
+    "id": 12446,
+    "name": "مراتب الإجماع"
+  },
+  "0456IbnHazm.MuhallaBiAthar": {
+    "id": 767,
+    "name": "المحلى بالآثار"
+  },
+  "0456IbnHazm.NasikhWaMansukh": {
+    "id": 2216,
+    "name": "الناسخ والمنسوخ لابن حزم"
+  },
+  "0456IbnHazm.NubdhaKafiya": {
+    "id": 6321,
+    "name": "النبذة الكافية في أحكام أصول الدين"
+  },
+  "0456IbnHazm.TaqribLiHaddMantiq": {
+    "id": 1028,
+    "name": "التقريب لحد المنطق والمدخل إليه بالألفاظ العامية والأمثلة الفقهية"
+  },
+  "0457IbnAbiHasina.Diwan": {
+    "id": 148536,
+    "name": "ديوان ابن أبي حصينة"
+  },
+  "0458AbuYaclaIbnFarra.Amali": {
+    "id": 29876,
+    "name": "أمالي أبي يعلى الفراء"
+  },
+  "0458AbuYaclaIbnFarra.AmrBiMacruf": {
+    "id": 36112,
+    "name": "الأمر بالمعروف والنهي عن المنكر- أبو يعلى"
+  },
+  "0458AbuYaclaIbnFarra.CuddaFiUsulFiqh": {
+    "id": 22793,
+    "name": "العدة في أصول الفقه"
+  },
+  "0458AbuYaclaIbnFarra.RusulMuluk": {
+    "id": 7243,
+    "name": "رسل الملوك ومن يصلح للرسالة والسفارة"
+  },
+  "0458AbuYaclaIbnFarra.Tawakkul": {
+    "id": 16879,
+    "name": "التوكل"
+  },
+  "0460AbuIshaqIlbiri.Diwan": {
+    "id": 6869,
+    "name": "ديوان أبي إسحاق الإلبيري"
+  },
+  "0462QadiHusaynMarwarudhi.Tacliqa": {
+    "id": 17812,
+    "name": "التعليقة للقاضي حسين"
+  },
+  "0463IbnCabdBarr.BahjatMajalis": {
+    "id": 558,
+    "name": "بهجة المجالس وأنس المجالس"
+  },
+  "0463IbnCabdBarr.Durar": {
+    "id": 10695,
+    "name": "الدرر في اختصار المغازي والسير"
+  },
+  "0463IbnCabdBarr.IkhtilafMalikWaAshabihi": {
+    "id": 18116,
+    "name": "اختلاف أقوال مالك وأصحابه"
+  },
+  "0463IbnCabdBarr.InbahCalaQabail": {
+    "id": 6696,
+    "name": "الإنباه على قبائل الرواة"
+  },
+  "0463IbnCabdBarr.IntiqaFiFadail": {
+    "id": 6733,
+    "name": "الانتقاء في فضائل الثلاثة الأئمة الفقهاء"
+  },
+  "0463IbnCabdBarr.IstidhkarJamic": {
+    "id": 1722,
+    "name": "الاستذكار"
+  },
+  "0463IbnCabdBarr.Istighna": {
+    "id": 132971,
+    "name": "الاستغناء في معرفة المشهورين من حملة العلم بالكنى"
+  },
+  "0463IbnCabdBarr.JamicBayan": {
+    "id": 22367,
+    "name": "جامع بيان العلم وفضله"
+  },
+  "0463IbnCabdBarr.KafiFiFiqh": {
+    "id": 7367,
+    "name": "الكافي في فقه أهل المدينة"
+  },
+  "0463IbnCabdBarr.MasailMustaghriba": {
+    "id": 127657,
+    "name": "الأجوبة عن المسائل المستغربة من كتاب البخاري"
+  },
+  "0463IbnCabdBarr.TaqassiHadithFiMuwatta": {
+    "id": 14462,
+    "name": "التقصي لما في الموطأ من حديث النبي ﷺ = تجريد التمهيد لما في الموطأ من المعاني والأسانيد"
+  },
+  "0465IbnHawazinQushayri.LataifIsharat": {
+    "id": 23629,
+    "name": "لطائف الإشارات = تفسير القشيري"
+  },
+  "0465IbnHawazinQushayri.NahwQulub": {
+    "id": 37067,
+    "name": "نحو القلوب"
+  },
+  "0465IbnHawazinQushayri.RisalaQushayriyya": {
+    "id": 9953,
+    "name": "الرسالة القشيرية"
+  },
+  "0466CabdCazizKattani.DhaylTarikhMawlidCulama": {
+    "id": 5790,
+    "name": "ذيل تاريخ مولد العلماء ووفياتهم"
+  },
+  "0467AbuQasimFarisi.SharhHamasa": {
+    "id": 16435,
+    "name": "شرح حماسة أبي تمام للفارسي"
+  },
+  "0468IbnAhmadWahidiNaysaburi.TafsirBasit": {
+    "id": 13231,
+    "name": "التفسير البسيط"
+  },
+  "0469IbnBabshadh.SharhMuqaddima": {
+    "id": 18278,
+    "name": "شرح المقدمة المحسبة"
+  },
+  "0470IbnAjdabi.KifayatMutahaffiz": {
+    "id": 7061,
+    "name": "كفاية المتحفظ ونهاية المتلفظ في اللغة العربية"
+  },
+  "0471CabdQahirJurjani.DarjDurar": {
+    "id": 122187,
+    "name": "درج الدرر في تفسير الآي والسور ط الفكر"
+  },
+  "0471CabdQahirJurjani.MiftahFiSarf": {
+    "id": 11562,
+    "name": "المفتاح في الصرف"
+  },
+  "0471CabdQahirJurjani.RisalaShafiya": {
+    "id": 14080,
+    "name": "الرسالة الشافية"
+  },
+  "0474IbnKhalafBaji.HududFiUsul": {
+    "id": 17872,
+    "name": "الحدود في الأصول"
+  },
+  "0474IbnKhalafBaji.IsharaFiUsulFiqh": {
+    "id": 20983,
+    "name": "الإشارة في معرفة الأصول والوجازة في معنى الدليل"
+  },
+  "0474IbnKhalafBaji.Nasiha": {
+    "id": 6865,
+    "name": "النصيحة الولدية"
+  },
+  "0475IbnMakula.TahdhibMustamirr": {
+    "id": 5798,
+    "name": "تهذيب مستمر الأوهام"
+  },
+  "0476AbuIshaqShirazi.MacunaFiJadal": {
+    "id": 6320,
+    "name": "المعونة في الجدل"
+  },
+  "0476AbuIshaqShirazi.TabaqatFuqaha": {
+    "id": 1031,
+    "name": "طبقات الفقهاء"
+  },
+  "0476AbuIshaqShirazi.TabsiraFiUsulFiqh": {
+    "id": 25787,
+    "name": "التبصرة في أصول الفقه"
+  },
+  "0476AbuIshaqShirazi.TanbihFiFiqhShafici": {
+    "id": 7589,
+    "name": "التنبيه في الفقه الشافعي"
+  },
+  "0477BibiHarawiyya.Juz": {
+    "id": 5668,
+    "name": "جزء بيبي"
+  },
+  "0478AbuHasanLakhmi.Tabsira": {
+    "id": 14591,
+    "name": "التبصرة للخمي"
+  },
+  "0479IbnFaddalQayruwani.NukatFiQuran": {
+    "id": 9066,
+    "name": "النكت في القرآن الكريم"
+  },
+  "0480IbnHilalSabi.HafawatNadira": {
+    "id": 5363,
+    "name": "الهفوات النادرة"
+  },
+  "0481AnsariHarawi.ArbacunaFiDalailTawhid": {
+    "id": 6410,
+    "name": "الأربعون في دلائل التوحيد"
+  },
+  "0481AnsariHarawi.DhammKalam": {
+    "id": 1427,
+    "name": "ذم الكلام وأهله"
+  },
+  "0481AnsariHarawi.ManazilSairin": {
+    "id": 6876,
+    "name": "منازل السائرين"
+  },
+  "0482AbuIshaqHabbal.WafayatMisriyyin": {
+    "id": 5871,
+    "name": "وفيات المصريين"
+  },
+  "0483IbnAhmadSarakhsi.Mabsut": {
+    "id": 5423,
+    "name": "المبسوط للسرخسي"
+  },
+  "0483IbnAhmadSarakhsi.SharhSiyarKabir": {
+    "id": 5434,
+    "name": "شرح السير الكبير"
+  },
+  "0485NizamMulkWazir.Amali": {
+    "id": 9608,
+    "name": "مجلسان من أمالي نظام الملك"
+  },
+  "0486AbuAsbaghGharnati.DiwanAhkamKubra": {
+    "id": 14593,
+    "name": "ديوان الأحكام الكبرى أو الإعلام بنوازل الأحكام وقطر من سير الحكام"
+  },
+  "0487AbuCubaydBakri.FaslMaqal": {
+    "id": 1025,
+    "name": "فصل المقال في شرح كتاب الأمثال"
+  },
+  "0487AbuCubaydBakri.SimtLaaliFiSharhAmali": {
+    "id": 1586,
+    "name": "سمط اللآلي في شرح أمالي القالي"
+  },
+  "0487AbuCubaydBakri.TanbihCalaAwham": {
+    "id": 6752,
+    "name": "التنبيه على أوهام أبي علي في أماليه"
+  },
+  "0488IbnFutuhHumaydi.AkhbarWaAshcar": {
+    "id": 9357,
+    "name": "أخبار وأشعار لأبي عبد الله الحميدي"
+  },
+  "0488IbnFutuhHumaydi.JadhwatMuqtabis": {
+    "id": 5742,
+    "name": "جذوة المقتبس في ذكر ولاة الأندلس"
+  },
+  "0488IbnFutuhHumaydi.Tadhkira": {
+    "id": 10025,
+    "name": "التذكرة للحميدي"
+  },
+  "0488IbnFutuhHumaydi.TafsirGharib": {
+    "id": 7014,
+    "name": "تفسير غريب ما في الصحيحين البخاري ومسلم"
+  },
+  "0489IbnHasanBaqillaniBaghdadi.IctiqadQadiri": {
+    "id": 26421,
+    "name": "الاعتقاد القادري"
+  },
+  "0490IbnIbrahimNabulusi.Amali": {
+    "id": 30574,
+    "name": "مجلس من أمالي أبي الفتح المقدسي_٢"
+  },
+  "0491IbnMuhammadZaynabi.Amali": {
+    "id": 30725,
+    "name": "تسعة مجالس من أمالي طراد بن محمد الزينبي"
+  },
+  "0491IbnMuhammadZaynabi.Juz": {
+    "id": 30045,
+    "name": "جزء طراد بن محمد الزينبي"
+  },
+  "0491IbnMuhammadZaynabi.MajlisYawmJumca": {
+    "id": 29744,
+    "name": "مجلس يوم الجمعة"
+  },
+  "0492AbuHasanKhulci.Fawaid": {
+    "id": 29775,
+    "name": "الفوائد الحسان الصحاح والغرائب"
+  },
+  "0492AbuHasanKhulci.Khulciyyat": {
+    "id": 30592,
+    "name": "الأول من الخلعيات"
+  },
+  "0492AbuHasanKhulci.MuntaqaMinKhulciyyat": {
+    "id": 30340,
+    "name": "منتقى من العشرين جزءا المنتخبة (الخلعيات)"
+  },
+  "0494AbuNasrIbnWadcan.ArbacunaWadcaniyya": {
+    "id": 30584,
+    "name": "الأربعون الودعانية الموضوعة"
+  },
+  "0496IbnNajahAndalusi.MukhtasarTabyin": {
+    "id": 29988,
+    "name": "مختصر التبيين لهجاء التنزيل"
+  },
+  "0497IbnFarajIbnTallacQurtubi.AqdiyatRasul": {
+    "id": 9769,
+    "name": "أقضية رسول الله صلى الله عليه وآله وسلم"
+  },
+  "0498AbuCaliJayyani.AlqabSahaba": {
+    "id": 5895,
+    "name": "ألقاب الصحابة والتابعين في المسندين الصحيحين"
+  },
+  "0498AbuCaliJayyani.TaqyidMuhmal": {
+    "id": 5795,
+    "name": "تقييد المهمل وتمييز المشكل"
+  },
+  "0499IbnSimnani.RawdatQudat": {
+    "id": 18608,
+    "name": "روضة القضاة وطريق النجاة"
+  },
+  "0500IbnAhmadSarrajBaghdadi.MasaricCushshaq": {
+    "id": 26549,
+    "name": "مصارع العشاق"
+  },
+  "0501IbnMakkiSiqilli.TathqifLisan": {
+    "id": 16421,
+    "name": "تثقيف اللسان وتلقيح الجنان"
+  },
+  "0502CabdWahidRuyani.BahrMadhhab": {
+    "id": 16934,
+    "name": "بحر المذهب للروياني"
+  },
+  "0505Ghazali.AsnafMaghrurin": {
+    "id": 9198,
+    "name": "أصناف المغرورين"
+  },
+  "0505Ghazali.BidayatHidaya": {
+    "id": 12718,
+    "name": "بداية الهداية"
+  },
+  "0505Ghazali.Fadaih": {
+    "id": 6554,
+    "name": "فضائح الباطنية"
+  },
+  "0505Ghazali.IhyaCulumDin": {
+    "id": 9472,
+    "name": "إحياء علوم الدين"
+  },
+  "0505Ghazali.JawahirQuran": {
+    "id": 9883,
+    "name": "جواهر القرآن"
+  },
+  "0505Ghazali.KimiyaSacada": {
+    "id": 9261,
+    "name": "كيمياء السعادة"
+  },
+  "0505Ghazali.MajmucatRasail": {
+    "id": 26538,
+    "name": "محك النظر"
+  },
+  "0505Ghazali.Mankhul": {
+    "id": 3960,
+    "name": "المنخول من تعليقات الأصول"
+  },
+  "0505Ghazali.MaqsadAsna": {
+    "id": 6465,
+    "name": "المقصد الأسنى"
+  },
+  "0505Ghazali.MicyarCilm": {
+    "id": 26575,
+    "name": "معيار العلم في فن المنطق"
+  },
+  "0505Ghazali.MishkatAnwar": {
+    "id": 12421,
+    "name": "مشكاة الأنوار"
+  },
+  "0505Ghazali.MizanCamal": {
+    "id": 9264,
+    "name": "ميزان العمل"
+  },
+  "0505Ghazali.Munqidh": {
+    "id": 9246,
+    "name": "المنقذ من الضلال"
+  },
+  "0505Ghazali.Mustasfa": {
+    "id": 5459,
+    "name": "المستصفى"
+  },
+  "0505Ghazali.QawacidCaqaid": {
+    "id": 6397,
+    "name": "قواعد العقائد"
+  },
+  "0505Ghazali.ShifaGhalil": {
+    "id": 17827,
+    "name": "شفاء الغليل في بيان الشبه والمخيل ومسالك التعليل"
+  },
+  "0505Ghazali.Tahafut": {
+    "id": 11055,
+    "name": "تهافت الفلاسفة"
+  },
+  "0505Ghazali.TibrMasbuk": {
+    "id": 4129,
+    "name": "التبر المسبوك في نصيحة الملوك"
+  },
+  "0505Ghazali.Wasit": {
+    "id": 6128,
+    "name": "الوسيط في المذهب"
+  },
+  "0507AbuBakrShashi.Fawaid": {
+    "id": 5695,
+    "name": "فوائد أبي بكر الشاشي"
+  },
+  "0507AbuBakrShashi.HilyatCulama": {
+    "id": 146126,
+    "name": "حلية العلماء في معرفة مذاهب الفقهاء - ط الرسالة الحديثة"
+  },
+  "0508IbnMukhtarBaghdadi.Fawaid": {
+    "id": 29778,
+    "name": "الفوائد المنتقاة على شرط الإمامين ١"
+  },
+  "0509IbnShahridarDaylami.Firdaws": {
+    "id": 6072,
+    "name": "الفردوس بمأثور الخطاب"
+  },
+  "0510AbuKhattabKalwadhani.Hidaya": {
+    "id": 26094,
+    "name": "الهداية على مذهب الإمام أحمد"
+  },
+  "0510AbuKhattabKalwadhani.TamhidhFiUsulFiqh": {
+    "id": 14103,
+    "name": "التمهيد في أصول الفقه"
+  },
+  "0511IbnMandaYahya.Amali": {
+    "id": 30027,
+    "name": "أمالي ابن منده- رواية ابن حيويه"
+  },
+  "0511IbnMandaYahya.JuzFihiDhikr": {
+    "id": 6654,
+    "name": "جزء فيه ذكر أبى القاسم الطبراني"
+  },
+  "0511IbnMandaYahya.MacrifatAsamiArdaf": {
+    "id": 5806,
+    "name": "معرفة أسامي أرداف النبي"
+  },
+  "0511IbnMandaYahya.ManCasha": {
+    "id": 9628,
+    "name": "من عاش مائة وعشرين سنة من الصحابة لابن منده"
+  },
+  "0513AbuWafaIbnCaqil.Funun": {
+    "id": 18285,
+    "name": "كتاب الفنون لابن عقيل"
+  },
+  "0513AbuWafaIbnCaqil.FusulAdab": {
+    "id": 17130,
+    "name": "فصول الآداب ومكارم الأخلاق المشروعة"
+  },
+  "0513AbuWafaIbnCaqil.WadihFiUsulFiqh": {
+    "id": 122232,
+    "name": "الواضح في أصول الفقه"
+  },
+  "0514IbnAhmadIsbahaniJarkani.Juz": {
+    "id": 9394,
+    "name": "جزء الجركاني"
+  },
+  "0515CumarKhayyam.Rubaciyyat": {
+    "id": 12857,
+    "name": "رباعيات الخيام"
+  },
+  "0516IbnCabdWahidDaqqaqIsbahani.Amali": {
+    "id": 9594,
+    "name": "مجلس إملاء في رؤية الله تعالى للدقاق"
+  },
+  "0516IbnCabdWahidDaqqaqIsbahani.MucjamMashaikh": {
+    "id": 9622,
+    "name": "معجم مشايخ محمد بن عبد الواحد الدقاق"
+  },
+  "0518IbnMuhammadMaydaniNaysaburi.MajmacAmthal": {
+    "id": 12929,
+    "name": "مجمع الأمثال"
+  },
+  "0520IbnRushdJadd.Masail": {
+    "id": 14310,
+    "name": "مسائل أبي الوليد ابن رشد"
+  },
+  "0520IbnRushdJadd.Muqaddimat": {
+    "id": 21735,
+    "name": "المقدمات الممهدات"
+  },
+  "0520IbnRushdJadd.RaddCalaManDhahaba": {
+    "id": 6542,
+    "name": "الرد على من ذهب إلى تصحيح علم الغيب من جهة الخط"
+  },
+  "0521IbnMuhammadBatalyawsi.Hadaiq": {
+    "id": 6461,
+    "name": "الحدائق في المطالب العالية الفلسفية العويصة"
+  },
+  "0521IbnMuhammadBatalyawsi.HulalFiSharh": {
+    "id": 634,
+    "name": "الحلل في شرح أبيات الجمل"
+  },
+  "0521IbnMuhammadBatalyawsi.Iqtidab": {
+    "id": 17681,
+    "name": "الاقتضاب في شرح أدب الكتاب"
+  },
+  "0521IbnMuhammadBatalyawsi.MushkilatMuwatta": {
+    "id": 6037,
+    "name": "مشكلات موطأ مالك بن أنس"
+  },
+  "0521IbnMuhammadBatalyawsi.RasailFiLugha": {
+    "id": 18275,
+    "name": "رسائل في اللغة (رسائل ابن السيد البطليوسي)"
+  },
+  "0525IbnAhmadIbnHattabRazi.Ahadith": {
+    "id": 29726,
+    "name": "أحاديث أبي عبد الله الرازي"
+  },
+  "0526IbnAbiYacla.Masail": {
+    "id": 6117,
+    "name": "المسائل التي حلف عليها أحمد بن حنبل"
+  },
+  "0527IbnMuhammadIsbahaniYunarati.Hadith": {
+    "id": 29782,
+    "name": "حديث أبي نصر اليونارتي"
+  },
+  "0528IbnMuhammadIbnHaqanIshbili.MatmahAnfus": {
+    "id": 95581,
+    "name": "مطمح الأنفس ومسرح التأنس في ملح أهل الأندلس"
+  },
+  "0532IbnCabadaDani.Ima": {
+    "id": 127660,
+    "name": "الإيماء إلى أطراف أحاديث كتاب الموطأ"
+  },
+  "0536IbnCaliMazariTamimi.Idah": {
+    "id": 16974,
+    "name": "إيضاح المحصول من برهان الأصول"
+  },
+  "0536IbnCaliMazariTamimi.MuclimBiFawaidMuslim": {
+    "id": 13253,
+    "name": "المعلم بفوائد مسلم"
+  },
+  "0536IbnCaliMazariTamimi.SharhTalqin": {
+    "id": 121376,
+    "name": "شرح التلقين"
+  },
+  "0537IbnMuhammadNajmDinNasafi.TalibatTalaba": {
+    "id": 6039,
+    "name": "طلبة الطلبة"
+  },
+  "0538JarAllahZamakhshari.AsasBalagha": {
+    "id": 21568,
+    "name": "أساس البلاغة"
+  },
+  "0538JarAllahZamakhshari.AtwaqDhahab": {
+    "id": 277,
+    "name": "أطواق الذهب في المواعظ والخطب = كتاب المقالات"
+  },
+  "0538JarAllahZamakhshari.FaiqFiGharib": {
+    "id": 7015,
+    "name": "الفائق في غريب الحديث"
+  },
+  "0538JarAllahZamakhshari.JibalWaAmkinaWaMiyah": {
+    "id": 7287,
+    "name": "الجبال والأمكنة والمياه"
+  },
+  "0538JarAllahZamakhshari.KalimNawabigh": {
+    "id": 21500,
+    "name": "الكلم النوابغ"
+  },
+  "0538JarAllahZamakhshari.Maqamat": {
+    "id": 26586,
+    "name": "مقامات الزمخشري"
+  },
+  "0538JarAllahZamakhshari.MufassalFiSuncatIcrab": {
+    "id": 759,
+    "name": "المفصل في صنعة الإعراب"
+  },
+  "0538JarAllahZamakhshari.MustaqsaFiAmthal": {
+    "id": 6895,
+    "name": "المستقصى في أمثال العرب"
+  },
+  "0538JarAllahZamakhshari.Qustas": {
+    "id": 658,
+    "name": "القسطاس في علم العروض"
+  },
+  "0538JarAllahZamakhshari.RabicAbrar": {
+    "id": 10668,
+    "name": "ربيع الأبرار ونصوص الأخيار"
+  },
+  "0538JarAllahZamakhshari.RuusMasail": {
+    "id": 132620,
+    "name": "رؤوس المسائل للزمخشري"
+  },
+  "0540AbuMansurJawaliqi.MaJaaCalaFacaltu": {
+    "id": 7062,
+    "name": "ما جاء على فعلت وأفعلت بمعنى واحد"
+  },
+  "0540AbuMansurJawaliqi.SharhAdabKatib": {
+    "id": 1587,
+    "name": "شرح أدب الكاتب"
+  },
+  "0540AbuMansurJawaliqi.TakmilaCalaDurratGhawass": {
+    "id": 29604,
+    "name": "التكملة والذيل على درة الغواص = التكملة فيما يلحن فيه العامة"
+  },
+  "0542IbnBassamShantarini.Dhakhira": {
+    "id": 1035,
+    "name": "الذخيرة في محاسن أهل الجزيرة"
+  },
+  "0543IbnCarabiIshbili.Mahsul": {
+    "id": 6281,
+    "name": "المحصول لابن العربي"
+  },
+  "0543IbnCarabiIshbili.MasalikFiSharhMuwatta": {
+    "id": 123665,
+    "name": "المسالك في شرح موطأ مالك"
+  },
+  "0543IbnCarabiIshbili.NasikhWaMansukh": {
+    "id": 133367,
+    "name": "الناسخ والمنسوخ في القرآن الكريم للقاضي أبي بكر بن العربي المعافري"
+  },
+  "0543IbnCarabiIshbili.QabasFiSharhMuwatta": {
+    "id": 122401,
+    "name": "القبس في شرح موطأ مالك بن أنس"
+  },
+  "0543IbnCarabiIshbili.QanunTawil": {
+    "id": 97927,
+    "name": "قانون التأويل"
+  },
+  "0544QadiCiyad.IkmalMuclim": {
+    "id": 122406,
+    "name": "إكمال المعلم بفوائد مسلم"
+  },
+  "0544QadiCiyad.IlmacIlaMacrifa": {
+    "id": 6030,
+    "name": "الإلماع إلى معرفة أصول الرواية وتقييد السماع"
+  },
+  "0544QadiCiyad.MashariqAnwar": {
+    "id": 10527,
+    "name": "مشارق الأنوار على صحاح الآثار"
+  },
+  "0544QadiCiyad.TanbihatMustanbita": {
+    "id": 14253,
+    "name": "التنبيهات المستنبطة على الكتب المدونة والمختلطة"
+  },
+  "0550IbnIbrahimAzdiSalmasi.ManazilAimma": {
+    "id": 12089,
+    "name": "منازل الأئمة الأربعة أبي حنيفة ومالك والشافعي وأحمد"
+  },
+  "0552CalaUsmandi.Badhl": {
+    "id": 133362,
+    "name": "بذل النظر في الأصول"
+  },
+  "0552CalaUsmandi.Tariqa": {
+    "id": 133415,
+    "name": "طريقة الخلاف في الفقه بين الأئمة الأسلاف"
+  },
+  "0555IbnMuhammadHamadhaniTai.ArbacunaFiIrshad": {
+    "id": 26842,
+    "name": "كتاب الأربعين في إرشاد السائرين إلى منازل المتقين أو الأربعين الطائية"
+  },
+  "0558IbnAbiKhayrCimraniYamani.BayanFiMadhhabShafici": {
+    "id": 21721,
+    "name": "البيان في مذهب الإمام الشافعي"
+  },
+  "0558IbnAbiKhayrCimraniYamani.IntisarFiRadd": {
+    "id": 7361,
+    "name": "الانتصار في الرد على المعتزلة القدرية الأشرار"
+  },
+  "0560WazirIbnHubayraShaybani.Ifsah": {
+    "id": 13572,
+    "name": "الإفصاح عن معاني الصحاح"
+  },
+  "0561CabdQadirJilani.Ghunya": {
+    "id": 17817,
+    "name": "الغنية لطالبي طريق الحق"
+  },
+  "0562IbnHamdun.TadhkiraHamduniyya": {
+    "id": 10646,
+    "name": "التذكرة الحمدونية"
+  },
+  "0563IbnMuqarrabBaghdadiKarkhi.Arbacuna": {
+    "id": 9361,
+    "name": "أربعون حديثا عن أربعين شيخا في أربعين لابن المقرب"
+  },
+  "0564CabdKhaliqIbnAsadHanafi.Mucjam": {
+    "id": 123581,
+    "name": "المعجم لعبد الخالق بن أسد الحنفي"
+  },
+  "0565IbnFunduqBayhaqi.LubabAnsab": {
+    "id": 355,
+    "name": "لباب الأنساب والألقاب والأعقاب"
+  },
+  "0565IbnFunduqBayhaqi.TatimmatSiwanHikma": {
+    "id": 273,
+    "name": "تتمة صوان الحكمة"
+  },
+  "0567IbnKhashshabBaghdadi.Murtajal": {
+    "id": 18262,
+    "name": "المرتجل في شرح الجمل لابن الخشاب"
+  },
+  "0569AbuIshaqIbnQurqul.MatalicAnwar": {
+    "id": 122402,
+    "name": "مطالع الأنوار على صحاح الآثار"
+  },
+  "0571IbnCasakir.ArbacunaFiHathth": {
+    "id": 5716,
+    "name": "الأربعون في الحث على الجهاد"
+  },
+  "0571IbnCasakir.ArbacunaMinMusawat": {
+    "id": 9371,
+    "name": "الأربعون حديثا من المساواة"
+  },
+  "0571IbnCasakir.TacziyatMuslim": {
+    "id": 6766,
+    "name": "تعزية المسلم"
+  },
+  "0572CuthmaniDibaji.Hadith": {
+    "id": 9450,
+    "name": "حديث العثماني للديباجي"
+  },
+  "0573NashwanHimyari.HurCin": {
+    "id": 22885,
+    "name": "الحور العين"
+  },
+  "0573NashwanHimyari.ShamsCulum": {
+    "id": 23358,
+    "name": "شمس العلوم ودواء كلام العرب من الكلوم"
+  },
+  "0574ShuhdaBintAhmad.Cumda": {
+    "id": 7375,
+    "name": "العمدة من الفوائد والآثار الصحاح في مشيخة شهدة"
+  },
+  "0576AbuTahirSilafi.AhadithCanJacfarSarraj": {
+    "id": 30240,
+    "name": "أحاديث السلفي عن جعفر السراج"
+  },
+  "0576AbuTahirSilafi.AhadithWaHikayat": {
+    "id": 30024,
+    "name": "أحاديث وحكايات للسلفي"
+  },
+  "0576AbuTahirSilafi.ArbacunaBuldaniyya": {
+    "id": 9372,
+    "name": "الأربعون البلدانية لأبي طاهر"
+  },
+  "0576AbuTahirSilafi.HadithCanHakimKufa": {
+    "id": 9448,
+    "name": "حديث السلفي عن حاكم الكوفة"
+  },
+  "0576AbuTahirSilafi.HadithMusahafa": {
+    "id": 9452,
+    "name": "حديث المصافحة للسلفي"
+  },
+  "0576AbuTahirSilafi.JuzBiIntikhab": {
+    "id": 29790,
+    "name": "جزء بانتخاب أبي طاهر السلفي"
+  },
+  "0576AbuTahirSilafi.JuzThalathatAhadith": {
+    "id": 30047,
+    "name": "جزء فيه ثلاثة أحاديث مسلسلة"
+  },
+  "0576AbuTahirSilafi.MashyakhaBaghdadiyya": {
+    "id": 30623,
+    "name": "الجزء الثاني من المشيخة البغدادية"
+  },
+  "0576AbuTahirSilafi.MucjamSafar": {
+    "id": 5805,
+    "name": "معجم السفر"
+  },
+  "0576AbuTahirSilafi.MuntaqaMinSafinaBaghdadiyya": {
+    "id": 26658,
+    "name": "منتقى من السفينة البغدادية للسلفي"
+  },
+  "0576AbuTahirSilafi.MuqaddimatImlaIstidhkar": {
+    "id": 17857,
+    "name": "مقدمة إملاء الاستذكار للحافظ أبي عمر ابن عبد البر القرطبي"
+  },
+  "0576AbuTahirSilafi.Qasida": {
+    "id": 26670,
+    "name": "قصيدة السلفي"
+  },
+  "0576AbuTahirSilafi.ShartQiraa": {
+    "id": 142167,
+    "name": "شرط القراءة على الشيوخ للسلفي"
+  },
+  "0576AbuTahirSilafi.Tuyuriyyat": {
+    "id": 9634,
+    "name": "الطيوريات"
+  },
+  "0576AbuTahirSilafi.Wajiz": {
+    "id": 6031,
+    "name": "الوجيز في ذكر المجاز والمجيز"
+  },
+  "0577AbuBarakatAnbari.AsrarCarabiyya": {
+    "id": 7502,
+    "name": "أسرار العربية"
+  },
+  "0577AbuBarakatAnbari.BulghaFiFarq": {
+    "id": 7002,
+    "name": "البلغة في الفرق بين المذكر والمؤنث"
+  },
+  "0577AbuBarakatAnbari.InsafFiMasail": {
+    "id": 7362,
+    "name": "الإنصاف في مسائل الخلاف بين النحويين البصريين والكوفيين"
+  },
+  "0578IbnBashkuwal.AtharMarwiyya": {
+    "id": 26426,
+    "name": "الآثار المروية في الأطعمة السرية لابن بشكوال"
+  },
+  "0578IbnBashkuwal.GhawamidAsma": {
+    "id": 5803,
+    "name": "غوامض الأسماء المبهمة"
+  },
+  "0578IbnBashkuwal.MaRuwiyaFiHawd": {
+    "id": 6753,
+    "name": "الذيل على جزء بقي بن مخلد من أحاديث الحوض"
+  },
+  "0578IbnBashkuwal.Mustaghithin": {
+    "id": 12845,
+    "name": "المستغيثين بالله تعالى عند المهمات والحاجات"
+  },
+  "0580IbnCaliIbnAbiYacla.TajridAsmaWaKuna": {
+    "id": 96233,
+    "name": "تجريد الأسماء والكنى المذكورة في كتاب المتفق والمفترق"
+  },
+  "0581AbuMusaMadini.Amali": {
+    "id": 30324,
+    "name": "مجلس من أمالي أبي موسى المديني"
+  },
+  "0581AbuMusaMadini.DhikrIbnAbiDunya": {
+    "id": 9510,
+    "name": "ذكر ابن أبي الدنيا وما وقع عاليا من حديثه"
+  },
+  "0581AbuMusaMadini.DhikrIbnMandah": {
+    "id": 9523,
+    "name": "ذكر الإمام أبي عبد الله بن منده"
+  },
+  "0581AbuMusaMadini.KhasaisMusnadAhmad": {
+    "id": 11174,
+    "name": "خصائص مسند الإمام أحمد"
+  },
+  "0581AbuMusaMadini.Lataif": {
+    "id": 26878,
+    "name": "اللطائف من دقائق المعارف في علوم الحفاظ الأعارف"
+  },
+  "0581AbuMusaMadini.MajmucMughith": {
+    "id": 17124,
+    "name": "المجموع المغيث في غريبي القرآن والحديث"
+  },
+  "0581AbuMusaMadini.MuntahaRaghabat": {
+    "id": 30790,
+    "name": "منتهى رغبات السامعين في عوالي أحاديث التابعين"
+  },
+  "0581AbuMusaMadini.NuzhatHuffaz": {
+    "id": 5995,
+    "name": "نزهة الحفاظ"
+  },
+  "0581AbuMusaMadini.RubaciTabicin": {
+    "id": 29793,
+    "name": "الجزء الرابع من رباعي التابعين"
+  },
+  "0582IbnBarri.FiTacrib": {
+    "id": 7060,
+    "name": "في التعريب والمعرب وهو المعروف بحاشية ابن بري"
+  },
+  "0582IbnBarri.GhalatDucafaMinFuqaha": {
+    "id": 6922,
+    "name": "غلط الفقهاء"
+  },
+  "0582IbnBarri.HawashiCalaDurratGhawass": {
+    "id": 29601,
+    "name": "الحواشي على درة الغواص لابن بري وابن ظفر"
+  },
+  "0582IbnBarri.MasailManthuraFiTafsir": {
+    "id": 95580,
+    "name": "مسائل منثورة في التفسير والعربية والمعاني"
+  },
+  "0584IbnMunqidhShayzari.BadicFiNaqdShicr": {
+    "id": 9225,
+    "name": "البديع في نقد الشعر"
+  },
+  "0584IbnMunqidhShayzari.Ictibar": {
+    "id": 21564,
+    "name": "الاعتبار"
+  },
+  "0584IbnMunqidhShayzari.LubabAdab": {
+    "id": 10496,
+    "name": "لباب الآداب لأسامة بن منقذ"
+  },
+  "0584IbnMunqidhShayzari.ManazilWaDiyar": {
+    "id": 5416,
+    "name": "المنازل والديار"
+  },
+  "0587AbuMacaliFurawi.Subaciyyat": {
+    "id": 9664,
+    "name": "سباعيات أبي المعالي الفراوي"
+  },
+  "0590IbnFirruhShatibi.HirzAmani": {
+    "id": 7754,
+    "name": "متن الشاطبية = حرز الأماني ووجه التهاني في القراءات السبع"
+  },
+  "0592IbnCabdRahmanLakhmiQurtubi.RaddCalaNuhat": {
+    "id": 37476,
+    "name": "الرد على النحاة"
+  },
+  "0593BurhanDinFarghaniMarghinani.Bidaya": {
+    "id": 6170,
+    "name": "بداية المبتدي"
+  },
+  "0593BurhanDinFarghaniMarghinani.HidayaFiSharhBidaya": {
+    "id": 11820,
+    "name": "الهداية في شرح بداية المبتدي"
+  },
+  "0595IbnCabdQadirBaghdadiJilani.ArbacunaJilaniyya": {
+    "id": 6439,
+    "name": "الأربعون الكيلانية"
+  },
+  "0597CimadDinKatibIsfahani.BarqShami": {
+    "id": 6628,
+    "name": "البرق الشامي"
+  },
+  "0597CimadDinKatibIsfahani.FathQussi": {
+    "id": 14789,
+    "name": "الفتح القسي في الفتح القدسي = حروب صلاح الدين وفتح بيت المقدس"
+  },
+  "0598IbnIbrahimIbnHajjQunawi.HazzGhalasim": {
+    "id": 6550,
+    "name": "حز الغلاصم في إفحام المخاصم عند جريان النظر في أحكام القدر"
+  },
+  "0599IbnHasanCabdi.Juz": {
+    "id": 30731,
+    "name": "جزء العبدي"
+  },
+  "0600CabdGhaniMaqdisi.AhadithJamacili": {
+    "id": 30346,
+    "name": "أحاديث الجماعيلي"
+  },
+  "0600CabdGhaniMaqdisi.AmrBiMacruf": {
+    "id": 9074,
+    "name": "الأمر بالمعروف والنهي عن المنكر - عبد الغني المقدسي"
+  },
+  "0600CabdGhaniMaqdisi.Caqida": {
+    "id": 11279,
+    "name": "عقيدة الحافظ تقي الدين عبد الغني بن عبد الواحد المقدسي"
+  },
+  "0600CabdGhaniMaqdisi.CumdatAhkam": {
+    "id": 11194,
+    "name": "عمدة الأحكام الكبرى"
+  },
+  "0600CabdGhaniMaqdisi.FadailCumarIbnKhattab": {
+    "id": 30266,
+    "name": "الثاني من فضائل عمر بن الخطاب"
+  },
+  "0600CabdGhaniMaqdisi.FadailShahrRamadan": {
+    "id": 9561,
+    "name": "فضائل شهر رمضان لعبد الغني المقدسي"
+  },
+  "0600CabdGhaniMaqdisi.JuzAhadithShicr": {
+    "id": 6900,
+    "name": "أحاديث الشعر"
+  },
+  "0600CabdGhaniMaqdisi.MisbahFiCuyunSihah": {
+    "id": 29794,
+    "name": "المصباح في عيون الصحاح"
+  },
+  "0600CabdGhaniMaqdisi.NihayatMurad": {
+    "id": 38202,
+    "name": "نهاية المراد من كلام خير العباد"
+  },
+  "0600CabdGhaniMaqdisi.TahrimQatl": {
+    "id": 9390,
+    "name": "تحريم القتل وتعظيمه"
+  },
+  "0600CabdGhaniMaqdisi.ZawajAbiCasBiZaynab": {
+    "id": 30314,
+    "name": "زواج أبي العاص بزينب بنت الربيع"
+  },
+  "0604AbuDharrKhushani.ImlaMukhtasar": {
+    "id": 9222,
+    "name": "الإملاء المختصر في شرح غريب السير"
+  },
+  "0606FakhrDinRazi.Ictiqadat": {
+    "id": 6516,
+    "name": "اعتقادات فرق المسلمين والمشركين"
+  },
+  "0606FakhrDinRazi.MacalimUsulDin": {
+    "id": 6372,
+    "name": "معالم أصول الدين"
+  },
+  "0606FakhrDinRazi.MafatihGhayb": {
+    "id": 23635,
+    "name": "تفسير الرازي = مفاتيح الغيب أو التفسير الكبير"
+  },
+  "0607AbuMusaJazuli.MuqaddimaFiNahw": {
+    "id": 124338,
+    "name": "المقدمة الجزولية في النحو"
+  },
+  "0608IbnCutyaQudaciTurtushi.TahrirMaqal": {
+    "id": 22712,
+    "name": "تحرير المقال في موازنة الأعمال وحكم غير المكلفين في العقبى والمآل"
+  },
+  "0609AbuCabbasJarrawi.HamasaMaghribiyya": {
+    "id": 6902,
+    "name": "الحماسة المغربية"
+  },
+  "0610Mutarrizi.MughribFiTartibMucrib": {
+    "id": 8459,
+    "name": "المغرب في ترتيب المعرب"
+  },
+  "0611IbnMufaddalMuqaddasi.AhadithMuqtabasa": {
+    "id": 30243,
+    "name": "أحاديث مقتبسة من الأربعين المسلسلة"
+  },
+  "0611IbnMufaddalMuqaddasi.Arbacuna": {
+    "id": 10441,
+    "name": "أربعون حديثا لعلي بن المفضل المقدسي"
+  },
+  "0611IbnMufaddalMuqaddasi.JuzFihiTuruqCabdRahman": {
+    "id": 3981,
+    "name": "جزء فيه طرق حديث عبد الرحمن بن أبي ليلى عن كعب بن عجرة في الصلاة على النبي صلى الله عليه وسلم"
+  },
+  "0613AbuYumnKindi.CawaliMalik": {
+    "id": 26366,
+    "name": "عوالي مالك رواية أبي اليمن الكندي"
+  },
+  "0613AbuYumnKindi.KhabarShicr": {
+    "id": 30750,
+    "name": "خبر شعر ووفادة النابغة الجعدي"
+  },
+  "0614IbnAhmadIbnKhumayrSabti.TanzihAnbiya": {
+    "id": 6470,
+    "name": "تنزيه الأنبياء عما نسب إليهم حثالة الأغبياء"
+  },
+  "0616CaliIbnIsmacilAbyari.TahqiqWaBayan": {
+    "id": 13791,
+    "name": "التحقيق والبيان في شرح البرهان في أصول الفقه"
+  },
+  "0618IbnCabdRahmanMuqriWasiti.ArbacinaFiJihad": {
+    "id": 9374,
+    "name": "كتاب الأربعين في الجهاد والمجاهدين"
+  },
+  "0619AbuCabbasSharishi.SharhMaqamatHariri": {
+    "id": 760,
+    "name": "شرح مقامات الحريري"
+  },
+  "0620IbnMuhammadIbnCasakir.ArbacunaFiManaqibUmmahat": {
+    "id": 6596,
+    "name": "كتاب الأربعين في مناقب أمهات المؤمنين"
+  },
+  "0622IbnBadrDiyaDinMawsili.MughniCanHifzWaKitab": {
+    "id": 6065,
+    "name": "المغني عن الحفظ والكتاب"
+  },
+  "0623AbuQasimRafici.DurratDarc": {
+    "id": 14102,
+    "name": "درة الضرع لحديث أم زرع"
+  },
+  "0623AbuQasimRafici.SharhKabir": {
+    "id": 1142,
+    "name": "فتح العزيز بشرح الوجيز = الشرح الكبير للرافعي"
+  },
+  "0623AbuQasimRafici.SharhMusnadShafici": {
+    "id": 123510,
+    "name": "شرح مسند الشافعي"
+  },
+  "0623AbuQasimRafici.Tadwin": {
+    "id": 7435,
+    "name": "التدوين في أخبار قزوين"
+  },
+  "0624IbnIbrahimBahaDinMaqdisi.CuddaSharhCumda": {
+    "id": 10908,
+    "name": "العدة شرح العمدة"
+  },
+  "0625IbnCabdHaqqYafurani.Iqtidab": {
+    "id": 16494,
+    "name": "الاقتضاب في غريب الموطأ وإعرابه على الأبواب"
+  },
+  "0628IbnCaliSanhaji.AkhbarMuluk": {
+    "id": 6625,
+    "name": "أخبار بني عبيد"
+  },
+  "0629CabdLatifBaghdadi.IfadaWaIctibar": {
+    "id": 37031,
+    "name": "الإفادة والاعتبار في الأمور المشاهدة والحوادث المعاينة بأرض مصر"
+  },
+  "0630IbnAthirCizzDin.LubabFiTahdhibAnsab": {
+    "id": 5793,
+    "name": "اللباب في تهذيب الأنساب"
+  },
+  "0631SayfDinAmidi.GhayatMaram": {
+    "id": 6364,
+    "name": "غاية المرام في علم الكلام"
+  },
+  "0632AbuHafsSuhrawardi.Mashyakha": {
+    "id": 26473,
+    "name": "مشيخة السهروردي"
+  },
+  "0633BattalRukabi.NazmMustaczab": {
+    "id": 17104,
+    "name": "النظم المستعذب في تفسير غريب ألفاظ المهذب"
+  },
+  "0634AbuBakrSabuni.MacrifatFarq": {
+    "id": 14567,
+    "name": "معرفة الفرق بين الضاد والظاء"
+  },
+  "0635AbuMunajjaIbnLatti.Mashyakha": {
+    "id": 26857,
+    "name": "مشيخة أبي المنجى ابن اللتي"
+  },
+  "0636AbuCabdAllahIbnCaskar.Iclam": {
+    "id": 14757,
+    "name": "أعلام مالقة"
+  },
+  "0637IbnAthirDiyaDin.JamicKabir": {
+    "id": 37475,
+    "name": "الجامع الكبير في صناعة المنظوم من الكلام والمنثور"
+  },
+  "0638IbnAhmadAndalusiHarali.TurathFiTafsir": {
+    "id": 26539,
+    "name": "تراث أبي الحسن الحرالي المراكشي"
+  },
+  "0639IbnKhabbaz.TawjihLumac": {
+    "id": 18273,
+    "name": "توجيه اللمع"
+  },
+  "0640AbuHafsDunaysiri.TarikhDunaysir": {
+    "id": 26813,
+    "name": "تاريخ دنيسر"
+  },
+  "0641Sarifini.MuntakhabSiyaq": {
+    "id": 12528,
+    "name": "المنتخب من كتاب السياق لتاريخ نيسابور - ط الفكر"
+  },
+  "0642IbnMawaq.BughyatNuqqad": {
+    "id": 16636,
+    "name": "بغية النقاد النقلة"
+  },
+  "0643CaliSakhawi.HidayatMurtab": {
+    "id": 9831,
+    "name": "هداية المرتاب وغاية الحفاظ والطلاب في تبيين متشابه الكتاب"
+  },
+  "0643CaliSakhawi.SafarSacada": {
+    "id": 17823,
+    "name": "سفر السعادة وسفير الإفادة"
+  },
+  "0644IbnCaliCizzDinMuhallabi.MaakhidhCalaShurrah": {
+    "id": 37057,
+    "name": "المآخذ على شراح ديوان أبي الطيب المتنبي"
+  },
+  "0646IbnCumarIbnHajibKurdi.Amali": {
+    "id": 124755,
+    "name": "أمالي ابن الحاجب"
+  },
+  "0646IbnCumarIbnHajibKurdi.JamicUmmahat": {
+    "id": 6196,
+    "name": "جامع الأمهات"
+  },
+  "0646IbnCumarIbnHajibKurdi.KafiyaFiCilmNahw": {
+    "id": 122234,
+    "name": "الكافية في علم النحو"
+  },
+  "0646IbnCumarIbnHajibKurdi.ShafiyaFiCilmTasrif": {
+    "id": 122235,
+    "name": "الشافية في علمي التصريف والخط"
+  },
+  "0650IbnMuhammadRadiDinSaghani.CubabZakhir": {
+    "id": 761,
+    "name": "العباب الزاخر"
+  },
+  "0650IbnMuhammadRadiDinSaghani.Shawarid": {
+    "id": 23427,
+    "name": "الشوارد = ما تفرد به بعض أئمة اللغة"
+  },
+  "0650IbnMuhammadRadiDinSaghani.Takmila": {
+    "id": 18254,
+    "name": "التكملة والذيل والصلة للصغاني"
+  },
+  "0651Bunasi.KanzKuttab": {
+    "id": 13666,
+    "name": "كنز الكتاب ومنتخب الأدب"
+  },
+  "0654IbnCabdWahidIbnAbiIsbac.TahrirTahbir": {
+    "id": 26520,
+    "name": "تحرير التحبير في صناعة الشعر والنثر"
+  },
+  "0656AbuCabbasAnsariQurtubi.IkhtisarSahihBukhari": {
+    "id": 127656,
+    "name": "اختصار صحيح البخاري وبيان غريبه"
+  },
+  "0656AbuCabbasAnsariQurtubi.Mufhim": {
+    "id": 132524,
+    "name": "المفهم لما أشكل من تلخيص كتاب مسلم"
+  },
+  "0657IbnIbrahimIrbili.MudhakaraFiAlqab": {
+    "id": 746,
+    "name": "المذاكرة في ألقاب الشعراء"
+  },
+  "0658IbnAbbar.HullaSiyara": {
+    "id": 6630,
+    "name": "الحلة السيراء"
+  },
+  "0658IbnAbbar.IctabKitab": {
+    "id": 8190,
+    "name": "إعتاب الكتاب"
+  },
+  "0658IbnAbbar.TakmilaLiSila": {
+    "id": 6608,
+    "name": "التكملة لكتاب الصلة"
+  },
+  "0658IbnAbbar.TuhfatQadim": {
+    "id": 26108,
+    "name": "تحفة القادم"
+  },
+  "0659SadrDinBasri.Hamasa": {
+    "id": 6901,
+    "name": "الحماسة البصرية"
+  },
+  "0660SultanCulamaCizzDinDimashqi.FawaidFiIkhtisarMaqasid": {
+    "id": 6291,
+    "name": "الفوائد في اختصار المقاصد"
+  },
+  "0660SultanCulamaCizzDinDimashqi.GhayaFiIkhtisarNihaya": {
+    "id": 127703,
+    "name": "الغاية في اختصار النهاية"
+  },
+  "0660SultanCulamaCizzDinDimashqi.ImamFiBayan": {
+    "id": 6278,
+    "name": "الإمام في بيان أدلة الأحكام"
+  },
+  "0660SultanCulamaCizzDinDimashqi.MaqasidRicaya": {
+    "id": 6875,
+    "name": "مقاصد الرعاية لحقوق الله عز وجل"
+  },
+  "0660SultanCulamaCizzDinDimashqi.QawacidAhkam": {
+    "id": 8608,
+    "name": "قواعد الأحكام في مصالح الأنام"
+  },
+  "0660SultanCulamaCizzDinDimashqi.TafsirQuran": {
+    "id": 5638,
+    "name": "تفسير العز بن عبد السلام"
+  },
+  "0661Turibishti.Muyassar": {
+    "id": 18569,
+    "name": "الميسر في شرح مصابيح السنة للتوربشتي"
+  },
+  "0662RashidCattar.GhurarFawaid": {
+    "id": 2749,
+    "name": "غرر الفوائد المجموعة"
+  },
+  "0665AbuShama.BacithCalaInkarBidac": {
+    "id": 6276,
+    "name": "الباعث على إنكار البدع والحوادث"
+  },
+  "0665AbuShama.IbrazMacani": {
+    "id": 5486,
+    "name": "إبراز المعاني من حرز الأماني"
+  },
+  "0665AbuShama.KhutbatMuammal": {
+    "id": 14447,
+    "name": "خطبة الكتاب المؤمل للرد إلى الأمر الأول"
+  },
+  "0665AbuShama.MukhtasarMuammal": {
+    "id": 6299,
+    "name": "مختصر المؤمل في الرد إلى الأمر الأول"
+  },
+  "0665AbuShama.MurshidWajiz": {
+    "id": 22676,
+    "name": "المرشد الوجيز إلى علوم تتعلق بالكتاب العزيز"
+  },
+  "0665AbuShama.Rawdatayn": {
+    "id": 6631,
+    "name": "الروضتين في أخبار الدولتين النورية والصلاحية"
+  },
+  "0665AbuShama.SharhHadithMuqtafa": {
+    "id": 7808,
+    "name": "شرح الحديث المقتفى في مبعث النبي المصطفى"
+  },
+  "0666IbnAbiBakrZaynDinRazi.AnmudhajJalil": {
+    "id": 8378,
+    "name": "أنموذج جليل في أسئلة وأجوبة عن غرائب آي التنزيل"
+  },
+  "0666IbnAbiBakrZaynDinRazi.MukhtarSihah": {
+    "id": 23193,
+    "name": "مختار الصحاح"
+  },
+  "0666IbnAbiBakrZaynDinRazi.TuhfatMuluk": {
+    "id": 6173,
+    "name": "تحفة الملوك"
+  },
+  "0668IbnAbiUsaybica.CuyunAnba": {
+    "id": 6687,
+    "name": "عيون الأنباء في طبقات الأطباء"
+  },
+  "0669IbnCusfurHadramiIshbili.DarairShicr": {
+    "id": 37489,
+    "name": "ضرائر الشعر"
+  },
+  "0669IbnCusfurHadramiIshbili.MumticKabirFiTasrif": {
+    "id": 8667,
+    "name": "الممتع الكبير في التصريف"
+  },
+  "0671AbuCabdAllahQurtubi.IclamBimaFiDinNasara": {
+    "id": 6517,
+    "name": "الإعلام بما في دين النصارى من الفساد والأوهام"
+  },
+  "0671AbuCabdAllahQurtubi.TadhkiraFiAhwalMawta": {
+    "id": 21536,
+    "name": "التذكرة بأحوال الموتى وأمور الآخرة"
+  },
+  "0672IbnAhmaLuluDarir.Juz": {
+    "id": 5671,
+    "name": "جزء لؤلؤ"
+  },
+  "0673AbuMahasinYaghmuri.NurQabas": {
+    "id": 678,
+    "name": "نور القبس"
+  },
+  "0674IbnSaci.DurrThamin": {
+    "id": 14483,
+    "name": "الدر الثمين في أسماء المصنفين"
+  },
+  "0676Nawawi.AdabFatwa": {
+    "id": 6345,
+    "name": "آداب الفتوى والمفتي والمستفتي"
+  },
+  "0676Nawawi.Adhkar": {
+    "id": 13566,
+    "name": "الأذكار للنووي ت مستو"
+  },
+  "0676Nawawi.ArbacunaNawawiyya": {
+    "id": 12836,
+    "name": "الأربعون النووية"
+  },
+  "0676Nawawi.DaqaiqMinhaj": {
+    "id": 6134,
+    "name": "دقائق المنهاج"
+  },
+  "0676Nawawi.IctiqadSalafFiHuruf": {
+    "id": 11137,
+    "name": "جزء فيه ذكر اعتقاد السلف في الحروف والأصوات"
+  },
+  "0676Nawawi.IdahFiManasikHajj": {
+    "id": 96232,
+    "name": "الإيضاح في مناسك الحج والعمرة"
+  },
+  "0676Nawawi.IrshadTullabHaqaiq": {
+    "id": 127654,
+    "name": "إرشاد طلاب الحقائق إلى معرفة سنن خير الخلائق صلى الله عليه وسلم"
+  },
+  "0676Nawawi.KhulasatAhkam": {
+    "id": 5920,
+    "name": "خلاصة الأحكام"
+  },
+  "0676Nawawi.MinhajTalibin": {
+    "id": 12096,
+    "name": "منهاج الطالبين وعمدة المفتين في الفقه"
+  },
+  "0676Nawawi.RawdatTalibin": {
+    "id": 499,
+    "name": "روضة الطالبين وعمدة المفتين"
+  },
+  "0676Nawawi.TahdhibAsma": {
+    "id": 9702,
+    "name": "تهذيب الأسماء واللغات"
+  },
+  "0676Nawawi.TahrirAlfaz": {
+    "id": 7043,
+    "name": "تحرير ألفاظ التنبيه"
+  },
+  "0676Nawawi.Tibyan": {
+    "id": 1969,
+    "name": "التبيان في آداب حملة القرآن"
+  },
+  "0676Nawawi.UsulWaDawabit": {
+    "id": 6285,
+    "name": "الأصول والضوابط"
+  },
+  "0681IbnIyyazNahwi.SharhTacrif": {
+    "id": 18277,
+    "name": "شرح التعريف بضروري التصريف"
+  },
+  "0683IbnMahmudMajdDinMawsili.IkhtiyarLiTaclil": {
+    "id": 1066,
+    "name": "الاختيار لتعليل المختار"
+  },
+  "0684IbnHazimQartajanni.MinhajBulagha": {
+    "id": 5388,
+    "name": "منهاج البلغاء وسراج الأدباء"
+  },
+  "0685IbnCibri.TarikhMukhtasarDuwal": {
+    "id": 12348,
+    "name": "تاريخ مختصر الدول"
+  },
+  "0686AbuYamanIbnCasakir.AhadithSafar": {
+    "id": 26669,
+    "name": "أحاديث السفر لأبي اليمن"
+  },
+  "0686AbuYamanIbnCasakir.IthafZair": {
+    "id": 26764,
+    "name": "إتحاف الزائر وإطراف المقيم للسائر لأبي اليمن ابن عساكر"
+  },
+  "0687IbnNafis.SharhTashrihQanun": {
+    "id": 802,
+    "name": "شرح تشريح القانون لابن سينا"
+  },
+  "0688IbnAhmadIshbiliUmawi.TafsirKitabCaziz": {
+    "id": 10091,
+    "name": "تفسير الكتاب العزيز وإعرابه"
+  },
+  "0689AhmadIbnCabdRahmanIbnQudama.MukhtasarMinhajQasidin": {
+    "id": 98087,
+    "name": "مختصر منهاج القاصدين"
+  },
+  "0690IbnMujawirDimashqi.TarikhMustabsir": {
+    "id": 471,
+    "name": "تاريخ المستبصر"
+  },
+  "0691IbnYusufLabli.Fihrist": {
+    "id": 10731,
+    "name": "فهرسة اللبلي"
+  },
+  "0691IbnYusufLabli.TuhfatMajd": {
+    "id": 13274,
+    "name": "تحفة المجد الصريح في شرح كتاب الفصيح"
+  },
+  "0692IbnCisaBahaDinIrbili.RisalatTayf": {
+    "id": 764,
+    "name": "رسالة الطيف"
+  },
+  "0692IbnCisaBahaDinIrbili.TadhkiraFakhriyya": {
+    "id": 724,
+    "name": "التذكرة الفخرية"
+  },
+  "0693ShihabDinKhuyi.AqsaAmal": {
+    "id": 32181,
+    "name": "نظم علوم الحديث = أقصى الأمل والسول في علم حديث الرسول"
+  },
+  "0694MuhibbDinTabari.Dhakhair": {
+    "id": 1001,
+    "name": "ذخائر العقبى في مناقب ذوي القربى"
+  },
+  "0694MuhibbDinTabari.KhulasatSiyar": {
+    "id": 6583,
+    "name": "خلاصة سير سيد البشر"
+  },
+  "0694MuhibbDinTabari.RiyadNadira": {
+    "id": 8657,
+    "name": "الرياض النضرة في مناقب العشرة"
+  },
+  "0696IbnZahiri.Mashyakha": {
+    "id": 5740,
+    "name": "مشيخة ابن البخاري"
+  },
+  "0697AbuCabbasShihabDinNabulusi.QawacidTafsirAhlam": {
+    "id": 10703,
+    "name": "قواعد تفسير الأحلام = البدر المنير في علم التعبير"
+  },
+  "0699IbnCabdRahmanIbnMurahhal.MatnMuwattatFasih": {
+    "id": 37482,
+    "name": "متن موطأة الفصيح نظم فصيح ثعلب"
+  },
+  "0701IbnNasrAllahJazari.Maqamat": {
+    "id": 644,
+    "name": "المقامات الزينية"
+  },
+  "0702IbnDaqiqCidQushayri.ArbacunaHadithanTusaciyatIsnad": {
+    "id": 30246,
+    "name": "أربعون حديثا تساعية الإسناد"
+  },
+  "0702IbnDaqiqCidQushayri.IhkamAhkamSharhCumdatAhkam": {
+    "id": 1665,
+    "name": "إحكام الأحكام شرح عمدة الأحكام"
+  },
+  "0702IbnDaqiqCidQushayri.IlmamBiAhadith": {
+    "id": 5919,
+    "name": "الإلمام بأحاديث الأحكام"
+  },
+  "0702IbnDaqiqCidQushayri.Iqtirah": {
+    "id": 5968,
+    "name": "الاقتراح في بيان الاصطلاح"
+  },
+  "0702IbnDaqiqCidQushayri.SharhIlmamBiAhadith": {
+    "id": 18100,
+    "name": "شرح الإلمام بأحاديث الأحكام"
+  },
+  "0703IbnCabdMalikMarrakushi.DhaylWaTakmila": {
+    "id": 17056,
+    "name": "الذيل والتكملة لكتابي الموصول والصلة"
+  },
+  "0705AbuMuhammadMalaqi.DurrNathir": {
+    "id": 16999,
+    "name": "الدر النثير والعذب النمير"
+  },
+  "0708IbnIbrahimAbuJacfarGharnati.Burhan": {
+    "id": 1388,
+    "name": "البرهان فى تناسب سور القرآن"
+  },
+  "0708IbnIbrahimAbuJacfarGharnati.MalakTawilQatic": {
+    "id": 1419,
+    "name": "ملاك التأويل القاطع بذوي الإلحاد والتعطيل"
+  },
+  "0709IbnAbiFathShamsDinBacli.MatlacCalaAbwabMuqnic": {
+    "id": 11809,
+    "name": "المطلع على ألفاظ المقنع"
+  },
+  "0710IbnAhmadHafizDinNasafi.KanzDaqaiq": {
+    "id": 14262,
+    "name": "كنز الدقائق"
+  },
+  "0715SafiHindi.Faiq": {
+    "id": 18281,
+    "name": "الفائق في أصول الفقه"
+  },
+  "0715SafiHindi.NihayatWusul": {
+    "id": 16562,
+    "name": "نهاية الوصول في دراية الأصول"
+  },
+  "0716NajmDinTufi.DarQawlQabih": {
+    "id": 148531,
+    "name": "درء القول القبيح بالتحسين والتقبيح"
+  },
+  "0716NajmDinTufi.Intisarat": {
+    "id": 37713,
+    "name": "الانتصارات الإسلامية في كشف شبه النصرانية"
+  },
+  "0716NajmDinTufi.Isharat": {
+    "id": 13550,
+    "name": "الإشارات الإلهية إلي المباحث الأصولية"
+  },
+  "0716NajmDinTufi.Mawaid": {
+    "id": 148534,
+    "name": "موائد الحيس في فوائد القيس"
+  },
+  "0716NajmDinTufi.SharhMukhtasarRawda": {
+    "id": 10781,
+    "name": "شرح مختصر الروضة"
+  },
+  "0716NajmDinTufi.Tacyin": {
+    "id": 18568,
+    "name": "التعيين في شرح الأربعين"
+  },
+  "0720IbnCumarKurdi.Juz": {
+    "id": 27085,
+    "name": "جزء يشتمل على ثمانية وخمسين حديثا"
+  },
+  "0721IbnBannaMarrakushi.CunwanDalil": {
+    "id": 1594,
+    "name": "عنوان الدليل من مرسوم خط التنزيل"
+  },
+  "0724IbnCattar.CuddaFiSharhCumda": {
+    "id": 14224,
+    "name": "العدة في شرح العمدة في أحاديث الأحكام لابن العطار"
+  },
+  "0724IbnCattar.IctiqadKhalis": {
+    "id": 14088,
+    "name": "الاعتقاد الخالص من الشك والانتقاد"
+  },
+  "0724IbnCattar.TuhfatTalibin": {
+    "id": 321,
+    "name": "تحفة الطالبين في ترجمة الإمام محيي الدين"
+  },
+  "0726Yunini.DhaylMiratZaman": {
+    "id": 12722,
+    "name": "ذيل مرآة الزمان"
+  },
+  "0727MuzhiriZaydani.Mafatih": {
+    "id": 16976,
+    "name": "المفاتيح في شرح المصابيح"
+  },
+  "0728IbnTaymiyya.AhadithCawaliMinIbnCarafa": {
+    "id": 7525,
+    "name": "الأحاديث العوالي من جزء ابن عرفة العبدي"
+  },
+  "0728IbnTaymiyya.AhadithQussas": {
+    "id": 22812,
+    "name": "أحاديث القصاص"
+  },
+  "0728IbnTaymiyya.AmrBiMacruf": {
+    "id": 30903,
+    "name": "الأمر بالمعروف والنهي عن المنكر- ابن تيمية"
+  },
+  "0728IbnTaymiyya.AmradQulub": {
+    "id": 1512,
+    "name": "أمراض القلوب وشفاؤها"
+  },
+  "0728IbnTaymiyya.ArbacunaTaymiyya": {
+    "id": 9370,
+    "name": "الأربعون التيمية"
+  },
+  "0728IbnTaymiyya.BayanTalbisJahmiyya": {
+    "id": 2864,
+    "name": "بيان تلبيس الجهمية في تأسيس بدعهم الكلامية"
+  },
+  "0728IbnTaymiyya.BughyatMurtad": {
+    "id": 11071,
+    "name": "بغية المرتاد في الرد على المتفلسفة والقرامطة والباطنية"
+  },
+  "0728IbnTaymiyya.CaqidaWasitiyya": {
+    "id": 22665,
+    "name": "العقيدة الواسطية: اعتقاد الفرقة الناجية المنصورة إلى قيام الساعة أهل السنة والجماعة"
+  },
+  "0728IbnTaymiyya.Cubudiyya": {
+    "id": 22647,
+    "name": "العبودية"
+  },
+  "0728IbnTaymiyya.DaqaiqTafsir": {
+    "id": 5487,
+    "name": "دقائق التفسير"
+  },
+  "0728IbnTaymiyya.DarTacarud": {
+    "id": 21506,
+    "name": "درء تعارض العقل والنقل"
+  },
+  "0728IbnTaymiyya.FadlAbiBakr": {
+    "id": 22808,
+    "name": "فضل أبي بكر الصديق رضي الله عنه"
+  },
+  "0728IbnTaymiyya.FaslFiTazkiyyatNafs": {
+    "id": 133364,
+    "name": "فصل في تزكية النفس"
+  },
+  "0728IbnTaymiyya.FatawaKubra": {
+    "id": 9690,
+    "name": "الفتاوى الكبرى لابن تيمية"
+  },
+  "0728IbnTaymiyya.FiCabdMahabba": {
+    "id": 22668,
+    "name": "مسألة فيما إذا كان في العبد محبة لما هو خير وحق ومحمود في نفسه"
+  },
+  "0728IbnTaymiyya.FurqanBaynaAwliya": {
+    "id": 21499,
+    "name": "الفرقان بين أولياء الرحمن وأولياء الشيطان"
+  },
+  "0728IbnTaymiyya.HamawiyyaKubra": {
+    "id": 18381,
+    "name": "الفتوى الحموية الكبرى"
+  },
+  "0728IbnTaymiyya.HasanaWaSayyia": {
+    "id": 7609,
+    "name": "الحسنة والسيئة"
+  },
+  "0728IbnTaymiyya.HijabMara": {
+    "id": 11150,
+    "name": "حجاب المرأة ولباسها في الصلاة"
+  },
+  "0728IbnTaymiyya.Hisba": {
+    "id": 7263,
+    "name": "الحسبة في الإسلام، أو وظيفة الحكومة الإسلامية"
+  },
+  "0728IbnTaymiyya.HuquqAlBayt": {
+    "id": 11162,
+    "name": "حقوق آل البيت"
+  },
+  "0728IbnTaymiyya.Iklil": {
+    "id": 9220,
+    "name": "الإكليل في المتشابه والتأويل"
+  },
+  "0728IbnTaymiyya.Iman": {
+    "id": 20587,
+    "name": "الإيمان الأوسط - ط ابن الجوزي"
+  },
+  "0728IbnTaymiyya.IqtidaSirat": {
+    "id": 11620,
+    "name": "اقتضاء الصراط المستقيم لمخالفة أصحاب الجحيم"
+  },
+  "0728IbnTaymiyya.Istiqama": {
+    "id": 6820,
+    "name": "الاستقامة"
+  },
+  "0728IbnTaymiyya.JawabFiHilf": {
+    "id": 21565,
+    "name": "جواب في الحلف بغير الله والصلاة إلى القبور، ويليه: فصل في الاستغاثة"
+  },
+  "0728IbnTaymiyya.JawabSahih": {
+    "id": 170,
+    "name": "الجواب الصحيح لمن بدل دين المسيح لابن تيمية"
+  },
+  "0728IbnTaymiyya.KalimTayyib": {
+    "id": 21578,
+    "name": "الكلم الطيب"
+  },
+  "0728IbnTaymiyya.MajmucFatawa": {
+    "id": 7289,
+    "name": "مجموع الفتاوى"
+  },
+  "0728IbnTaymiyya.MasalaFiKanais": {
+    "id": 22651,
+    "name": "مسألة في الكنائس"
+  },
+  "0728IbnTaymiyya.MasalaFiMurabata": {
+    "id": 11578,
+    "name": "مسألة فى المرابطة بالثغور أفضل أم المجاورة بمكة شرفها الله تعالى"
+  },
+  "0728IbnTaymiyya.MasalaFiTawhidFalasifa": {
+    "id": 147670,
+    "name": "مسألة في توحيد الفلاسفة"
+  },
+  "0728IbnTaymiyya.NaqdMaratibIjmac": {
+    "id": 8630,
+    "name": "نقد مراتب الإجماع"
+  },
+  "0728IbnTaymiyya.Nusayriyya": {
+    "id": 8596,
+    "name": "النصيرية طغاة سورية أو العلويون كما سماهم الفرنسيون"
+  },
+  "0728IbnTaymiyya.QacidaCazimaFiFarq": {
+    "id": 12769,
+    "name": "قاعدة عظيمة في الفرق بين عبادات أهل الإسلام والإيمان وعبادات أهل الشرك والنفاق"
+  },
+  "0728IbnTaymiyya.QacidaFiInghimas": {
+    "id": 11288,
+    "name": "قاعدة في الانغماس في العدو وهل يباح"
+  },
+  "0728IbnTaymiyya.QacidaFiMahabba": {
+    "id": 11289,
+    "name": "قاعدة في المحبة"
+  },
+  "0728IbnTaymiyya.QacidaFiQatlKuffar": {
+    "id": 147669,
+    "name": "قاعدة مختصرة في قتال الكفار ومهادنتهم وتحريم قتلهم لمجرد كفرهم"
+  },
+  "0728IbnTaymiyya.QacidaFiSabr": {
+    "id": 12153,
+    "name": "قاعدة في الصبر"
+  },
+  "0728IbnTaymiyya.QacidaHasanaFiBaqiyat": {
+    "id": 22650,
+    "name": "قاعدة حسنة في الباقيات الصالحات"
+  },
+  "0728IbnTaymiyya.QacidaJalila": {
+    "id": 22649,
+    "name": "قاعدة جليلة في التوسل والوسيلة"
+  },
+  "0728IbnTaymiyya.QacidaJamicaFiTawhid": {
+    "id": 11285,
+    "name": "قاعدة جامعة في توحيد الله وإخلاص الوجه والعمل له عبادة واستعانة"
+  },
+  "0728IbnTaymiyya.QacidaMukhtaciraFiWujubTaca": {
+    "id": 11290,
+    "name": "قاعدة مختصرة في وجوب طاعة الله ورسوله وولاة الأمور"
+  },
+  "0728IbnTaymiyya.QasidaTaiyyaFiQadar": {
+    "id": 792,
+    "name": "القصيدة التائية في القدر"
+  },
+  "0728IbnTaymiyya.QawacidNuraniyya": {
+    "id": 21729,
+    "name": "القواعد النورانية"
+  },
+  "0728IbnTaymiyya.RaddCalaManQalaBiFanaJanna": {
+    "id": 2908,
+    "name": "الرد على من قال بفناء الجنة والنار"
+  },
+  "0728IbnTaymiyya.RaddCalaMantiqiyyin": {
+    "id": 7626,
+    "name": "الرد على المنطقيين"
+  },
+  "0728IbnTaymiyya.RaddCalaSubki": {
+    "id": 32384,
+    "name": "الرد على السبكي في مسألة تعليق الطلاق"
+  },
+  "0728IbnTaymiyya.RafcMalam": {
+    "id": 4118,
+    "name": "رفع الملام عن الأئمة الأعلام"
+  },
+  "0728IbnTaymiyya.RasHusayn": {
+    "id": 892,
+    "name": "رأس الحسين"
+  },
+  "0728IbnTaymiyya.RisalaAkmaliyya": {
+    "id": 7631,
+    "name": "الرسالة الأكملية في ما يجب لله من صفات الكمال"
+  },
+  "0728IbnTaymiyya.RisalaCarshiyya": {
+    "id": 10784,
+    "name": "الرسالة العرشية"
+  },
+  "0728IbnTaymiyya.RisalaFiFadlKhulafaRashidin": {
+    "id": 38157,
+    "name": "رسالة في فضل الخلفاء الراشدين"
+  },
+  "0728IbnTaymiyya.RisalaFiUsulDin": {
+    "id": 11216,
+    "name": "رسالة في أصول الدين"
+  },
+  "0728IbnTaymiyya.RisalaMadaniyya": {
+    "id": 7635,
+    "name": "الرسالة المدنية في تحقيق المجاز والحقيقة في صفات الله (مطبوع ضمن الفتوى الحموية الكبرى)"
+  },
+  "0728IbnTaymiyya.Safadiyya": {
+    "id": 22874,
+    "name": "الصفدية"
+  },
+  "0728IbnTaymiyya.SarimMaslul": {
+    "id": 7344,
+    "name": "الصارم المسلول على شاتم الرسول"
+  },
+  "0728IbnTaymiyya.SharhCaqidaIsfahaniyya": {
+    "id": 11248,
+    "name": "شرح العقيدة الأصفهانية"
+  },
+  "0728IbnTaymiyya.SharhHadithNuzul": {
+    "id": 11258,
+    "name": "شرح حديث النزول"
+  },
+  "0728IbnTaymiyya.SiyasaSharciyya": {
+    "id": 31237,
+    "name": "السياسة الشرعية في إصلاح الراعي والرعية - ط الأوقاف السعودية"
+  },
+  "0728IbnTaymiyya.SujudTilawa": {
+    "id": 11238,
+    "name": "سجود التلاوة معانيه وأحكامه"
+  },
+  "0728IbnTaymiyya.SunnatJumca": {
+    "id": 11240,
+    "name": "سنة الجمعة"
+  },
+  "0728IbnTaymiyya.TahqiqQawlFiMasalatCisa": {
+    "id": 22667,
+    "name": "تحقيق القول في مسألة: عيسى كلمة الله والقرآن كلام الله"
+  },
+  "0728IbnTaymiyya.TanbihRajulCaqil": {
+    "id": 18645,
+    "name": "تنبيه الرجل العاقل على تمويه الجدل الباطل"
+  },
+  "0728IbnTaymiyya.Tisciniyya": {
+    "id": 17581,
+    "name": "التسعينية"
+  },
+  "0728IbnTaymiyya.TuhfaCiraqiyya": {
+    "id": 6827,
+    "name": "التحفة العراقية"
+  },
+  "0728IbnTaymiyya.WasitaBaynaHaqqWaKhalq": {
+    "id": 8983,
+    "name": "الواسطة بين الحق والخلق"
+  },
+  "0728IbnTaymiyya.ZiyaratQubur": {
+    "id": 6919,
+    "name": "زيارة القبور والاستنجاد بالمقبور"
+  },
+  "0728IbnTaymiyya.ZuhdWaWarac": {
+    "id": 6826,
+    "name": "الزهد والورع والعبادة"
+  },
+  "0729IbnUkhuwwa.MacalimQurba": {
+    "id": 10526,
+    "name": "معالم القربة في طلب الحسبة"
+  },
+  "0730IbnAhmadCalaDinBukhari.KashfAsrar": {
+    "id": 9062,
+    "name": "كشف الأسرار عن أصول فخر الإسلام البزدوي"
+  },
+  "0732AbuFida.KunnashFiNahwWaSarf": {
+    "id": 17687,
+    "name": "الكناش في فني النحو والصرف"
+  },
+  "0732AbuFida.MukhtasarFiAkhbar": {
+    "id": 12715,
+    "name": "المختصر في أخبار البشر"
+  },
+  "0732AbuFida.Yawaqit": {
+    "id": 465,
+    "name": "اليواقيت والضرب في تاريخ حلب"
+  },
+  "0733IbnJamacaBadrDinHamawi.AhadithTusaciyya": {
+    "id": 29617,
+    "name": "الأحاديث التساعية لابن جماعة"
+  },
+  "0733IbnJamacaBadrDinHamawi.IdahDalil": {
+    "id": 6547,
+    "name": "إيضاح الدليل في قطع حجج أهل التعطيل"
+  },
+  "0733IbnJamacaBadrDinHamawi.KashfMacani": {
+    "id": 1403,
+    "name": "كشف المعانى فى المتشابه من المثانى"
+  },
+  "0733IbnJamacaBadrDinHamawi.ManhalRawi": {
+    "id": 5959,
+    "name": "المنهل الروي في مختصر علوم الحديث النبوي"
+  },
+  "0733IbnJamacaBadrDinHamawi.TadhkiratSamic": {
+    "id": 151180,
+    "name": "تذكرة السامع والمتكلم في أدب العالم والمتعلم"
+  },
+  "0733IbnJamacaBadrDinHamawi.TahrirAhkam": {
+    "id": 9685,
+    "name": "تحرير الأحكام في تدبير أهل الإسلام"
+  },
+  "0733IbnJamacaBadrDinHamawi.TanqihMunazara": {
+    "id": 10103,
+    "name": "تنقيح المناظرة في تصحيح المخابرة"
+  },
+  "0734IbnCaliTajDinFakihani.MawridFiCamalMawlid": {
+    "id": 36626,
+    "name": "المورد في عمل المولد"
+  },
+  "0734IbnCaliTajDinFakihani.RiyadAfham": {
+    "id": 17350,
+    "name": "رياض الأفهام في شرح عمدة الأحكام"
+  },
+  "0738IbnCabdRahimSharafDinHamawi.MasailTahlilHaid": {
+    "id": 17261,
+    "name": "مسائل تحليل الحائض من الإحرام"
+  },
+  "0739CalaDinIbnBalban.Ihsan": {
+    "id": 1729,
+    "name": "الإحسان في تقريب صحيح ابن حبان"
+  },
+  "0739CalaDinIbnBalban.TuhfatSadiq": {
+    "id": 6603,
+    "name": "تحفة الصديق في فضائل أبي بكر الصديق"
+  },
+  "0740CabdQahirTabrizi.ManzumaTabriziyya": {
+    "id": 35312,
+    "name": "المنظومة التبريزية في العقيدة الصحيحة السنية"
+  },
+  "0741CabdAllahWasiti.KanzFiQiraatCashr": {
+    "id": 29864,
+    "name": "الكنز في القراءات العشر"
+  },
+  "0742IbnMuhammadBurhanDinSafaqsi.MajidFiIcrab": {
+    "id": 95571,
+    "name": "المجيد في إعراب القرآن المجيد"
+  },
+  "0743Diwani.RawdatTaqrir": {
+    "id": 145211,
+    "name": "روضة التقرير في اختلاف القراءات بين الإرشاد والتيسير"
+  },
+  "0744IbnCabdHadi.Ikhtiyarat": {
+    "id": 147673,
+    "name": "اختيارات شيخ الإسلام ابن تيمية لابن عبد الهادي"
+  },
+  "0744IbnCabdHadi.MajmucRasail": {
+    "id": 20647,
+    "name": "مجموع رسائل الحافظ ابن عبد الهادي"
+  },
+  "0744IbnCabdHadi.SarimMunki": {
+    "id": 8622,
+    "name": "الصارم المنكي في الرد على السبكي"
+  },
+  "0744IbnCabdHadi.TabaqatCulama": {
+    "id": 1994,
+    "name": "طبقات علماء الحديث"
+  },
+  "0745AbuHayyanGharnati.Irtishaf": {
+    "id": 16595,
+    "name": "ارتشاف الضرب من لسان العرب لأبي حيان الأندلسي"
+  },
+  "0745AbuHayyanGharnati.TadhyilTashil": {
+    "id": 17116,
+    "name": "التذييل والتكميل في شرح كتاب التسهيل"
+  },
+  "0745AbuHayyanGharnati.TafsirBahrMuhit": {
+    "id": 23591,
+    "name": "البحر المحيط في التفسير"
+  },
+  "0745AbuHayyanGharnati.TuhfatArib": {
+    "id": 13304,
+    "name": "تحفة الأريب بما في القرآن من الغريب"
+  },
+  "0748Dhahabi.AhadithMukhtaraMinMawducat": {
+    "id": 6071,
+    "name": "أحاديث مختارة من موضوعات الجورقاني وابن الجوزي"
+  },
+  "0748Dhahabi.ArbacinaFiSifat": {
+    "id": 12861,
+    "name": "كتاب الأربعين في صفات رب العالمين"
+  },
+  "0748Dhahabi.DhikrFiJarh": {
+    "id": 26112,
+    "name": "ذكر من يعتمد قوله في الجرح والتعديل"
+  },
+  "0748Dhahabi.DinarMinHadith": {
+    "id": 5688,
+    "name": "الدينار من حديث المشايخ الكبار"
+  },
+  "0748Dhahabi.HaqqJar": {
+    "id": 11064,
+    "name": "حق الجار"
+  },
+  "0748Dhahabi.MacrifaQurraKibar": {
+    "id": 8349,
+    "name": "معرفة القراء الكبار على الطبقات والأعصار"
+  },
+  "0748Dhahabi.MawducatMustadrak": {
+    "id": 30341,
+    "name": "موضوعات المستدرك للذهبي"
+  },
+  "0748Dhahabi.MucinFiTabaqatMuhaddithin": {
+    "id": 5889,
+    "name": "المعين في طبقات المحدثين"
+  },
+  "0748Dhahabi.MucjamLatif": {
+    "id": 30673,
+    "name": "المعجم اللطيف"
+  },
+  "0748Dhahabi.MucjamMuhaddithin": {
+    "id": 9869,
+    "name": "المعجم المختص بالمحدثين"
+  },
+  "0748Dhahabi.MughniFiDucafa": {
+    "id": 5836,
+    "name": "المغني في الضعفاء"
+  },
+  "0748Dhahabi.Muhadhdhab": {
+    "id": 146127,
+    "name": "المهذب في اختصار السنن الكبير"
+  },
+  "0748Dhahabi.Mujarrad": {
+    "id": 151009,
+    "name": "المجرد في أسماء رجال سنن ابن ماجه"
+  },
+  "0748Dhahabi.MuntaqaMinMinhajIctidal": {
+    "id": 6531,
+    "name": "المنتقى من منهاج الاعتدال"
+  },
+  "0748Dhahabi.MuqaddimaZahra": {
+    "id": 36949,
+    "name": "المقدمة الزهرا في إيضاح الإمامة الكبرى"
+  },
+  "0748Dhahabi.Muqtana": {
+    "id": 7271,
+    "name": "المقتنى في سرد الكنى"
+  },
+  "0748Dhahabi.Mustamlah": {
+    "id": 167,
+    "name": "المستملح من كتاب التكملة"
+  },
+  "0748Dhahabi.Radd": {
+    "id": 9075,
+    "name": "الرد على ابن القطان في كتابه بيان الوهم والإيهام"
+  },
+  "0748Dhahabi.RisalaTuruqHadith": {
+    "id": 2582,
+    "name": "رسالة طرق حديث من كنت مولاه فعلي مولاه"
+  },
+  "0748Dhahabi.RuwatThiqat": {
+    "id": 5817,
+    "name": "الرواة الثقات المتكلم فيهم بما لا يوجب ردهم"
+  },
+  "0748Dhahabi.TadhhibTahdhib": {
+    "id": 149213,
+    "name": "تذهيب تهذيب الكمال في أسماء الرجال"
+  },
+  "0748Dhahabi.TalkhisMawducatIbnJawzi": {
+    "id": 6068,
+    "name": "تلخيص كتاب الموضوعات"
+  },
+  "0748Dhahabi.TamassukBiSunan": {
+    "id": 10321,
+    "name": "التمسك بالسنن والتحذير من البدع"
+  },
+  "0748Dhahabi.TarjamatAbiYusuf": {
+    "id": 10461,
+    "name": "مناقب الإمام أبي حنيفة وصاحبيه"
+  },
+  "0748Dhahabi.TarjamatImamMuslim": {
+    "id": 29830,
+    "name": "ترجمة الإمام مسلم ورواة صحيحه"
+  },
+  "0748Dhahabi.ZaghlCilm": {
+    "id": 6342,
+    "name": "زغل العلم"
+  },
+  "0749AbuThanaIsbahani.BayanMukhtasar": {
+    "id": 8156,
+    "name": "بيان المختصر شرح مختصر ابن الحاجب"
+  },
+  "0750IbnTurkamani.JawharNaqi": {
+    "id": 1184,
+    "name": "الجوهر النقي"
+  },
+  "0751IbnQayyimJawziyya.AclamMuwaqqicin": {
+    "id": 17798,
+    "name": "إعلام الموقعين عن رب العالمين - ت مشهور"
+  },
+  "0751IbnQayyimJawziyya.AsmaMuallafatIbnTaymiya": {
+    "id": 10713,
+    "name": "أسماء مؤلفات شيخ الإسلام ابن تيمية"
+  },
+  "0751IbnQayyimJawziyya.CuddatSabirin": {
+    "id": 11274,
+    "name": "عدة الصابرين وذخيرة الشاكرين - ط دار ابن كثير"
+  },
+  "0751IbnQayyimJawziyya.FaidaJalila": {
+    "id": 11329,
+    "name": "فائدة جليلة في قواعد الأسماء الحسنى"
+  },
+  "0751IbnQayyimJawziyya.FutyaFiSighatHamd": {
+    "id": 18152,
+    "name": "فتيا في صيغة الحمد"
+  },
+  "0751IbnQayyimJawziyya.HadiArwah": {
+    "id": 13652,
+    "name": "حادي الأرواح إلى بلاد الأفراح - ط عطاءات العلم"
+  },
+  "0751IbnQayyimJawziyya.HidayatHayara": {
+    "id": 22707,
+    "name": "هداية الحيارى في أجوبة اليهود والنصارى - ط دار القلم"
+  },
+  "0751IbnQayyimJawziyya.IghathatLahfan": {
+    "id": 19225,
+    "name": "إغاثة اللهفان في حكم طلاق الغضبان - ط عطاءات العلم"
+  },
+  "0751IbnQayyimJawziyya.JawabFiSiyaghHamd": {
+    "id": 6841,
+    "name": "صيغ الحمد"
+  },
+  "0751IbnQayyimJawziyya.KalamCalaMasalatSamac": {
+    "id": 18318,
+    "name": "الكلام على مسألة السماع"
+  },
+  "0751IbnQayyimJawziyya.ManarMunif": {
+    "id": 9388,
+    "name": "المنار المنيف في الصحيح والضعيف - ط عطاءات العلم"
+  },
+  "0751IbnQayyimJawziyya.MiftahDarSacada": {
+    "id": 145411,
+    "name": "مفتاح دار السعادة ومنشور ولاية العلم والإرادة - ط عطاءات العلم"
+  },
+  "0751IbnQayyimJawziyya.RafcYadaynFiSalat": {
+    "id": 257,
+    "name": "رفع اليدين في الصلاة"
+  },
+  "0751IbnQayyimJawziyya.RawdatMuhibbin": {
+    "id": 11229,
+    "name": "روضة المحبين ونزهة المشتاقين - ط العلمية"
+  },
+  "0751IbnQayyimJawziyya.RisalaIlaAhadIkhwan": {
+    "id": 11797,
+    "name": "رسالة ابن القيم إلى أحد إخوانه - ط عطاءات العلم"
+  },
+  "0751IbnQayyimJawziyya.RisalaTabukiyya": {
+    "id": 14211,
+    "name": "الرسالة التبوكية زاد المهاجر إلى ربه - ط عطاءات العلم"
+  },
+  "0751IbnQayyimJawziyya.SawaciqMursala": {
+    "id": 7345,
+    "name": "الصواعق المرسلة على الجهمية والمعطلة - ط العاصمة"
+  },
+  "0751IbnQayyimJawziyya.ShifaCalil": {
+    "id": 12021,
+    "name": "شفاء العليل في مسائل القضاء والقدر والحكمة والتعليل - ط المعرفة"
+  },
+  "0751IbnQayyimJawziyya.SifatMunafiqin": {
+    "id": 30842,
+    "name": "صفات المنافقين"
+  },
+  "0751IbnQayyimJawziyya.TariqHijratayn": {
+    "id": 12029,
+    "name": "طريق الهجرتين وباب السعادتين - ط الدار السلفية"
+  },
+  "0751IbnQayyimJawziyya.TuruqHukmiyya": {
+    "id": 18159,
+    "name": "الطرق الحكمية في السياسة الشرعية - ط عطاءات العلم"
+  },
+  "0756CadudDinIji.SharhCadud": {
+    "id": 133411,
+    "name": "شرح العضد على مختصر المنتهى الأصولي ومعه حاشية السعد والجرجاني"
+  },
+  "0758MaryamSittQudatHanbaliyya.Musnad": {
+    "id": 5680,
+    "name": "مسند أمة الله مريم"
+  },
+  "0761IbnKaykaldiCalai.BughyatMultamis": {
+    "id": 10826,
+    "name": "بغية الملتمس في سباعيات حديث الإمام مالك بن أنس"
+  },
+  "0761IbnKaykaldiCalai.FusulMufida": {
+    "id": 6984,
+    "name": "الفصول المفيدة في الواو المزيدة"
+  },
+  "0761IbnKaykaldiCalai.IjmalIsaba": {
+    "id": 6347,
+    "name": "إجمال الإصابة في أقوال الصحابة"
+  },
+  "0761IbnKaykaldiCalai.ItharatFawaid": {
+    "id": 22882,
+    "name": "إثارة الفوائد المجموعة في الإشارة إلى الفرائد المسموعة"
+  },
+  "0761IbnKaykaldiCalai.JamicTahsil": {
+    "id": 25864,
+    "name": "جامع التحصيل في أحكام المراسيل"
+  },
+  "0761IbnKaykaldiCalai.JuzFiTafsirBaqiyat": {
+    "id": 5509,
+    "name": "جزء في تفسير الباقيات الصالحات"
+  },
+  "0761IbnKaykaldiCalai.MusalsalatMukhtara": {
+    "id": 10778,
+    "name": "المسلسلات المختصرة المقدمة أمام المجالس المبتكرة"
+  },
+  "0761IbnKaykaldiCalai.NaqdSahih": {
+    "id": 8602,
+    "name": "النقد الصحيح لما اعترض من أحاديث المصابيح"
+  },
+  "0761IbnKaykaldiCalai.TahqiqMunifRutba": {
+    "id": 11088,
+    "name": "تحقيق منيف الرتبة لمن ثبت له شريف الصحبة"
+  },
+  "0761IbnKaykaldiCalai.TahqiqMurad": {
+    "id": 6355,
+    "name": "تحقيق المراد في أن النهي يقتضي الفساد"
+  },
+  "0761IbnKaykaldiCalai.Tanbihat": {
+    "id": 10322,
+    "name": "التنبيهات المجملة على المواضع المشكلة"
+  },
+  "0762IbnYusufZaylaci.NasbRaya": {
+    "id": 11428,
+    "name": "نصب الراية"
+  },
+  "0763IbnMuflihMaqdisi.AdabSharciyya": {
+    "id": 21582,
+    "name": "الآداب الشرعية والمنح المرعية"
+  },
+  "0763IbnMuflihMaqdisi.FurucWaTashihFuruc": {
+    "id": 12052,
+    "name": "الفروع وتصحيح الفروع"
+  },
+  "0764IbnShakirKutubi.FawatWafayat": {
+    "id": 1003,
+    "name": "فوات الوفيات"
+  },
+  "0765AbuMahasinHusayni.IkmalLiRijal": {
+    "id": 5850,
+    "name": "الإكمال في ذكر من له رواية في مسند الإمام أحمد من الرجال"
+  },
+  "0767BurhanDinIbnQayyim.IkhtiyaratIbnTaymiyya": {
+    "id": 147674,
+    "name": "اختيارات شيخ الإسلام ابن تيمية للبرهان ابن القيم"
+  },
+  "0767BurhanDinIbnQayyim.IrshadSalik": {
+    "id": 17378,
+    "name": "إرشاد السالك إلى حل ألفية ابن مالك"
+  },
+  "0768IbnMuhammadTaqiDinBaclabakki.Hadith": {
+    "id": 9426,
+    "name": "حديث التقي بن المجد"
+  },
+  "0769IbnCabdAllahTaqiDinShibli.AkamMarjan": {
+    "id": 6451,
+    "name": "آكام المرجان في أحكام الجان"
+  },
+  "0770IbnMuhammadFayyumiHamawi.MisbahMunir": {
+    "id": 12145,
+    "name": "المصباح المنير في غريب الشرح الكبير"
+  },
+  "0771SharifTilimsani.MatharatGhalat": {
+    "id": 147914,
+    "name": "مثارات الغلط في الأدلة"
+  },
+  "0771SharifTilimsani.MiftahWusul": {
+    "id": 147913,
+    "name": "مفتاح الوصول إلى بناء الفروع على الأصول"
+  },
+  "0772IbnHasanJamalDinIsnawi.HidayaIlaAwham": {
+    "id": 14324,
+    "name": "الهداية إلى أوهام الكفاية"
+  },
+  "0772IbnHasanJamalDinIsnawi.KawkabDurri": {
+    "id": 6280,
+    "name": "الكوكب الدري فيما يتخرج على الأصول النحوية من الفروع الفقهية"
+  },
+  "0772IbnHasanJamalDinIsnawi.MatalicDaqaiq": {
+    "id": 147671,
+    "name": "مطالع الدقائق في تحرير الجوامع والفوارق"
+  },
+  "0772IbnHasanJamalDinIsnawi.MuhimmatFiSharhRawda": {
+    "id": 14580,
+    "name": "المهمات في شرح الروضة والرافعي"
+  },
+  "0772IbnHasanJamalDinIsnawi.NihayatSul": {
+    "id": 7332,
+    "name": "نهاية السول شرح منهاج الوصول"
+  },
+  "0772IbnHasanJamalDinIsnawi.TamhidFiTakhrijFuruc": {
+    "id": 6289,
+    "name": "التمهيد في تخريج الفروع على الأصول"
+  },
+  "0773BahaDinSubki.CarusAfrah": {
+    "id": 11151,
+    "name": "عروس الأفراح في شرح تلخيص المفتاح"
+  },
+  "0774IbnKathir.AdabDukhulHammam": {
+    "id": 6244,
+    "name": "الآداب والأحكام المتعلقة بدخول الحمام"
+  },
+  "0774IbnKathir.FadailQuran": {
+    "id": 22800,
+    "name": "فضائل القرآن لابن كثير"
+  },
+  "0774IbnKathir.FusulMinSira": {
+    "id": 9241,
+    "name": "الفصول في السيرة"
+  },
+  "0774IbnKathir.NihayaFiFitan": {
+    "id": 11818,
+    "name": "النهاية في الفتن والملاحم"
+  },
+  "0774IbnKathir.QisasAnbiya": {
+    "id": 932,
+    "name": "قصص الأنبياء"
+  },
+  "0774IbnKathir.TuhfatTalib": {
+    "id": 9978,
+    "name": "تحفة الطالب بمعرفة أحاديث مختصر ابن الحاجب"
+  },
+  "0775IbnAbiWafa.JawahirMudiya": {
+    "id": 6725,
+    "name": "الجواهر المضية في طبقات الحنفية - ط النظامية"
+  },
+  "0776IbnAbiHajala.DiwanSababa": {
+    "id": 580,
+    "name": "ديوان الصبابة"
+  },
+  "0778BadrDinBacli.ShifaCalil": {
+    "id": 294,
+    "name": "شفاء العليل في اختصار إبطال التحليل"
+  },
+  "0780IbnJabirAndalusi.ManzumatMaqsur": {
+    "id": 14568,
+    "name": "منظومة المقصور والممدود"
+  },
+  "0782IbnSallar.TabaqatQurra": {
+    "id": 30067,
+    "name": "طبقات القراء السبعة وذكر مناقبهم وقراءاتهم"
+  },
+  "0783IbnHadida.MisbahMudi": {
+    "id": 7233,
+    "name": "المصباح المضي في كتاب النبي الأمي ورسله إلى ملوك الأرض من عربي وعجمي"
+  },
+  "0784IbnMahmudJalalDinQahiri.UnsMala": {
+    "id": 5362,
+    "name": "أنس الملا بوحش الفلا"
+  },
+  "0785IbnMuhammadShamsDinManbiji.TasliyatAhlMasaib": {
+    "id": 21502,
+    "name": "تسلية أهل المصائب"
+  },
+  "0786IbnCabdRahmanJamalDinHubayshi.NashrTayy": {
+    "id": 6878,
+    "name": "نشر طي التعريف في فضل حملة العلم الشريف والرد على ماقتهم السخيف"
+  },
+  "0789IbnMuhammadKhuzaci.TakhrijDalalat": {
+    "id": 9790,
+    "name": "تخريج الدلالات السمعية"
+  },
+  "0790IbnMusaGharnatiShatibi.Ifadat": {
+    "id": 584,
+    "name": "الإفادات والإنشادات"
+  },
+  "0790IbnMusaGharnatiShatibi.Muwafaqat": {
+    "id": 11435,
+    "name": "الموافقات"
+  },
+  "0790IbnMusaGharnatiShatibi.SharhAlfiyyatIbnMalik": {
+    "id": 20562,
+    "name": "شرح ألفية ابن مالك للشاطبي = المقاصد الشافية"
+  },
+  "0791IbnCumarHalabiHamawi.QawacidWaIsharat": {
+    "id": 9597,
+    "name": "القواعد والإشارات في أصول القراءات"
+  },
+  "0792IbnCabdAllahRimiSardafi.MacaniBadica": {
+    "id": 95560,
+    "name": "المعاني البديعة في معرفة اختلاف أهل الشريعة"
+  },
+  "0794BadrDinZarkashi.BahrMuhit": {
+    "id": 21593,
+    "name": "البحر المحيط في أصول الفقه"
+  },
+  "0794BadrDinZarkashi.BurhanFiCulumQuran": {
+    "id": 11436,
+    "name": "البرهان في علوم القرآن"
+  },
+  "0794BadrDinZarkashi.IclamSajid": {
+    "id": 14452,
+    "name": "إعلام الساجد بأحكام المساجد"
+  },
+  "0794BadrDinZarkashi.IjabaLiIrad": {
+    "id": 12703,
+    "name": "الإجابة لإيراد ما استدركته عائشة على الصحابة ط المكتب الإسلامي"
+  },
+  "0794BadrDinZarkashi.KhabayaZawaya": {
+    "id": 6133,
+    "name": "خبايا الزوايا"
+  },
+  "0794BadrDinZarkashi.ManthurFiQawacid": {
+    "id": 21592,
+    "name": "المنثور في القواعد الفقهية"
+  },
+  "0794BadrDinZarkashi.SalasilDhahab": {
+    "id": 150599,
+    "name": "سلاسل الذهب"
+  },
+  "0794BadrDinZarkashi.TashnifMasamic": {
+    "id": 122142,
+    "name": "تشنيف المسامع بجمع الجوامع"
+  },
+  "0794BadrDinZarkashi.ZahrCarishFiTahrimHashish": {
+    "id": 37338,
+    "name": "زهر العريش في تحريم الحشيش"
+  },
+  "0795IbnRajabHanbali.AhwalQubur": {
+    "id": 10900,
+    "name": "أهوال القبور وأحوال أهلها إلى النشور"
+  },
+  "0795IbnRajabHanbali.AkhamIkhtilafFiRuyaHilal": {
+    "id": 667,
+    "name": "أحكام الاختلاف في رؤية هلال ذي الحجة"
+  },
+  "0795IbnRajabHanbali.AsbabMaghfira": {
+    "id": 200,
+    "name": "أسباب المغفرة"
+  },
+  "0795IbnRajabHanbali.DhammKhamr": {
+    "id": 151117,
+    "name": "ذم الخمر"
+  },
+  "0795IbnRajabHanbali.FadlCilmSalaf": {
+    "id": 132,
+    "name": "بيان فضل علم السلف على علم الخلف"
+  },
+  "0795IbnRajabHanbali.FarqBaynaNasihaWaTacyir": {
+    "id": 22566,
+    "name": "الفرق بين النصيحة والتعيير"
+  },
+  "0795IbnRajabHanbali.IkhtiyarUla": {
+    "id": 151146,
+    "name": "اختيار الأولى في شرح حديث اختصام الملأ الأعلى - ضمن مجموع رسائل ابن رجب"
+  },
+  "0795IbnRajabHanbali.IstikhrajLiAhkamKharaj": {
+    "id": 6238,
+    "name": "الاستخراج لأحكام الخراج"
+  },
+  "0795IbnRajabHanbali.KalimatIkhsas": {
+    "id": 6490,
+    "name": "كلمة الإخلاص وتحقيق معناها"
+  },
+  "0795IbnRajabHanbali.KashfKurba": {
+    "id": 10782,
+    "name": "كشف الكربة في وصف أهل الغربة"
+  },
+  "0795IbnRajabHanbali.LataifMacarif": {
+    "id": 11363,
+    "name": "لطائف المعارف فيما لمواسم العام من الوظائف - ط ابن حزم"
+  },
+  "0795IbnRajabHanbali.NurIqtibas": {
+    "id": 151142,
+    "name": "نور الاقتباس في مشكاة وصية النبي ﷺ لابن عباس"
+  },
+  "0795IbnRajabHanbali.QacidaDhahabiyya": {
+    "id": 10910,
+    "name": "القاعدة الذهبية لا ضرر ولا ضرار"
+  },
+  "0795IbnRajabHanbali.RawaicTafsirFatiha": {
+    "id": 29574,
+    "name": "تفسير سورة الفاتحة لابن رجب"
+  },
+  "0795IbnRajabHanbali.SharhCilalTirmidhi": {
+    "id": 9552,
+    "name": "شرح علل الترمذي"
+  },
+  "0795IbnRajabHanbali.SharhHadithLabbayka": {
+    "id": 5767,
+    "name": "شرح حديث لبيك اللهم لبيك"
+  },
+  "0795IbnRajabHanbali.TakhwifMinNar": {
+    "id": 151147,
+    "name": "التخويف من النار والتعريف بحال دار البوار ١"
+  },
+  "0795IbnRajabHanbali.TasliyatNufusNisa": {
+    "id": 151122,
+    "name": "تسلية نفوس النساء والرجال عند فقد الأطفال ١"
+  },
+  "0797AbuBakrMawsili.FarqBaynDadWaZad": {
+    "id": 14603,
+    "name": "الفرق بين الضاد والظاء"
+  },
+  "0799IbnFarhun.DibajMudhahhab": {
+    "id": 6730,
+    "name": "الديباج المذهب في معرفة أعيان علماء المذهب"
+  },
+  "0799IbnFarhun.IrshadSalik": {
+    "id": 132974,
+    "name": "إرشاد السالك إلى أفعال المناسك"
+  },
+  "0799IbnFarhun.TabsiratHukkam": {
+    "id": 21595,
+    "name": "تبصرة الحكام في أصول الأقضية ومناهج الأحكام"
+  },
+  "0800IbnAhmadAbuCabdAllahSalimi.IsharaIlaCilmCibara": {
+    "id": 10698,
+    "name": "الإشارة إلى علم العبارة"
+  },
+  "0801IbnCuthmanIbnQasihBaghdadiCudhri.SirajQari": {
+    "id": 95577,
+    "name": "سراج القارئ المبتدي وتذكار المقرئ المنتهي"
+  },
+  "0802IbnMusaAbnasi.ShadhaFayyah": {
+    "id": 7349,
+    "name": "الشذا الفياح من علوم ابن الصلاح"
+  },
+  "0803IbnCarafaWarghami.MukhtasarFiMantiq": {
+    "id": 708,
+    "name": "المختصر في المنطق"
+  },
+  "0803IbnCarafaWarghami.MukhtasarFiqhi": {
+    "id": 16968,
+    "name": "المختصر الفقهي لابن عرفة"
+  },
+  "0803IbnCarafaWarghami.Tafsir": {
+    "id": 67,
+    "name": "تفسير ابن عرفة"
+  },
+  "0804IbnMulaqqin.Ashbah": {
+    "id": 18192,
+    "name": "الأشباه والنظائر لابن الملقن ت الأزهري"
+  },
+  "0804IbnMulaqqin.BadrMunir": {
+    "id": 5922,
+    "name": "البدر المنير في تخريج الأحاديث والأثار الواقعة في الشرح الكبير"
+  },
+  "0804IbnMulaqqin.CiqdMudhhab": {
+    "id": 16664,
+    "name": "العقد المذهب في طبقات حملة المذهب"
+  },
+  "0804IbnMulaqqin.CujalatMuhtaj": {
+    "id": 20561,
+    "name": "عجالة المحتاج إلى توجيه المنهاج"
+  },
+  "0804IbnMulaqqin.GhayatSul": {
+    "id": 6588,
+    "name": "غاية السول في خصائص الرسول"
+  },
+  "0804IbnMulaqqin.IclamBiFawaid": {
+    "id": 13769,
+    "name": "الإعلام بفوائد عمدة الأحكام"
+  },
+  "0804IbnMulaqqin.KhulasatBadrMunir": {
+    "id": 21104,
+    "name": "خلاصة البدر المنير"
+  },
+  "0804IbnMulaqqin.Mucin": {
+    "id": 17745,
+    "name": "المعين على تفهم الأربعين ت دغش"
+  },
+  "0804IbnMulaqqin.MuqnicFiCulumHadith": {
+    "id": 5976,
+    "name": "المقنع في علوم الحديث"
+  },
+  "0804IbnMulaqqin.TabaqatAwliya": {
+    "id": 1347,
+    "name": "طبقات الأولياء"
+  },
+  "0804IbnMulaqqin.TadhkiratMuhtaj": {
+    "id": 9569,
+    "name": "تذكرة المحتاج إلى أحاديث المنهاج"
+  },
+  "0804IbnMulaqqin.Tawdih": {
+    "id": 13252,
+    "name": "التوضيح لشرح الجامع الصحيح"
+  },
+  "0804IbnMulaqqin.TuhfatMuhtaj": {
+    "id": 5911,
+    "name": "تحفة المحتاج إلى أدلة المنهاج"
+  },
+  "0805BahramDamiri.ShamilFiFiqhMalik": {
+    "id": 13234,
+    "name": "الشامل في فقه الإمام مالك"
+  },
+  "0805BahramDamiri.TahbirMukhtasar": {
+    "id": 147313,
+    "name": "تحبير المختصر وهو الشرح الوسط لبهرام على مختصر خليل"
+  },
+  "0806IbnHusaynZaynDinCiraqi.AlfiyyatSira": {
+    "id": 23660,
+    "name": "ألفية السيرة النبوية - نظم الدرر السنية الزكية"
+  },
+  "0806IbnHusaynZaynDinCiraqi.DhaylMizan": {
+    "id": 5847,
+    "name": "ذيل ميزان الاعتدال"
+  },
+  "0806IbnHusaynZaynDinCiraqi.KhamsatAhadith": {
+    "id": 9484,
+    "name": "خمسة أحاديث من أمالي الحافظ العراقي"
+  },
+  "0806IbnHusaynZaynDinCiraqi.QurratCain": {
+    "id": 16877,
+    "name": "قرة العين بالمسرة بوفاء الدين"
+  },
+  "0806IbnHusaynZaynDinCiraqi.Taqyid": {
+    "id": 7581,
+    "name": "التقييد والإيضاح شرح مقدمة ابن الصلاح"
+  },
+  "0806IbnHusaynZaynDinCiraqi.TarhTarthib": {
+    "id": 11036,
+    "name": "طرح التثريب في شرح التقريب"
+  },
+  "0806IbnHusaynZaynDinCiraqi.TawsicaCalaCiyal": {
+    "id": 29509,
+    "name": "التوسعة على العيال لأبي زرعة"
+  },
+  "0807IbnAhmarKhazraji.AclamMaghrib": {
+    "id": 120143,
+    "name": "أعلام المغرب والأندلس في القرن الثامن"
+  },
+  "0807IbnAhmarKhazraji.NafhaNisriniyya": {
+    "id": 401,
+    "name": "النفحة النسرينية واللمحة المرينية"
+  },
+  "0808IbnCimadDinShihabDinAqfahsi.AdabAkl": {
+    "id": 8185,
+    "name": "آداب الأكل"
+  },
+  "0809IbnDuqmaq.NuzhatAnam": {
+    "id": 16363,
+    "name": "نزهة الأنام فى تاريخ الإسلام"
+  },
+  "0812CaliKhazraji.CuqudLuluiyya": {
+    "id": 9233,
+    "name": "العقود اللؤلؤية في تاريخ الدولة الرسولية"
+  },
+  "0814IbnNahhas.TanbihGhafilin": {
+    "id": 35453,
+    "name": "تنبيه الغافلين عن أعمال الجاهلين وتحذير السالكين من أفعال الجاهلين"
+  },
+  "0815Ghuzuli.MatalicBudur": {
+    "id": 5390,
+    "name": "مطالع البدور ومنازل السرور"
+  },
+  "0816AbuBakrMaraghi.ArbacunaMinMacali": {
+    "id": 9375,
+    "name": "الأربعون من عوالي المجيزين"
+  },
+  "0816AbuBakrMaraghi.Mashyakha": {
+    "id": 26731,
+    "name": "مشيخة أبي بكر المراغي"
+  },
+  "0817MajdDinFiruzabadi.BasairDhawiTamyiz": {
+    "id": 9856,
+    "name": "بصائر ذوي التمييز في لطائف الكتاب العزيز"
+  },
+  "0817MajdDinFiruzabadi.BulghaFiTarajim": {
+    "id": 9984,
+    "name": "البلغة في تراجم أئمة النحو واللغة"
+  },
+  "0817MajdDinFiruzabadi.Maghanim": {
+    "id": 1172,
+    "name": "المغانم المطابة في معالم طابة"
+  },
+  "0817MajdDinFiruzabadi.QamusMuhit": {
+    "id": 7283,
+    "name": "القاموس المحيط"
+  },
+  "0817MajdDinFiruzabadi.RaddCalaRafida": {
+    "id": 37554,
+    "name": "الرد على الرافضة أو القضاب المشتهر على رقاب ابن المطهر"
+  },
+  "0817MajdDinFiruzabadi.RisalaFiBayan": {
+    "id": 11760,
+    "name": "رسالة في بيان ما لم يثبت فيه حديث صحيح للفيروزآبادي"
+  },
+  "0817MajdDinFiruzabadi.SafarSacada": {
+    "id": 132416,
+    "name": "سفر السعادة للفيروزابادي"
+  },
+  "0817MajdDinFiruzabadi.TanwirMiqbas": {
+    "id": 12877,
+    "name": "تنوير المقباس من تفسير ابن عباس"
+  },
+  "0821Qalqashandi.Maathir": {
+    "id": 8460,
+    "name": "مآثر الإنافة في معالم الخلافة"
+  },
+  "0821Qalqashandi.NihayatArab": {
+    "id": 31382,
+    "name": "نهاية الأرب في معرفة أنساب العرب"
+  },
+  "0821Qalqashandi.QalaidJuman": {
+    "id": 315,
+    "name": "قلائد الجمان في التعريف بقبائل عرب الزمان"
+  },
+  "0825IbnNurDin.TaysirBayan": {
+    "id": 14827,
+    "name": "تيسير البيان لأحكام القرآن"
+  },
+  "0826IbnCiraqi.GhaythHamic": {
+    "id": 14252,
+    "name": "الغيث الهامع شرح جمع الجوامع"
+  },
+  "0826IbnCiraqi.Mudallisin": {
+    "id": 1176,
+    "name": "المدلسين"
+  },
+  "0826IbnCiraqi.TuhfatTahsil": {
+    "id": 5838,
+    "name": "تحفة التحصيل في ذكر رواة المراسيل"
+  },
+  "0827BadrDinDamaminiMakhzumi.CuyunGhamiza": {
+    "id": 5421,
+    "name": "العيون الغامزة على خبايا الرامزة"
+  },
+  "0827BadrDinDamaminiMakhzumi.MasabihJamic": {
+    "id": 16684,
+    "name": "مصابيح الجامع"
+  },
+  "0829IbnCasimGharnati.TuhfatHukkam": {
+    "id": 6532,
+    "name": "تحفة الحكام في نكت العقود والأحكام"
+  },
+  "0830IbnMuhammadBasiliTunisi.NukatWaTanbihat": {
+    "id": 1731,
+    "name": "نكت وتنبيهات في تفسير القرآن المجيد"
+  },
+  "0831ShamsDinBirmawi.FawaidSaniyya": {
+    "id": 32476,
+    "name": "الفوائد السنية في شرح الألفية"
+  },
+  "0831ShamsDinBirmawi.Lamic": {
+    "id": 18103,
+    "name": "اللامع الصبيح بشرح الجامع الصحيح"
+  },
+  "0832TaqiFasi.CiqdThamin": {
+    "id": 20989,
+    "name": "العقد الثمين فى تاريخ البلد الأمين"
+  },
+  "0832TaqiFasi.DhaylTaqyid": {
+    "id": 8884,
+    "name": "ذيل التقييد في رواة السنن والأسانيد"
+  },
+  "0832TaqiFasi.ShifaGharam": {
+    "id": 8362,
+    "name": "شفاء الغرام بأخبار البلد الحرام"
+  },
+  "0833IbnJazari.DurraMudiyya": {
+    "id": 7749,
+    "name": "الدرة المضية في القراءات الثلاث المتتمة للعشر"
+  },
+  "0833IbnJazari.GhayatNihaya": {
+    "id": 12040,
+    "name": "غاية النهاية في طبقات القراء"
+  },
+  "0833IbnJazari.MatnTayyibatNashr": {
+    "id": 7795,
+    "name": "متن «طيبة النشر» في القراءات العشر"
+  },
+  "0833IbnJazari.MunjidMuqriyyin": {
+    "id": 8677,
+    "name": "منجد المقرئين ومرشد الطالبين"
+  },
+  "0833IbnJazari.Nashr": {
+    "id": 22642,
+    "name": "النشر في القراءات العشر"
+  },
+  "0833IbnJazari.TahbirTaysir": {
+    "id": 5556,
+    "name": "تحبير التيسير في القراءات العشر"
+  },
+  "0833IbnJazari.TamhidFiCulumTajwid": {
+    "id": 8194,
+    "name": "التمهيد في علم التجويد"
+  },
+  "0833IbnJazari.ZahrFaih": {
+    "id": 9102,
+    "name": "الزهر الفائح في ذكر من تنزه عن الذنوب والقبائح"
+  },
+  "0834IbnHamzaFanari.FusulBadaic": {
+    "id": 98083,
+    "name": "فصول البدائع في أصول الشرائع"
+  },
+  "0837IbnHijjaHamawi.BulughAmal": {
+    "id": 567,
+    "name": "بلوغ الأمل في فن الزجل"
+  },
+  "0838ShihabDinDalji.Falaka": {
+    "id": 36075,
+    "name": "الفلاكة والمفلوكون"
+  },
+  "0840IbnWazirYamani.CawasimWaQawasim": {
+    "id": 29677,
+    "name": "العواصم والقواصم في الذب عن سنة أبي القاسم"
+  },
+  "0840IbnWazirYamani.ItharHaqq": {
+    "id": 5937,
+    "name": "إيثار الحق على الخلق في رد الخلافات"
+  },
+  "0840IbnWazirYamani.RawdBasim": {
+    "id": 36427,
+    "name": "الروض الباسم في الذب عن سنة أبي القاسم ﷺ -"
+  },
+  "0841BurhanDinSibtIbnCajami.Ightibat": {
+    "id": 130,
+    "name": "الاغتباط بمن رمي من الرواة بالاختلاط"
+  },
+  "0841BurhanDinSibtIbnCajami.KashfHathith": {
+    "id": 5832,
+    "name": "الكشف الحثيث"
+  },
+  "0841BurhanDinSibtIbnCajami.TabyinLiAsma": {
+    "id": 1187,
+    "name": "التبيين لأسماء المدلسين"
+  },
+  "0842IbnNasirDinDimashqi.AhadithArbacuna": {
+    "id": 30248,
+    "name": "الأحاديث الأربعون المتباينة الأسانيد والمتون"
+  },
+  "0842IbnNasirDinDimashqi.AhadithSitta": {
+    "id": 9353,
+    "name": "أحاديث ستة في معان ستة"
+  },
+  "0842IbnNasirDinDimashqi.CarfCanbar": {
+    "id": 9539,
+    "name": "عرف العنبر في وصف المنبر"
+  },
+  "0842IbnNasirDinDimashqi.ImlaAnfus": {
+    "id": 9652,
+    "name": "الإملاء الأنفس في ترجمة عسعس"
+  },
+  "0842IbnNasirDinDimashqi.MajlisFiHadithJabir": {
+    "id": 9605,
+    "name": "مجلس في حديث جابر"
+  },
+  "0842IbnNasirDinDimashqi.SalwatKaib": {
+    "id": 6594,
+    "name": "سلوة الكئيب بوفاة الحبيب"
+  },
+  "0842IbnNasirDinDimashqi.TanwirFikra": {
+    "id": 9393,
+    "name": "تنوير الفكرة بحديث بهز بن حكيم"
+  },
+  "0842IbnNasirDinDimashqi.TawdihMushtabih": {
+    "id": 5812,
+    "name": "توضيح المشتبه"
+  },
+  "0843IbnIsmacilJadhbati.DurraGharra": {
+    "id": 9683,
+    "name": "الدرة الغراء في نصيحة السلاطين والقضاة والأمراء"
+  },
+  "0844IbnHusaynIbnRaslanRamli.SharhSunanAbiDawud": {
+    "id": 131521,
+    "name": "شرح سنن أبي داود لابن رسلان"
+  },
+  "0844IbnHusaynIbnRaslanRamli.ZubadFiFiqh": {
+    "id": 22364,
+    "name": "الزبد في الفقه الشافعي"
+  },
+  "0845Maqrizi.Bayan": {
+    "id": 9226,
+    "name": "البيان والإعراب عما بأرض مصر من الأعراب"
+  },
+  "0845Maqrizi.DawSari": {
+    "id": 10830,
+    "name": "الضوء الساري في معرفة خبر تميم الداري للمقريزي"
+  },
+  "0845Maqrizi.ImtacAsmac": {
+    "id": 1524,
+    "name": "إمتاع الأسماع"
+  },
+  "0845Maqrizi.Muqaffa": {
+    "id": 145334,
+    "name": "المقفى الكبير"
+  },
+  "0845Maqrizi.Rasail": {
+    "id": 10710,
+    "name": "رسائل المقريزي"
+  },
+  "0845Maqrizi.Suluk": {
+    "id": 6667,
+    "name": "السلوك لمعرفة دول الملوك"
+  },
+  "0845Maqrizi.TajridTawhid": {
+    "id": 10045,
+    "name": "تجريد التوحيد المفيد"
+  },
+  "0848IbnSarrajAndalusi.Fatawa": {
+    "id": 95578,
+    "name": "فتاوى قاضي الجماعة ابن سراج الأندلسي"
+  },
+  "0852IbnHajarCasqalani.AhadithCashara": {
+    "id": 21489,
+    "name": "الأحاديث العشرة العشارية الاختيارية لابن حجر"
+  },
+  "0852IbnHajarCasqalani.AmaliAdhkarFiFadlSalatTasbih": {
+    "id": 29563,
+    "name": "أمالي الأذكار في فضل صلاة التسبيح"
+  },
+  "0852IbnHajarCasqalani.AmaliHalabiyya": {
+    "id": 9377,
+    "name": "الأمالي السفرية الحلبية"
+  },
+  "0852IbnHajarCasqalani.AmaliMutlaqa": {
+    "id": 5702,
+    "name": "الأمالي المطلقة"
+  },
+  "0852IbnHajarCasqalani.BulughMaram": {
+    "id": 17757,
+    "name": "بلوغ المرام من أدلة الأحكام ت الفحل"
+  },
+  "0852IbnHajarCasqalani.CujabFiBayanAsbab": {
+    "id": 2102,
+    "name": "العجاب في بيان الأسباب"
+  },
+  "0852IbnHajarCasqalani.DirayaFiTakhrijAhadithHidaya": {
+    "id": 5908,
+    "name": "الدراية في تخريج أحاديث الهداية"
+  },
+  "0852IbnHajarCasqalani.ImtacBiArbacin": {
+    "id": 5719,
+    "name": "الإمتاع بالأربعين المتباينة السماع"
+  },
+  "0852IbnHajarCasqalani.InbaGhumr": {
+    "id": 26317,
+    "name": "إنباء الغمر بأبناء العمر"
+  },
+  "0852IbnHajarCasqalani.IntiqadIctirad": {
+    "id": 13771,
+    "name": "انتقاض الاعتراض في الرد على العيني في شرح البخاري"
+  },
+  "0852IbnHajarCasqalani.ItharBiMacrifa": {
+    "id": 5861,
+    "name": "الإيثار بمعرفة رواة الآثار"
+  },
+  "0852IbnHajarCasqalani.ItrafMusnadMuctali": {
+    "id": 12220,
+    "name": "إطراف المسند المعتلي بأطراف المسند الحنبلي"
+  },
+  "0852IbnHajarCasqalani.KalamCalaHadithImraati": {
+    "id": 11057,
+    "name": "الكلام على حديث امرأتي لا ترد يد لامس لابن حجر"
+  },
+  "0852IbnHajarCasqalani.LisanMizan": {
+    "id": 12063,
+    "name": "لسان الميزان"
+  },
+  "0852IbnHajarCasqalani.MajmacMuassis": {
+    "id": 20861,
+    "name": "المجمع المؤسس للمعجم المفهرس"
+  },
+  "0852IbnHajarCasqalani.MarhamaGhaythiyya": {
+    "id": 30287,
+    "name": "المرحمة الغيثية بالترجمة الليثية"
+  },
+  "0852IbnHajarCasqalani.MasailAjabaCanha": {
+    "id": 96277,
+    "name": "مسائل أجاب عنها الحافظ ابن حجر العسقلاني"
+  },
+  "0852IbnHajarCasqalani.MatalibCaliya": {
+    "id": 22804,
+    "name": "المطالب العالية بزوائد المسانيد الثمانية"
+  },
+  "0852IbnHajarCasqalani.MukhtasarZawaidMusnadBazzar": {
+    "id": 799,
+    "name": "مختصر زوائد مسند البزار على الكتب الستة ومسند أحمد"
+  },
+  "0852IbnHajarCasqalani.MuntakhabMinAmali": {
+    "id": 11118,
+    "name": "المنتخب من أمالي ابن حجر من تخريج مختصر ابن الحاجب"
+  },
+  "0852IbnHajarCasqalani.MuwafaqatKhubrKhabar": {
+    "id": 18611,
+    "name": "موافقة الخبر الخبر في تخريج أحاديث المختصر"
+  },
+  "0852IbnHajarCasqalani.NazmLaali": {
+    "id": 12865,
+    "name": "نظم اللآلي بالمائة العوالي"
+  },
+  "0852IbnHajarCasqalani.NukatCalaSahihBukhari": {
+    "id": 132963,
+    "name": "النكت على صحيح البخاري"
+  },
+  "0852IbnHajarCasqalani.NuzhatAlbab": {
+    "id": 5809,
+    "name": "نزهة الألباب في الألقاب"
+  },
+  "0852IbnHajarCasqalani.NuzhatSamicin": {
+    "id": 6009,
+    "name": "نزهة السامعين في رواية الصحابة عن التابعين"
+  },
+  "0852IbnHajarCasqalani.QawlMusaddad": {
+    "id": 6035,
+    "name": "القول المسدد في الذب عن مسند أحمد"
+  },
+  "0852IbnHajarCasqalani.SilsilatDhahab": {
+    "id": 6023,
+    "name": "سلسلة الذهب"
+  },
+  "0852IbnHajarCasqalani.TabsirMuntabih": {
+    "id": 4092,
+    "name": "تبصير المنتبه بتحرير المشتبه"
+  },
+  "0852IbnHajarCasqalani.TahdhibTahdhib": {
+    "id": 3310,
+    "name": "تهذيب التهذيب"
+  },
+  "0852IbnHajarCasqalani.TaqribTahdhib": {
+    "id": 8609,
+    "name": "تقريب التهذيب"
+  },
+  "0852IbnHajarCasqalani.TuruqHadithLaTasubbuAshabi": {
+    "id": 30733,
+    "name": "جزء في طرق حديث لا تسبوا أصحابي"
+  },
+  "0852IbnHajarCasqalani.WuqufCalaMawquf": {
+    "id": 5993,
+    "name": "الوقوف على الموقوف"
+  },
+  "0852IbnHajarCasqalani.ZahrNadirFiHalKhadir": {
+    "id": 5738,
+    "name": "الزهر النضر في حال الخضر"
+  },
+  "0854IbnCarabshah.CajaibMaqdur": {
+    "id": 12417,
+    "name": "عجائب المقدور في أخبار تيمور"
+  },
+  "0854IbnCarabshah.FakihatKhulafa": {
+    "id": 12726,
+    "name": "فاكهة الخلفاء ومفاكهة الظرفاء"
+  },
+  "0855IbnAhmadShamsDinDimashqi.MasailMuhimma": {
+    "id": 8550,
+    "name": "المسائل المهمة فيما يحتاج إليه العاقد عند الخطوب المدلهمة"
+  },
+  "0856IbnDawudHanbali.KanzAkbar": {
+    "id": 36110,
+    "name": "الكنز الأكبر من الأمر بالمعروف والنهي عن المنكر - ابن داود الحنبلي"
+  },
+  "0859ShamsDinNawaji.ShifaFiBadicIktifa": {
+    "id": 36073,
+    "name": "الشفاء في بديع الاكتفاء"
+  },
+  "0860ShihabUbbadhi.HududFiCilmNahw": {
+    "id": 10340,
+    "name": "الحدود في علم النحو"
+  },
+  "0862IbnMuhammadMujari.Barnamaj": {
+    "id": 10735,
+    "name": "برنامج المجاري"
+  },
+  "0864RadiDinGhazzi.BahjatNazirin": {
+    "id": 20578,
+    "name": "بهجة الناظرين إلى تراجم المتأخرين من الشافعية البارعين"
+  },
+  "0866MuhammadIbnSayyidHasan.RamuzCalaSihah": {
+    "id": 7051,
+    "name": "الراموز على الصحاح"
+  },
+  "0868IbnCumarBulqini.TuhfatAmin": {
+    "id": 10049,
+    "name": "تحفة الأمين فيمن يقبل قوله بلا يمين"
+  },
+  "0869IbnKhalilZaynDinQabuni.BisharatMahbub": {
+    "id": 10922,
+    "name": "بشارة المحبوب بتكفير الذنوب"
+  },
+  "0871IbnCuthmanShamsDinMardini.AnjumZahirat": {
+    "id": 5990,
+    "name": "الأنجم الزاهرات على حل ألفاظ الورقات"
+  },
+  "0873IbnShahinZahiri.Isharat": {
+    "id": 9968,
+    "name": "الإشارات في علم العبارات"
+  },
+  "0874BadrDinIbnQadiShuhba.BidayatMuhtaj": {
+    "id": 132962,
+    "name": "بداية المحتاج في شرح المنهاج"
+  },
+  "0875IbnMuhammadShihabDinHijazi.JannatWildan": {
+    "id": 9733,
+    "name": "جنة الولدان في الحسان من الغلمان"
+  },
+  "0875IbnMuhammadShihabDinHijazi.KansJawari": {
+    "id": 9708,
+    "name": "الكنس الجواري في الحسان من الجواري"
+  },
+  "0880IbnAhmadShamsDinAsyuti.IthafAkhissa": {
+    "id": 14045,
+    "name": "إتحاف الأخصا بفضائل المسجد الأقصى"
+  },
+  "0880IbnAhmadShamsDinAsyuti.JawahirCuqud": {
+    "id": 6172,
+    "name": "جواهر العقود"
+  },
+  "0882IbnAhmadShadhiliTunisi.FarahAsma": {
+    "id": 1598,
+    "name": "فرح الأسماع برخص السماع"
+  },
+  "0883AbuBakrJuraci.SharhMukhtasarUsulFiqh": {
+    "id": 127717,
+    "name": "شرح مختصر أصول الفقه للجراعي"
+  },
+  "0883AbuBakrJuraci.TuhfatRakic": {
+    "id": 17419,
+    "name": "تحفة الراكع والساجد بأحكام المساجد"
+  },
+  "0884AbuIshaqIbnMuflih.MaqsidArshad": {
+    "id": 5890,
+    "name": "المقصد الارشد"
+  },
+  "0884AbuIshaqIbnMuflih.MubdicFiSharhMuqnic": {
+    "id": 21619,
+    "name": "المبدع في شرح المقنع"
+  },
+  "0885BurhanDinBiqaci.MasacidNazar": {
+    "id": 1404,
+    "name": "مصاعد النظر للإشراف على مقاصد السور"
+  },
+  "0885BurhanDinBiqaci.NazmDurar": {
+    "id": 9098,
+    "name": "نظم الدرر في تناسب الآيات والسور"
+  },
+  "0885BurhanDinBiqaci.NukatWafiyya": {
+    "id": 23798,
+    "name": "النكت الوفية بما في شرح الألفية"
+  },
+  "0894CabdRahmanSufuri.NuzhatMajalis": {
+    "id": 28168,
+    "name": "نزهة المجالس ومنتخب النفائس"
+  },
+  "0896IbnCaliIbnAzraqGharnati.BadaicSilk": {
+    "id": 7236,
+    "name": "بدائع السلك في طبائع الملك"
+  },
+  "0897IbnYusufCabdariGharnati.TajWaIklilLiMukhtasarKhalil": {
+    "id": 21611,
+    "name": "التاج والإكليل لمختصر خليل"
+  },
+  "0899Rajraji.RafcNiqab": {
+    "id": 14313,
+    "name": "رفع النقاب عن تنقيح الشهاب"
+  },
+  "0900IbnCabdMuncimHimyari.RawdMictar": {
+    "id": 1043,
+    "name": "الروض المعطار في خبر الأقطار"
+  },
+  "0902Sakhawi.AjwibaMurdiyya": {
+    "id": 17878,
+    "name": "الأجوبة المرضية فيما سئل السخاوي عنه من الأحاديث النبوية"
+  },
+  "0902Sakhawi.DawLamic": {
+    "id": 6675,
+    "name": "الضوء اللامع لأهل القرن التاسع"
+  },
+  "0902Sakhawi.FakhrMutawali": {
+    "id": 6585,
+    "name": "الفخر المتوالي فيمن انتسب للنبي من الخدم والموالي"
+  },
+  "0902Sakhawi.GhayaFiSharh": {
+    "id": 5956,
+    "name": "الغاية فى شرح الهداية فى علم الرواية"
+  },
+  "0902Sakhawi.IltimasSacd": {
+    "id": 5675,
+    "name": "التماس السعد في الوفاء بالوعد"
+  },
+  "0902Sakhawi.Intihad": {
+    "id": 17908,
+    "name": "الانتهاض في ختم «الشفا» لعياض"
+  },
+  "0902Sakhawi.JawahirWaDurar": {
+    "id": 17372,
+    "name": "الجواهر والدرر في ترجمة شيخ الإسلام ابن حجر"
+  },
+  "0902Sakhawi.ManhalCadhb": {
+    "id": 317,
+    "name": "المنهل العذب الروي"
+  },
+  "0902Sakhawi.MaqasidHasana": {
+    "id": 23177,
+    "name": "المقاصد الحسنة"
+  },
+  "0902Sakhawi.MutakallimunFiRijal": {
+    "id": 26111,
+    "name": "المتكلمون في الرجال"
+  },
+  "0902Sakhawi.Qanaca": {
+    "id": 127668,
+    "name": "القناعة في ما يحسن الإحاطة من أشراط الساعة"
+  },
+  "0902Sakhawi.QawlBadic": {
+    "id": 1391,
+    "name": "القول البديع في الصلاة على الحبيب الشفيع"
+  },
+  "0902Sakhawi.SirrMaktum": {
+    "id": 1500,
+    "name": "السر المكتوم في الفرق بين المالين المحمود والمذموم"
+  },
+  "0902Sakhawi.TajridCalaTanqih": {
+    "id": 132964,
+    "name": "التجريد على التنقيح"
+  },
+  "0902Sakhawi.TawdihAbhar": {
+    "id": 8663,
+    "name": "التوضيح الأبهر لتذكرة ابن الملقن في علم الأثر"
+  },
+  "0902Sakhawi.TuhfaLatifa": {
+    "id": 7434,
+    "name": "التحفة اللطيفة في تاريخ المدينة الشريفة - ط العلمية"
+  },
+  "0905Basrawi.Tarikh": {
+    "id": 6637,
+    "name": "تاريخ البصروي"
+  },
+  "0909IbnMabrid.ArbacunaMinHadithAbiHanifa": {
+    "id": 8827,
+    "name": "الأربعون المختارة من حديث الإمام أبي حنيفة"
+  },
+  "0909IbnMabrid.ArbacunaMusalsala": {
+    "id": 10469,
+    "name": "الأربعين المسلسلة المتباينة الأسانيد ليوسف بن عبد الهادي"
+  },
+  "0909IbnMabrid.BahrDamm": {
+    "id": 2994,
+    "name": "بحر الدم فيمن تكلم فيه الإمام أحمد بمدح أو ذم"
+  },
+  "0909IbnMabrid.CasharaMinMarwiyyatSalih": {
+    "id": 9387,
+    "name": "العشرة من مرويات صالح بن أحمد وزياداتها"
+  },
+  "0909IbnMabrid.CiqdTamam": {
+    "id": 22341,
+    "name": "العقد التمام فيمن زوجه النبي عليه الصلاة والسلام"
+  },
+  "0909IbnMabrid.Dabt": {
+    "id": 17532,
+    "name": "ضبط من غبر فيمن قيده ابن حجر"
+  },
+  "0909IbnMabrid.DurrNaqi": {
+    "id": 131003,
+    "name": "الدر النقي في شرح ألفاظ الخرقي"
+  },
+  "0909IbnMabrid.GhayatSul": {
+    "id": 124754,
+    "name": "غاية السول إلى علم الأصول"
+  },
+  "0909IbnMabrid.Hisba": {
+    "id": 132425,
+    "name": "الحسبة لابن المبرد"
+  },
+  "0909IbnMabrid.IdahTuruqIstiqama": {
+    "id": 17533,
+    "name": "إيضاح طرق الإستقامة في بيان أحكام الولاية والإمامة"
+  },
+  "0909IbnMabrid.IkhtilafBaynaRuwatBukhari": {
+    "id": 30358,
+    "name": "الاختلاف بين رواة البخاري"
+  },
+  "0909IbnMabrid.IsticanaCalaFatiha": {
+    "id": 9378,
+    "name": "الاستعانة بالفاتحة على نجاح الأمور"
+  },
+  "0909IbnMabrid.JawabBacdKhadam": {
+    "id": 9420,
+    "name": "جواب بعض الخدم لأهل النعم عن تصحيف حديث احتجم"
+  },
+  "0909IbnMabrid.Jawhar": {
+    "id": 17657,
+    "name": "الجوهر المنضد في طبقات متأخري أصحاب أحمد"
+  },
+  "0909IbnMabrid.MacarifIncam": {
+    "id": 17529,
+    "name": "معارف الإنعام وفضل الشهور والأيام"
+  },
+  "0909IbnMabrid.MahdSawab": {
+    "id": 12062,
+    "name": "محض الصواب في فضائل أمير المؤمنين عمر بن الخطاب"
+  },
+  "0909IbnMabrid.MucjamKutub": {
+    "id": 10737,
+    "name": "معجم الكتب"
+  },
+  "0909IbnMabrid.Nihaya": {
+    "id": 17535,
+    "name": "النهاية في اتصال الرواية"
+  },
+  "0909IbnMabrid.Nujat": {
+    "id": 30291,
+    "name": "النجاة بحمد الله"
+  },
+  "0909IbnMabrid.SabbKhumul": {
+    "id": 17530,
+    "name": "صب الخمول على من وصل أذاه إلى الصالحين من أولياء الله"
+  },
+  "0909IbnMabrid.SiyarHathth": {
+    "id": 25,
+    "name": "سير الحاث إلى علم الطلاق الثلاث - ط النوادر"
+  },
+  "0909IbnMabrid.TadhkiratHuffaz": {
+    "id": 17534,
+    "name": "تذكرة الحفاظ وتبصرة الأيقاظ"
+  },
+  "0909IbnMabrid.TakhrijSaghirWaTahbirKabir": {
+    "id": 17531,
+    "name": "التخريج الصغير والتحبير الكبير"
+  },
+  "0909IbnMabrid.ZinatCarais": {
+    "id": 5356,
+    "name": "زينة العرائس من الطرف والنفائس في تخريج الفروع الفقهية على القواعد النحوية"
+  },
+  "0909IbnMabrid.ZubadCulum": {
+    "id": 133413,
+    "name": "زبد العلوم وصاحب المنطوق والمفهوم"
+  },
+  "0911Samhudi.KhulasatWafa": {
+    "id": 31372,
+    "name": "خلاصة الوفا بأخبار دار المصطفى"
+  },
+  "0911Samhudi.MaqalatMusfira": {
+    "id": 17090,
+    "name": "المقالات المسفرة عن دلائل المغفرة"
+  },
+  "0911Samhudi.WafaWafa": {
+    "id": 23695,
+    "name": "وفاء الوفاء بأخبار دار المصطفى"
+  },
+  "0914IbnYahyaWansharisi.AsnaMatajir": {
+    "id": 6243,
+    "name": "أسنى المتاجر وبيان أحكام من غلب على وطنه النصاري ولم يهاجر وما يترتب عليه من العقوبات والزواجر"
+  },
+  "0914IbnYahyaWansharisi.CuddatBuruq": {
+    "id": 20588,
+    "name": "عدة البروق في جمع ما في المذهب من الجموع والفروق"
+  },
+  "0914IbnYahyaWansharisi.IdahMasalik": {
+    "id": 133360,
+    "name": "إيضاح المسالك إلى قواعد الإمام مالك - ت الغرياني"
+  },
+  "0918BafadlHadrami.MuqaddimaHadramiyya": {
+    "id": 6125,
+    "name": "المقدمة الحضرمية"
+  },
+  "0919IbnGhaziMiknasi.ShifaGhalil": {
+    "id": 14605,
+    "name": "شفاء الغليل في حل مقفل خليل"
+  },
+  "0920IbnKhalilZaynDinMalati.GhayatSul": {
+    "id": 6591,
+    "name": "غاية السول في سيرة الرسول"
+  },
+  "0920IbnKhalilZaynDinMalati.NaylAmal": {
+    "id": 17097,
+    "name": "نيل الأمل في ذيل الدول"
+  },
+  "0922IbnShaykhTarabulusi.IscafAwqaf": {
+    "id": 96262,
+    "name": "الإسعاف فى أحكام الأوقاف"
+  },
+  "0923AhmadQastallani.MawahibLaduniyya": {
+    "id": 23685,
+    "name": "المواهب اللدنية بالمنح المحمدية"
+  },
+  "0925IbnCabdWahhabAcraj.TahrirSuluk": {
+    "id": 7237,
+    "name": "تحرير السلوك في تدبير الملوك"
+  },
+  "0926ZakariyyaAnsari.AsnaMatalib": {
+    "id": 11468,
+    "name": "أسنى المطالب في شرح روض الطالب"
+  },
+  "0926ZakariyyaAnsari.FathBaqi": {
+    "id": 35261,
+    "name": "فتح الباقي بشرح ألفية العراقي"
+  },
+  "0926ZakariyyaAnsari.FathCallam": {
+    "id": 20590,
+    "name": "فتح العلام بشرح الإعلام بأحاديث الأحكام"
+  },
+  "0926ZakariyyaAnsari.FathRahman": {
+    "id": 9086,
+    "name": "فتح الرحمن بكشف ما يلتبس في القرآن"
+  },
+  "0926ZakariyyaAnsari.FathWahhab": {
+    "id": 12036,
+    "name": "فتح الوهاب بشرح منهج الطلاب"
+  },
+  "0926ZakariyyaAnsari.GhayatWusul": {
+    "id": 9112,
+    "name": "غاية الوصول في شرح لب الأصول"
+  },
+  "0926ZakariyyaAnsari.GhurarBahiyya": {
+    "id": 21848,
+    "name": "الغرر البهية في شرح البهجة الوردية"
+  },
+  "0926ZakariyyaAnsari.HududAniqa": {
+    "id": 7036,
+    "name": "الحدود الأنيقة والتعريفات الدقيقة"
+  },
+  "0926ZakariyyaAnsari.ManhajTullab": {
+    "id": 12100,
+    "name": "منهج الطلاب في فقه الإمام الشافعي رضي الله عنه"
+  },
+  "0926ZakariyyaAnsari.MinhatBari": {
+    "id": 18106,
+    "name": "منحة الباري بشرح صحيح البخاري"
+  },
+  "0926ZakariyyaAnsari.Munfarijatan": {
+    "id": 6167,
+    "name": "المنفرجتان"
+  },
+  "0927Nucaymi.DarisFiMadaris": {
+    "id": 8880,
+    "name": "الدارس في تاريخ المدارس"
+  },
+  "0928IbnQadiCajlun.KanzAkbar": {
+    "id": 132427,
+    "name": "الكنز الأكبر في الأمر بالمعروف والنهي عن المنكر- ابن قاضي عجلون"
+  },
+  "0930IbnCumarBahraqHadrami.FathAqfal": {
+    "id": 133416,
+    "name": "فتح الأقفال وحل الإشكال بشرح لامية الأفعال المشهور بالشرح الكبير"
+  },
+  "0930IbnCumarBahraqHadrami.HadaiqAnwar": {
+    "id": 9795,
+    "name": "حدائق الأنوار ومطالع الأسرار في سيرة النبي المختار"
+  },
+  "0930IbnCumarBahraqHadrami.HusamMaslul": {
+    "id": 19542,
+    "name": "الحسام المسلول على منتقصي أصحاب الرسول"
+  },
+  "0938IbnQasimSirajDinNashshar.Mukarrar": {
+    "id": 38080,
+    "name": "المكرر في ما تواتر من القراءات السبع وتحرر"
+  },
+  "0940IbnQasimMuhyiDinAmasi.RawdAkhyar": {
+    "id": 10512,
+    "name": "روض الأخيار المنتخب من ربيع الأبرار"
+  },
+  "0942IbnYusufShami.SubulHuda": {
+    "id": 1693,
+    "name": "سبل الهدى والرشاد في سيرة خير العباد"
+  },
+  "0944IbnDaybac.BughratIrba": {
+    "id": 36128,
+    "name": "بغية الإربة في معرفة أحكام الحسبة لابن الديبع"
+  },
+  "0944IbnDaybac.MukaffiratDhunub": {
+    "id": 28114,
+    "name": "مكفرات الذنوب وموجبات الجنة"
+  },
+  "0947BamakhramaHimyari.QiladatNahr": {
+    "id": 29560,
+    "name": "قلادة النحر في وفيات أعيان الدهر"
+  },
+  "0950ShaykhZadah.SharhQawacidIcrab": {
+    "id": 19236,
+    "name": "شرح قواعد الإعراب"
+  },
+  "0953IbnTulun.AhadithMia": {
+    "id": 5640,
+    "name": "الأحاديث المائة المشتملة على مائة نسبة إلى الصنائع"
+  },
+  "0953IbnTulun.FassKhawatim": {
+    "id": 656,
+    "name": "فص الخواتم فيما قيل في الولائم"
+  },
+  "0953IbnTulun.IclamSailin": {
+    "id": 9701,
+    "name": "إعلام السائلين عن كتب سيد المرسلين لابن طولون"
+  },
+  "0953IbnTulun.InbaUmara": {
+    "id": 120145,
+    "name": "إنباء الأمراء بأنباء الوزراء"
+  },
+  "0953IbnTulun.MufakahaKhillan": {
+    "id": 26578,
+    "name": "مفاكهة الخلان في حوادث الزمان"
+  },
+  "0953IbnTulun.TashyidIkhtiyar": {
+    "id": 16897,
+    "name": "تشييد الاختيار لتحريم الطبل والمزمار"
+  },
+  "0954HattabRucayniMaghribi.MawahibJalil": {
+    "id": 569,
+    "name": "مواهب الجليل في شرح مختصر خليل"
+  },
+  "0954HattabRucayniMaghribi.MutammimatAjrumiyya": {
+    "id": 4234,
+    "name": "متممة الأجرومية"
+  },
+  "0954HattabRucayniMaghribi.TahrirKalam": {
+    "id": 14552,
+    "name": "تحرير الكلام في مسائل الإلتزام"
+  },
+  "0956IbnMuhammadHalabiHanafi.NicmatDharica": {
+    "id": 6558,
+    "name": "نعمة الذريعة في نصرة الشريعة"
+  },
+  "0957MuhammadIbnYahyaBahranZaydi.KafilBiNaylSul": {
+    "id": 35182,
+    "name": "الكافل بنيل السول في علم الأصول"
+  },
+  "0963CabdRahmanAbuFathCabbasi.MacahidTansis": {
+    "id": 6951,
+    "name": "معاهد التنصيص على شواهد التلخيص"
+  },
+  "0966HusaynDiyarbakri.TarikhKhamis": {
+    "id": 9784,
+    "name": "تاريخ الخميس في أحوال أنفس النفيس"
+  },
+  "0968IbnAhmadAbuNajaHajjawi.Iqnac": {
+    "id": 7360,
+    "name": "الإقناع في فقه الإمام أحمد بن حنبل"
+  },
+  "0971IbnIbrahimIbnHanbaliHalabi.QafwAthar": {
+    "id": 1531,
+    "name": "قفو الأثر في صفوة علوم الأثر"
+  },
+  "0971IbnIbrahimIbnHanbaliHalabi.SahmAlhaz": {
+    "id": 6921,
+    "name": "سهم الألحاظ في وهم الألفاظ"
+  },
+  "0972IbnAhmadFakihi.SharhHududFiNahw": {
+    "id": 18280,
+    "name": "شرح كتاب الحدود في النحو"
+  },
+  "0974IbnHajarHaytami.AshrafWasail": {
+    "id": 122255,
+    "name": "أشرف الوسائل إلى فهم الشمائل"
+  },
+  "0974IbnHajarHaytami.DurrMandud": {
+    "id": 9801,
+    "name": "الدر المنضود في الصلاة والسلام على صاحب المقام المحمود"
+  },
+  "0974IbnHajarHaytami.FatawaHadithiyya": {
+    "id": 1922,
+    "name": "الفتاوى الحديثية لابن حجر الهيتمي"
+  },
+  "0974IbnHajarHaytami.FatawaKubra": {
+    "id": 21628,
+    "name": "الفتاوى الفقهية الكبرى"
+  },
+  "0974IbnHajarHaytami.FathMubin": {
+    "id": 8889,
+    "name": "الفتح المبين بشرح الأربعين"
+  },
+  "0974IbnHajarHaytami.Iclam": {
+    "id": 13644,
+    "name": "الإعلام بقواطع الإسلام"
+  },
+  "0974IbnHajarHaytami.IfsahCanHadithNikah": {
+    "id": 6247,
+    "name": "الإفصاح عن أحاديث النكاح"
+  },
+  "0974IbnHajarHaytami.Inafa": {
+    "id": 12570,
+    "name": "إتحاف ذوي المروة والإنافة بما جاء في الصدقة والضيافة"
+  },
+  "0974IbnHajarHaytami.KaffRicac": {
+    "id": 37886,
+    "name": "كف الرعاع عن محرمات اللهو والسماع"
+  },
+  "0974IbnHajarHaytami.MablaghArab": {
+    "id": 661,
+    "name": "مبلغ الأرب في فخر العرب"
+  },
+  "0974IbnHajarHaytami.ManhajQawim": {
+    "id": 9973,
+    "name": "المنهاج القويم شرح المقدمة الحضرمية"
+  },
+  "0974IbnHajarHaytami.SawaciqMuhriqa": {
+    "id": 6544,
+    "name": "الصواعق المحرقة على أهل الرفض والضلال والزندقة"
+  },
+  "0974IbnHajarHaytami.Zawajir": {
+    "id": 21629,
+    "name": "الزواجر عن اقتراف الكبائر"
+  },
+  "0975MuttaqiHindi.KanzCummal": {
+    "id": 2677,
+    "name": "كنز العمال"
+  },
+  "0977KhatibShirbini.Iqnac": {
+    "id": 6121,
+    "name": "الإقناع في حل ألفاظ أبي شجاع"
+  },
+  "0977KhatibShirbini.KhisalMukaffira": {
+    "id": 9279,
+    "name": "الخصال المكفرة للذنوب"
+  },
+  "0977KhatibShirbini.MughniMuhtaj": {
+    "id": 11444,
+    "name": "مغني المحتاج إلى معرفة معاني ألفاظ المنهاج"
+  },
+  "0977KhatibShirbini.SirajMunir": {
+    "id": 1466,
+    "name": "السراج المنير في الإعانة على معرفة بعض معاني كلام ربنا الحكيم الخبير"
+  },
+  "0978QasimQunawi.AnisFuqaha": {
+    "id": 10930,
+    "name": "انيس الفقهاء في تعريفات الألفاظ المتداولة بين الفقهاء"
+  },
+  "0979IbnTurkiMaliki.KhulasatJawahirZakiyya": {
+    "id": 37064,
+    "name": "خلاصة الجواهر الزكية في فقه المالكية"
+  },
+  "0981IbnMusaMuwaqqitDimashqi.CiqdTalid": {
+    "id": 10016,
+    "name": "العقد التليد في اختصار الدر النضيد = المعيد في أدب المفيد والمستفيد"
+  },
+  "0982IbnMuhammadAbuSucud.IrshadCaqlSalim": {
+    "id": 1429,
+    "name": "تفسير أبي السعود = إرشاد العقل السليم إلى مزايا الكتاب الكريم"
+  },
+  "0983IbnMuhammadSahgirAkhdari.MukhtasarFiCibadat": {
+    "id": 9548,
+    "name": "متن الأخضري في العبادات على مذهب الإمام مالك"
+  },
+  "0984BadrDinGhazzi.AdabCishra": {
+    "id": 8186,
+    "name": "آداب العشرة وذكر الصحبة والأخوة"
+  },
+  "0984BadrDinGhazzi.AdabMuwakala": {
+    "id": 466,
+    "name": "آداب المواكلة"
+  },
+  "0984BadrDinGhazzi.MatalicBadriya": {
+    "id": 37060,
+    "name": "المطالع البدرية في المنازل الرومية"
+  },
+  "0984BadrDinGhazzi.MurahFiMuzah": {
+    "id": 4126,
+    "name": "المراح في المزاح"
+  },
+  "0986IbnCaliFattani.MajmacBihar": {
+    "id": 13631,
+    "name": "مجمع بحار الأنوار"
+  },
+  "0987ZaynDinMalibari.FathMucin": {
+    "id": 11327,
+    "name": "فتح المعين بشرح قرة العين بمهمات الدين"
+  },
+  "0987ZaynDinMalibari.IsticdadLiMawt": {
+    "id": 483,
+    "name": "الاستعداد للموت وسؤال القبر"
+  },
+  "0989SharafDinCimriti.DurraBahiyya": {
+    "id": 2084,
+    "name": "الدرة البهية نظم الآجرومية"
+  },
+  "0992CaliIbnBaliManq.KhayrKalam": {
+    "id": 310,
+    "name": "خير الكلام في التقصي عن أغلاط العوام"
+  },
+  "0995AhmadManjur.SharhManhajMuntakhab": {
+    "id": 18279,
+    "name": "شرح المنهج المنتخب إلى قواعد المذهب"
+  },
+  "1004ShamsDinRamli.GhayatBayan": {
+    "id": 6136,
+    "name": "غاية البيان شرح زبد ابن رسلان"
+  },
+  "1004ShamsDinRamli.NihayatMuhtaj": {
+    "id": 3565,
+    "name": "نهاية المحتاج إلى شرح المنهاج"
+  },
+  "1005SirajDinIbnNujaym.NahrFaiq": {
+    "id": 13620,
+    "name": "النهر الفائق شرح كنز الدقائق"
+  },
+  "1008DawudAntaki.TazyinAswaq": {
+    "id": 630,
+    "name": "تزيين الأسواق في أخبار العشاق"
+  },
+  "1010TaqiDinGhazzi.TabaqatSaniyya": {
+    "id": 322,
+    "name": "الطبقات السنية في تراجم الحنفية"
+  },
+  "1016MuhibbDinHamawi.HadiAzcan": {
+    "id": 476,
+    "name": "حادي الأظعان النجدية إلى الديار المصرية"
+  },
+  "1024IbnCabdHaqqCumari.DurarFaraid": {
+    "id": 147320,
+    "name": "درر الفرائد المستحسنة في شرح منظومة ابن الشحنة"
+  },
+  "1025IbnQadiMaknasi.DurratHijal": {
+    "id": 132965,
+    "name": "درة الحجال فى أسماء الرجال"
+  },
+  "1030IbnGhanimBaghdadiHanafi.MajmacDamanat": {
+    "id": 21639,
+    "name": "مجمع الضمانات"
+  },
+  "1031BahaDinCamili.Kashkul": {
+    "id": 1571,
+    "name": "الكشكول"
+  },
+  "1033MarciKarmi.AqawilThiqat": {
+    "id": 6454,
+    "name": "أقاويل الثقات في تأويل الأسماء والصفات والآيات المحكمات والمشتبهات"
+  },
+  "1033MarciKarmi.DalilTalibLiNaylMatalib": {
+    "id": 11196,
+    "name": "دليل الطالب لنيل المطالب"
+  },
+  "1033MarciKarmi.DalilTalibinLiKalamNahwiyyin": {
+    "id": 254,
+    "name": "دليل الطالبين لكلام النحويين"
+  },
+  "1033MarciKarmi.FawaidMawduca": {
+    "id": 6051,
+    "name": "الفوائد الموضوعة في الأحاديث الموضوعة"
+  },
+  "1033MarciKarmi.GhayatMuntaha": {
+    "id": 20589,
+    "name": "غاية المنتهى في جمع الإقناع والمنتهى ط غراس"
+  },
+  "1033MarciKarmi.GhidhaArwah": {
+    "id": 147065,
+    "name": "غذاء الأرواح بالمحادثة والمزاح"
+  },
+  "1033MarciKarmi.IkhlasWidad": {
+    "id": 16727,
+    "name": "إخلاص الوداد في صدق الميعاد"
+  },
+  "1033MarciKarmi.MaYafcalhuAtibba": {
+    "id": 17414,
+    "name": "ما يفعله الأطباء والداعون بدفع شر الطاعون"
+  },
+  "1033MarciKarmi.MasbukDhahab": {
+    "id": 26541,
+    "name": "مسبوك الذهب في فضل العرب وشرف العلم على شرف النسب"
+  },
+  "1033MarciKarmi.QalaidMarjan": {
+    "id": 5517,
+    "name": "قلائد المرجان في بيان الناسخ والمنسوخ في القرآن"
+  },
+  "1033MarciKarmi.QawlMacruf": {
+    "id": 17451,
+    "name": "القول المعروف في فضل المعروف"
+  },
+  "1033MarciKarmi.RafcShubha": {
+    "id": 6481,
+    "name": "رفع الشبهة والغرر عمن يحتج على فعل المعاصي بالقدر"
+  },
+  "1033MarciKarmi.ShahadaZakiyya": {
+    "id": 6661,
+    "name": "الشهادة الزكية في ثناء الأئمة على ابن تيمية"
+  },
+  "1033MarciKarmi.TahqiqRujhan": {
+    "id": 11087,
+    "name": "تحقيق الرجحان بصوم يوم الشك من رمضان"
+  },
+  "1034AhmadSirhindi.RaddRawafid": {
+    "id": 36475,
+    "name": "رسالة رد الروافض"
+  },
+  "1036AhmadBaba.NaylIbtihaj": {
+    "id": 14197,
+    "name": "نيل الابتهاج بتطريز الديباج"
+  },
+  "1038CabdQadirCaydarus.TarikhNurSafir": {
+    "id": 6676,
+    "name": "النور السافر عن أخبار القرن العاشر"
+  },
+  "1041BurhanDinMaliki.BahjaMahafil": {
+    "id": 96239,
+    "name": "بهجة المحافل وأجمل الوسائل بالتعريف برواة الشمائل"
+  },
+  "1044IbnBurhanDinHalabi.SiraHalabiyya": {
+    "id": 9873,
+    "name": "السيرة الحلبية = إنسان العيون في سيرة الأمين المأمون"
+  },
+  "1050IbnMansurBiLlahYamani.AdabCulama": {
+    "id": 649,
+    "name": "آداب العلماء والمتعلمين"
+  },
+  "1051Cimadi.RawdaRayya": {
+    "id": 5864,
+    "name": "الروضة الريا فيمن دفن بداريا"
+  },
+  "1052CabdHaqqDihlawi.LumcatTanqih": {
+    "id": 145212,
+    "name": "لمعات التنقيح في شرح مشكاة المصابيح"
+  },
+  "1052CabdHaqqDihlawi.MuqaddimaFiUsulHadith": {
+    "id": 5988,
+    "name": "مقدمة في أصول الحديث"
+  },
+  "1057IbnCallan.DalilFalihin": {
+    "id": 140,
+    "name": "دليل الفالحين لطرق رياض الصالحين"
+  },
+  "1057IbnCallan.FutuhatRabbaniyya": {
+    "id": 23625,
+    "name": "الفتوحات الربانية على الأذكار النواوية"
+  },
+  "1057IbnCallan.IthafFadil": {
+    "id": 6977,
+    "name": "اتحاف الفاضل بالفعل المبني لغير الفاعل"
+  },
+  "1057IbnCallan.NashrAlwiyatTashrif": {
+    "id": 17792,
+    "name": "نشر ألوية التشريف بالإعلام والتعريف بمن له ولاية عمارة ما سقط من البيت الشريف"
+  },
+  "1061IbnMullaFarrukhRumi.QawlSadid": {
+    "id": 6354,
+    "name": "القول السديد في بعض مسائل الاجتهاد والتقليد"
+  },
+  "1067HajjiKhalifa.KashfZunun": {
+    "id": 2118,
+    "name": "كشف الظنون عن أسامي الكتب والفنون"
+  },
+  "1067HajjiKhalifa.SullamWusul": {
+    "id": 19199,
+    "name": "سلم الوصول إلى طبقات الفحول"
+  },
+  "1069IbnCammarShurunbulali.IthafDhawiItqan": {
+    "id": 96849,
+    "name": "إتحاف ذوي الإتقان بحكم الرهان"
+  },
+  "1069IbnCammarShurunbulali.NurIdah": {
+    "id": 12117,
+    "name": "نور الإيضاح ونجاة الأرواح في الفقه الحنفي"
+  },
+  "1069IbnCammarShurunbulali.SacadatMajid": {
+    "id": 96854,
+    "name": "سعادة الماجد بعمارة المساجد"
+  },
+  "1069IbnCammarShurunbulali.TajaddudMasarrat": {
+    "id": 96852,
+    "name": "تجدد المسرات بالقسم بين الزوجات"
+  },
+  "1070MuhammadKibrit.RihlatShita": {
+    "id": 37345,
+    "name": "رحلة الشتاء والصيف"
+  },
+  "1071IbnFaqihFussaBacliDimashqi.CaynWaAthar": {
+    "id": 8518,
+    "name": "العين والأثر في عقائد أهل الأثر"
+  },
+  "1072IbnAhmadMayyaraFasi.DurrThamin": {
+    "id": 14249,
+    "name": "الدر الثمين والمورد المعين"
+  },
+  "1073YusufBadiciDimashqi.SubhMunabbi": {
+    "id": 21498,
+    "name": "الصبح المنبي عن حيثية المتنبي"
+  },
+  "1080IbnMuhammadBayquniDimashqi.ManzumaBayquniyya": {
+    "id": 8567,
+    "name": "المنظومة البيقونية"
+  },
+  "1083IbnBalbanDimashqi.BughyatMustafid": {
+    "id": 17674,
+    "name": "بغية المستفيد في علم التجويد"
+  },
+  "1083IbnBalbanDimashqi.MukhtasarIfadat": {
+    "id": 147311,
+    "name": "مختصر الإفادات في ربع العبادات والآداب وزيادات"
+  },
+  "1086IbnCajamiMisri.DhaylLubbLubab": {
+    "id": 96236,
+    "name": "ذيل لب اللباب في تحرير الأنساب"
+  },
+  "1088IbnAhmadKhalwati.HashiyaCalaMuntahaIradat": {
+    "id": 16772,
+    "name": "حاشية الخلوتي على منتهى الإرادات"
+  },
+  "1089IbnCimad.MuctiyatAman": {
+    "id": 12076,
+    "name": "معطية الأمان من حنث الأيمان"
+  },
+  "1089IbnCimad.Shadharat": {
+    "id": 12398,
+    "name": "شذرات الذهب في أخبار من ذهب"
+  },
+  "1090IbnCabdWahidAndalusiFasi.TanbihKhillan": {
+    "id": 10011,
+    "name": "تنبيه الخلان بتكميل مورد الظمآن مطبوع ضمن كتاب دليل الحيران على مورد الظمآن"
+  },
+  "1093CabdQadirBaghdadi.KhizanatAdab": {
+    "id": 12732,
+    "name": "خزانة الأدب ولب لباب لسان العرب للبغدادي"
+  },
+  "1093CabdQadirBaghdadi.SharhAbyatMughni": {
+    "id": 150966,
+    "name": "شرح أبيات مغني اللبيب"
+  },
+  "1094IbnSacidMujaylidi.Taysir": {
+    "id": 36116,
+    "name": "التيسير في أحكام التسعير"
+  },
+  "1096YahyaShawi.TuhafRabbaniyya": {
+    "id": 36572,
+    "name": "التحف الربانية في جواب الأسئلة اللمدانية"
+  },
+  "1097IbnQaid.Hashiya": {
+    "id": 18353,
+    "name": "حاشية ابن قائد على منتهى الإرادات"
+  },
+  "1097IbnQaid.RisalatAyyMushaddada": {
+    "id": 6990,
+    "name": "رسالة أي المشددة"
+  },
+  "1098IbnMuhammadShihabDinHamawi.GhamzCuyun": {
+    "id": 21588,
+    "name": "غمز عيون البصائر في شرح الأشباه والنظائر"
+  },
+  "1099CabdBaqiZurqani.SharhCalaMukhtasarKhalil": {
+    "id": 14297,
+    "name": "شرح الزرقاني على مختصر خليل وحاشية البناني"
+  },
+  "1100IbnCabdKarimAshmuniMisri.ManarHuda": {
+    "id": 38091,
+    "name": "منار الهدى في بيان الوقف والابتدا ومعه المقصد لتلخيص ما في المرشد"
+  },
+  "1102NurDinYusi.MuhadaratFiLugha": {
+    "id": 473,
+    "name": "المحاضرات في اللغة والأدب"
+  },
+  "1102NurDinYusi.ZahrAkam": {
+    "id": 7414,
+    "name": "زهر الأكم في الأمثال والحكم"
+  },
+  "1103IbnCabdRasulBarzanji.Ishaca": {
+    "id": 132618,
+    "name": "الإشاعة لأشراط الساعة"
+  },
+  "1111CabdMalikCasimi.SamtNujum": {
+    "id": 6617,
+    "name": "سمط النجوم العوالي في أنباء الأوائل والتوالي"
+  },
+  "1117IbnMuhammadSharafDinDimyatti.IthafFudalaBashar": {
+    "id": 10010,
+    "name": "إتحاف فضلاء البشر في القراءات الأربعة عشر"
+  },
+  "1118IbnMuhammadNuriSafaqsi.GhaythNafc": {
+    "id": 27083,
+    "name": "غيث النفع في القراءات السبع"
+  },
+  "1118IbnMuhammadNuriSafaqsi.TanbihGhafilin": {
+    "id": 10929,
+    "name": "تنبيه الغافلين وإرشاد الجاهلين"
+  },
+  "1119IbnMacsum.AnwarRabic": {
+    "id": 5446,
+    "name": "أنوار الربيع في أنواع البديع"
+  },
+  "1119IbnMacsum.SulafaCasr": {
+    "id": 298,
+    "name": "سلافة العصر في محاسن الشعراء بكل مصر"
+  },
+  "1120IbnMuhammadBurhanDinDimashqi.BayanWaTacrif": {
+    "id": 6000,
+    "name": "البيان والتعريف في أسباب ورود الحديث الشريف"
+  },
+  "1122MuhammadZurqani.SharhCalaMawahib": {
+    "id": 26568,
+    "name": "شرح الزرقاني على المواهب اللدنية بالمنح المحمدية"
+  },
+  "1125AhmadManqur.FawakihCadida": {
+    "id": 150961,
+    "name": "الفواكه العديدة في المسائل المفيدة"
+  },
+  "1126MuhammadHanbali.Mashyakha": {
+    "id": 202,
+    "name": "مشيخة أبي المواهب الحنبلي"
+  },
+  "1127IsmacilHaqqiBurusawi.RuhBayan": {
+    "id": 23612,
+    "name": "روح البيان"
+  },
+  "1135IbnCumarTaghlibiShaybani.NaylMaarib": {
+    "id": 96876,
+    "name": "نيل المآرب بشرح دليل الطالب"
+  },
+  "1138IbnCabdHadiNurDinSindi.FathWadud": {
+    "id": 20591,
+    "name": "فتح الودود في شرح سنن أبي داود"
+  },
+  "1138IbnCabdHadiNurDinSindi.HashiyaCalaIbnMajah": {
+    "id": 9810,
+    "name": "حاشية السندي على سنن ابن ماجه"
+  },
+  "1138IbnCabdHadiNurDinSindi.HashiyaCalaNasai": {
+    "id": 522,
+    "name": "حاشية السندي على سنن النسائي"
+  },
+  "1140IbnMuhammadDimyatiShafici.JawahirGhawali": {
+    "id": 10632,
+    "name": "الجواهر الغوالي في ذكر الأسانيد العوالي للبديري"
+  },
+  "1143CabdGhaniNabulusi.TactirAnam": {
+    "id": 1217,
+    "name": "تعطير الأنام في تعبير المنام"
+  },
+  "1145SajaqliZadehMarcashi.TartibCulum": {
+    "id": 20970,
+    "name": "ترتيب العلوم للمرعشي"
+  },
+  "1147CabdAllahSancani.TarikhYaman": {
+    "id": 6640,
+    "name": "تاريخ اليمن خلال القرن الحادي عشر = تاريخ طبق الحلوى وصحاف المن والسلوى"
+  },
+  "1150IbnCaqila.FawaidJalila": {
+    "id": 10758,
+    "name": "الفوائد الجليلة في مسلسلات ابن عقيلة"
+  },
+  "1150IbnCaqila.Ziyada": {
+    "id": 150960,
+    "name": "الزيادة والإحسان في علوم القرآن"
+  },
+  "1153IbnKannan.YawmiyyatShamiyya": {
+    "id": 397,
+    "name": "يوميات شامية"
+  },
+  "1156IbnMuhammadAbuSacidKhadimi.BariqaMahmudiyya": {
+    "id": 21654,
+    "name": "بريقة محمودية في شرح طريقة محمدية وشريعة نبوية في سيرة أحمدية"
+  },
+  "1163MuhammadHayatSindi.FathGhufur": {
+    "id": 1596,
+    "name": "فتح الغفور في وضع الأيدي على الصدور"
+  },
+  "1167IbnCabdRahmanGhazzi.DiwanIslam": {
+    "id": 1488,
+    "name": "ديوان الإسلام"
+  },
+  "1170IbnMuhammadMahalliMisri.MazidNicma": {
+    "id": 11577,
+    "name": "مزيد النعمة لجمع أقوال الأئمة"
+  },
+  "1171CuthmanKamakhi.Muhayya": {
+    "id": 127713,
+    "name": "المهيأ في كشف أسرار الموطأ"
+  },
+  "1172IbnKhalifaMasakini.Fahrasa": {
+    "id": 10732,
+    "name": "فهرسة علي بن خليفة المساكني"
+  },
+  "1173IbnCaliMusawiTustari.TadhyilSulafatCasr": {
+    "id": 9085,
+    "name": "تذييل سلافة العصر"
+  },
+  "1174AbuBarakatSuwaydi.MutamarNajaf": {
+    "id": 37757,
+    "name": "مؤتمر النجف = الحجج القطعية لاتفاق الفرق الإسلامية"
+  },
+  "1175AhmadBudayri.HawadithDimashq": {
+    "id": 404,
+    "name": "حوادث دمشق اليومية"
+  },
+  "1176ShahWaliAllahDihlawi.CiqdJayyid": {
+    "id": 6357,
+    "name": "عقد الجيد في أحكام الاجتهاد والتقليد"
+  },
+  "1176ShahWaliAllahDihlawi.FawzKabir": {
+    "id": 9964,
+    "name": "الفوز الكبير في أصول التفسير"
+  },
+  "1176ShahWaliAllahDihlawi.HujjatAllahBaligha": {
+    "id": 773,
+    "name": "حجة الله البالغة"
+  },
+  "1176ShahWaliAllahDihlawi.InsafFiBayan": {
+    "id": 422,
+    "name": "الإنصاف في بيان أسباب الاختلاف للدهلوي"
+  },
+  "1179AhmadShafici.IclamMultazam": {
+    "id": 17806,
+    "name": "الإعلام الملتزم بفضيلة زمزم"
+  },
+  "1182IbnIsmacilSancani.IftiraqUmma": {
+    "id": 6456,
+    "name": "افتراق الأمة إلى نيف وسبعين فرقة"
+  },
+  "1182IbnIsmacilSancani.InsafFiHaqiqatAwliya": {
+    "id": 7556,
+    "name": "الإنصاف في حقيقة الأولياء ومالهم من الكرامات والألطاف"
+  },
+  "1182IbnIsmacilSancani.IrshadNuqqad": {
+    "id": 6348,
+    "name": "إرشاد النقاد إلى تيسير الاجتهاد"
+  },
+  "1182IbnIsmacilSancani.IstifaAqwal": {
+    "id": 29877,
+    "name": "استيفاء الأقوال في تحريم الإسبال على الرجال"
+  },
+  "1182IbnIsmacilSancani.RafcAstar": {
+    "id": 1756,
+    "name": "رفع الأستار لإبطال أدلة القائلين بفناء النار"
+  },
+  "1182IbnIsmacilSancani.RisalaLatifa": {
+    "id": 17848,
+    "name": "رسالة لطيفة في شرح حديث أنت ومالك لأبيك"
+  },
+  "1182IbnIsmacilSancani.Tahbir": {
+    "id": 14309,
+    "name": "التحبير لإيضاح معاني التيسير"
+  },
+  "1182IbnIsmacilSancani.Tanwir": {
+    "id": 122096,
+    "name": "التنوير شرح الجامع الصغير"
+  },
+  "1182IbnIsmacilSancani.TathirIctiqad": {
+    "id": 11098,
+    "name": "تطهير الاعتقاد عن أدران الإلحاد ويليه شرح الصدور في تحريم رفع القبور"
+  },
+  "1182IbnIsmacilSancani.TawdihAfkar": {
+    "id": 11990,
+    "name": "توضيح الأفكار لمعاني تنقيح الأنظار"
+  },
+  "1182IbnIsmacilSancani.ThamaratNazar": {
+    "id": 5983,
+    "name": "ثمرات النظر في علم الأثر"
+  },
+  "1188ShamsDinSaffarini.BuhurZakhira": {
+    "id": 132973,
+    "name": "البحور الزاخرة في علوم الآخرة"
+  },
+  "1188ShamsDinSaffarini.GhidhaAlbab": {
+    "id": 25791,
+    "name": "غذاء الألباب في شرح منظومة الآداب"
+  },
+  "1188ShamsDinSaffarini.KashfLitham": {
+    "id": 17437,
+    "name": "كشف اللثام شرح عمدة الأحكام"
+  },
+  "1188ShamsDinSaffarini.LawaihAnwar": {
+    "id": 16618,
+    "name": "لوائح الأنوار السنية ولواقح الأفكار السنية"
+  },
+  "1192IbnCabdAllahBacliHanbali.FawaidMurdiyya": {
+    "id": 147660,
+    "name": "الفوائد المرضية بشرح الدرة المضية في علم القواعد الفرضية"
+  },
+  "1192IbnCabdAllahBacliHanbali.KashfMukhaddarat": {
+    "id": 6115,
+    "name": "كشف المخدرات لشرح أخصر المختصرات"
+  },
+  "1200IbnAhmadSafiDinBukhari.Carus": {
+    "id": 17797,
+    "name": "العروس المجلية في أسانيد الحديث المسلسل بالأولية"
+  },
+  "1205MurtadaZabidi.BulghatArib": {
+    "id": 5980,
+    "name": "بلغة الأريب في مصطلح آثار الحبيب"
+  },
+  "1205MurtadaZabidi.CiqdJuman": {
+    "id": 17795,
+    "name": "عقد الجمان في بيان شعب الإيمان"
+  },
+  "1205MurtadaZabidi.IdahMadarik": {
+    "id": 13995,
+    "name": "إيضاح المدارك في الإفصاح عن العواتك"
+  },
+  "1205MurtadaZabidi.TajCarus": {
+    "id": 7030,
+    "name": "تاج العروس من جواهر القاموس"
+  },
+  "1205MurtadaZabidi.TakhrijAhadithIhyaCulumDin": {
+    "id": 38171,
+    "name": "تخريج أحاديث إحياء علوم الدين"
+  },
+  "1206IbnCabdWahhab.AhadithFiFitan": {
+    "id": 7485,
+    "name": "أحاديث في الفتن والحوادث (مطبوع ضمن مؤلفات الشيخ محمد بن عبدالوهاب، الجزء الحادي عشر)"
+  },
+  "1206IbnCabdWahhab.AhkamTamanniMawt": {
+    "id": 7489,
+    "name": "أحكام تمني الموت (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثالث)"
+  },
+  "1206IbnCabdWahhab.ArbacQawacidTaduruAhkamCalayha": {
+    "id": 7499,
+    "name": "أربع قواعد تدور الأحكام عليها ويليها نبذة في اتباع النصوص مع احترام العلماء (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثالث)"
+  },
+  "1206IbnCabdWahhab.BacdFawaidSulhHudaybiyya": {
+    "id": 11070,
+    "name": "بعض فوائد صلح الحديبية (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثاني عشر)"
+  },
+  "1206IbnCabdWahhab.FadlIslam": {
+    "id": 11221,
+    "name": "فضل الإسلام (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزءالأول)"
+  },
+  "1206IbnCabdWahhab.Fatawa": {
+    "id": 11324,
+    "name": "فتاوى ومسائل (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الرابع)"
+  },
+  "1206IbnCabdWahhab.KhutabMinbariyya": {
+    "id": 7612,
+    "name": "الخطب المنبرية (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثاني عشر)"
+  },
+  "1206IbnCabdWahhab.KitabTahara": {
+    "id": 8383,
+    "name": "الطهارة (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثالث)"
+  },
+  "1206IbnCabdWahhab.MabhathIjtihadWaKhilaf": {
+    "id": 11369,
+    "name": "مبحث الاجتهاد والخلاف (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثالث)"
+  },
+  "1206IbnCabdWahhab.MajmucatRasailFiTawhid": {
+    "id": 11381,
+    "name": "مجموعة رسائل في التوحيد والإيمان (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الأول)"
+  },
+  "1206IbnCabdWahhab.MansikHajj": {
+    "id": 12092,
+    "name": "منسك الحج"
+  },
+  "1206IbnCabdWahhab.MasailJahiliyya": {
+    "id": 8137,
+    "name": "مسائل الجاهلية"
+  },
+  "1206IbnCabdWahhab.MasailLakhkhasahaIbnCabdWahhab": {
+    "id": 11572,
+    "name": "مسائل لخصها الشيخ محمد بن عبد الوهاب من كلام بن تيمية (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثاني عشر)"
+  },
+  "1206IbnCabdWahhab.MufidMustafid": {
+    "id": 12078,
+    "name": "مفيد المستفيد في كفر تارك التوحيد (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الأول)"
+  },
+  "1206IbnCabdWahhab.MukhtasarInsaf": {
+    "id": 1685,
+    "name": "مختصر الإنصاف والشرح الكبير (مطبوع ضمن مجموعة مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثاني)"
+  },
+  "1206IbnCabdWahhab.MukhtasarTafsirSuratAnfal": {
+    "id": 11383,
+    "name": "مختصر تفسير سورة الأنفال (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثاني عشر)"
+  },
+  "1206IbnCabdWahhab.MukhtasarZadMacad": {
+    "id": 31457,
+    "name": "مختصر زاد المعاد"
+  },
+  "1206IbnCabdWahhab.QawacidArbaca": {
+    "id": 8524,
+    "name": "القواعد الأربع (مطبوع ضمن مؤلفات الشيخ مجمد بن عبد الوهاب، الجزء الأول)"
+  },
+  "1206IbnCabdWahhab.RasailShakhsiyya": {
+    "id": 7629,
+    "name": "الرسائل الشخصية (مطبوع ضمن مؤلفات الشيخ محمد بن عبدالوهاب، الجزء السادس)"
+  },
+  "1206IbnCabdWahhab.RisalaFiRaddCalaRafida": {
+    "id": 11217,
+    "name": "رسالة في الرد على الرافضة (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثاني عشر)"
+  },
+  "1206IbnCabdWahhab.RisalaMufida": {
+    "id": 7637,
+    "name": "الرسالة المفيدة"
+  },
+  "1206IbnCabdWahhab.ShurutSalat": {
+    "id": 11266,
+    "name": "شروط الصلاة وأركانها وواجباتها (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الثالث)"
+  },
+  "1206IbnCabdWahhab.TafsirAyatMinQuran": {
+    "id": 11099,
+    "name": "تفسير آيات من القرآن الكريم (مطبوع ضمن مؤلفات الشيخ محمد بن عبد الوهاب، الجزء الخامس)"
+  },
+  "1206IbnCabdWahhab.ThalathatUsul": {
+    "id": 11126,
+    "name": "ثلاثة الأصول (مطبوع ضمن مؤلفات الشيخ محمد بن عبدالوهاب، الجزء الأول)"
+  },
+  "1206IbnCabdWahhab.UsulDin": {
+    "id": 350,
+    "name": "أصول الدين الإسلامي مع قواعده الأربع"
+  },
+  "1207IbnAhmadCabdQadirKawkabani.FulkQamus": {
+    "id": 7059,
+    "name": "فلك القاموس"
+  },
+  "1214IbnCuthmanGarsifi.RisalaFiHisba": {
+    "id": 132434,
+    "name": "رسالة عمر بن عثمان بن العباس الجرسيفي في الحسبة"
+  },
+  "1218IbnMuhammadIbnSacud.RisalaMuhimma": {
+    "id": 11226,
+    "name": "رسالة مهمة للإمام المجاهد العلامة عبد العزيز بن محمد بن سعود"
+  },
+  "1219TalibBartiliWalati.FathShakur": {
+    "id": 175,
+    "name": "فتح الشكور في معرفة أعيان علماء التكرور"
+  },
+  "1221IbnAhmadSayyaghi.TuhfatMushtaq": {
+    "id": 662,
+    "name": "تحفة المشتاق إلى شرح أبيات المولى إسحق"
+  },
+  "1224IbnCajiba.BahrMadid": {
+    "id": 10273,
+    "name": "البحر المديد في تفسير القرآن المجيد"
+  },
+  "1225IbnGhannamMalikiNajdi.CiqdThamin": {
+    "id": 8514,
+    "name": "العقد الثمين في شرح أحاديث أصول الدين"
+  },
+  "1226AhmadBarbir.Fasiha": {
+    "id": 17736,
+    "name": "الفصيحة العجما في الكلام على حديث «أحبب حبيبك هونا ما»"
+  },
+  "1226AhmadBarbir.Mufakhara": {
+    "id": 36079,
+    "name": "المفاخرة بين الماء والهواء"
+  },
+  "1228MahmudMaqdishSafaqsi.NuzhatAnzar": {
+    "id": 17048,
+    "name": "نزهة الأنظار في عجائب التواريخ والأخبار"
+  },
+  "1230IbnAhmadDasuqi.HashiyaCalaMukhtasarMacani": {
+    "id": 147062,
+    "name": "حاشية الدسوقي على مختصر المعاني"
+  },
+  "1231IbnMuhammadHanafiTahtawi.HashiyaCalaMaraqi": {
+    "id": 11993,
+    "name": "حاشية الطحطاوي على مراقي الفلاح شرح نور الإيضاح"
+  },
+  "1232MuhammadSanbawiAmir.SharhThumam": {
+    "id": 17091,
+    "name": "ثمر الثمام شرح «غاية الإحكام في آداب الفهم والإفهام»"
+  },
+  "1233SulaymanSibtIbnCabdWahhab.Dalail": {
+    "id": 12827,
+    "name": "الدلائل في حكم موالاة أهل الإشراك"
+  },
+  "1233SulaymanSibtIbnCabdWahhab.Taysir": {
+    "id": 2378,
+    "name": "تيسير العزيز الحميد في شرح كتاب التوحيد الذى هو حق الله على العبيد"
+  },
+  "1235IbnIbrahimShinqiti.NashrBunud": {
+    "id": 20892,
+    "name": "نشر البنود على مراقي السعود"
+  },
+  "1237Jabarti.CajaibAthar": {
+    "id": 11998,
+    "name": "تاريخ عجائب الآثار في التراجم والأخبار"
+  },
+  "1240CuthmanIbnJamic.FawaidMuntakhabat": {
+    "id": 13785,
+    "name": "الفوائد المنتخبات في شرح أخصر المختصرات"
+  },
+  "1241IbnMuhammadKhalwatiSawi.BulghatSalik": {
+    "id": 150969,
+    "name": "حاشية الصاوي على الشرح الصغير ط الحلبي"
+  },
+  "1242IbnMuhammadIbnCabdWahhabNajdi.JawabAhlSunna": {
+    "id": 11146,
+    "name": "جواب أهل السنة النبوية في نقض كلام الشيعة والزيدية (مطبوع ضمن الرسائل والمسائل النجدية، الجزء الرابع، القسم الأول)"
+  },
+  "1242IbnMuhammadIbnCabdWahhabNajdi.KalimatNafica": {
+    "id": 8532,
+    "name": "الكلمات النافعة في المكفرات الواقعة"
+  },
+  "1243IbnSacdRahyabaniSuyuti.MatalibUliNuha": {
+    "id": 21677,
+    "name": "مطالب أولي النهى في شرح غاية المنتهى"
+  },
+  "1244IbnHamadAlMucammar.MinhatQaribMujib": {
+    "id": 10895,
+    "name": "منحة القريب المجيب في الرد على عباد الصليب"
+  },
+  "1246IbnCabdGhaniDihlawi.RisalatTawhid": {
+    "id": 1123,
+    "name": "رسالة التوحيد المسمى بـ تقوية الإيمان"
+  },
+  "1250IbnMuhammadCattarShafici.HashiyaCalaJamcJawamic": {
+    "id": 21608,
+    "name": "حاشية العطار على شرح الجلال المحلي على جمع الجوامع"
+  },
+  "1252IbnCabidinDimashqi.AjwibaMuhaqqaqa": {
+    "id": 36573,
+    "name": "أجوبة محققة عن أسئلة مفرقة"
+  },
+  "1252IbnCabidinDimashqi.FawaidCajiba": {
+    "id": 7000,
+    "name": "الفوائد العجيبة في إعراب الكلمات الغريبة"
+  },
+  "1252IbnCabidinDimashqi.TanqihFatawa": {
+    "id": 21687,
+    "name": "العقود الدرية في تنقيح الفتاوى الحامدية"
+  },
+  "1253IbnMuhammadAnsariShirwani.NafhatYaman": {
+    "id": 35888,
+    "name": "نفحة اليمن فيما يزول بذكره الشجن"
+  },
+  "1255HamdanKhwaja.Mirat": {
+    "id": 14329,
+    "name": "المرآة"
+  },
+  "1258IbnCabdSalamTusuli.AjwibatTusuli": {
+    "id": 35276,
+    "name": "أجوبة التسولي عن مسائل الأمير عبد القادر في الجهاد"
+  },
+  "1258IbnCabdSalamTusuli.Bahja": {
+    "id": 1544,
+    "name": "البهجة في شرح التحفة"
+  },
+  "1262IbnMuhammadKuzbari.IntikhabCawali": {
+    "id": 5726,
+    "name": "انتخاب العوالي والشيوخ الأخيار من فهارس"
+  },
+  "1265IbnCumarCalawiHadrami.SuyufBawatir": {
+    "id": 38162,
+    "name": "السيوف البواتر لمن يقدم صلاة الصبح على الفجر الآخر"
+  },
+  "1266AhmadBay.Mudhakkirat": {
+    "id": 13551,
+    "name": "مذكرات أحمد باي"
+  },
+  "1270IbnMuhammadDawcaniHadrami.SharhMuqaddimaHadramiyya": {
+    "id": 26535,
+    "name": "شرح المقدمة الحضرمية المسمى بشرى الكريم بشرح مسائل التعليم"
+  },
+  "1272HasanBaytar.IrshadCibad": {
+    "id": 17796,
+    "name": "إرشاد العباد في فضل الجهاد"
+  },
+  "1276IbnAhmadRibaciSancani.FathGhaffar": {
+    "id": 6610,
+    "name": "فتح الغفار الجامع لأحكام سنة نبينا المختار"
+  },
+  "1277IbnDarwishHut.AsnaMatalib": {
+    "id": 6076,
+    "name": "أسنى المطالب في أحاديث مختلفة المراتب"
+  },
+  "1280QadiMulkHindi.DhaylQawlMusaddad": {
+    "id": 8637,
+    "name": "ذيل القول المسدد"
+  },
+  "1281IbnShawkani.FiSulukIslami": {
+    "id": 31375,
+    "name": "في السلوك الإسلامي القويم"
+  },
+  "1282Ababutayn.DahdShubuhat": {
+    "id": 11181,
+    "name": "دحض شبهات على التوحيد من سوء الفهم لثلاثة أحاديث"
+  },
+  "1282Ababutayn.IntisarLiHizbAllah": {
+    "id": 7554,
+    "name": "الانتصار لحزب الله الموحدين والرد على المجادل عن المشركين"
+  },
+  "1282Ababutayn.RaddCalaBurda": {
+    "id": 7620,
+    "name": "الرد على البردة"
+  },
+  "1282Ababutayn.TasisTaqdis": {
+    "id": 11079,
+    "name": "تأسيس التقديس في كشف تلبيس داود بن جرجيس"
+  },
+  "1284QasimiDimashqi.TacliqLatif": {
+    "id": 17741,
+    "name": "تعليق لطيف على آخر حديث في رياض الصالحين"
+  },
+  "1285IbnHasanAlShaykh.BayanKalimatTawhid": {
+    "id": 11074,
+    "name": "بيان كلمة التوحيد والرد على الكشميري عبد المحمود (مطبوع ضمن الرسائل والمسائل النجدية، الجزء الرابع، القسم الأول)"
+  },
+  "1285IbnHasanAlShaykh.BayanMahabba": {
+    "id": 11073,
+    "name": "بيان المحجة في الرد على اللجة (مطبوع ضمن الرسائل والمسائل النجدية، الجزء الرابع، القسم الأول)"
+  },
+  "1285IbnHasanAlShaykh.FathMajid": {
+    "id": 2386,
+    "name": "فتح المجيد شرح كتاب التوحيد"
+  },
+  "1285IbnHasanAlShaykh.Iman": {
+    "id": 9841,
+    "name": "الإيمان والرد على أهل البدع (مطبوع ضمن مجموعة الرسائل والمسائل النجدية لبعض علماء نجد الأعلام، الجزء الثاني)"
+  },
+  "1285IbnHasanAlShaykh.KashfMaAlqahuIblis": {
+    "id": 11354,
+    "name": "كشف ما ألقاه إبليس من البهرج والتلبيس على قلب داود بن جرجيس"
+  },
+  "1285IbnHasanAlShaykh.MasailWaFatawaNajdiyya": {
+    "id": 11573,
+    "name": "مسائل وفتاوى نجدية (طبع ضمن الرسائل والمسائل النجدية، الجزء الرابع، القسم الأول)"
+  },
+  "1285IbnHasanAlShaykh.MatlabHamid": {
+    "id": 8555,
+    "name": "المطلب الحميد في بيان مقاصد التوحيد"
+  },
+  "1285IbnHasanAlShaykh.MawridCadhbZulal": {
+    "id": 8571,
+    "name": "المورد العذب الزلال في كشف شبه أهل الضلال (مطبوع ضمن الرسائل والمسائل النجية، الجزء الرابع، القسم الأول)"
+  },
+  "1285IbnHasanAlShaykh.TawhidWaQurratCuyunMuwahhidin": {
+    "id": 11334,
+    "name": "كتاب التوحيد وقرة عيون الموحدين في تحقيق دعوة الأنبياء والمرسلين"
+  },
+  "1290RifacaTahtawi.NihayatIjaz": {
+    "id": 1515,
+    "name": "نهاية الإيجاز في سيرة ساكن الحجاز"
+  },
+  "1291IbnShaykhNasrAzhariHurini.MatalicNasriyya": {
+    "id": 97799,
+    "name": "المطالع النصرية للمطابع المصرية في الأصول الخطية"
+  },
+  "1292IbnIbrahimMaghribi.QurratCaynBiFatawa": {
+    "id": 36569,
+    "name": "قرة العين بفتاوى علماء الحرمين"
+  },
+  "1293CabdLatifAlShaykh.BarahinIslamiyya": {
+    "id": 7567,
+    "name": "البراهين الإسلامية في رد الشبهة الفارسية"
+  },
+  "1293CabdLatifAlShaykh.CuyunRasailwaAjwiba": {
+    "id": 12033,
+    "name": "عيون الرسائل والأجوبة على المسائل"
+  },
+  "1293CabdLatifAlShaykh.Ijaza": {
+    "id": 17847,
+    "name": "إجازة الشيخ العلامة عبد اللطيف بن عبد الرحمن آل الشيخ"
+  },
+  "1293CabdLatifAlShaykh.Ithaf": {
+    "id": 7520,
+    "name": "الإتحاف فى الرد على الصحاف"
+  },
+  "1293CabdLatifAlShaykh.MinhajTasisWaTaqdis": {
+    "id": 12094,
+    "name": "منهاج التأسيس والتقديس في كشف شبهات داود بن جرجيس"
+  },
+  "1293CabdLatifAlShaykh.MisbahZalam": {
+    "id": 30868,
+    "name": "مصباح الظلام في الرد على من كذب الشيخ الإمام ونسبه إلى تكفير أهل الإيمان والإسلام"
+  },
+  "1293CabdLatifAlShaykh.TuhfatTalib": {
+    "id": 11082,
+    "name": "تحفة الطالب والجليس في كشف شبه داود بن جرجيس"
+  },
+  "1298IbnTalibDimashqiMaydani.LubabFiSharhKitab": {
+    "id": 21496,
+    "name": "اللباب في شرح الكتاب"
+  },
+  "1299IbnMuhammadNajafiQurashi.Hamasa": {
+    "id": 2512,
+    "name": "حماسة القرشي"
+  },
+  "1300ReinhartDozy.TakmilatMacajimCarabiyya": {
+    "id": 15555,
+    "name": "تكملة المعاجم العربية"
+  },
+  "1302IbnSalimMajlisi.LawamicDurar": {
+    "id": 149697,
+    "name": "لوامع الدرر في هتك استار المختصر"
+  },
+  "1304AhmadFarisShidyaq.JasusCalaQamus": {
+    "id": 3742,
+    "name": "الجاسوس على القاموس"
+  },
+  "1304AhmadFarisShidyaq.SaqCalaSaq": {
+    "id": 9693,
+    "name": "الساق على الساق في ما هو الفارياق"
+  },
+  "1305IbnKhalilQawuqjiTarabulusi.LuluMarsuc": {
+    "id": 6063,
+    "name": "اللؤلؤ المرصوع"
+  },
+  "1306FikriBasha.NazmLaal": {
+    "id": 5385,
+    "name": "نظم اللآل في الحكم والأمثال"
+  },
+  "1307Qannawji.AbjadCulum": {
+    "id": 9579,
+    "name": "أبجد العلوم"
+  },
+  "1307Qannawji.FathBayan": {
+    "id": 37458,
+    "name": "فتح البيان في مقاصد القرآن"
+  },
+  "1307Qannawji.HittaFiDhikr": {
+    "id": 10717,
+    "name": "الحطة في ذكر الصحاح الستة"
+  },
+  "1307Qannawji.HusnUswa": {
+    "id": 3485,
+    "name": "حسن الأسوة بما ثبت من الله ورسوله في النسوة"
+  },
+  "1307Qannawji.LuqtatCajlan": {
+    "id": 10739,
+    "name": "لقطة العجلان مما تمس إلى معرفته حاجة الإنسان"
+  },
+  "1307Qannawji.NashwatSakran": {
+    "id": 28173,
+    "name": "نشوة السكران من صهباء تذكار الغزلان"
+  },
+  "1307Qannawji.NaylMaram": {
+    "id": 9759,
+    "name": "نيل المرام من تفسير آيات الأحكام"
+  },
+  "1307Qannawji.QatfThamar": {
+    "id": 3874,
+    "name": "قطف الثمر في بيان عقيدة أهل الأثر"
+  },
+  "1307Qannawji.Rihla": {
+    "id": 17101,
+    "name": "رحلة الصديق إلى البلد العتيق"
+  },
+  "1307Qannawji.TajMukallal": {
+    "id": 17349,
+    "name": "التاج المكلل من جواهر مآثر الطراز الآخر والأول"
+  },
+  "1307Qannawji.Yaqza": {
+    "id": 6879,
+    "name": "يقظة أولي الاعتبار"
+  },
+  "1308IbnKhalilHindiCuthmani.IzharHaqq": {
+    "id": 22721,
+    "name": "إظهار الحق"
+  },
+  "1308IbnKhalilHindiCuthmani.MukhtasarIzharHaqq": {
+    "id": 30945,
+    "name": "مختصر إظهار الحق"
+  },
+  "1308IbnKhalilHindiCuthmani.MunazaraTaqririyya": {
+    "id": 6546,
+    "name": "المناظرة التقريرية بين الشيخ رحمت الله الهندي والقسيس بفندر"
+  },
+  "1310BakriDimyati.HashiyaIcanaTalibin": {
+    "id": 963,
+    "name": "إعانة الطالبين على حل ألفاظ فتح المعين"
+  },
+  "1313CorneliusVanDyck.IktifaQunuc": {
+    "id": 9199,
+    "name": "اكتفاء القنوع بما هو مطبوع"
+  },
+  "1314CabdAllahNadim.MajallatTankit": {
+    "id": 245,
+    "name": "مجلة التنكيت والتبكيت"
+  },
+  "1314CabdAllahNadim.MajallatUstadh": {
+    "id": 35118,
+    "name": "مجلة الأستاذ"
+  },
+  "1315Salawi.IstiqsaLiAhkbar": {
+    "id": 6627,
+    "name": "الاستقصا لأخبار دول المغرب الأقصى"
+  },
+  "1316IbnCumarBantaniJawi.MarahLabid": {
+    "id": 22769,
+    "name": "مراح لبيد لكشف معنى القرآن المجيد"
+  },
+  "1316IbnCumarBantaniJawi.NihayatZayn": {
+    "id": 6146,
+    "name": "نهاية الزين"
+  },
+  "1317KhayrDinAlusi.AyatBayyinat": {
+    "id": 6457,
+    "name": "الآيات البينات في عدم سماع الأموات"
+  },
+  "1317KhayrDinAlusi.JalaCaynayn": {
+    "id": 9943,
+    "name": "جلاء العينين في محاكمة الأحمدين"
+  },
+  "1318AhmadDimashqi.MucjamAsmaAshya": {
+    "id": 7057,
+    "name": "اللطائف في اللغة = معجم أسماء الأشياء"
+  },
+  "1319IbnYasinLabadiNabulusi.HashiyatCalaNaylMaarib": {
+    "id": 97809,
+    "name": "حاشية اللبدي على نيل المآرب"
+  },
+  "1320IbnAhmadSayyidFuratiKawakibi.TabaicIstibdad": {
+    "id": 36085,
+    "name": "طبائع الاستبداد ومصارع الاستعباد"
+  },
+  "1320IbnAhmadSayyidFuratiKawakibi.UmmQura": {
+    "id": 9680,
+    "name": "أم القرى"
+  },
+  "1322HasanTawfiqCadl.RasailBushra": {
+    "id": 37007,
+    "name": "رسائل البشرى في السياحة بألمانيا وسويسرا"
+  },
+  "1324IbnNasifNasraniYaziji.NujcatRaid": {
+    "id": 10426,
+    "name": "نجعة الرائد وشرعة الوارد في المترادف والمتوارد"
+  },
+  "1326IbnMuhammadHindiSahsayani.SiyanatInsan": {
+    "id": 12027,
+    "name": "صيانة الإنسان عن وسوسة الشيخ دحلان"
+  },
+  "1327AhmadIbrahimCisa.RaddCalaShubuhat": {
+    "id": 7625,
+    "name": "الرد على شبهات المستعينين بغير الله"
+  },
+  "1330IbnMuhammadJazairiDimashqi.NadratBahar": {
+    "id": 37633,
+    "name": "نضرة البهار في محاورة الليل والنهار"
+  },
+  "1332IbnMuhammadJamalDinQasimi.IslahMasajid": {
+    "id": 10541,
+    "name": "إصلاح المساجد من البدع والعوائد"
+  },
+  "1332IbnMuhammadJamalDinQasimi.MawcizatMuminin": {
+    "id": 22842,
+    "name": "موعظة المؤمنين من إحياء علوم الدين"
+  },
+  "1332IbnMuhammadJamalDinQasimi.QawacidTahdith": {
+    "id": 9993,
+    "name": "قواعد التحديث من فنون مصطلح الحديث"
+  },
+  "1332IbnMuhammadJamalDinQasimi.RisalaFiShay": {
+    "id": 37486,
+    "name": "رسالة في الشاي والقهوة والدخان"
+  },
+  "1332IbnMuhammadJamalDinQasimi.SirrIstighfar": {
+    "id": 14014,
+    "name": "سر الاستغفار عقب الصلوات"
+  },
+  "1332IbnMuhammadJamalDinQasimi.ThamaratTasaruc": {
+    "id": 17748,
+    "name": "ثمرة التسارع إلى الحب في الله تعالى وترك التقاطع"
+  },
+  "1335CabdRazzaqBaytar.HilyatBashar": {
+    "id": 31371,
+    "name": "حلية البشر في تاريخ القرن الثالث عشر"
+  },
+  "1336CabdHamidThani.MudhakkaratiSiyasiya": {
+    "id": 9118,
+    "name": "مذكراتي السياسية"
+  },
+  "1337CabdQadirMajlisi.NuzhatAfkar": {
+    "id": 145166,
+    "name": "نزهة الأفكار في شرح قرة الأبصار"
+  },
+  "1338MuhammadFaridBey.Tarikh": {
+    "id": 6638,
+    "name": "تاريخ الدولة العلية العثمانية"
+  },
+  "1339IsmacilBashaBaghdadi.HadiyyatCarifin": {
+    "id": 3003,
+    "name": "هدية العارفين"
+  },
+  "1339IsmacilBashaBaghdadi.IdahMaknun": {
+    "id": 851,
+    "name": "إيضاح المكنون في الذيل على كشف الظنون"
+  },
+  "1342MahmudShukriAlusi.FaslKhitab": {
+    "id": 30866,
+    "name": "فصل الخطاب في شرح مسائل الجاهلية ت علي مخلوف"
+  },
+  "1342MahmudShukriAlusi.GhayatAmani": {
+    "id": 12034,
+    "name": "غاية الأماني في الرد على النبهاني"
+  },
+  "1342MahmudShukriAlusi.MaDallaCalayhiQuran": {
+    "id": 5551,
+    "name": "ما دل عليه القرآن مما يعضد الهيئة الجديدة القويمة بالبرهان"
+  },
+  "1342MahmudShukriAlusi.MukhtasarTuhfaIthnaCashariyya": {
+    "id": 36091,
+    "name": "مختصر التحفة الاثني عشرية"
+  },
+  "1342MahmudShukriAlusi.SabbCadhab": {
+    "id": 9775,
+    "name": "صب العذاب على من سب الأصحاب"
+  },
+  "1342MahmudShukriAlusi.Suyuf": {
+    "id": 96337,
+    "name": "السيوف المشرقة ومختصر الصواقع المحرقة"
+  },
+  "1345IbnCafifiKhudari.NurYaqin": {
+    "id": 23692,
+    "name": "نور اليقين في سيرة سيد المرسلين"
+  },
+  "1346CabbasIbnMuhammadMadani.MukhtasarFathRabbArbab": {
+    "id": 31381,
+    "name": "مختصر فتح رب الأرباب بما أهمل في لب اللباب من واجب الأنساب"
+  },
+  "1348AhmadTaymurBasha.AwhamShucaraCarab": {
+    "id": 5361,
+    "name": "أوهام شعراء العرب في المعاني"
+  },
+  "1348AhmadTaymurBasha.MucjamTaymurKabir": {
+    "id": 150964,
+    "name": "معجم تيمور الكبير في الألفاظ العامية"
+  },
+  "1348AhmadTaymurBasha.NazraTarikhiyya": {
+    "id": 96605,
+    "name": "نظرة تاريخية في حدوث المذاهب الفقهية الأربعة"
+  },
+  "1348AhmadTaymurBasha.SamacWaQiyas": {
+    "id": 37477,
+    "name": "السماع والقياس"
+  },
+  "1348AhmadTaymurBasha.TashihLisanCarab": {
+    "id": 7063,
+    "name": "تصحيح لسان العرب"
+  },
+  "1349CabdHamidFarahi.MufradatQuran": {
+    "id": 96629,
+    "name": "مفردات القرآن للفراهي"
+  },
+  "1353IbnCabdRahimMubarakfuri.TuhfatAhwadhi": {
+    "id": 21662,
+    "name": "تحفة الأحوذي"
+  },
+  "1354RashidRida.Khilafa": {
+    "id": 9682,
+    "name": "الخلافة"
+  },
+  "1354RashidRida.Manar": {
+    "id": 12304,
+    "name": "تفسير المنار"
+  },
+  "1354RashidRida.WahyMuhammadi": {
+    "id": 8642,
+    "name": "الوحي المحمدي"
+  },
+  "1355AhmadTahtawi.TanbihWaIqaz": {
+    "id": 1116,
+    "name": "التنبيه والإيقاظ"
+  },
+  "1356MustafaSadiqRafici.Masakin": {
+    "id": 5418,
+    "name": "المساكين"
+  },
+  "1356MustafaSadiqRafici.SumuwwRuhi": {
+    "id": 36191,
+    "name": "السمو الروحي الأعظم والجمال الفني في البلاغة النبوية"
+  },
+  "1356MustafaSadiqRafici.TahtaRayatQuran": {
+    "id": 21784,
+    "name": "تحت راية القرآن"
+  },
+  "1356MustafaSadiqRafici.TarikhAdabCarab": {
+    "id": 10548,
+    "name": "تاريخ آداب العرب"
+  },
+  "1356MustafaSadiqRafici.WahyQalam": {
+    "id": 11755,
+    "name": "وحي القلم"
+  },
+  "1359CabdHamidIbnBadis.Tafsir": {
+    "id": 9532,
+    "name": "تفسير ابن باديس في مجالس التذكير من كلام الحكيم الخبير"
+  },
+  "1360IbnQasimMakhluf.ShajaratNur": {
+    "id": 7669,
+    "name": "شجرة النور الزكية في طبقات المالكية"
+  },
+  "1362AhmadHashimi.JawahirAdab": {
+    "id": 21505,
+    "name": "جواهر الأدب في أدبيات وإنشاء لغة العرب"
+  },
+  "1363CabdRahmanBarquqi.Dhakhair": {
+    "id": 36072,
+    "name": "الذخائر والعبقريات"
+  },
+  "1363CabdRahmanBarquqi.MajallatBayan": {
+    "id": 73348,
+    "name": "مجلة البيان للبرقوقي"
+  },
+  "1364IbnHamdMughiri.MuntakhabQabail": {
+    "id": 494,
+    "name": "المنتخب في ذكر نسب قبائل العرب"
+  },
+  "1365AhmadCisa.TarikhBimaristanatFiIslam": {
+    "id": 36083,
+    "name": "تاريخ البيمارستانات في الإسلام"
+  },
+  "1366AnastasKarmali.MajallatLughatCarab": {
+    "id": 36540,
+    "name": "مجلة لغة العرب العراقية"
+  },
+  "1368CaliJarim.NahwWadih": {
+    "id": 10018,
+    "name": "النحو الواضح في قواعد اللغة العربية"
+  },
+  "1369MuhammadRida.AbuBakr": {
+    "id": 21515,
+    "name": "أبو بكر الصديق أول الخلفاء الراشدين ط إحياء الكتب العربية"
+  },
+  "1369MuhammadRida.Cuthman": {
+    "id": 552,
+    "name": "عثمان بن عفان ذو النورين"
+  },
+  "1369MuhammadRida.Muhammad": {
+    "id": 12935,
+    "name": "محمد صلى الله عليه وسلم"
+  },
+  "1371AhmadMustafaMaraghi.Tafsir": {
+    "id": 23608,
+    "name": "تفسير المراغي"
+  },
+  "1372KurdCali.KhitatSham": {
+    "id": 37063,
+    "name": "خطط الشام"
+  },
+  "1372KurdCali.MajallatMuqtabas": {
+    "id": 26523,
+    "name": "مجلة المقتبس"
+  },
+  "1373AbuYaclaZuwawi.TarikhZuwawa": {
+    "id": 115130,
+    "name": "تاريخ الزواوة"
+  },
+  "1374MuhammadCaliTawfiq.RihlaShamiyya": {
+    "id": 37027,
+    "name": "الرحلة الشامية"
+  },
+  "1376MuhammadHajwiThacalibi.FikrSami": {
+    "id": 10013,
+    "name": "الفكر السامي في تاريخ الفقه الإسلامي"
+  },
+  "1377AhmadMuhammadShakir.JamharatMaqalat": {
+    "id": 20642,
+    "name": "جمهرة مقالات أحمد شاكر"
+  },
+  "1378YusufKaram.TarikhFalsafaHaditha": {
+    "id": 8646,
+    "name": "تاريخ الفلسفة الحديثة"
+  },
+  "1379BadicZamanNursi.IsharatIcjaz": {
+    "id": 7849,
+    "name": "إشارات الإعجاز"
+  },
+  "1380KafiTunisi.AjwibaKafiya": {
+    "id": 36571,
+    "name": "الأجوبة الكافية عن الأسئلة الشامية"
+  },
+  "1389MuhammadAlShaykh.FatawaWaRasail": {
+    "id": 8476,
+    "name": "فتاوى ورسائل سماحة الشيخ محمد بن إبراهيم بن عبد اللطيف آل الشيخ"
+  },
+  "1393MuhammadTahirIbnCashurTunisi.JamharatMaqalat": {
+    "id": 147597,
+    "name": "جمهرة مقالات ورسائل الشيخ الإمام محمد الطاهر ابن عاشور"
+  },
+  "1393MuhammadTahirIbnCashurTunisi.Tahqiqat": {
+    "id": 133368,
+    "name": "تحقيقات وأنظار في القرآن والسنة"
+  },
+  "1393MuhammadTahirIbnCashurTunisi.TahrirWaTanwir": {
+    "id": 9776,
+    "name": "التحرير والتنوير"
+  },
+  "1394MuhammadAbuZahra.KhatimNabiyyin": {
+    "id": 9800,
+    "name": "خاتم النبيين صلى الله عليه وآله وسلم"
+  },
+  "1404IbrahimQattan.TaysirTafsir": {
+    "id": 29,
+    "name": "تيسير التفسير للقطان"
+  },
+  "1409CabdAllahKannun.NubughMaghribi": {
+    "id": 148529,
+    "name": "النبوغ المغربي في الأدب العربي"
+  },
+  "1414SalimIbadi.IscafAcyan": {
+    "id": 490,
+    "name": "إسعاف الأعيان في أنساب أهل عمان"
+  },
+  "1415CabdRazzaqCafifi.MudhakkiratTawhid": {
+    "id": 30863,
+    "name": "مذكرة التوحيد"
+  },
+  "1418SalihAhmadArkani.TuhfatMajalis": {
+    "id": 2138,
+    "name": "تحفة المجالس في التعليقات علي فهرس الفهارس"
+  },
+  "1419MahmudTanahi.MujizFiMarajic": {
+    "id": 9847,
+    "name": "الموجز في مراجع التراجم والبلدان والمصنفات وتعريفات العلوم"
+  },
+  "1420AbuHasanNadwi.MadhaKhasaraCalam": {
+    "id": 21575,
+    "name": "ماذا خسر العالم بانحطاط المسلمين"
+  },
+  "1421HamdJasir.MucjamQabailMCS": {
+    "id": 26574,
+    "name": "معجم قبائل المملكة العربية السعودية"
+  },
+  "1422CabdCazizSalman.MajmucatQasaid": {
+    "id": 38155,
+    "name": "مجموعة القصائد الزهديات"
+  },
+  "1424IhsanCabbas.ShadharatMinKutubMafquda": {
+    "id": 1023,
+    "name": "شذرات من كتب مفقودة في التاريخ"
+  },
+  "1424IhsanCabbas.ShicrKhawarij": {
+    "id": 1013,
+    "name": "شعر الخوارج"
+  },
+  "1425IbrahimIbnCubaydAlCabdMuhsin.TadhkiraUliNahy": {
+    "id": 145210,
+    "name": "تذكرة أولي النهى والعرفان بأيام الله الواحد الديان وذكر حوادث الزمان"
+  },
+  "1429BakrIbnCabdAllah.TabaqatNassabin": {
+    "id": 1592,
+    "name": "طبقات النسابين"
+  },
+  "1430IbnJibrin.Fatawa": {
+    "id": 4482,
+    "name": "فتاوى الشيخ ابن جبرين"
+  },
+  "1431MuhammadSayyidTantawi.TafsirWasit": {
+    "id": 23590,
+    "name": "التفسير الوسيط لطنطاوي"
+  },
+  "0001CamrIbnQumaya.Diwan": {
+    "id": 149481,
+    "name": "ديوان عمرو بن قميئة"
+  }
+}
