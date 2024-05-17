@@ -31,6 +31,18 @@
     "id": 1623,
     "name": "الحسن البصري"
   },
+  "0110IbnSirin": {
+    "id": 331,
+    "name": "ابن سيرين"
+  },
+  "0110JarirShacir": {
+    "id": 2959,
+    "name": "جرير"
+  },
+  "0117IbnDicamaSadusi": {
+    "id": 46,
+    "name": "قتادة بن دعامة السدوسي"
+  },
   "0124IbnShihabZuhri": {
     "id": 1897,
     "name": "ابن شهاب الزهري"
@@ -47,9 +59,21 @@
     "id": 1831,
     "name": "موسى بن عقبة"
   },
+  "0146MajacaIbnZubayr": {
+    "id": 1884,
+    "name": "مجاعة بن الزبير"
+  },
   "0150AbuHanifa": {
     "id": 602,
     "name": "أبو حنيفة النعمان"
+  },
+  "0150MuqatilIbnSulayman": {
+    "id": 209,
+    "name": "مقاتل"
+  },
+  "0150SalihIbnJinahLakhmi": {
+    "id": 2875,
+    "name": "صالح بن جناح"
   },
   "0156IbnAbiCuruba": {
     "id": 523,
@@ -63,9 +87,17 @@
     "id": 398,
     "name": "ابن طهمان"
   },
+  "0168MufaddalDabbi": {
+    "id": 814,
+    "name": "المفضل الضبي"
+  },
   "0170AbuZaydQurashi": {
     "id": 800,
     "name": "أبو زيد القرشي"
+  },
+  "0170KhalilFarahidi": {
+    "id": 883,
+    "name": "الخليل بن أحمد الفراهيدي"
   },
   "0175LaythIbnSacd": {
     "id": 377,
@@ -78,6 +110,10 @@
   "0180IbnJacfarAnsari": {
     "id": 382,
     "name": "إسماعيل بن جعفر"
+  },
+  "0180Sibawayhi": {
+    "id": 347,
+    "name": "سيبويه"
   },
   "0181IbnMubarak": {
     "id": 237,
@@ -103,9 +139,17 @@
     "id": 2504,
     "name": "الكسائي، علي بن حمزة"
   },
+  "0189MuhammadShaybani": {
+    "id": 277,
+    "name": "محمد بن الحسن الشيباني"
+  },
   "0191IbnQasimMisri": {
     "id": 2545,
     "name": "ابن القاسم"
+  },
+  "0195IbnFudaylDabbi": {
+    "id": 299,
+    "name": "محمد بن فضيل الضبي"
   },
   "0195MuarrijSadusi": {
     "id": 464,
@@ -115,6 +159,10 @@
     "id": 295,
     "name": "ابن وهب"
   },
+  "0197WakicIbnJarrah": {
+    "id": 306,
+    "name": "وكيع بن الجراح"
+  },
   "0198SufyanIbnCuyayna": {
     "id": 251,
     "name": "سفيان بن عيينة"
@@ -122,6 +170,10 @@
   "0200SayfIbnCumar": {
     "id": 2034,
     "name": "سيف بن عمر"
+  },
+  "0200YahyaIbnSalam": {
+    "id": 1222,
+    "name": "يحيى بن سلام"
   },
   "0203YahyaIbnAdam": {
     "id": 298,
@@ -131,13 +183,33 @@
     "id": 219,
     "name": "أبو داود الطيالسي"
   },
+  "0204IbnKalbi": {
+    "id": 325,
+    "name": "ابن الكلبي"
+  },
+  "0204Shafici": {
+    "id": 20,
+    "name": "الشافعي"
+  },
   "0206AbuCamrShaybani": {
     "id": 898,
     "name": "أبو عمرو الشيباني"
   },
+  "0206AbuMuhammadQutrub": {
+    "id": 1426,
+    "name": "قطرب"
+  },
   "0207IbnBakkarQaysi": {
     "id": 1196,
     "name": "بكر بن بكار"
+  },
+  "0207IbnZiyadFarra": {
+    "id": 130,
+    "name": "الفراء، يحيى بن زياد"
+  },
+  "0207Waqidi": {
+    "id": 449,
+    "name": "الواقدي"
   },
   "0209AbuCubayda": {
     "id": 5,
@@ -159,9 +231,21 @@
     "id": 2960,
     "name": "أبو زيد الأنصاري"
   },
+  "0215AkhfashAwsat": {
+    "id": 864,
+    "name": "الأخفش الأوسط"
+  },
+  "0215IbnCabdAllahAnsari": {
+    "id": 383,
+    "name": "محمد بن عبد الله الأنصاري"
+  },
   "0216IbnQuraybAsmaci": {
     "id": 817,
     "name": "الأصمعي"
+  },
+  "0218CabdAclaGhassani": {
+    "id": 404,
+    "name": "أبو مسهر الغساني"
   },
   "0219IbnZubayrHumaydi": {
     "id": 221,
@@ -174,6 +258,10 @@
   "0222IbnBakkarDabi": {
     "id": 1748,
     "name": "ابن بكار"
+  },
+  "0222IbnNaficHimsi": {
+    "id": 2219,
+    "name": "الحكم بن نافع البهرانى"
   },
   "0223IbnSalihKatibLayth": {
     "id": 1298,
@@ -195,9 +283,37 @@
     "id": 1247,
     "name": "أبو مسحل الأعرابي"
   },
+  "0230CaliIbnJacd": {
+    "id": 87,
+    "name": "ابن سعد"
+  },
+  "0230IbnSacd": {
+    "id": 393,
+    "name": "ابن الجعد"
+  },
+  "0230YaclaIbnCibad": {
+    "id": 1959,
+    "name": "يعلى بن عباد"
+  },
   "0231AbuNasrBahili": {
     "id": 2770,
     "name": "أبو نصر الباهلي"
+  },
+  "0231AbuTamam": {
+    "id": 2406,
+    "name": "أبو تمام"
+  },
+  "0231IbnMirdasSarraj": {
+    "id": 2220,
+    "name": "خالد بن مرداس"
+  },
+  "0231IbnSacdanDarir": {
+    "id": 2806,
+    "name": "محمد بن سعدان الضرير"
+  },
+  "0231IbnZiyadAcrabi": {
+    "id": 844,
+    "name": "ابن الأعرابي، أبو عبد الله"
   },
   "0233YahyaIbnMacin": {
     "id": 381,
@@ -211,6 +327,10 @@
     "id": 225,
     "name": "أبو بكر بن أبي شيبة"
   },
+  "0235IbnYunusBaghdadi": {
+    "id": 364,
+    "name": "سريج بن يونس البغدادي"
+  },
   "0236AbuCabdAllahZubayri": {
     "id": 453,
     "name": "الزبيري، مصعب بن عبد الله"
@@ -218,6 +338,14 @@
   "0238IbnHabibQurtubi": {
     "id": 1781,
     "name": "عبد الملك بن حبيب"
+  },
+  "0238IbnRahawayh": {
+    "id": 392,
+    "name": "إسحاق بن راهويه"
+  },
+  "0238MuhammadBurjulani": {
+    "id": 250,
+    "name": "البرجلاني"
   },
   "0239CumaraIbnCaqil": {
     "id": 3017,
@@ -227,6 +355,10 @@
     "id": 718,
     "name": "خليفة بن خياط"
   },
+  "0240IbnYahyaKinani": {
+    "id": 193,
+    "name": "الكناني، أبو الحسن"
+  },
   "0241IbnHanbal": {
     "id": 220,
     "name": "أحمد بن حنبل"
@@ -234,6 +366,14 @@
   "0243HannadIbnSari": {
     "id": 305,
     "name": "هناد بن السري"
+  },
+  "0243HarithMuhasibi": {
+    "id": 1139,
+    "name": "الحارث المحاسبي"
+  },
+  "0243IbnYahyaCadani": {
+    "id": 288,
+    "name": "العدني"
   },
   "0244IbnSikkit": {
     "id": 349,
@@ -243,9 +383,21 @@
     "id": 380,
     "name": "لوين"
   },
+  "0245MuhammadIbnHabib": {
+    "id": 717,
+    "name": "محمد بن حبيب"
+  },
   "0246AhmadDawraqi": {
     "id": 396,
     "name": "الدورقي"
+  },
+  "0246DicbilKhuzaci": {
+    "id": 866,
+    "name": "دعبل الخزاعي"
+  },
+  "0246IbnCumarDuri": {
+    "id": 378,
+    "name": "حفص بن عمر"
   },
   "0249CabdIbnHamid": {
     "id": 238,
@@ -255,6 +407,10 @@
     "id": 1134,
     "name": "إسحاق الكوسج"
   },
+  "0251IbnZanjawayh": {
+    "id": 285,
+    "name": "ابن زنجويه"
+  },
   "0254MuammalIbnIhab": {
     "id": 505,
     "name": "الرملي، مؤمل بن إيهاب"
@@ -263,13 +419,25 @@
     "id": 224,
     "name": "الدارمي، أبو محمد"
   },
+  "0255Jahiz": {
+    "id": 787,
+    "name": "الجاحظ"
+  },
   "0256Bukhari": {
     "id": 215,
     "name": "البخاري"
   },
+  "0256ZubayrIbnBakkar": {
+    "id": 463,
+    "name": "الزبير بن بكار"
+  },
   "0257AbuHiffanMihzami": {
     "id": 1246,
     "name": "أبو هفان"
+  },
+  "0257IbnCabdHakam": {
+    "id": 1733,
+    "name": "ابن عبد الحكم، أبو القاسم"
   },
   "0258IbnYahyaNaysaburi": {
     "id": 2208,
@@ -287,9 +455,21 @@
     "id": 359,
     "name": "العجلي"
   },
+  "0261Muslim": {
+    "id": 242,
+    "name": "مسلم"
+  },
+  "0262IbnCasimIsbahani": {
+    "id": 376,
+    "name": "محمد بن عاصم الثقفي"
+  },
   "0262IbnMatarWasiti": {
     "id": 2223,
     "name": "بشر بن مطر الدقاق"
+  },
+  "0262YacqubIbnShayba": {
+    "id": 397,
+    "name": "يعقوب بن شيبة"
   },
   "0264IbnYahyaMuzani": {
     "id": 429,
@@ -299,9 +479,21 @@
     "id": 2222,
     "name": "على بن حرب الطائى"
   },
+  "0265SacdanIbnNasr": {
+    "id": 1889,
+    "name": "سعدان بن نصر"
+  },
+  "0265SalihIbnHanbal": {
+    "id": 1734,
+    "name": "صالح بن أحمد"
+  },
   "0267HammadIbnIshaq": {
     "id": 366,
     "name": "حماد بن إسحاق"
+  },
+  "0267IbnCabdAllahTarqufi": {
+    "id": 2259,
+    "name": "عباس الترقفي"
   },
   "0270IbnCaffanKufi": {
     "id": 282,
@@ -319,45 +511,125 @@
     "id": 1862,
     "name": "أبو بكر الأثرم"
   },
+  "0273AbuUmayyaTarsusi": {
+    "id": 550,
+    "name": "أبو أمية الطرسوسي"
+  },
+  "0273HanbalIbnIshaqShaybani": {
+    "id": 515,
+    "name": "حنبل بن إسحاق"
+  },
+  "0273IbnMaja": {
+    "id": 218,
+    "name": "ابن ماجه"
+  },
   "0275AbuBakrMarrudhi": {
     "id": 1283,
     "name": "أبو بكر المروذي"
+  },
+  "0275AbuDawudSijistani": {
+    "id": 216,
+    "name": "أبو داود"
+  },
+  "0275IbnMulacibMakhzumi": {
+    "id": 2257,
+    "name": "أحمد بن ملاعب"
+  },
+  "0275Sukkari": {
+    "id": 3010,
+    "name": "أبو سعيد السكري"
   },
   "0276IbnMukhalladQurtubi": {
     "id": 297,
     "name": "بقي بن مخلد"
   },
+  "0276IbnQutaybaDinawari": {
+    "id": 249,
+    "name": "ابن قتيبة"
+  },
   "0277AbuHatimRazi": {
     "id": 302,
     "name": "أبو حاتم الرازي"
+  },
+  "0277IbnSufyanFasawi": {
+    "id": 703,
+    "name": "يعقوب بن سفيان الفسوي"
   },
   "0279Baladhuri": {
     "id": 356,
     "name": "البلاذري"
   },
+  "0279IbnAbiKhaythama": {
+    "id": 1212,
+    "name": "ابن أبي خيثمة"
+  },
+  "0279Tirmidhi": {
+    "id": 217,
+    "name": "أبو عيسى الترمذي"
+  },
   "0280AbuCabbasBirti": {
     "id": 549,
     "name": "البرتي"
+  },
+  "0280CuthmanIbnSacidDarimi": {
+    "id": 379,
+    "name": "عثمان بن سعيد الدارمي"
+  },
+  "0280IbnIsmacilKirmani": {
+    "id": 1198,
+    "name": "حرب الكرماني"
+  },
+  "0280IbnTayfur": {
+    "id": 806,
+    "name": "ابن طيفور"
   },
   "0281AbuZurcaDimashqi": {
     "id": 315,
     "name": "أبو زرعة الدمشقي"
   },
+  "0281IbnAbiDunya": {
+    "id": 273,
+    "name": "ابن أبي الدنيا"
+  },
   "0282AbuHanifaDinawari": {
     "id": 248,
     "name": "أبو حنيفة الدينوري"
+  },
+  "0282IbnAbiUsamaTamimi": {
+    "id": 227,
+    "name": "الحارث بن أبي أسامة"
+  },
+  "0282IbnIshaqJahdami": {
+    "id": 485,
+    "name": "القاضي إسماعيل المالكي"
   },
   "0283BaghandiKabir": {
     "id": 271,
     "name": "الباغندي الكبير"
   },
+  "0283SahlTustari": {
+    "id": 121,
+    "name": "سهل التستري"
+  },
   "0284Bandaniji": {
     "id": 2787,
     "name": "البندنيجي"
   },
+  "0284Buhturi": {
+    "id": 3001,
+    "name": "البحتري"
+  },
   "0285IbnIbrahimSancani": {
     "id": 2258,
     "name": "إسحاق الدبري"
+  },
+  "0285IbnYazidMubarrad": {
+    "id": 457,
+    "name": "محمد بن يزيد المبرد"
+  },
+  "0285IbrahimHarbi": {
+    "id": 267,
+    "name": "إبراهيم الحربي"
   },
   "0286IbnWaddahQurtubi": {
     "id": 290,
@@ -367,6 +639,10 @@
     "id": 230,
     "name": "ابن أبي عاصم"
   },
+  "0290IbnAhmadIbnHanbal": {
+    "id": 309,
+    "name": "عبد الله بن أحمد"
+  },
   "0290MufaddalIbnSalama": {
     "id": 1244,
     "name": "المفضل بن سلمة"
@@ -374,6 +650,10 @@
   "0291IbnYahyaThaclab": {
     "id": 826,
     "name": "ثعلب"
+  },
+  "0292Bahshal": {
+    "id": 1940,
+    "name": "بحشل"
   },
   "0292SacidBardhaci": {
     "id": 174,
@@ -383,6 +663,10 @@
     "id": 387,
     "name": "محمد بن الضريس"
   },
+  "0294IbnNasrMarwazi": {
+    "id": 310,
+    "name": "محمد بن نصر المروزي"
+  },
   "0295IbnHasanHarrani": {
     "id": 2225,
     "name": "أبو شعيب الحراني"
@@ -391,9 +675,17 @@
     "id": 799,
     "name": "ابن المعتز"
   },
+  "0296MuhammadIbnJarrah": {
+    "id": 831,
+    "name": "محمد بن داود بن الجراح"
+  },
   "0297IbnAbiShaybaAbuJacfar": {
     "id": 514,
     "name": "محمد بن عثمان بن أبي شيبة"
+  },
+  "0297IbnDawudZahiri": {
+    "id": 865,
+    "name": "ابن داود الظاهري"
   },
   "0300IbnZakariyaHajari": {
     "id": 852,
@@ -403,13 +695,29 @@
     "id": 262,
     "name": "الفريابي"
   },
+  "0301Bardiji": {
+    "id": 686,
+    "name": "البرديجي"
+  },
+  "0301MuhammadIbnAhmadMaqdami": {
+    "id": 2621,
+    "name": "المقدمي"
+  },
   "0302AbuMuhammadAshyabBaghdadi": {
     "id": 2217,
     "name": "القاسم بن موسى الأشيب"
   },
+  "0302QasimCawfi": {
+    "id": 1300,
+    "name": "قاسم السرقسطي"
+  },
   "0303IbnSufyanNasawi": {
     "id": 280,
     "name": "الحسن بن سفيان النسوي"
+  },
+  "0303Nasai": {
+    "id": 49,
+    "name": "النسائي"
   },
   "0304YamutIbnMuzarrac": {
     "id": 849,
@@ -427,6 +735,14 @@
     "id": 234,
     "name": "أبو يعلى الموصلي"
   },
+  "0307IbnHarunRuyani": {
+    "id": 395,
+    "name": "الروياني، محمد بن هارون"
+  },
+  "0307IbnJarudNaysaburi": {
+    "id": 372,
+    "name": "ابن الجارود"
+  },
   "0308AbuSacidJanadi": {
     "id": 542,
     "name": "أبو سعيد الجندي"
@@ -439,73 +755,209 @@
     "id": 300,
     "name": "الدولابي"
   },
+  "0310IbnCabbasYazidi": {
+    "id": 871,
+    "name": "اليزيدي"
+  },
+  "0310Tabari": {
+    "id": 59,
+    "name": "أبو جعفر ابن جرير الطبري"
+  },
   "0311AbuBakrKhallal": {
     "id": 284,
     "name": "أبو بكر الخلال"
+  },
+  "0311IbnFilBalisi": {
+    "id": 1883,
+    "name": "ابن فيل"
+  },
+  "0311IbnKhuzaymaNaysaburi": {
+    "id": 236,
+    "name": "ابن خزيمة"
+  },
+  "0311IbnSariZajjaj": {
+    "id": 1410,
+    "name": "الزجاج"
   },
   "0312BaghandiSaghir": {
     "id": 1271,
     "name": "الباغندي الصغير"
   },
+  "0312IbnCaliTusi": {
+    "id": 1615,
+    "name": "الطوسي، علي بن نصر"
+  },
   "0313IbnIshaqSarraj": {
     "id": 373,
     "name": "السراج الثقفي"
+  },
+  "0313IbnZakariyyaRazi": {
+    "id": 1218,
+    "name": "محمد بن زكريا الرازي الطبيب"
+  },
+  "0313IbnZaydanKufi": {
+    "id": 1306,
+    "name": "ابن زيدان"
+  },
+  "0315AkhfashAsghar": {
+    "id": 1169,
+    "name": "الأخفش الأصغر"
+  },
+  "0315IbnFaydGhassani": {
+    "id": 1617,
+    "name": "الغساني، أبو الحسن"
   },
   "0316AbuCawana": {
     "id": 233,
     "name": "أبو عوانة"
   },
+  "0316IbnAbiDawudSijistani": {
+    "id": 206,
+    "name": "ابن أبي داود"
+  },
+  "0316IbnSarrajNahwi": {
+    "id": 1499,
+    "name": "ابن السراج"
+  },
   "0317AbuQasimBaghawi": {
     "id": 56,
     "name": "البغوي، أبو القاسم"
+  },
+  "0317IbnCammarShahid": {
+    "id": 1421,
+    "name": "ابن عمار الشهيد"
+  },
+  "0317IbnHaythamKufi": {
+    "id": 1305,
+    "name": "بدر بن الهيثم"
+  },
+  "0317IbnJabirBattani": {
+    "id": 761,
+    "name": "البتاني"
   },
   "0318AbuCarubaHarrani": {
     "id": 399,
     "name": "أبو عروبة الحراني"
   },
+  "0318IbnMuhammadHashimi": {
+    "id": 391,
+    "name": "ابن صاعد"
+  },
   "0319AbuQasimKacbi": {
     "id": 2910,
     "name": "الكعبي"
+  },
+  "0319IbnMundhirNaysaburi": {
+    "id": 286,
+    "name": "ابن المنذر"
   },
   "0320HakimTirmidhi": {
     "id": 647,
     "name": "الترمذي، الحكيم"
   },
+  "0320IbnMuhammadBayhaqi": {
+    "id": 805,
+    "name": "البيهقي، إبراهيم"
+  },
   "0321IbnDuraydAzdi": {
     "id": 820,
     "name": "ابن دريد"
+  },
+  "0321Tahawi": {
+    "id": 169,
+    "name": "الطحاوي"
   },
   "0322AbuJacfarCuqayli": {
     "id": 312,
     "name": "العقيلي"
   },
+  "0322IbnAbiCawn": {
+    "id": 863,
+    "name": "ابن أبي عون"
+  },
+  "0322IbnTabataba": {
+    "id": 811,
+    "name": "ابن طباطبا العلوي"
+  },
   "0323CaliHimyari": {
     "id": 375,
     "name": "الحميري، علي بن محمد"
+  },
+  "0323Niftawayh": {
+    "id": 547,
+    "name": "نفطويه"
   },
   "0324Ashcari": {
     "id": 58,
     "name": "أبو الحسن الأشعري"
   },
+  "0324IbnMuhammadCanbari": {
+    "id": 2273,
+    "name": "أبو بكر العنبري"
+  },
+  "0324IbnMuhammadNaysaburi": {
+    "id": 1220,
+    "name": "النيسابوري، ابن زياد"
+  },
+  "0324IbnMujahid": {
+    "id": 1612,
+    "name": "ابن مجاهد"
+  },
   "0325IbnCabdSamadBaghdadi": {
     "id": 268,
     "name": "إبراهيم بن عبد الصمد"
+  },
+  "0325IbnIshaqWashsha": {
+    "id": 801,
+    "name": "الوشاء"
+  },
+  "0325IbnMuhammadNaysaburi": {
+    "id": 1874,
+    "name": "ابن الشرقي"
+  },
+  "0325IbnSahlRazi": {
+    "id": 2598,
+    "name": "أحمد بن سهل الرازي"
   },
   "0327AbuBakrKharaiti": {
     "id": 275,
     "name": "الخرائطي"
   },
+  "0327IbnAbiHatimRazi": {
+    "id": 119,
+    "name": "ابن أبي حاتم"
+  },
   "0328AbuBakrIbnAnbari": {
     "id": 1193,
     "name": "ابن الأنباري"
+  },
+  "0328IbnCabdRabbih": {
+    "id": 788,
+    "name": "ابن عبد ربه الأندلسي"
   },
   "0329Barbahari": {
     "id": 1079,
     "name": "البربهاري"
   },
+  "0329IbnAhmadRabaci": {
+    "id": 484,
+    "name": "الربعي، أبو محمد"
+  },
+  "0329IbnMuhammadMarwaziHamid": {
+    "id": 1629,
+    "name": "أبو القسم الحامض"
+  },
+  "0330BahithIbnMarzuban": {
+    "id": 1762,
+    "name": "ابن المرزبان الباحث"
+  },
   "0330IbnCuzayzSijistani": {
     "id": 1120,
     "name": "السجستاني، ابن عزير"
+  },
+  "0330IbnIsmacilMahamili": {
+    "id": 272,
+    "name": "المحاملي"
   },
   "0331IbnMukhalladCattar": {
     "id": 390,
@@ -519,13 +971,33 @@
     "id": 1350,
     "name": "أبو العرب التميمي"
   },
+  "0333AbuMansurMaturidi": {
+    "id": 1703,
+    "name": "أبو منصور الماتريدي"
+  },
   "0334IbnHaikHamdani": {
     "id": 733,
     "name": "الهمداني"
   },
+  "0334IbnHusaynKhiraqi": {
+    "id": 584,
+    "name": "الخرقي"
+  },
+  "0334IbnSacidQushayri": {
+    "id": 1842,
+    "name": "القشيري، أبو علي"
+  },
   "0335IbnKulaybShashi": {
     "id": 521,
     "name": "الشاشي، الهيثم بن كليب"
+  },
+  "0335IbnQass": {
+    "id": 546,
+    "name": "ابن القاص"
+  },
+  "0335Suli": {
+    "id": 743,
+    "name": "الصولي"
   },
   "0336IbnAhmadTusi": {
     "id": 2188,
@@ -535,6 +1007,10 @@
     "id": 789,
     "name": "الزجاجي"
   },
+  "0337QudamaIbnJacfar": {
+    "id": 843,
+    "name": "قدامة بن جعفر"
+  },
   "0338AbuJacfarNahhas": {
     "id": 132,
     "name": "أبو جعفر النحاس"
@@ -543,9 +1019,17 @@
     "id": 409,
     "name": "ابن البختري"
   },
+  "0339AbuNasrFarabi": {
+    "id": 641,
+    "name": "الفارابي، أبو نصر"
+  },
   "0340IbnAcrabiBasri": {
     "id": 517,
     "name": "ابن الأعرابي، أحمد بن بشر"
+  },
+  "0340IbnDaya": {
+    "id": 1930,
+    "name": "ابن الفقيه"
   },
   "0343IbnSulaymanAtrabulusi": {
     "id": 247,
@@ -555,29 +1039,77 @@
     "id": 1907,
     "name": "ابن السماك"
   },
+  "0344NizamDinShashi": {
+    "id": 1694,
+    "name": "الشاشي، نظام الدين"
+  },
   "0345IbnCabdWahidGhulamThaclab": {
     "id": 1758,
     "name": "غلام ثعلب"
+  },
+  "0345IbnMuhammadSamarqandi": {
+    "id": 516,
+    "name": "السمرقندي، أبو عمرو"
   },
   "0346AsammNaysaburi": {
     "id": 2226,
     "name": "أبو العباس الأصم"
   },
+  "0346IbnCaliTasti": {
+    "id": 2269,
+    "name": "عبد الصمد الطستي"
+  },
+  "0346IbnSahlJundisaburi": {
+    "id": 2270,
+    "name": "السري بن سهل"
+  },
+  "0346Istakhri": {
+    "id": 775,
+    "name": "الإصطخري"
+  },
+  "0346Mascudi": {
+    "id": 506,
+    "name": "المسعودي"
+  },
   "0347IbnDurustawayh": {
     "id": 2684,
     "name": "ابن درستويه"
+  },
+  "0347IbnHazlam": {
+    "id": 531,
+    "name": "أحمد بن حذلم"
+  },
+  "0347IbnYunusSadafi": {
+    "id": 1938,
+    "name": "ابن يونس المصري"
   },
   "0348IbnMuhammadKhuldi": {
     "id": 213,
     "name": "جعفر الخلدي"
   },
+  "0348IbnSalmanNajjad": {
+    "id": 551,
+    "name": "أبو بكر النجاد"
+  },
   "0350IbnIbrahimFarabi": {
     "id": 1239,
     "name": "الفارابي، أبو إبراهيم"
   },
+  "0350MuhammadIbnHasanJawhari": {
+    "id": 2888,
+    "name": "محمد بن الحسن الجوهري"
+  },
   "0351AbuTayyibLughawi": {
     "id": 2385,
     "name": "أبو الطيب اللغوي"
+  },
+  "0351IbnAhmadSijzi": {
+    "id": 365,
+    "name": "دعلج السجزي"
+  },
+  "0351IbnQanic": {
+    "id": 402,
+    "name": "ابن قانع"
   },
   "0352IbnDuhaymShaybani": {
     "id": 2260,
@@ -587,6 +1119,10 @@
     "id": 1280,
     "name": "أبو محمد الفاكهي"
   },
+  "0353IbnSacidTanukhi": {
+    "id": 1301,
+    "name": "التنوخي، معلى بن سعيد"
+  },
   "0354IbnHibbanBusti": {
     "id": 235,
     "name": "ابن حبان"
@@ -594,6 +1130,10 @@
   "0356AbuCaliQali": {
     "id": 784,
     "name": "أبو علي القالي"
+  },
+  "0356IbnQasimMisri": {
+    "id": 1864,
+    "name": "اللكي"
   },
   "0357IbnMuhammadKinani": {
     "id": 226,
@@ -603,9 +1143,33 @@
     "id": 2240,
     "name": "أبو بكر بن خلاد"
   },
+  "0359AbuCaliSawwaf": {
+    "id": 544,
+    "name": "ابن الصواف"
+  },
   "0360AbuBakrAjurri": {
     "id": 232,
     "name": "الطبراني"
+  },
+  "0360AbuBakrAnbari": {
+    "id": 2241,
+    "name": "البندار"
+  },
+  "0360HamzaIsfahani": {
+    "id": 2892,
+    "name": "حمزة الأصفهاني"
+  },
+  "0360IbnCaliQassab": {
+    "id": 1182,
+    "name": "أبو أحمد القصاب"
+  },
+  "0360Ramhurmuzi": {
+    "id": 283,
+    "name": "الرامهرمزي"
+  },
+  "0360Tabarani": {
+    "id": 264,
+    "name": "الآجري"
   },
   "0361IbnIbrahimTustari": {
     "id": 895,
@@ -623,6 +1187,14 @@
     "id": 721,
     "name": "ابن عدي"
   },
+  "0366IbnCabdAllahNaysaburi": {
+    "id": 403,
+    "name": "ابن حيويه، أبو الحسن"
+  },
+  "0366IbnNajidNaysaburi": {
+    "id": 1288,
+    "name": "السلمي، ابن نجيد"
+  },
   "0367IbnQutiyya": {
     "id": 2882,
     "name": "ابن القوطية، أبو بكر"
@@ -631,13 +1203,37 @@
     "id": 1158,
     "name": "السيرافي، أبو سعيد"
   },
+  "0368IbnJacfarQatici": {
+    "id": 529,
+    "name": "أبو بكر القطيعي"
+  },
   "0369AbuShaykhIsbahani": {
     "id": 265,
     "name": "أبو الشيخ الأصبهاني"
   },
+  "0369IbnMasiBaghdadi": {
+    "id": 388,
+    "name": "ابن ماسي"
+  },
   "0370AbuMansurAzhari": {
     "id": 901,
     "name": "الأزهري"
+  },
+  "0370AbuQasimAmidi": {
+    "id": 829,
+    "name": "الآمدي، أبو القاسم"
+  },
+  "0370IbnAhmadIbnKhalawayh": {
+    "id": 1436,
+    "name": "ابن خالويه"
+  },
+  "0370IbnCaliJassas": {
+    "id": 21,
+    "name": "أبو بكر الرازي الجصاص"
+  },
+  "0370IbnRashiqMisri": {
+    "id": 1871,
+    "name": "العسكري، الحسن بن رشيق"
   },
   "0371AhmadJurjani": {
     "id": 173,
@@ -659,17 +1255,61 @@
     "id": 899,
     "name": "علي بن حمزة البصري"
   },
+  "0375IbnQasimMiyaniji": {
+    "id": 2228,
+    "name": "الميانجي"
+  },
   "0377IbnAhmadCasqalani": {
     "id": 1713,
     "name": "الملطي، أبو الحسين"
+  },
+  "0377IbnAhmadFarisi": {
+    "id": 2408,
+    "name": "أبو علي الفارسي"
+  },
+  "0377IbnAhmadJurjani": {
+    "id": 370,
+    "name": "ابن الغطريف"
+  },
+  "0377IbnMuhammadShimshati": {
+    "id": 823,
+    "name": "الشمشاطي"
+  },
+  "0377IbnZaydAnsari": {
+    "id": 2272,
+    "name": "محمد بن زيد الأنصاري"
   },
   "0378HakimKabir": {
     "id": 535,
     "name": "أبو أحمد الحاكم"
   },
+  "0378IbnAhmadDarimi": {
+    "id": 1228,
+    "name": "الدارمي، محمد بن أحمد التميمي"
+  },
+  "0378IbnJallab": {
+    "id": 2691,
+    "name": "ابن الجلاب"
+  },
+  "0378IbnKhalafJubayri": {
+    "id": 2568,
+    "name": "الجبيري"
+  },
+  "0378IbnSalihQahtani": {
+    "id": 2032,
+    "name": "أبو عبد الله القحطاني"
+  },
   "0379IbnMuzaffarBazzaz": {
     "id": 538,
     "name": "ابن المظفر البزاز"
+  },
+  "0379IbnZabrRabci": {
+    "id": 405,
+    "name": "الربعي، أبو سليمان"
+  },
+  "0379Zubaydi": {
+    "id": 2635,
+    "name": "الزبيدي، أبو بكر"
   },
   "0380AbuBakrKalabadhi": {
     "id": 406,
@@ -678,6 +1318,26 @@
   "0381AbuQasimJawhari": {
     "id": 1302,
     "name": "الجوهري، أبو القاسم"
+  },
+  "0381IbnCabdRahmanZuhri": {
+    "id": 413,
+    "name": "أبو الفضل الزهري"
+  },
+  "0381IbnHusaynNaysaburi": {
+    "id": 2411,
+    "name": "ابن مهران"
+  },
+  "0381IbnMuqriIsbahani": {
+    "id": 301,
+    "name": "ابن المقرئ"
+  },
+  "0381IbnWarraq": {
+    "id": 1766,
+    "name": "ابن الوراق"
+  },
+  "0381IbnYusufCallaf": {
+    "id": 2198,
+    "name": "ابن دوست"
   },
   "0382IbnCabdAllahCaskari": {
     "id": 245,
@@ -688,36 +1348,104 @@
     "name": "الخوارزمي، أبو بكر"
   },
   "0384AbuHasanRummani": {
-    "id": 1237,
-    "name": "أبو الحسن الرماني"
+    "id": 673,
+    "name": "المرزباني"
+  },
+  "0384IbnCaliTanukhi": {
+    "id": 795,
+    "name": "التنوخي، المحسن بن علي"
   },
   "0385Daraqutni": {
     "id": 223,
     "name": "الدارقطني"
   },
+  "0385IbnHasanSirafi": {
+    "id": 2390,
+    "name": "السيرافي، أبو محمد"
+  },
+  "0385IbnMuhandis": {
+    "id": 2193,
+    "name": "ابن المهندس"
+  },
+  "0385IbnShahin": {
+    "id": 293,
+    "name": "ابن شاهين"
+  },
+  "0385SahibIbnCabbadTalqani": {
+    "id": 887,
+    "name": "الصاحب بن عباد"
+  },
   "0386AbuTalibMakki": {
     "id": 648,
     "name": "أبو طالب المكي"
+  },
+  "0386IbnAbiZaydQayrawani": {
+    "id": 428,
+    "name": "ابن أبي زيد القيرواني"
+  },
+  "0386IbnCumarHarbi": {
+    "id": 187,
+    "name": "أبو الحسن الحربي"
+  },
+  "0386IbnHasnunMuqri": {
+    "id": 9,
+    "name": "ابن حسنون"
   },
   "0387IbnBattaCukbari": {
     "id": 143,
     "name": "ابن بطة"
   },
+  "0387IbnSamcunBaghdadi": {
+    "id": 407,
+    "name": "ابن سمعون الواعظ"
+  },
+  "0387KatibKhwarizmi": {
+    "id": 324,
+    "name": "الخوارزمي، أبو عبد الله"
+  },
   "0388AbuSulaymanKhattabi": {
     "id": 313,
     "name": "الخطابي"
+  },
+  "0388IbnBukayrSayrafi": {
+    "id": 539,
+    "name": "الحسين بن بكير الصيرفي"
+  },
+  "0388IbnHasanHatimi": {
+    "id": 876,
+    "name": "ابن المظفر الحاتمي"
+  },
+  "0388Shabushti": {
+    "id": 819,
+    "name": "الشابشتي"
   },
   "0390IbnAkhiMimiDaqqaq": {
     "id": 1964,
     "name": "ابن أخي ميمي"
   },
+  "0390IbnZakariyaNahrawani": {
+    "id": 802,
+    "name": "المعافى بن زكريا"
+  },
   "0392IbnAbiShurayhHarawi": {
     "id": 2229,
     "name": "ابن أبي شريح"
   },
+  "0392IbnCabdCazizJurjani": {
+    "id": 94,
+    "name": "الجرجاني، أبو الحسن"
+  },
+  "0392IbnJinniMawsili": {
+    "id": 830,
+    "name": "ابن جني"
+  },
   "0393IbnHammadJawhari": {
     "id": 888,
     "name": "الجوهري، أبو نصر"
+  },
+  "0393IbnWakicTinnisi": {
+    "id": 875,
+    "name": "ابن وكيع التنيسي"
   },
   "0394IbnMuhammadAzhari": {
     "id": 1861,
@@ -727,9 +1455,25 @@
     "id": 348,
     "name": "العسكري، أبو هلال"
   },
+  "0395IbnFarisQazwini": {
+    "id": 892,
+    "name": "ابن فارس"
+  },
+  "0395IbnMandaMuhammad": {
+    "id": 243,
+    "name": "ابن منده محمد بن إسحاق"
+  },
   "0396IbnCataRudhbari": {
     "id": 2246,
     "name": "الروذباري"
+  },
+  "0396IbnCumarWarraq": {
+    "id": 1303,
+    "name": "ابن زنبور الوراق"
+  },
+  "0396IbnHasanDimashqi": {
+    "id": 1895,
+    "name": "أبو الحسين الكلابي"
   },
   "0397IbnQassar": {
     "id": 2696,
@@ -739,6 +1483,10 @@
     "id": 822,
     "name": "بديع الزمان الهمذاني"
   },
+  "0398IbnCaliHamadhani": {
+    "id": 2209,
+    "name": "أبو بكر بن لال"
+  },
   "0399IbnAbiZamanaynIlbiri": {
     "id": 181,
     "name": "ابن أبي زمنين"
@@ -746,6 +1494,10 @@
   "0400IbnHusaynYamani": {
     "id": 856,
     "name": "محمد بن حسين اليمني"
+  },
+  "0400IbnMuhammadBusti": {
+    "id": 1755,
+    "name": "أبو الفتح البستي"
   },
   "0401AbuCubaydHarawi": {
     "id": 2866,
@@ -755,13 +1507,45 @@
     "id": 15,
     "name": "الباقلاني"
   },
+  "0403AbuCabdAllahHalimi": {
+    "id": 2788,
+    "name": "الحليمي"
+  },
+  "0403IbnFaradi": {
+    "id": 691,
+    "name": "ابن الفرضي"
+  },
+  "0403IbnHamidHanbali": {
+    "id": 2769,
+    "name": "ابن حامد الحنبلي"
+  },
+  "0403IbnZanjala": {
+    "id": 1616,
+    "name": "ابن زنجلة"
+  },
   "0405AbuCabbasCasmi": {
     "id": 1870,
     "name": "أبو العباس العصمي"
   },
+  "0405AbuFadlHarawi": {
+    "id": 1660,
+    "name": "الهروي، أبو الفضل"
+  },
+  "0405CabdKarimNahshaliQayrawani": {
+    "id": 2703,
+    "name": "النهشلي القيرواني"
+  },
+  "0405HakimNaysaburi": {
+    "id": 231,
+    "name": "أبو عبد الله الحاكم"
+  },
   "0406IbnFurakIsbahani": {
     "id": 1665,
     "name": "ابن فورك"
+  },
+  "0406IbnMuhammadSaqati": {
+    "id": 2203,
+    "name": "عبيد الله السقطي"
   },
   "0408IbnCabdCazizTaymi": {
     "id": 1223,
@@ -771,25 +1555,61 @@
     "id": 287,
     "name": "عبد الغني بن سعيد الأزدي"
   },
+  "0410IbnCumarDimashqi": {
+    "id": 1918,
+    "name": "ابن نصر"
+  },
   "0410IbnMardawayh": {
     "id": 270,
     "name": "أبو بكر بن مردويه"
+  },
+  "0410IbnSalamaBaghdadi": {
+    "id": 11,
+    "name": "ابن سلامة"
   },
   "0412IbnAbiFawaris": {
     "id": 2230,
     "name": "ابن أبي الفوارس"
   },
+  "0412IbnAhmadBaghdadi": {
+    "id": 2256,
+    "name": "ابن رزقويه"
+  },
+  "0412IbnJacfarQayruwani": {
+    "id": 2398,
+    "name": "القيرواني، القزاز"
+  },
+  "0412Sulami": {
+    "id": 266,
+    "name": "أبو عبد الرحمن السلمي"
+  },
   "0413AbuMutarrifQunazici": {
     "id": 2792,
     "name": "القنازعي"
+  },
+  "0413IbnTalhaNaccali": {
+    "id": 2231,
+    "name": "أبو الحسن النعالي"
   },
   "0414AbuQasimRazi": {
     "id": 522,
     "name": "تمام بن محمد الدمشقي"
   },
+  "0414AbuSacidNaqqash": {
+    "id": 543,
+    "name": "أبو سعيد النقاش"
+  },
   "0415CaliIbnBishranUmawi": {
     "id": 1869,
     "name": "ابن بشران، أبو الحسين"
+  },
+  "0415IbnMuhammadMahamili": {
+    "id": 2036,
+    "name": "ابن المحاملي"
+  },
+  "0415QadiCabdJabbar": {
+    "id": 1367,
+    "name": "القاضى عبد الجبار"
   },
   "0416IbnTahhan": {
     "id": 2925,
@@ -799,6 +1619,10 @@
     "id": 144,
     "name": "اللالكائي"
   },
+  "0418WazirMaghribi": {
+    "id": 460,
+    "name": "الوزير المغربي"
+  },
   "0419IbnMuhammadBushanji": {
     "id": 2276,
     "name": "أبو الحسين العالي"
@@ -807,9 +1631,25 @@
     "id": 1197,
     "name": "الخطيب الإسكافي"
   },
+  "0420IbnHasanTabib": {
+    "id": 882,
+    "name": "ابن الكتاني"
+  },
+  "0420IbnMuhammadDimashqi": {
+    "id": 2263,
+    "name": "مسافر حاجي"
+  },
+  "0420IbnMuhammadIbnFadala": {
+    "id": 2232,
+    "name": "عبد الرحمن بن فضالة"
+  },
   "0421IbnMuhammadMarzuqi": {
     "id": 768,
     "name": "المرزوقي"
+  },
+  "0421Miskawayh": {
+    "id": 650,
+    "name": "ابن مسكويه"
   },
   "0422QadiCabdWahhabThaclabi": {
     "id": 1047,
@@ -823,6 +1663,10 @@
     "id": 2277,
     "name": "أبو الحسن الجوبري"
   },
+  "0425RaqiqQayrawani": {
+    "id": 855,
+    "name": "الرقيق القيرواني"
+  },
   "0426IbnShuhaydAshjaci": {
     "id": 798,
     "name": "ابن شهيد الأندلسي"
@@ -831,29 +1675,85 @@
     "id": 2211,
     "name": "الشهرزوري، أبو القاسم"
   },
+  "0427Sahmi": {
+    "id": 705,
+    "name": "حمزة السهمي"
+  },
   "0428AbuCaliHashimi": {
     "id": 2655,
     "name": "أبو علي بن أبي موسى الهاشمي"
+  },
+  "0428AbuHusaynQuduri": {
+    "id": 2667,
+    "name": "القدوري"
+  },
+  "0428IbnCabdAllahShirazi": {
+    "id": 2233,
+    "name": "ابن باكويه"
+  },
+  "0428IbnManjuwayhIsbahani": {
+    "id": 1662,
+    "name": "ابن منجويه"
+  },
+  "0428IbnShihabCukbari": {
+    "id": 1695,
+    "name": "ابن شهاب العكبري"
+  },
+  "0428IbnSina": {
+    "id": 640,
+    "name": "ابن سينا"
   },
   "0429AbuMansurThacalibi": {
     "id": 112,
     "name": "أبو منصور الثعالبي"
   },
+  "0429IbnIbrahimSarakhsiQarrab": {
+    "id": 540,
+    "name": "إسحاق القراب"
+  },
+  "0429IbnTahirBaghdadi": {
+    "id": 1710,
+    "name": "عبد القاهر البغدادي"
+  },
   "0430AbuHasanHufi": {
     "id": 2776,
     "name": "الحوفي"
+  },
+  "0430AbuNucaymIsbahani": {
+    "id": 239,
+    "name": "أبو نعيم الأصبهاني"
+  },
+  "0430AbuZaydDabusi": {
+    "id": 2643,
+    "name": "أبو زيد الدبوسي"
+  },
+  "0430AswadGhundijani": {
+    "id": 841,
+    "name": "الأسود الغندجاني"
+  },
+  "0430CabdMalikIbnBishranUmawi": {
+    "id": 269,
+    "name": "ابن بشران، أبو القاسم"
   },
   "0431IbnFadlMisri": {
     "id": 2234,
     "name": "أبو عبد الله الفراء"
   },
-  "0432Mustaghfiri": {
+  "0431IbnMuhammadZuzani": {
+    "id": 873,
+    "name": "الزوزني، العبدلكاني"
+  },
+  "0432IbnMuhammadNasafi": {
     "id": 1834,
     "name": "المستغفري"
   },
   "0433IbnAhmadCamidi": {
     "id": 2384,
     "name": "أبو سعد العميدي"
+  },
+  "0433IbnCaliHarawi": {
+    "id": 1457,
+    "name": "أبو سهل الهروي"
   },
   "0434IbnAhmadHarawi": {
     "id": 545,
@@ -867,9 +1767,21 @@
     "id": 1730,
     "name": "الصيمري"
   },
+  "0436IbnCaliBasri": {
+    "id": 1696,
+    "name": "أبو الحسين البصري المعتزلي"
+  },
+  "0436SharifMurtada": {
+    "id": 1334,
+    "name": "الشريف المرتضى"
+  },
   "0437IbnJamic": {
     "id": 1906,
     "name": "السكن ابن جميع"
+  },
+  "0437MakkiIbnHammushQaysi": {
+    "id": 1121,
+    "name": "مكي بن أبي طالب"
   },
   "0438IbnYusufJuwayni": {
     "id": 1656,
@@ -883,9 +1795,25 @@
     "id": 337,
     "name": "البيروني"
   },
+  "0440IbnMuhammadHimyari": {
+    "id": 858,
+    "name": "الحميري، أبو الوليد"
+  },
+  "0440IbnMuhammadSawwaq": {
+    "id": 2210,
+    "name": "ابن السواق"
+  },
   "0441IbnCaliSuri": {
     "id": 259,
     "name": "محمد بن علي الصوري"
+  },
+  "0441IbnIflili": {
+    "id": 2343,
+    "name": "ابن الإفليلي"
+  },
+  "0441IbnMuhammadCatiqi": {
+    "id": 1924,
+    "name": "العتيقي"
   },
   "0442AbuQasimThamanini": {
     "id": 2666,
@@ -899,6 +1827,14 @@
     "id": 45,
     "name": "أبو عمرو الداني"
   },
+  "0444AbuFadlIbnMahdi": {
+    "id": 2202,
+    "name": "أبو الفضل بن المهدي"
+  },
+  "0444IbnSacidSijzi": {
+    "id": 1439,
+    "name": "عبيد الله السجزي"
+  },
   "0445IbnHasanZuzani": {
     "id": 2391,
     "name": "الزوزني، أبو سهل"
@@ -906,6 +1842,10 @@
   "0446AbuYaclaKhalili": {
     "id": 281,
     "name": "أبو يعلى الخليلي"
+  },
+  "0446IbnCaliAhwazi": {
+    "id": 2448,
+    "name": "الأهوازي"
   },
   "0447IbnAyyubRazi": {
     "id": 1878,
@@ -919,21 +1859,53 @@
     "id": 84,
     "name": "أبو العلاء المعري"
   },
+  "0449IbnBattalQurtubi": {
+    "id": 422,
+    "name": "ابن بطال"
+  },
   "0450AbuFadlDimashqi": {
     "id": 2912,
     "name": "أبو الفضل الدمشقي"
+  },
+  "0450AbuHasanMawardi": {
+    "id": 109,
+    "name": "الماوردي"
+  },
+  "0450Jubbi": {
+    "id": 2695,
+    "name": "الجبي"
   },
   "0451AbuCuthmanBuhayri": {
     "id": 2247,
     "name": "البحيري"
   },
+  "0451IbnYunusSiqilli": {
+    "id": 2781,
+    "name": "ابن يونس الصقلي"
+  },
   "0454AbuMuhammadJawhari": {
     "id": 1914,
     "name": "الجوهري، أبو محمد"
   },
+  "0454IbnAhmadRazi": {
+    "id": 50,
+    "name": "الرازي، أبو الفضل"
+  },
+  "0454IbnBadisSanhaji": {
+    "id": 2397,
+    "name": "ابن باديس، المعز"
+  },
+  "0454Qudaci": {
+    "id": 240,
+    "name": "القضاعي"
+  },
   "0455IbnFuraja": {
     "id": 2329,
     "name": "ابن فورجة"
+  },
+  "0455IbnKhalafSaraqusti": {
+    "id": 10,
+    "name": "ابن خلف المقرئ"
   },
   "0456IbnHazm": {
     "id": 2,
@@ -947,9 +1919,29 @@
     "id": 1106,
     "name": "القاضي أبو يعلى ابن الفراء"
   },
+  "0458Bayhaqi": {
+    "id": 74,
+    "name": "أبو بكر البيهقي"
+  },
+  "0458IbnSidaMursi": {
+    "id": 874,
+    "name": "ابن سيده"
+  },
+  "0458YahyaIbnSacidAntaki": {
+    "id": 2686,
+    "name": "الأنطاكي، يحيى بن سعيد"
+  },
   "0460AbuIshaqIlbiri": {
     "id": 1754,
     "name": "أبو إسحاق الإلبيري"
+  },
+  "0460IbnFadlIsbahani": {
+    "id": 2204,
+    "name": "الباطرقاني"
+  },
+  "0460IbnSharafQayruwani": {
+    "id": 879,
+    "name": "ابن شرف القيرواني"
   },
   "0461IbnHusaynSughdi": {
     "id": 1682,
@@ -963,6 +1955,18 @@
     "id": 76,
     "name": "ابن عبد البر"
   },
+  "0463IbnRashiqQayrawani": {
+    "id": 839,
+    "name": "ابن رشيق القيرواني"
+  },
+  "0463KhatibBaghdadi": {
+    "id": 246,
+    "name": "الخطيب البغدادي"
+  },
+  "0465IbnCaliMaghribi": {
+    "id": 2328,
+    "name": "الهذلي، أبو القاسم"
+  },
   "0465IbnHawazinQushayri": {
     "id": 125,
     "name": "القشيري، عبد الكريم"
@@ -971,25 +1975,73 @@
     "id": 1659,
     "name": "الكتاني، عبد العزيز"
   },
+  "0466IbnSinanKhafaji": {
+    "id": 810,
+    "name": "ابن سنان الخفاجي"
+  },
   "0467AbuQasimFarisi": {
     "id": 2899,
     "name": "أبو القاسم الفارسي"
+  },
+  "0467IbnHasanBakharzi": {
+    "id": 670,
+    "name": "الباخرزي"
   },
   "0468IbnAhmadWahidiNaysaburi": {
     "id": 1,
     "name": "الواحدي"
   },
+  "0468IbnCabdRahmanNaysaburi": {
+    "id": 2206,
+    "name": "ابن عليك، أبو القاسم"
+  },
+  "0468IbnMuhammadMihrawani": {
+    "id": 1131,
+    "name": "المهرواني"
+  },
   "0469IbnBabshadh": {
     "id": 2898,
     "name": "ابن بابشاذ"
+  },
+  "0469IbnHayyanQurtubi": {
+    "id": 727,
+    "name": "القرطبي، ابن حيان"
+  },
+  "0470CaliIbnGhanaim": {
+    "id": 2278,
+    "name": "أبي الحسين بن غنائم"
   },
   "0470IbnAjdabi": {
     "id": 1780,
     "name": "ابن الأجدابي"
   },
+  "0470IbnMalikYamani": {
+    "id": 2485,
+    "name": "محمد بن مالك الحمادي"
+  },
+  "0470IbnMandaCabdRahman": {
+    "id": 503,
+    "name": "ابن منده عبد الرحمن بن محمد"
+  },
+  "0470IbnMuhammadKufi": {
+    "id": 2235,
+    "name": "ابن الأذلاني"
+  },
   "0471CabdQahirJurjani": {
     "id": 36,
     "name": "الجرجاني، عبد القاهر"
+  },
+  "0471IbnAhmadIbnBannaBaghdadi": {
+    "id": 1750,
+    "name": "ابن البنا"
+  },
+  "0471IbnCaliBalkhi": {
+    "id": 2249,
+    "name": "الوخشي"
+  },
+  "0471IbnMuhammadIsfaraini": {
+    "id": 1705,
+    "name": "الأسفراييني، أبو المظفر"
   },
   "0474IbnKhalafBaji": {
     "id": 360,
@@ -1003,6 +2055,14 @@
     "id": 627,
     "name": "أبو إسحاق الشيرازي"
   },
+  "0476AclamShantamari": {
+    "id": 1227,
+    "name": "الأعلم الشنتمري"
+  },
+  "0476IbnAbiSaqrAnbari": {
+    "id": 1626,
+    "name": "ابن أبي الصقر"
+  },
   "0477BibiHarawiyya": {
     "id": 1619,
     "name": "بيبى الهرثمية"
@@ -1010,6 +2070,10 @@
   "0478AbuHasanLakhmi": {
     "id": 2756,
     "name": "اللخمي، أبو الحسن"
+  },
+  "0478ImamHaramaynJuwayni": {
+    "id": 1010,
+    "name": "الجويني، أبو المعالي"
   },
   "0479IbnFaddalQayruwani": {
     "id": 1183,
@@ -1031,6 +2095,10 @@
     "id": 441,
     "name": "شمس الأئمة السرخسي"
   },
+  "0483IbnMuhammadIbnMaghaziliWasiti": {
+    "id": 1848,
+    "name": "ابن المغازلي"
+  },
   "0485NizamMulkWazir": {
     "id": 1296,
     "name": "نظام الملك"
@@ -1039,17 +2107,41 @@
     "id": 2692,
     "name": "أبو الأصبغ"
   },
+  "0486IbnAhmadZuzani": {
+    "id": 951,
+    "name": "الزوزني، أبو عبد الله"
+  },
   "0487AbuCubaydBakri": {
     "id": 773,
     "name": "أبو عبيد البكري"
+  },
+  "0487IbnCaliShirazi": {
+    "id": 2195,
+    "name": "الشيرازي، أبو بكر"
   },
   "0488IbnFutuhHumaydi": {
     "id": 222,
     "name": "الحميدي، ابن أبي نصر"
   },
+  "0488IbnWahhabHanbali": {
+    "id": 2237,
+    "name": "رزق الله التميمي"
+  },
+  "0489IbnFadlIsbahani": {
+    "id": 2189,
+    "name": "القاسم بن الفضل الثقفي"
+  },
   "0489IbnHasanBaqillaniBaghdadi": {
     "id": 1161,
     "name": "أبو طاهر الكرجي"
+  },
+  "0489IbnMuhammadSamcani": {
+    "id": 1013,
+    "name": "أبو المظفر السمعاني"
+  },
+  "0489Waqqashi": {
+    "id": 2924,
+    "name": "هشام بن أحمد الوقشي"
   },
   "0490IbnIbrahimNabulusi": {
     "id": 2238,
@@ -1075,13 +2167,25 @@
     "id": 1360,
     "name": "ابن الطلاع"
   },
+  "0497IbnIbnZahraTuraythithi": {
+    "id": 2194,
+    "name": "أبو بكر الطريثيثي"
+  },
   "0498AbuCaliJayyani": {
     "id": 669,
     "name": "أبو علي الغساني"
   },
+  "0498IbnMuhammadAbuBakrIsbahani": {
+    "id": 1274,
+    "name": "ابن مردويه، أحمد بن محمد"
+  },
   "0499IbnSimnani": {
     "id": 2782,
     "name": "ابن السمناني"
+  },
+  "0499MurshidYahyaIbnShajari": {
+    "id": 1054,
+    "name": "يحيى بن الحسين الشجري"
   },
   "0500IbnAhmadSarrajBaghdadi": {
     "id": 838,
@@ -1095,6 +2199,14 @@
     "id": 2773,
     "name": "الروياني، عبد الواحد"
   },
+  "0502IbnCaliTabriziShaybani": {
+    "id": 1759,
+    "name": "الخطيب أبو زكريا التبريزي"
+  },
+  "0502RaghibIsbahani": {
+    "id": 35,
+    "name": "الراغب الأصفهاني"
+  },
   "0505Ghazali": {
     "id": 619,
     "name": "أبو حامد الغزالي"
@@ -1102,6 +2214,10 @@
   "0507AbuBakrShashi": {
     "id": 1622,
     "name": "الشاشي، أبو بكر"
+  },
+  "0507IbnQaysarani": {
+    "id": 470,
+    "name": "ابن القيسراني"
   },
   "0508IbnMukhtarBaghdadi": {
     "id": 2239,
@@ -1114,6 +2230,10 @@
   "0510AbuKhattabKalwadhani": {
     "id": 198,
     "name": "أبو الخطاب الكلوذاني"
+  },
+  "0510IbnCaliAbuGhanaimNursi": {
+    "id": 1749,
+    "name": "النرسي"
   },
   "0511IbnMandaYahya": {
     "id": 504,
@@ -1131,9 +2251,17 @@
     "id": 816,
     "name": "عمر الخيام"
   },
+  "0515IbnQattac": {
+    "id": 1229,
+    "name": "ابن القطاع الصقلي"
+  },
   "0516IbnCabdWahidDaqqaqIsbahani": {
     "id": 1295,
     "name": "محمد بن عبد الواحد الدقاق"
+  },
+  "0516IbnCaliHariri": {
+    "id": 53,
+    "name": "الحريري"
   },
   "0518IbnMuhammadMaydaniNaysaburi": {
     "id": 786,
@@ -1143,9 +2271,21 @@
     "id": 1105,
     "name": "ابن رشد الجد"
   },
+  "0520IbnWalidTurtushi": {
+    "id": 80,
+    "name": "أبو بكر الطرطوشي"
+  },
   "0521IbnMuhammadBatalyawsi": {
     "id": 637,
     "name": "ابن السيد البطليوسي"
+  },
+  "0521MuhammadHamadhani": {
+    "id": 1721,
+    "name": "المقدسي، محمد بن عبد الملك"
+  },
+  "0524IbnAkfani": {
+    "id": 1658,
+    "name": "ابن الإكفاني، هبة الله"
   },
   "0525IbnAhmadIbnHattabRazi": {
     "id": 2274,
@@ -1163,6 +2303,10 @@
     "id": 1254,
     "name": "الفتح بن خاقان"
   },
+  "0529CabdGhafirFarisi": {
+    "id": 1866,
+    "name": "عبد الغافر الفارسي"
+  },
   "0532IbnCabadaDani": {
     "id": 2926,
     "name": "ابن عبادة"
@@ -1171,17 +2315,33 @@
     "id": 1214,
     "name": "ابن باجه"
   },
+  "0533IbnTahirAbuQasimShahhami": {
+    "id": 1877,
+    "name": "زاهر الشحامي"
+  },
   "0535QadiMaristan": {
     "id": 1860,
     "name": "قاضي المارستان"
+  },
+  "0535QawwamSunna": {
+    "id": 204,
+    "name": "إسماعيل التيمي الأصبهاني"
   },
   "0536IbnCaliMazariTamimi": {
     "id": 2605,
     "name": "المازري"
   },
+  "0536SadrShahid": {
+    "id": 3036,
+    "name": "الصدر الشهيد"
+  },
   "0537IbnMuhammadNajmDinNasafi": {
     "id": 902,
     "name": "أبو حفص النسفي"
+  },
+  "0537IbnMuhammadTabasi": {
+    "id": 2236,
+    "name": "أبو المحاسن الطبسي"
   },
   "0538JarAllahZamakhshari": {
     "id": 108,
@@ -1191,17 +2351,57 @@
     "id": 847,
     "name": "الجواليقي"
   },
+  "0540IbnAhmadAbuSacdIsbahani": {
+    "id": 2243,
+    "name": "أبو سعد البغدادي"
+  },
+  "0540IbnAhmadCalaDinSamarqandi": {
+    "id": 426,
+    "name": "علاء الدين السمرقندي"
+  },
+  "0540IbnBadhish": {
+    "id": 2011,
+    "name": "ابن الباذش"
+  },
   "0542IbnBassamShantarini": {
     "id": 782,
     "name": "الشنتريني"
+  },
+  "0542IbnCaliDiyaDinIbnShajari": {
+    "id": 818,
+    "name": "ابن الشجري"
+  },
+  "0542IbnCaliIbnJullabiWasiti": {
+    "id": 1837,
+    "name": "ابن الجلابي"
+  },
+  "0542IbnMunjibTajRiyasaIbnSayrafi": {
+    "id": 1162,
+    "name": "علي بن منجب"
   },
   "0543IbnCarabiIshbili": {
     "id": 22,
     "name": "أبو بكر ابن العربي"
   },
+  "0543IbnHusaynBaquliIsbahani": {
+    "id": 43,
+    "name": "أبو الحسن الباقولي"
+  },
+  "0543IbnIbrahimHamadhaniJurqani": {
+    "id": 1299,
+    "name": "الجورقاني"
+  },
+  "0544IbnAmin": {
+    "id": 1336,
+    "name": "ابن الأمين"
+  },
   "0544QadiCiyad": {
     "id": 662,
     "name": "القاضي عياض"
+  },
+  "0548IbnYahyaAbuSacdNaysaburi": {
+    "id": 2244,
+    "name": "أبو سعد النيسابوري"
   },
   "0548Shahrastani": {
     "id": 139,
@@ -1211,6 +2411,10 @@
     "id": 1655,
     "name": "يحيى بن إبراهيم السلماسي"
   },
+  "0550SaqatiMaliqi": {
+    "id": 2915,
+    "name": "السقطي المالقي"
+  },
   "0552CalaUsmandi": {
     "id": 2948,
     "name": "العلاء الأسمندي"
@@ -1219,9 +2423,17 @@
     "id": 1890,
     "name": "أبو الفتوح الطائي"
   },
+  "0555IbnQalanisi": {
+    "id": 749,
+    "name": "ابن القلانسي"
+  },
   "0558IbnAbiKhayrCimraniYamani": {
     "id": 1023,
     "name": "العمراني"
+  },
+  "0560SharifIdrisi": {
+    "id": 766,
+    "name": "الإدريسي"
   },
   "0560WazirIbnHubayraShaybani": {
     "id": 1688,
@@ -1235,6 +2447,14 @@
     "id": 836,
     "name": "ابن حمدون"
   },
+  "0562IbnHasanIsbahaniThaqafi": {
+    "id": 1885,
+    "name": "أبو الفرج الثقفي"
+  },
+  "0562Samcani": {
+    "id": 408,
+    "name": "السمعاني"
+  },
   "0563IbnMuqarrabBaghdadiKarkhi": {
     "id": 1284,
     "name": "ابن المقرب"
@@ -1243,9 +2463,17 @@
     "id": 2623,
     "name": "عبد الخالق بن أسد"
   },
+  "0564IbnNasrIbnDajajiHanbali": {
+    "id": 1238,
+    "name": "ابن الدجاجي"
+  },
   "0565IbnFunduqBayhaqi": {
     "id": 672,
     "name": "البيهقي، ظهير الدين"
+  },
+  "0565IbnMuhammadAbuBakrBaghdadi": {
+    "id": 1879,
+    "name": "ابن النقور"
   },
   "0567IbnKhashshabBaghdadi": {
     "id": 2885,
@@ -1255,13 +2483,25 @@
     "id": 2620,
     "name": "ابن قرقول"
   },
+  "0569CumaraYamani": {
+    "id": 1233,
+    "name": "عمارة اليمني"
+  },
   "0570IbnMuhammadKarabisiNaysaburi": {
     "id": 628,
     "name": "الكرابيسي"
   },
+  "0570IbnYahyaSamawalMaghribi": {
+    "id": 1210,
+    "name": "السموأل بن يحيى المغربي"
+  },
   "0571IbnCasakir": {
     "id": 410,
     "name": "أبو القاسم ابن عساكر"
+  },
+  "0571IbnIbrahimIbnSacdKhayrAnsari": {
+    "id": 853,
+    "name": "ابن سعد الخير"
   },
   "0572CuthmaniDibaji": {
     "id": 1304,
@@ -1275,6 +2515,10 @@
     "id": 1969,
     "name": "شهدة"
   },
+  "0575IbnKhayrIshbili": {
+    "id": 1782,
+    "name": "ابن خير الإشبيلي"
+  },
   "0576AbuTahirSilafi": {
     "id": 241,
     "name": "أبو طاهر السلفي"
@@ -1282,6 +2526,14 @@
   "0577AbuBarakatAnbari": {
     "id": 894,
     "name": "أبو البركات الأنباري"
+  },
+  "0577IbnHishamLakhmi": {
+    "id": 2881,
+    "name": "اللخمي، ابن هشام"
+  },
+  "0577IbnMutafannina": {
+    "id": 1051,
+    "name": "محمد بن علي الرحبي"
   },
   "0578IbnBashkuwal": {
     "id": 205,
@@ -1291,9 +2543,25 @@
     "id": 2527,
     "name": "أبو القاسم بن الفراء"
   },
+  "0580IbnCawwam": {
+    "id": 1928,
+    "name": "ابن العمراني"
+  },
   "0581AbuMusaMadini": {
     "id": 1292,
     "name": "المديني، أبو موسى"
+  },
+  "0581AbuQasimSuhayli": {
+    "id": 394,
+    "name": "السهيلي"
+  },
+  "0581IbnKharratIshbili": {
+    "id": 659,
+    "name": "عبد الحق الإشبيلي"
+  },
+  "0581IbnTufayl": {
+    "id": 1236,
+    "name": "ابن طفيل"
   },
   "0582IbnBarri": {
     "id": 1761,
@@ -1303,33 +2571,73 @@
     "id": 793,
     "name": "أسامة بن منقذ"
   },
+  "0584IbnMusaHazimi": {
+    "id": 465,
+    "name": "الحازمي"
+  },
   "0586IbnMuhammadAbuNasrCattabi": {
     "id": 1683,
     "name": "أبو نصر العتابي"
+  },
+  "0586Jacdi": {
+    "id": 3160,
+    "name": "عمر الجعدي"
   },
   "0587AbuMacaliFurawi": {
     "id": 533,
     "name": "أبو المعالي الفراوي"
   },
+  "0587IbnMascudCalaDinKasani": {
+    "id": 102,
+    "name": "الكاساني"
+  },
   "0590IbnFirruhShatibi": {
     "id": 1062,
     "name": "الشاطبي المقرئ"
+  },
+  "0590IbnNasrJalalDinShayzari": {
+    "id": 622,
+    "name": "عبد الرحمن بن نصر الشيرزي"
   },
   "0592IbnCabdRahmanLakhmiQurtubi": {
     "id": 2387,
     "name": "ابن مضاء"
   },
+  "0592IbnCaliFakhrDinIbnDahhan": {
+    "id": 1699,
+    "name": "ابن الدهان"
+  },
   "0593BurhanDinFarghaniMarghinani": {
     "id": 1454,
     "name": "المرغيناني"
+  },
+  "0593IbnHusaynShihabDinIsbahani": {
+    "id": 1264,
+    "name": "أبو شجاع"
+  },
+  "0593IbnMuhammadJamalDinGhaznawi": {
+    "id": 1704,
+    "name": "الغزنوي، جمال الدين"
   },
   "0595IbnCabdQadirBaghdadiJilani": {
     "id": 553,
     "name": "عبد الرزاق الكيلاني"
   },
+  "0595IbnRushdHafid": {
+    "id": 336,
+    "name": "ابن رشد الحفيد"
+  },
   "0597CimadDinKatibIsfahani": {
     "id": 837,
     "name": "العماد الأصبهاني الكاتب"
+  },
+  "0597IbnJawzi": {
+    "id": 51,
+    "name": "ابن الجوزي"
+  },
+  "0597IbnMubarakBaghdadi": {
+    "id": 862,
+    "name": "ابن ميمون"
   },
   "0598IbnIbrahimIbnHajjQunawi": {
     "id": 1715,
@@ -1339,9 +2647,17 @@
     "id": 2265,
     "name": "أبو الحسن العبدي"
   },
+  "0599IbnYahyaDabbi": {
+    "id": 1172,
+    "name": "ابن عميرة"
+  },
   "0600CabdGhaniMaqdisi": {
     "id": 254,
     "name": "عبد الغني المقدسي"
+  },
+  "0600IbnCumarShaficiNaysaburi": {
+    "id": 1961,
+    "name": "أبو سعد الصفار"
   },
   "0604AbuDharrKhushani": {
     "id": 1275,
@@ -1351,13 +2667,29 @@
     "id": 55,
     "name": "الفخر الرازي"
   },
+  "0606IbnAthirMajdDin": {
+    "id": 493,
+    "name": "ابن الأثير، أبو السعادات"
+  },
+  "0606IbnMamati": {
+    "id": 1170,
+    "name": "الأسعد بن مماتي"
+  },
   "0607AbuMusaJazuli": {
     "id": 2668,
     "name": "الجزولي، أبو موسى"
   },
+  "0607IbnTabarzad": {
+    "id": 1282,
+    "name": "ابن طبرزد"
+  },
   "0608IbnCutyaQudaciTurtushi": {
     "id": 2569,
     "name": "عقيل القضاعي"
+  },
+  "0608IbnSanaMulk": {
+    "id": 809,
+    "name": "ابن سناء الملك"
   },
   "0609AbuCabbasJarrawi": {
     "id": 872,
@@ -1375,13 +2707,49 @@
     "id": 1839,
     "name": "أبو اليمن الكندي"
   },
+  "0613CaliIbnZafir": {
+    "id": 334,
+    "name": "ابن ظافر الأزدي"
+  },
+  "0613IbnBaninDaqiqiNahwi": {
+    "id": 1776,
+    "name": "الدقيقي"
+  },
   "0614IbnAhmadIbnKhumayrSabti": {
     "id": 1709,
     "name": "ابن خمير السبتي"
   },
+  "0614IbnJubayr": {
+    "id": 764,
+    "name": "ابن جبير"
+  },
+  "0615MuwaffaqDinShafici": {
+    "id": 1944,
+    "name": "زين الدين ابن الموفق"
+  },
+  "0616BurhanDinBukhari": {
+    "id": 1926,
+    "name": "برهان الدين ابن مازه البخاري"
+  },
   "0616CaliIbnIsmacilAbyari": {
     "id": 2865,
     "name": "الأبياري، علي بن إسماعيل"
+  },
+  "0616IbnShash": {
+    "id": 2693,
+    "name": "ابن شاس"
+  },
+  "0616IbnSunaynaSamarri": {
+    "id": 2856,
+    "name": "ابن سنينة السامري"
+  },
+  "0616MuhibbDinCukbari": {
+    "id": 502,
+    "name": "أبو البقاء العكبري"
+  },
+  "0617MansurIbnShahanshah": {
+    "id": 1745,
+    "name": "الملك المنصور"
   },
   "0618IbnCabdRahmanMuqriWasiti": {
     "id": 400,
@@ -1395,13 +2763,25 @@
     "id": 1719,
     "name": "ابن عساكر، أبو منصور"
   },
+  "0620IbnQudamaMaqdisi": {
+    "id": 474,
+    "name": "ابن قدامة"
+  },
   "0622IbnBadrDiyaDinMawsili": {
     "id": 1671,
     "name": "الوراني الموصلي"
   },
+  "0622IbnShamsKhilafa": {
+    "id": 1185,
+    "name": "ابن شمس الخلافة"
+  },
   "0623AbuQasimRafici": {
     "id": 434,
     "name": "الرافعي، عبد الكريم"
+  },
+  "0623IbnCabWahidBukhariMaqdisi": {
+    "id": 1910,
+    "name": "المقدسي، أحمد بن عبد الواحد"
   },
   "0624IbnIbrahimBahaDinMaqdisi": {
     "id": 991,
@@ -1415,17 +2795,41 @@
     "id": 2922,
     "name": "ابن بسام المحتسب"
   },
+  "0626IbnMuhammadKhwarazmiSakkaki": {
+    "id": 886,
+    "name": "السكاكي"
+  },
+  "0626YaqutHamawi": {
+    "id": 765,
+    "name": "الحموي، ياقوت"
+  },
   "0628IbnCaliSanhaji": {
     "id": 1722,
     "name": "الصنهاجي"
+  },
+  "0628IbnQattanFasi": {
+    "id": 1100,
+    "name": "ابن القطان الفاسي"
   },
   "0629CabdLatifBaghdadi": {
     "id": 2331,
     "name": "عبد اللطيف البغدادي"
   },
+  "0629IbnNuqta": {
+    "id": 129,
+    "name": "ابن نقطة"
+  },
   "0630IbnAthirCizzDin": {
     "id": 244,
     "name": "ابن الأثير، أبو الحسن"
+  },
+  "0630IbnCaliShaficiQalci": {
+    "id": 1739,
+    "name": "القلعي"
+  },
+  "0630IbnHajib": {
+    "id": 1840,
+    "name": "ابن الحاجب الأميني"
   },
   "0631SayfDinAmidi": {
     "id": 95,
@@ -1435,13 +2839,29 @@
     "id": 1849,
     "name": "السهروردي، أبو حفص"
   },
+  "0632BahaDinIbnShaddad": {
+    "id": 618,
+    "name": "بهاء الدين ابن شداد"
+  },
   "0633BattalRukabi": {
     "id": 2705,
     "name": "بطال الركبي"
   },
+  "0633IbnDihyaJumayyilKalbi": {
+    "id": 476,
+    "name": "ابن دحية"
+  },
   "0634AbuBakrSabuni": {
     "id": 2699,
     "name": "ابن الصابوني، أبو بكر"
+  },
+  "0634AbuRabicHimyari": {
+    "id": 1361,
+    "name": "أبو الربيع الكلاعي"
+  },
+  "0634IbnNajmIbnHanbaliJazari": {
+    "id": 12,
+    "name": "ابن الحنبلي، ناصح الدين"
   },
   "0635AbuMunajjaIbnLatti": {
     "id": 1891,
@@ -1451,9 +2871,21 @@
     "id": 2858,
     "name": "ابن عسكر"
   },
+  "0636IbnAbiMucammarAbuKhayrTabrizi": {
+    "id": 1221,
+    "name": "التبريزي، أبو الخير"
+  },
+  "0636IbnKhalfunAzdi": {
+    "id": 2805,
+    "name": "ابن خلفون"
+  },
   "0637IbnAthirDiyaDin": {
     "id": 804,
     "name": "ابن الأثير، ضياء الدين"
+  },
+  "0637IbnMustawfi": {
+    "id": 1939,
+    "name": "الإربلي، ابن المستوفي"
   },
   "0638IbnAhmadAndalusiHarali": {
     "id": 2316,
@@ -1479,6 +2911,34 @@
     "id": 23,
     "name": "علم الدين السخاوي"
   },
+  "0643DiyaDinMaqdisi": {
+    "id": 603,
+    "name": "ضياء الدين المقدسي"
+  },
+  "0643FathBundari": {
+    "id": 1159,
+    "name": "البنداري"
+  },
+  "0643IbnHusaynIbnMuqirNajjar": {
+    "id": 1147,
+    "name": "ابن المقير"
+  },
+  "0643IbnNajjar": {
+    "id": 706,
+    "name": "محب الدين ابن النجار"
+  },
+  "0643IbnSalahShahrazuri": {
+    "id": 556,
+    "name": "ابن الصلاح"
+  },
+  "0643IbnYacish": {
+    "id": 2649,
+    "name": "ابن يعيش"
+  },
+  "0643MuntajibHamadhani": {
+    "id": 2984,
+    "name": "المنتجب الهمذاني"
+  },
   "0644IbnCaliCizzDinMuhallabi": {
     "id": 2346,
     "name": "المهلبي، أبو العباس"
@@ -1486,6 +2946,14 @@
   "0646IbnCumarIbnHajibKurdi": {
     "id": 1685,
     "name": "ابن الحاجب"
+  },
+  "0646IbnNamawarKhunaji": {
+    "id": 642,
+    "name": "أفضل الدين الخونجي"
+  },
+  "0646IbnQifti": {
+    "id": 684,
+    "name": "القفطي، جمال الدين"
   },
   "0647CabdWahidMarrakushi": {
     "id": 537,
@@ -1495,6 +2963,14 @@
     "id": 488,
     "name": "الصغاني"
   },
+  "0650IbnNazifHamawi": {
+    "id": 1720,
+    "name": "الحموي، ابن نظيف"
+  },
+  "0650RashidDinDimashqi": {
+    "id": 1962,
+    "name": "ابن مسلمة الأموي"
+  },
   "0651Bunasi": {
     "id": 2664,
     "name": "البونسي"
@@ -1503,9 +2979,33 @@
     "id": 808,
     "name": "ابن أبي الأصبع"
   },
+  "0654IbnShaccarMawsili": {
+    "id": 2884,
+    "name": "ابن الشعار"
+  },
+  "0654SibtIbnJawzi": {
+    "id": 1700,
+    "name": "سبط ابن الجوزي"
+  },
   "0656AbuCabbasAnsariQurtubi": {
     "id": 2928,
     "name": "أبو العباس القرطبي"
+  },
+  "0656IbnAbiHadid": {
+    "id": 629,
+    "name": "ابن أبي الحديد"
+  },
+  "0656IbnAhmadShihabDinZanjani": {
+    "id": 1693,
+    "name": "الزنجاني، أبو المناقب"
+  },
+  "0656IbnCabdQawiMundhiri": {
+    "id": 1207,
+    "name": "عبد العظيم المنذري"
+  },
+  "0656IbnFadlMuzaffarCiraqi": {
+    "id": 834,
+    "name": "المظفر بن الفضل"
   },
   "0657IbnIbrahimIrbili": {
     "id": 868,
@@ -1518,6 +3018,14 @@
   "0659SadrDinBasri": {
     "id": 1760,
     "name": "صدر الدين البصري"
+  },
+  "0659SainDinNaccal": {
+    "id": 1845,
+    "name": "النعال"
+  },
+  "0660IbnCadim": {
+    "id": 702,
+    "name": "كمال الدين ابن العديم"
   },
   "0660SultanCulamaCizzDinDimashqi": {
     "id": 126,
@@ -1539,9 +3047,21 @@
     "id": 896,
     "name": "الرازي اللغوي"
   },
+  "0666IbnCadlanMawsiliRabci": {
+    "id": 1447,
+    "name": "علي بن عدلان"
+  },
   "0668IbnAbiUsaybica": {
     "id": 699,
     "name": "ابن أبي أصيبعة"
+  },
+  "0668IbnCabdDaimZaynDinMuqaddasi": {
+    "id": 2214,
+    "name": "المقدسي، أحمد بن عبد الدائم"
+  },
+  "0668IbnHusaynJacfariHashimi": {
+    "id": 1475,
+    "name": "صالح الجعفري"
   },
   "0669IbnCusfurHadramiIshbili": {
     "id": 1985,
@@ -1551,49 +3071,113 @@
     "id": 115,
     "name": "القرطبي، شمس الدين"
   },
+  "0671AbuMuzaffarNabulusi": {
+    "id": 1211,
+    "name": "النابلسي، أبو المظفر"
+  },
   "0672IbnAhmaLuluDarir": {
     "id": 1620,
     "name": "لؤلؤ بن أحمد"
+  },
+  "0672IbnMalik": {
+    "id": 1245,
+    "name": "ابن مالك"
   },
   "0673AbuMahasinYaghmuri": {
     "id": 857,
     "name": "اليغموري"
   },
+  "0673IbnBuzayza": {
+    "id": 2817,
+    "name": "ابن بزيزة"
+  },
   "0674IbnSaci": {
     "id": 2685,
     "name": "ابن الساعي"
+  },
+  "0676IbnIbrahimShamsDinMaqdisi": {
+    "id": 1901,
+    "name": "المقدسي، ابن أبي السرور"
   },
   "0676Nawawi": {
     "id": 44,
     "name": "النووي"
   },
+  "0677IbnAhmadIbnZahirIrbili": {
+    "id": 1151,
+    "name": "ابن الظهير الإربلي"
+  },
   "0678IbnAbiMansurIbnSayrafiHarrani": {
     "id": 1915,
     "name": "ابن الصيرفي، جمال الدين"
+  },
+  "0678IbnAhmadCizzDinMaqdisi": {
+    "id": 653,
+    "name": "المقدسي، عز الدين"
   },
   "0681IbnIyyazNahwi": {
     "id": 2896,
     "name": "ابن إياز النحوي"
   },
+  "0681IbnKhallikan": {
+    "id": 715,
+    "name": "ابن خلكان"
+  },
   "0682CabdRahmanIbnQudama": {
     "id": 578,
     "name": "ابن أبي عمر"
+  },
+  "0682SirajDinAzmawi": {
+    "id": 2851,
+    "name": "السراج الأرموي"
+  },
+  "0682ZakariyaQazwini": {
+    "id": 767,
+    "name": "القزويني، زكريا"
   },
   "0683IbnMahmudMajdDinMawsili": {
     "id": 557,
     "name": "ابن مودود الموصلي"
   },
+  "0683IbnMunayyir": {
+    "id": 1630,
+    "name": "ابن المنير"
+  },
   "0684IbnHazimQartajanni": {
     "id": 1165,
     "name": "القرطاجني"
+  },
+  "0684IbnShaddad": {
+    "id": 778,
+    "name": "عز الدين ابن شداد"
+  },
+  "0684ShihabDinQarafi": {
+    "id": 615,
+    "name": "القرافي"
   },
   "0685IbnCibri": {
     "id": 739,
     "name": "ابن العبري"
   },
+  "0685IbnSacidMaghribi": {
+    "id": 769,
+    "name": "ابن سعيد المغربي"
+  },
+  "0685NasirDinBaydawi": {
+    "id": 104,
+    "name": "ناصر الدين البيضاوي"
+  },
   "0686AbuYamanIbnCasakir": {
     "id": 1880,
     "name": "أبو اليمن بن عساكر"
+  },
+  "0686IbnNazim": {
+    "id": 2825,
+    "name": "بدر الدين ابن مالك"
+  },
+  "0686IbnZakariyaManbiji": {
+    "id": 1686,
+    "name": "الخزرجي المنبجي"
   },
   "0687IbnNafis": {
     "id": 340,
@@ -1602,6 +3186,10 @@
   "0688IbnAhmadIshbiliUmawi": {
     "id": 1598,
     "name": "ابن أبي الربيع"
+  },
+  "0688IbnCabdRahimIbnKamalDinHanbali": {
+    "id": 2264,
+    "name": "ابن الكمال الحنبلي"
   },
   "0689AhmadIbnCabdRahmanIbnQudama": {
     "id": 2586,
@@ -1619,6 +3207,10 @@
     "id": 859,
     "name": "الإربلي، بهاء الدين"
   },
+  "0692TaqiDinIscirdi": {
+    "id": 442,
+    "name": "الإسعردي، أبو القاسم"
+  },
   "0693ShihabDinKhuyi": {
     "id": 2891,
     "name": "شهاب الدين الخويي"
@@ -1627,9 +3219,21 @@
     "id": 308,
     "name": "الطبري، محب الدين"
   },
+  "0694MuzaffarDinIbnSacati": {
+    "id": 2790,
+    "name": "مظفر الدين ابن الساعاتي"
+  },
   "0695AbuBarakatIbnMunajja": {
     "id": 2867,
     "name": "ابن المنجى، أبو البركات"
+  },
+  "0695IbnHamdanHarraniNumayri": {
+    "id": 1702,
+    "name": "ابن حمدان"
+  },
+  "0695IbnMuhammadHusayni": {
+    "id": 3080,
+    "name": "عز الدين الحسيني"
   },
   "0696IbnZahiri": {
     "id": 1628,
@@ -1639,13 +3243,29 @@
     "id": 1774,
     "name": "ابن نعمة"
   },
+  "0697IbnWasil": {
+    "id": 2749,
+    "name": "ابن واصل"
+  },
   "0699IbnCabdRahmanIbnMurahhal": {
     "id": 2389,
     "name": "ابن المرحل"
   },
+  "0699IbnCabdRahmanQazwiniShafici": {
+    "id": 1752,
+    "name": "القزويني، أبو القاسم"
+  },
+  "0699ShihabDinIshbiliLakhmi": {
+    "id": 1687,
+    "name": "ابن فرح"
+  },
   "0701IbnNasrAllahJazari": {
     "id": 845,
     "name": "ابن الصيقل الجزري"
+  },
+  "0701SharafDinYunini": {
+    "id": 1881,
+    "name": "اليونيني، شرف الدين"
   },
   "0702IbnDaqiqCidQushayri": {
     "id": 589,
@@ -1659,6 +3279,10 @@
     "id": 2797,
     "name": "المالقي، أبو محمد"
   },
+  "0705SharafDinDimyati": {
+    "id": 1872,
+    "name": "عبد المؤمن بن خلف الدمياطي"
+  },
   "0708IbnIbrahimAbuJacfarGharnati": {
     "id": 1178,
     "name": "ابن الزبير الغرناطي"
@@ -1667,13 +3291,41 @@
     "id": 982,
     "name": "ابن أبي الفتح"
   },
+  "0709IbnTiqtaqa": {
+    "id": 737,
+    "name": "ابن الطقطقي"
+  },
   "0710IbnAhmadHafizDinNasafi": {
     "id": 105,
     "name": "أبو البركات النسفي"
   },
+  "0710IbnAydamurMustacsimi": {
+    "id": 2873,
+    "name": "محمد بن أيدمر"
+  },
+  "0710IbnIbrahimShamsDinSuruji": {
+    "id": 1902,
+    "name": "السروجي"
+  },
+  "0710IbnRifca": {
+    "id": 2654,
+    "name": "ابن الرفعة"
+  },
   "0711HussamDinSighnaqi": {
     "id": 2768,
     "name": "السغناقي"
+  },
+  "0711IbnIbrahimCimadDinWasiti": {
+    "id": 142,
+    "name": "ابن شيخ الحزامين"
+  },
+  "0711IbnManzurIfriqi": {
+    "id": 700,
+    "name": "ابن منظور"
+  },
+  "0714AhmadGhibrini": {
+    "id": 2547,
+    "name": "الغبريني"
   },
   "0715SafiHindi": {
     "id": 2826,
@@ -1687,17 +3339,33 @@
     "id": 833,
     "name": "الوطواط"
   },
+  "0718IbnAhmadNabulusi": {
+    "id": 2266,
+    "name": "أبو بكر بن عبد الدائم"
+  },
   "0720IbnCumarKurdi": {
     "id": 1905,
     "name": "الحسن بن عمر الكردي"
+  },
+  "0720IbnSaigh": {
+    "id": 1501,
+    "name": "ابن الصائغ"
   },
   "0721IbnBannaMarrakushi": {
     "id": 48,
     "name": "ابن البناء المراكشي"
   },
+  "0721IbnRushaydSabti": {
+    "id": 1199,
+    "name": "ابن رشيد السبتي"
+  },
   "0723IbnAjrum": {
     "id": 1591,
     "name": "ابن آجروم"
+  },
+  "0723IbnFuwati": {
+    "id": 747,
+    "name": "ابن الفوطي"
   },
   "0724IbnCattar": {
     "id": 694,
@@ -1723,17 +3391,49 @@
     "id": 630,
     "name": "علاء الدين عبد العزيز البخاري"
   },
+  "0730ShaficIbnCali": {
+    "id": 3079,
+    "name": "شافع بن علي"
+  },
   "0732AbuFida": {
     "id": 734,
     "name": "أبو الفداء"
+  },
+  "0732IbnCumarBurhanDinJacbari": {
+    "id": 1669,
+    "name": "الجعبري"
+  },
+  "0732IbnMuhammadShihabDinBaghdadi": {
+    "id": 1310,
+    "name": "ابن عسكر"
+  },
+  "0732IbnYacqubJanadi": {
+    "id": 1736,
+    "name": "الجندي، بهاء الدين"
+  },
+  "0732IbnYusufDujayli": {
+    "id": 2981,
+    "name": "الحسين بن يوسف الدجيلي"
   },
   "0733IbnJamacaBadrDinHamawi": {
     "id": 1132,
     "name": "البدر ابن جماعة"
   },
+  "0733Nuwayri": {
+    "id": 796,
+    "name": "النويري، شهاب الدين"
+  },
   "0734IbnCaliTajDinFakihani": {
     "id": 2431,
     "name": "تاج الدين الفاكهاني"
+  },
+  "0734IbnQaddahHawari": {
+    "id": 1691,
+    "name": "ابن قداح"
+  },
+  "0734IbnSayyidNas": {
+    "id": 447,
+    "name": "ابن سيد الناس"
   },
   "0737IbnMuhammadIbnHajjFasi": {
     "id": 654,
@@ -1743,9 +3443,21 @@
     "id": 1063,
     "name": "ابن البارزي"
   },
+  "0739Birzali": {
+    "id": 1625,
+    "name": "علم الدين البرزالي"
+  },
   "0739CalaDinIbnBalban": {
     "id": 730,
     "name": "الأمير ابن بلبان الفارسي"
+  },
+  "0739JalalDinQazwini": {
+    "id": 890,
+    "name": "القزويني، جلال الدين"
+  },
+  "0739SafiDinHanbali": {
+    "id": 2988,
+    "name": "صفي الدين عبد المؤمن القطيعي"
   },
   "0740CabdQahirTabrizi": {
     "id": 2913,
@@ -1755,13 +3467,45 @@
     "id": 2498,
     "name": "أبو محمد الواسطي"
   },
+  "0741CabdRahimZarirani": {
+    "id": 2857,
+    "name": "الزريراني، شرف الدين عبد الرحيم"
+  },
+  "0741IbnAhmadGharnatiKalbi": {
+    "id": 1332,
+    "name": "ابن جزي الكلبي"
+  },
+  "0741IbnYahyaAndalusiMalaqi": {
+    "id": 1731,
+    "name": "المالقي، أبو عبد الله"
+  },
+  "0741KhatibTabrizi": {
+    "id": 475,
+    "name": "الخطيب ولي الدين التبريزي"
+  },
+  "0741KhazinBaghdadi": {
+    "id": 111,
+    "name": "الخازن"
+  },
   "0742IbnMuhammadBurhanDinSafaqsi": {
     "id": 2506,
     "name": "السفاقسي"
   },
+  "0742Mizzi": {
+    "id": 328,
+    "name": "المزي، جمال الدين"
+  },
   "0743Diwani": {
     "id": 2976,
     "name": "الديواني"
+  },
+  "0743FakhrDinZaylaci": {
+    "id": 1122,
+    "name": "الزيلعي، فخر الدين"
+  },
+  "0743SharafDinTibi": {
+    "id": 2614,
+    "name": "الطيبي"
   },
   "0744IbnCabdHadi": {
     "id": 79,
@@ -1771,6 +3515,18 @@
     "id": 99,
     "name": "أبو حيان الأندلسي"
   },
+  "0745IbnMuhammadTaqiDinIbnImam": {
+    "id": 1751,
+    "name": "ابن الإمام"
+  },
+  "0745MuayyadYahyaIbnHamzaCalawi": {
+    "id": 1792,
+    "name": "المؤيد العلوي"
+  },
+  "0748Adfuwi": {
+    "id": 3063,
+    "name": "كمال الدين الأدفوي"
+  },
   "0748Dhahabi": {
     "id": 362,
     "name": "شمس الدين الذهبي"
@@ -1778,6 +3534,34 @@
   "0749AbuThanaIsbahani": {
     "id": 1949,
     "name": "أبو الثناء الأصبهاني"
+  },
+  "0749BadrDinMisriMuradi": {
+    "id": 891,
+    "name": "ابن أم قاسم المرادي"
+  },
+  "0749IbnAkfaniSinjari": {
+    "id": 335,
+    "name": "ابن الأكفاني، أبو عبد الله"
+  },
+  "0749IbnCaliSirajDinBazzar": {
+    "id": 1735,
+    "name": "أبو حفص البزار"
+  },
+  "0749IbnFadlAllahCumari": {
+    "id": 752,
+    "name": "ابن فضل الله العمري"
+  },
+  "0749IbnHafizMizzi": {
+    "id": 1449,
+    "name": "المزي، عبد الرحمن"
+  },
+  "0749TaqiDinAdami": {
+    "id": 2798,
+    "name": "تقي الدين الأدمي"
+  },
+  "0749ZaynDinIbnWardi": {
+    "id": 770,
+    "name": "ابن الوردي الجد، زين الدين"
   },
   "0750IbnTurkamani": {
     "id": 417,
@@ -1791,17 +3575,37 @@
     "id": 1152,
     "name": "عضد الدين الإيجي"
   },
+  "0756IbnYusufSaminHalabi": {
+    "id": 137,
+    "name": "السمين الحلبي"
+  },
+  "0756TaqiDinSubki": {
+    "id": 437,
+    "name": "تقي الدين السبكي"
+  },
   "0758MaryamSittQudatHanbaliyya": {
     "id": 1621,
     "name": "ست القضاة"
+  },
+  "0758NajmDinTarsusi": {
+    "id": 621,
+    "name": "نجم الدين الطرسوسي"
   },
   "0761IbnKaykaldiCalai": {
     "id": 724,
     "name": "صلاح الدين العلائي"
   },
+  "0761JamalDinIbnHisham": {
+    "id": 893,
+    "name": "ابن هشام النحوي"
+  },
   "0762IbnYusufZaylaci": {
     "id": 88,
     "name": "الزيلعي، جمال الدين"
+  },
+  "0762MughultayIbnQilij": {
+    "id": 1071,
+    "name": "علاء الدين مغلطاي"
   },
   "0763IbnMuflihMaqdisi": {
     "id": 579,
@@ -1811,6 +3615,10 @@
     "id": 85,
     "name": "ابن شاكر الكتبي"
   },
+  "0764Safadi": {
+    "id": 680,
+    "name": "الصفدي"
+  },
   "0765AbuMahasinHusayni": {
     "id": 719,
     "name": "أبو المحاسن الحسيني"
@@ -1819,13 +3627,37 @@
     "id": 2804,
     "name": "برهان الدين ابن القيم"
   },
+  "0767CizzDinIbnJamaca": {
+    "id": 1718,
+    "name": "العز ابن جماعة"
+  },
   "0768IbnMuhammadTaqiDinBaclabakki": {
     "id": 1291,
     "name": "تقي الدين البعلبكي"
   },
+  "0768IbnNubataShacir": {
+    "id": 3007,
+    "name": "ابن نباتة"
+  },
+  "0768Yafici": {
+    "id": 357,
+    "name": "اليافعي"
+  },
   "0769IbnCabdAllahTaqiDinShibli": {
     "id": 1708,
     "name": "الشبلي"
+  },
+  "0769IbnCaqilBahaDinMisri": {
+    "id": 350,
+    "name": "ابن عقيل"
+  },
+  "0769IbnFarhunBadrDin": {
+    "id": 3026,
+    "name": "ابن فرحون، بدر الدين"
+  },
+  "0769IbnLuluShihabDinIbnNaqibShafici": {
+    "id": 2370,
+    "name": "ابن النقيب"
   },
   "0770IbnMuhammadFayyumiHamawi": {
     "id": 904,
@@ -1835,17 +3667,41 @@
     "id": 2991,
     "name": "الشريف التلمساني"
   },
+  "0771TajDinSubki": {
+    "id": 723,
+    "name": "تاج الدين ابن السبكي"
+  },
   "0772IbnHasanJamalDinIsnawi": {
     "id": 1496,
     "name": "الإسنوي"
+  },
+  "0772ShamsDinHanbaliZarqashi": {
+    "id": 1356,
+    "name": "شمس الدين الزركشي"
   },
   "0773BahaDinSubki": {
     "id": 2774,
     "name": "السبكي، بهاء الدين"
   },
+  "0773IbnIshaqSirajDinGhaznawi": {
+    "id": 2033,
+    "name": "الغزنوي، سراج الدين"
+  },
+  "0773IbnMusaRahuni": {
+    "id": 2903,
+    "name": "يحيى بن موسى الرهوني"
+  },
   "0774IbnKathir": {
     "id": 3,
     "name": "ابن كثير"
+  },
+  "0774IbnMuhammadShamsDinIbnMawsili": {
+    "id": 1415,
+    "name": "ابن الموصلي"
+  },
+  "0774IbnRaficSallami": {
+    "id": 681,
+    "name": "ابن رافع السلامي"
   },
   "0775IbnAbiWafa": {
     "id": 1746,
@@ -1855,13 +3711,33 @@
     "id": 815,
     "name": "ابن أبي حجلة"
   },
+  "0776JamalDinSurramarri": {
+    "id": 2659,
+    "name": "السرمري"
+  },
+  "0776LisanDinIbnKhatib": {
+    "id": 698,
+    "name": "لسان الدين بن الخطيب"
+  },
   "0778BadrDinBacli": {
     "id": 1520,
     "name": "بدر الدين البعلي"
   },
+  "0778NazirJaysh": {
+    "id": 2810,
+    "name": "ناظر الجيش"
+  },
   "0779IbnBattuta": {
     "id": 763,
     "name": "ابن بطوطة"
+  },
+  "0779IbnHabibHalabi": {
+    "id": 813,
+    "name": "ابن حبيب الحلبي"
+  },
+  "0779IbnYusufAndalusiGharnati": {
+    "id": 1184,
+    "name": "الرعيني، أبو جعفر"
   },
   "0780IbnJabirAndalusi": {
     "id": 2700,
@@ -1875,6 +3751,10 @@
     "id": 1741,
     "name": "ابن حديدة"
   },
+  "0783IbnMajidMaqdisi": {
+    "id": 2906,
+    "name": "يوسف بن ماجد بن أبي المجد المقدسي"
+  },
   "0784IbnMahmudJalalDinQahiri": {
     "id": 1242,
     "name": "محمد بن منكلي"
@@ -1887,9 +3767,21 @@
     "id": 1756,
     "name": "الوصابي"
   },
+  "0786IbnMuhammadBabarti": {
+    "id": 560,
+    "name": "البابرتي"
+  },
+  "0786ShamsDinKirmani": {
+    "id": 2656,
+    "name": "الكرماني، شمس الدين"
+  },
   "0789IbnMuhammadKhuzaci": {
     "id": 620,
     "name": "علي بن محمد الخزاعي"
+  },
+  "0789IbnMuhibbSamit": {
+    "id": 2932,
+    "name": "ابن المحب الصامت"
   },
   "0790IbnMusaGharnatiShatibi": {
     "id": 68,
@@ -1903,6 +3795,10 @@
     "id": 2514,
     "name": "الريمي"
   },
+  "0792SadrDinIbnAbiCizzAdhraci": {
+    "id": 170,
+    "name": "ابن أبي العز"
+  },
   "0794BadrDinZarkashi": {
     "id": 93,
     "name": "بدر الدين الزركشي"
@@ -1915,9 +3811,17 @@
     "id": 2698,
     "name": "الموصلي، أبو بكر"
   },
+  "0797IbnCaquli": {
+    "id": 2937,
+    "name": "ابن العاقولي"
+  },
   "0799IbnFarhun": {
     "id": 623,
     "name": "ابن فرحون، برهان الدين"
+  },
+  "0799IbnShaykha": {
+    "id": 1960,
+    "name": "ابن الشيخة"
   },
   "0800IbnAhmadAbuCabdAllahSalimi": {
     "id": 1772,
@@ -1935,6 +3839,22 @@
     "id": 120,
     "name": "ابن عرفة"
   },
+  "0803IbnLahhamCalaDinBacli": {
+    "id": 438,
+    "name": "ابن اللحام"
+  },
+  "0803IbnMusaJamalDinMalati": {
+    "id": 1473,
+    "name": "جمال الدين الملطي"
+  },
+  "0803NasirDinIbnZurayq": {
+    "id": 2636,
+    "name": "ابن زريق"
+  },
+  "0803SadrDinMunawi": {
+    "id": 2731,
+    "name": "الصدر المناوي"
+  },
   "0804IbnMulaqqin": {
     "id": 709,
     "name": "ابن الملقن"
@@ -1942,6 +3862,10 @@
   "0805BahramDamiri": {
     "id": 2634,
     "name": "بهرام الدميري"
+  },
+  "0805SirajDinBulqini": {
+    "id": 525,
+    "name": "سراج الدين البلقيني"
   },
   "0806IbnHusaynZaynDinCiraqi": {
     "id": 252,
@@ -1951,9 +3875,25 @@
     "id": 748,
     "name": "ابن الأحمر"
   },
+  "0807Makkudi": {
+    "id": 2859,
+    "name": "المكودي"
+  },
+  "0807NurDinHaythami": {
+    "id": 260,
+    "name": "نور الدين الهيثمي"
+  },
   "0808IbnCimadDinShihabDinAqfahsi": {
     "id": 646,
     "name": "الأقفهسي"
+  },
+  "0808IbnKhaldun": {
+    "id": 731,
+    "name": "ابن خلدون"
+  },
+  "0808MuhammadDamiri": {
+    "id": 1790,
+    "name": "الدميري"
   },
   "0809IbnDuqmaq": {
     "id": 2761,
@@ -1971,13 +3911,29 @@
     "id": 1164,
     "name": "الغزولي"
   },
+  "0815IbnMuhammadShihabDinIbnHaim": {
+    "id": 1338,
+    "name": "ابن الهائم"
+  },
   "0816AbuBakrMaraghi": {
     "id": 1286,
     "name": "المراغي، أبو بكر"
   },
+  "0816IbnHajji": {
+    "id": 2958,
+    "name": "ابن حجي"
+  },
+  "0816IbnMuhammadSharifJurjani": {
+    "id": 884,
+    "name": "الجرجاني، الشريف"
+  },
   "0817MajdDinFiruzabadi": {
     "id": 211,
     "name": "الفيروزآبادي"
+  },
+  "0819CizzDinIbnJamaca": {
+    "id": 2704,
+    "name": "العز ابن جماعة الحفيد"
   },
   "0821Qalqashandi": {
     "id": 454,
@@ -1998,6 +3954,10 @@
   "0829IbnCasimGharnati": {
     "id": 1235,
     "name": "ابن عاصم الغرناطي"
+  },
+  "0829TaqiDinDimashqiHisni": {
+    "id": 501,
+    "name": "تقي الدين الحصني"
   },
   "0830IbnMuhammadBasiliTunisi": {
     "id": 2423,
@@ -2023,6 +3983,10 @@
     "id": 807,
     "name": "الحموي، ابن حجة"
   },
+  "0837IbnNajiTannukhi": {
+    "id": 2689,
+    "name": "التنوخي، ابن ناجي"
+  },
   "0838ShihabDinDalji": {
     "id": 2403,
     "name": "الدلجي، أحمد بن علي"
@@ -2030,6 +3994,10 @@
   "0840IbnWazirYamani": {
     "id": 2280,
     "name": "ابن الوزير"
+  },
+  "0840ShihabDinBusiri": {
+    "id": 490,
+    "name": "البوصيري"
   },
   "0841BurhanDinSibtIbnCajami": {
     "id": 361,
@@ -2047,6 +4015,14 @@
     "id": 1678,
     "name": "ابن رسلان"
   },
+  "0844IbnKhalilCalaDinTarabulusi": {
+    "id": 624,
+    "name": "علاء الدين الطرابلسي"
+  },
+  "0844ShamsDinMisri": {
+    "id": 2559,
+    "name": "ابن عمار المالكي"
+  },
   "0845Maqrizi": {
     "id": 693,
     "name": "المقريزي"
@@ -2059,13 +4035,29 @@
     "id": 202,
     "name": "ابن حجر العسقلاني"
   },
+  "0852SirajDinIbnWardi": {
+    "id": 1130,
+    "name": "ابن الوردي الحفيد، سراج الدين"
+  },
   "0854IbnCarabshah": {
     "id": 728,
     "name": "ابن عربشاه"
   },
+  "0854IbnDiyaMakki": {
+    "id": 745,
+    "name": "ابن الضياء"
+  },
+  "0854IbnMalak": {
+    "id": 2822,
+    "name": "ابن الملك"
+  },
   "0855IbnAhmadShamsDinDimashqi": {
     "id": 2039,
     "name": "المقدسي، محمد بن أحمد"
+  },
+  "0855ShamsDinDikunquz": {
+    "id": 2069,
+    "name": "ديكنقوز"
   },
   "0856IbnDawudHanbali": {
     "id": 2894,
@@ -2082,6 +4074,10 @@
   "0862IbnMuhammadMujari": {
     "id": 1786,
     "name": "أبو عبد الله المجاري"
+  },
+  "0864IbnAhmadJalalDinMahalli": {
+    "id": 210,
+    "name": "المحلي، جلال الدين"
   },
   "0864RadiDinGhazzi": {
     "id": 2938,
@@ -2103,6 +4099,14 @@
     "id": 1666,
     "name": "شمس الدين المارديني"
   },
+  "0871MuhammadCuqbani": {
+    "id": 2919,
+    "name": "محمد بن العقباني"
+  },
+  "0871TaqiDinIbnFahd": {
+    "id": 1451,
+    "name": "ابن فهد"
+  },
   "0873IbnShahinZahiri": {
     "id": 885,
     "name": "خليل بن شاهين"
@@ -2110,6 +4114,14 @@
   "0874BadrDinIbnQadiShuhba": {
     "id": 2942,
     "name": "بدر الدين ابن قاضي شهبة"
+  },
+  "0874IbnImamKamiliyya": {
+    "id": 2890,
+    "name": "ابن إمام الكاملية"
+  },
+  "0874IbnTaghribirdi": {
+    "id": 679,
+    "name": "ابن تغري بردي"
   },
   "0875IbnMuhammadShihabDinHijazi": {
     "id": 1232,
@@ -2119,6 +4131,14 @@
     "id": 632,
     "name": "ابن أمير حاج"
   },
+  "0879IbnQutlubugha": {
+    "id": 696,
+    "name": "ابن قطلوبغا"
+  },
+  "0879MuhyiDinKafiyaji": {
+    "id": 1679,
+    "name": "الكافيجي"
+  },
   "0880IbnAhmadShamsDinAsyuti": {
     "id": 439,
     "name": "المنهاجي الأسيوطي"
@@ -2127,9 +4147,17 @@
     "id": 604,
     "name": "الشاذلي التونسي"
   },
+  "0882LisanDinIbnShihnaHalabi": {
+    "id": 1684,
+    "name": "ابن الشحنة، لسان الدين"
+  },
   "0883AbuBakrJuraci": {
     "id": 2940,
     "name": "الجراعي"
+  },
+  "0884AbuDharrSibtIbnCajami": {
+    "id": 1943,
+    "name": "سبط ابن العجمي، موفق الدين"
   },
   "0884AbuIshaqIbnMuflih": {
     "id": 900,
@@ -2139,13 +4167,37 @@
     "id": 91,
     "name": "برهان الدين البقاعي"
   },
+  "0885CalaDinMardawi": {
+    "id": 580,
+    "name": "المرداوي"
+  },
+  "0885IbnFaramurzMullaKhusraw": {
+    "id": 563,
+    "name": "منلا خسرو"
+  },
   "0893CamiriHaradi": {
     "id": 1364,
     "name": "العامري الحرضي"
   },
+  "0893IbnAbiBakrCayniHanafi": {
+    "id": 2552,
+    "name": "ابن العيني"
+  },
+  "0893IbnAhmadZaynDinSharji": {
+    "id": 2472,
+    "name": "الزبيدي، زين الدين"
+  },
+  "0893IbnIsmacilShihabDinKurani": {
+    "id": 2515,
+    "name": "أحمد بن إسماعيل الكوراني"
+  },
   "0894CabdRahmanSufuri": {
     "id": 812,
     "name": "الصفوري"
+  },
+  "0894IbnQasimRassacTunisi": {
+    "id": 905,
+    "name": "الرصاع"
   },
   "0896IbnCaliIbnAzraqGharnati": {
     "id": 617,
@@ -2159,17 +4211,41 @@
     "id": 2675,
     "name": "الرجراجي، الحسين بن علي"
   },
+  "0899ZarruqShihabDinFasi": {
+    "id": 652,
+    "name": "زروق"
+  },
   "0900IbnCabdMuncimHimyari": {
     "id": 697,
     "name": "الحميري، ابن عبد المنعم"
+  },
+  "0900IbnMuhammadBurhanDinQabibati": {
+    "id": 1904,
+    "name": "برهان الدين الناجي"
+  },
+  "0900IbnMuhammadNurDinAshmuni": {
+    "id": 1472,
+    "name": "الأشموني، أبو الحسن"
   },
   "0902Sakhawi": {
     "id": 34,
     "name": "شمس الدين السخاوي"
   },
+  "0904Burayhi": {
+    "id": 1728,
+    "name": "عبد الوهاب البريهي"
+  },
   "0905Basrawi": {
     "id": 1725,
     "name": "البصروي"
+  },
+  "0905IbnCabdAllahWaqqadAzhari": {
+    "id": 1763,
+    "name": "خالد الأزهري"
+  },
+  "0905IbnCabdRahmanIjiShafici": {
+    "id": 824,
+    "name": "الإيجي، محمد بن عبد الرحمن"
   },
   "0909IbnMabrid": {
     "id": 358,
@@ -2179,6 +4255,10 @@
     "id": 756,
     "name": "السمهودي"
   },
+  "0911Suyuti": {
+    "id": 7,
+    "name": "الجلال السيوطي"
+  },
   "0914IbnYahyaWansharisi": {
     "id": 1689,
     "name": "الونشريسي"
@@ -2186,6 +4266,14 @@
   "0918BafadlHadrami": {
     "id": 1677,
     "name": "بافضل الحضرمي"
+  },
+  "0918IbnAscadJalalDinDawwani": {
+    "id": 2417,
+    "name": "جلال الدين الدواني"
+  },
+  "0918IbnQasimShamsDinGhazzi": {
+    "id": 2294,
+    "name": "محمد بن قاسم الغزي"
   },
   "0919IbnGhaziMiknasi": {
     "id": 2694,
@@ -2211,13 +4299,21 @@
     "id": 6,
     "name": "زكريا الأنصاري"
   },
-  "0927Nucaymi": {
+  "0927Culaymi": {
     "id": 742,
     "name": "النعيمي"
   },
   "0928IbnQadiCajlun": {
     "id": 3023,
     "name": "ابن قاضي عجلون"
+  },
+  "0928MujirDinCulaymi": {
+    "id": 1723,
+    "name": "مجير الدين العليمي"
+  },
+  "0929IbnKayyal": {
+    "id": 725,
+    "name": "ابن الكيال"
   },
   "0930IbnCumarBahraqHadrami": {
     "id": 1370,
@@ -2227,6 +4323,10 @@
     "id": 2475,
     "name": "أبو حفص النشار"
   },
+  "0940IbnKamalBasha": {
+    "id": 1592,
+    "name": "ابن كمال باشا"
+  },
   "0940IbnQasimMuhyiDinAmasi": {
     "id": 1791,
     "name": "الأماسي"
@@ -2235,9 +4335,17 @@
     "id": 663,
     "name": "الصالحي الشامي"
   },
+  "0942KhalilTatai": {
+    "id": 3027,
+    "name": "التتائي"
+  },
   "0944IbnDaybac": {
     "id": 644,
     "name": "ابن الديبع الشيباني"
+  },
+  "0945ShamsDinDawudi": {
+    "id": 2490,
+    "name": "الداوودي، شمس الدين"
   },
   "0947BamakhramaHimyari": {
     "id": 2878,
@@ -2263,9 +4371,17 @@
     "id": 2717,
     "name": "محمد بن يحيى بهران الزيدي"
   },
+  "0957ShihabDinRamli": {
+    "id": 1355,
+    "name": "شهاب الدين الرملي"
+  },
   "0963CabdRahmanAbuFathCabbasi": {
     "id": 889,
     "name": "أبو الفتح العباسي"
+  },
+  "0963IbnMuhammadIbnCiraqKanani": {
+    "id": 722,
+    "name": "ابن عراق"
   },
   "0966HusaynDiyarbakri": {
     "id": 1366,
@@ -2275,6 +4391,14 @@
     "id": 436,
     "name": "الحجاوي"
   },
+  "0968Tashkuprizadah": {
+    "id": 1747,
+    "name": "طاشكبري زاده"
+  },
+  "0970IbnIbrahimIbnNujaymMisri": {
+    "id": 564,
+    "name": "زين الدين ابن نجيم"
+  },
   "0971IbnIbrahimIbnHanbaliHalabi": {
     "id": 1216,
     "name": "ابن الحنبلي، رضي الدين"
@@ -2282,6 +4406,14 @@
   "0972IbnAhmadFakihi": {
     "id": 2889,
     "name": "جمال الدين الفاكهي"
+  },
+  "0972IbnAhmadIbnNajjarHanbali": {
+    "id": 633,
+    "name": "ابن النجار الفتوحي"
+  },
+  "0972IbnMahmudAmirBadishahBukhari": {
+    "id": 1697,
+    "name": "أمير باد شاه"
   },
   "0974IbnHajarHaytami": {
     "id": 479,
@@ -2306,6 +4438,10 @@
   "0981IbnMusaMuwaqqitDimashqi": {
     "id": 2010,
     "name": "العلموي"
+  },
+  "0981TaqiDinRumi": {
+    "id": 1279,
+    "name": "البركوي"
   },
   "0982IbnMuhammadAbuSucud": {
     "id": 110,
@@ -2335,6 +4471,10 @@
     "id": 1173,
     "name": "ابن لالي بالي"
   },
+  "0992IbnQasimCibadi": {
+    "id": 203,
+    "name": "العبادي"
+  },
   "0995AhmadManjur": {
     "id": 2846,
     "name": "أحمد المنجور"
@@ -2342,6 +4482,10 @@
   "1004ShamsDinRamli": {
     "id": 498,
     "name": "الرملي، شمس الدين"
+  },
+  "1004ShamsDinTumurtashi": {
+    "id": 1217,
+    "name": "الخطيب التمرتاشي"
   },
   "1005SirajDinIbnNujaym": {
     "id": 2658,
@@ -2358,6 +4502,10 @@
   "1014MansurTabalawi": {
     "id": 1614,
     "name": "منصور الطبلاوي"
+  },
+  "1014MullaCaliQari": {
+    "id": 421,
+    "name": "الملا على القاري"
   },
   "1016MuhibbDinHamawi": {
     "id": 776,
@@ -2379,6 +4527,10 @@
     "id": 803,
     "name": "البهاء العاملي"
   },
+  "1031CabdRaufMunawi": {
+    "id": 423,
+    "name": "عبد الرؤوف المناوي"
+  },
   "1033MarciKarmi": {
     "id": 469,
     "name": "مرعي الكرمي"
@@ -2399,6 +4551,10 @@
     "id": 2531,
     "name": "برهان الدين اللقاني"
   },
+  "1041Maqqari": {
+    "id": 710,
+    "name": "المقري التلمساني"
+  },
   "1044IbnBurhanDinHalabi": {
     "id": 1377,
     "name": "نور الدين الحلبي"
@@ -2410,6 +4566,10 @@
   "1051Cimadi": {
     "id": 1663,
     "name": "العمادي"
+  },
+  "1051IbnYunusBuhutiHanbali": {
+    "id": 581,
+    "name": "البهوتي"
   },
   "1052CabdHaqqDihlawi": {
     "id": 1668,
@@ -2423,6 +4583,10 @@
     "id": 1701,
     "name": "ابن ملا فروخ"
   },
+  "1061NajmDinGhazzi": {
+    "id": 701,
+    "name": "نجم الدين الغزي"
+  },
   "1067HajjiKhalifa": {
     "id": 321,
     "name": "حاجي خليفة"
@@ -2430,6 +4594,10 @@
   "1069IbnCammarShurunbulali": {
     "id": 1265,
     "name": "الشرنبلالي"
+  },
+  "1069ShihabDinKhafaji": {
+    "id": 711,
+    "name": "الشهاب الخفاجي"
   },
   "1070MuhammadKibrit": {
     "id": 2369,
@@ -2451,6 +4619,10 @@
     "id": 1785,
     "name": "رياض زاده"
   },
+  "1078ShaykhiZadahDamadAfandi": {
+    "id": 566,
+    "name": "عبد الرحمن شيخي زاده"
+  },
   "1080IbnMuhammadBayquniDimashqi": {
     "id": 443,
     "name": "البيقوني"
@@ -2467,6 +4639,10 @@
     "id": 2791,
     "name": "الخلوتي"
   },
+  "1088IbnCaliHaskafi": {
+    "id": 2646,
+    "name": "علاء الدين الحصكفي"
+  },
   "1089IbnCimad": {
     "id": 1654,
     "name": "ابن العماد الحنبلي"
@@ -2482,6 +4658,10 @@
   "1094IbnSacidMujaylidi": {
     "id": 2916,
     "name": "المجيلدي"
+  },
+  "1094IbnSulaymanRudani": {
+    "id": 2305,
+    "name": "الروداني، محمد بن سليمان المغربي"
   },
   "1096YahyaShawi": {
     "id": 2381,
@@ -2515,6 +4695,10 @@
     "id": 678,
     "name": "العصامي"
   },
+  "1111MuhammadAminMuhibbi": {
+    "id": 682,
+    "name": "المحبي"
+  },
   "1117IbnMuhammadSharafDinDimyatti": {
     "id": 1441,
     "name": "البناء"
@@ -2527,9 +4711,17 @@
     "id": 82,
     "name": "ابن معصوم الحسني"
   },
+  "1119IbnMuhammadMaghribi": {
+    "id": 2796,
+    "name": "الحسين بن محمد المغربي"
+  },
   "1120IbnMuhammadBurhanDinDimashqi": {
     "id": 1670,
     "name": "ابن حمزة الحسيني"
+  },
+  "1120IbnQasimIbnZakurFasi": {
+    "id": 1234,
+    "name": "ابن زاكور"
   },
   "1122MuhammadZurqani": {
     "id": 995,
@@ -2563,13 +4755,17 @@
     "id": 916,
     "name": "عبد الغني النابلسي"
   },
+  "1143IbnCabdKarimGhazziCamiri": {
+    "id": 1674,
+    "name": "أحمد العامري"
+  },
   "1145SajaqliZadehMarcashi": {
     "id": 2880,
     "name": "المرعشي، محمد بن أبي بكر"
   },
-  "1147CabdAllahSancani": {
-    "id": 1727,
-    "name": "الوزير الصنعاني"
+  "1147IbnSharafDinKhalili": {
+    "id": 2446,
+    "name": "محمد الخليلي"
   },
   "1150IbnCaqila": {
     "id": 1450,
@@ -2582,6 +4778,14 @@
   "1156IbnMuhammadAbuSacidKhadimi": {
     "id": 655,
     "name": "محمد الخادمي"
+  },
+  "1156MuhammadCujaymi": {
+    "id": 2807,
+    "name": "محمد بن حسن العجيمي"
+  },
+  "1156MustafaIzmiri": {
+    "id": 2607,
+    "name": "مصطفى الإزميري"
   },
   "1162IbnMuammadAbuFidaCajluni": {
     "id": 415,
@@ -2598,6 +4802,10 @@
   "1170IbnMuhammadMahalliMisri": {
     "id": 1653,
     "name": "المحلي، حسين بن محمد"
+  },
+  "1170IbnTayyibFasi": {
+    "id": 2901,
+    "name": "ابن الطيب"
   },
   "1171CuthmanKamakhi": {
     "id": 2946,
@@ -2639,9 +4847,17 @@
     "id": 574,
     "name": "العدوي"
   },
+  "1189ShihabDinBacli": {
+    "id": 2828,
+    "name": "أحمد بن عبد الله البعلي"
+  },
   "1192IbnCabdAllahBacliHanbali": {
     "id": 667,
     "name": "البعلي، عبد الرحمن بن عبد الله"
+  },
+  "1195CabdRahmanAnsari": {
+    "id": 674,
+    "name": "الأنصاري، عبد الرحمن بن عبد الكريم"
   },
   "1200IbnAhmadSafiDinBukhari": {
     "id": 1729,
@@ -2655,6 +4871,10 @@
     "id": 152,
     "name": "محمد بن عبد الوهاب"
   },
+  "1206IbnCaliSabbanShafici": {
+    "id": 915,
+    "name": "الصبان"
+  },
   "1207IbnAhmadCabdQadirKawkabani": {
     "id": 1779,
     "name": "الكوكباني"
@@ -2667,6 +4887,10 @@
     "id": 1564,
     "name": "عبد العزيز بن محمد بن سعود"
   },
+  "1218SalihFulani": {
+    "id": 1753,
+    "name": "الفلاني"
+  },
   "1219TalibBartiliWalati": {
     "id": 3081,
     "name": "الطالب البرتلي"
@@ -2674,6 +4898,10 @@
   "1221IbnAhmadSayyaghi": {
     "id": 851,
     "name": "السياغي"
+  },
+  "1221IbnMuhammadBujayrimiMisri": {
+    "id": 500,
+    "name": "البجيرمي"
   },
   "1224IbnCajiba": {
     "id": 135,
@@ -2683,6 +4911,14 @@
     "id": 2030,
     "name": "ابن غنام، حسين"
   },
+  "1225IbnNasirNajdi": {
+    "id": 513,
+    "name": "حمد بن ناصر آل معمر"
+  },
+  "1225ThanaAllahPanipati": {
+    "id": 1329,
+    "name": "المظهري، محمد ثناء الله"
+  },
   "1226AhmadBarbir": {
     "id": 2410,
     "name": "أحمد البربير"
@@ -2690,6 +4926,10 @@
   "1228MahmudMaqdishSafaqsi": {
     "id": 2736,
     "name": "محمود مقديش"
+  },
+  "1228MuhammadAmirKabirMaliki": {
+    "id": 1675,
+    "name": "الأمير المالكي"
   },
   "1230IbnAhmadDasuqi": {
     "id": 575,
@@ -2739,9 +4979,17 @@
     "id": 156,
     "name": "الدهلوي، إسماعيل بن عبد الغني"
   },
+  "1246IbnHamadBassam": {
+    "id": 753,
+    "name": "محمد بن حمد البسام"
+  },
   "1250IbnMuhammadCattarShafici": {
     "id": 635,
     "name": "حسن العطار"
+  },
+  "1250IbnMuhammadRaiqiSacidi": {
+    "id": 2167,
+    "name": "حمد بن محمد الصعيدي"
   },
   "1252IbnCabidinDimashqi": {
     "id": 558,
@@ -2775,6 +5023,14 @@
     "id": 2371,
     "name": "سعيد باعشن"
   },
+  "1270IbnMuhammadIhsaiHanafi": {
+    "id": 1771,
+    "name": "الملا الإحسائي"
+  },
+  "1270ShihabDinAlusi": {
+    "id": 98,
+    "name": "الألوسي، شهاب الدين"
+  },
   "1272HasanBaytar": {
     "id": 2779,
     "name": "حسن البيطار"
@@ -2807,6 +5063,10 @@
     "id": 172,
     "name": "عبد الرحمن بن حسن آل الشيخ"
   },
+  "1287NasifNasraniYaziji": {
+    "id": 1174,
+    "name": "اليازجي، ناصيف"
+  },
   "1290RifacaTahtawi": {
     "id": 1397,
     "name": "رفاعة الطهطاوى"
@@ -2831,6 +5091,14 @@
     "id": 860,
     "name": "عباس القرشي"
   },
+  "1299IbnSibghatAllahFasihDinHaydari": {
+    "id": 2378,
+    "name": "فصيح الدين الحيدري"
+  },
+  "1299MuhammadCulayshMaliki": {
+    "id": 571,
+    "name": "محمد بن أحمد عليش"
+  },
   "1300ReinhartDozy": {
     "id": 2344,
     "name": "رينهارت دوزي"
@@ -2843,6 +5111,14 @@
     "id": 1230,
     "name": "الشدياق"
   },
+  "1304CabdHayyLaknawi": {
+    "id": 1176,
+    "name": "أبو الحسنات اللكنوي"
+  },
+  "1304Dahlan": {
+    "id": 2392,
+    "name": "أحمد بن زيني دحلان"
+  },
   "1305IbnKhalilQawuqjiTarabulusi": {
     "id": 473,
     "name": "القاوقجي"
@@ -2850,6 +5126,14 @@
   "1306FikriBasha": {
     "id": 1168,
     "name": "عبد الله فكري"
+  },
+  "1306HasanJubayna": {
+    "id": 2775,
+    "name": "حسن جبينة"
+  },
+  "1306MuhammadQadriBasha": {
+    "id": 2683,
+    "name": "محمد قدري باشا"
   },
   "1307Qannawji": {
     "id": 330,
@@ -2871,6 +5155,10 @@
     "id": 497,
     "name": "عبد الله النديم"
   },
+  "1314ShakirBatluni": {
+    "id": 713,
+    "name": "شاكر شقير البتلوني"
+  },
   "1315Salawi": {
     "id": 1724,
     "name": "أحمد بن خالد الناصري"
@@ -2887,6 +5175,10 @@
     "id": 1778,
     "name": "اللبابيدي"
   },
+  "1318MuhammadSanusi": {
+    "id": 1163,
+    "name": "محمد السنوسي"
+  },
   "1319IbnYasinLabadiNabulusi": {
     "id": 2579,
     "name": "عبد الغني اللبدي"
@@ -2902,6 +5194,10 @@
   "1323MuhammadCabduh": {
     "id": 1706,
     "name": "محمد عبده"
+  },
+  "1323RashidAhmadGanguhi": {
+    "id": 3035,
+    "name": "رشيد الكنكوهي"
   },
   "1324IbnNasifNasraniYaziji": {
     "id": 1166,
@@ -2927,13 +5223,25 @@
     "id": 2521,
     "name": "أحمد بن الأمين الشنقيطي"
   },
+  "1331IbnAmirCabdQadirJazairi": {
+    "id": 1065,
+    "name": "محمد بن عبد القادر الجزائري"
+  },
   "1332IbnMuhammadJamalDinQasimi": {
     "id": 478,
     "name": "جمال الدين القاسمي"
   },
+  "1332ZaynabFawwaz": {
+    "id": 1249,
+    "name": "زينب فواز"
+  },
   "1335CabdRazzaqBaytar": {
     "id": 704,
     "name": "عبد الرزاق البيطار"
+  },
+  "1335IbnCabdSamicAbiAzhari": {
+    "id": 1046,
+    "name": "صالح بن عبد السميع الأزهري"
   },
   "1336CabdHamidThani": {
     "id": 1744,
@@ -2947,9 +5255,17 @@
     "id": 1726,
     "name": "محمد فريد بك"
   },
+  "1338TahirJazairi": {
+    "id": 1667,
+    "name": "طاهر الجزائري"
+  },
   "1339IsmacilBashaBaghdadi": {
     "id": 322,
     "name": "إسماعيل باشا"
+  },
+  "1341CabdHayyTalibi": {
+    "id": 1192,
+    "name": "عبد الحي الحسني"
   },
   "1342MahmudShukriAlusi": {
     "id": 166,
@@ -2959,21 +5275,61 @@
     "id": 1016,
     "name": "محمد الخضري"
   },
+  "1345IbnJacfarKattani": {
+    "id": 320,
+    "name": "الكتاني، محمد بن جعفر"
+  },
   "1346CabbasIbnMuhammadMadani": {
     "id": 1171,
     "name": "عباس المدني"
+  },
+  "1346CabdQadirBadran": {
+    "id": 1007,
+    "name": "ابن بدران"
+  },
+  "1346KhalilAhmadSaharanpuri": {
+    "id": 2966,
+    "name": "خليل أحمد السهارنفوري"
+  },
+  "1346LuisShikhuYasuci": {
+    "id": 90,
+    "name": "لويس شيخو"
   },
   "1348AhmadTaymurBasha": {
     "id": 1241,
     "name": "أحمد تيمور باشا"
   },
+  "1348MuhammadSulaymanMansurpuri": {
+    "id": 2651,
+    "name": "محمد سليمان المنصورفوري"
+  },
   "1349CabdHamidFarahi": {
     "id": 2553,
     "name": "عبد الحميد الفراهي"
   },
+  "1349IbnSahmanKhathcami": {
+    "id": 554,
+    "name": "سليمان بن سحمان"
+  },
+  "1349IbrahimMarighani": {
+    "id": 1967,
+    "name": "المارغني التونسي"
+  },
+  "1349MuhammadCabdCazizKhawli": {
+    "id": 1358,
+    "name": "محمد عبد العزيز الخولي"
+  },
   "1351AhmadShawqi": {
     "id": 1270,
     "name": "أحمد شوقي"
+  },
+  "1351IbnHusaynGhazzi": {
+    "id": 1945,
+    "name": "كامل الغزي"
+  },
+  "1351YusufIlyanSarkis": {
+    "id": 329,
+    "name": "اليان سركيس"
   },
   "1353IbnCabdRahimMubarakfuri": {
     "id": 450,
@@ -3002,6 +5358,14 @@
   "1362AhmadHashimi": {
     "id": 1213,
     "name": "أحمد الهاشمي"
+  },
+  "1362CabdQadirIskandarani": {
+    "id": 116,
+    "name": "عبد القادر الإسكندراني"
+  },
+  "1362CabdRahmanIbnDirham": {
+    "id": 1167,
+    "name": "عبد الرحمن بن درهم"
   },
   "1363CabdRahmanBarquqi": {
     "id": 2349,
@@ -3047,6 +5411,10 @@
     "id": 2330,
     "name": "الأمير محمد علي"
   },
+  "1376CabdRahmanSacdi": {
+    "id": 128,
+    "name": "عبد الرحمن السعدي"
+  },
   "1376MuhammadHajwiThacalibi": {
     "id": 2007,
     "name": "الحجوي"
@@ -3055,6 +5423,14 @@
     "id": 1145,
     "name": "أحمد شاكر"
   },
+  "1377CabdRahmanShukri": {
+    "id": 2130,
+    "name": "عبد الرحمن الأفريقي"
+  },
+  "1377MuhammadCabdAllahDarraz": {
+    "id": 1119,
+    "name": "محمد بن عبد الله دراز"
+  },
   "1378YusufKaram": {
     "id": 1977,
     "name": "يوسف بطرس كرم"
@@ -3062,6 +5438,10 @@
   "1379BadicZamanNursi": {
     "id": 40,
     "name": "بديع الزمان النورسي"
+  },
+  "1379KhalilMardamBak": {
+    "id": 2351,
+    "name": "خليل مردم بك"
   },
   "1380KafiTunisi": {
     "id": 2382,
@@ -3095,9 +5475,21 @@
     "id": 664,
     "name": "عبد السلام هارون"
   },
+  "1408CumarKahhala": {
+    "id": 716,
+    "name": "عمر رضا كحالة"
+  },
+  "1408JawadCali": {
+    "id": 1067,
+    "name": "جواد علي"
+  },
   "1409CabdAllahKannun": {
     "id": 2997,
     "name": "عبد الله كنون"
+  },
+  "1409IbnSayyidCajamiMisri": {
+    "id": 52,
+    "name": "عبد الفتاح المرصفي"
   },
   "1414SalimIbadi": {
     "id": 458,
@@ -3115,6 +5507,10 @@
     "id": 2561,
     "name": "عبد الفتاح أبو غدة"
   },
+  "1417SacidAfghani": {
+    "id": 1107,
+    "name": "سعيد الأفغاني"
+  },
   "1418SalihAhmadArkani": {
     "id": 318,
     "name": "الأركاني"
@@ -3127,13 +5523,33 @@
     "id": 990,
     "name": "أبو الحسن الندوي"
   },
+  "1420CaliTantawi": {
+    "id": 2424,
+    "name": "علي الطنطاوي"
+  },
+  "1420IbnBaz": {
+    "id": 67,
+    "name": "ابن باز"
+  },
   "1421HamdJasir": {
     "id": 455,
     "name": "حمد الجاسر"
   },
+  "1421MuhammadCuthaymin": {
+    "id": 57,
+    "name": "ابن عثيمين"
+  },
   "1422CabdCazizSalman": {
     "id": 638,
     "name": "عبد العزيز السلمان"
+  },
+  "1422IbnHadiWadici": {
+    "id": 1224,
+    "name": "مقبل بن هادي الوادعي"
+  },
+  "1422MuhammadSalimMuhaysin": {
+    "id": 2456,
+    "name": "محمد سالم محيسن"
   },
   "1423CabdAllahAlBassam": {
     "id": 599,
@@ -3155,12 +5571,20 @@
     "id": 592,
     "name": "ابن جبرين"
   },
+  "1430MunicCabdHalimMahmud": {
+    "id": 2471,
+    "name": "منيع عبد الحليم محمود"
+  },
   "1431MuhammadSayyidTantawi": {
     "id": 118,
     "name": "محمد سيد طنطاوي"
   },
-  "0001CamrIbnQumaya": {
-    "id": 3014,
-    "name": "عمرو بن قميئة (-٨١ - ٥٤٠ م)"
+  "1432AscadHawmad": {
+    "id": 134,
+    "name": "أسعد حومد"
+  },
+  "1442CabdRahmanCabdKhaliq": {
+    "id": 70,
+    "name": "عبد الرحمن بن عبد الخالق"
   }
 }

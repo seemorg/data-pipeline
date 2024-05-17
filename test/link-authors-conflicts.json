@@ -1,0 +1,86 @@
+{
+  "0230IbnSacd": {
+    "id": 87,
+    "name": "ابن سعد"
+  },
+  "0234CaliIbnMadini": {
+    "id": 472,
+    "name": "علي بن المديني"
+  },
+  "0360Tabarani": {
+    "id": 232,
+    "name": "الطبراني"
+  },
+  "0379MuhammadRabci": {
+    "id": 405,
+    "name": "الربعي، أبو سليمان"
+  },
+  "0384IbnCimranMarzubani": {
+    "id": 673,
+    "name": "المرزباني"
+  },
+  "0385IbnNadim": {
+    "id": 2193,
+    "name": "ابن المهندس"
+  },
+  "0432Mustaghfiri": {
+    "id": 1834,
+    "name": "المستغفري"
+  },
+  "0471IbnAhmadIbnBannaBaghdadi": {
+    "id": 36,
+    "name": "الجرجاني، عبد القاهر"
+  },
+  "0482IbnSacidNucmani": {
+    "id": 1664,
+    "name": "أبو إسحاق الحبال"
+  },
+  "0533IbnKhafajaShacir": {
+    "id": 1214,
+    "name": "ابن باجه"
+  },
+  "0580IbnCimrani": {
+    "id": 1928,
+    "name": "ابن العمراني"
+  },
+  "0636IbnCaskar": {
+    "id": 2858,
+    "name": "ابن عسكر"
+  },
+  "0642IbnMinfakh": {
+    "id": 2793,
+    "name": "ابن المواق"
+  },
+  "0687PseudoIbnNafis": {
+    "id": 340,
+    "name": "ابن النفيس"
+  },
+  "0927Nucaymi": {
+    "id": 742,
+    "name": "النعيمي"
+  },
+  "0940IbnSulaymanIbnKamalBasha": {
+    "id": 1592,
+    "name": "ابن كمال باشا"
+  },
+  "1014ZaynDinTablawi": {
+    "id": 1614,
+    "name": "منصور الطبلاوي"
+  },
+  "1179AhmadShihabDinSujaci": {
+    "id": 2802,
+    "name": "أحمد الشافعي"
+  },
+  "1324IbrahimNazji": {
+    "id": 1166,
+    "name": "اليازجي، إبراهيم"
+  },
+  "1338TahirJazairiDimashqi": {
+    "id": 1667,
+    "name": "طاهر الجزائري"
+  },
+  "1422MuqbilWadici": {
+    "id": 1224,
+    "name": "مقبل بن هادي الوادعي"
+  }
+}
