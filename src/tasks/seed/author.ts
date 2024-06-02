@@ -1,9 +1,16 @@
 import { getAuthorsData } from '@/datasources/openiti/authors';
 import { db } from '@/db';
 import { chunk } from '@/utils/array';
+import _authorLinks from '../../../test/link-authors.json';
+import { dedupeStrings } from '@/utils/string';
 
 const allAuthors = await getAuthorsData({ populateBooks: true });
 const chunkedAuthors = chunk(allAuthors, 100) as (typeof allAuthors)[];
+
+const authorLinks = _authorLinks as unknown as Record<
+  string,
+  { id: string; name: string; score: string }
+>; // openiti id -> data
 
 const shouldReset =
   process.argv.includes('--reset') || process.argv.includes('"--reset"');
@@ -39,11 +46,6 @@ for (const authors of chunkedAuthors) {
     data: authors.map(author => ({
       id: author.id,
       slug: author.slug,
-      // primaryArabicName: author.primaryArabicName,
-      // primaryLatinName: author.primaryLatinName,
-      // otherArabicNames: author.otherArabicNames,
-      // otherLatinNames: author.otherLatinNames,
-      // bio: author.bio,
       year: author.year,
       numberOfBooks: author.booksCount,
     })),
@@ -60,10 +62,22 @@ for (const authors of chunkedAuthors) {
 
   await db.authorOtherNames.createMany({
     data: authors.flatMap(a => {
-      return a.otherNames.map(entry => ({
-        authorId: a.id,
-        ...entry,
-      }));
+      return a.otherNames.map(entry => {
+        const newNames = entry.texts;
+
+        if (entry.locale === 'ar') {
+          const authorLink = authorLinks[a.id];
+          if (authorLink) {
+            newNames.push(authorLink.name);
+          }
+        }
+
+        return {
+          authorId: a.id,
+          ...entry,
+          texts: dedupeStrings(newNames),
+        };
+      });
     }),
   });
 

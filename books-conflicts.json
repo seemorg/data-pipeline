@@ -1,0 +1,255 @@
+[
+  {
+    "id": 5848,
+    "name": "مختصر الكامل في الضعفاء",
+    "url": "https://app.turath.io/book/5848",
+    "author": {
+      "id": 693,
+      "name": "المقريزي",
+      "url": "https://app.turath.io/author/693"
+    },
+    "conflicts": [
+      {
+        "id": "0845Maqrizi.MukhtasarKamil",
+        "url": "https://usul.ai/t/mukhtasar-kamil",
+        "score": 0.9277777777777778,
+        "arabicName": "مختصر الكامل في الضعفاء و علل الحديث",
+        "englishName": "Muhtasar al-Kamil fi al-duʿafaʾ wa ʿilal al-hadit",
+        "author": {
+          "id": "0845Maqrizi",
+          "url": "https://usul.ai/author/maqrizi",
+          "arabicName": "المقريزي",
+          "englishName": "al-Maqrizi"
+        }
+      },
+    ]
+  },
+  {
+    "id": 6106,
+    "name": "مسائل الإمام أحمد رواية ابنه أبي الفضل صالح",
+    "url": "https://app.turath.io/book/6106",
+    "author": {
+      "id": 220,
+      "name": "أحمد بن حنبل",
+      "url": "https://app.turath.io/author/220"
+    },
+    "conflicts": [
+      {
+        "id": "0241IbnHanbal.MasailRiwayatIbnHani",
+        "url": "https://usul.ai/t/masail-riwayat-ibn-hani",
+        "score": 0.8817180371647936,
+        "arabicName": "مسائل أحمد بن حنبل رواية ابن هانئ - ط الفاروق الحديثة",
+        "englishName": "Masail Riwayat Ibn Hani",
+        "author": {
+          "id": "0241IbnHanbal",
+          "url": "https://usul.ai/author/ibn-hanbal",
+          "arabicName": "أحمد بن حنبل",
+          "englishName": "ahmad b. hanbal"
+        }
+      },
+      {
+        "id": "0241IbnHanbal.MasailRiwayatSalih",
+        "url": "https://usul.ai/t/masail-riwayat-salih",
+        "score": 0.8815269427112875,
+        "arabicName": "مسائل الامام أحمد بن حنبل رواية ابن أبي ال¶    فضل صالح",
+        "englishName": "Masaʾil al-imam Ahmad b. Hanbal riwayat Ibn Abi al-¶    Fadl Salih",
+        "author": {
+          "id": "0241IbnHanbal",
+          "url": "https://usul.ai/author/ibn-hanbal",
+          "arabicName": "أحمد بن حنبل",
+          "englishName": "ahmad b. hanbal"
+        }
+      }
+    ]
+  },
+  {
+    "id": 13018,
+    "name": "الديات لابن أبي عاصم",
+    "url": "https://app.turath.io/book/13018",
+    "author": {
+      "id": 230,
+      "name": "ابن أبي عاصم",
+      "url": "https://app.turath.io/author/230"
+    },
+    "conflicts": [
+      {
+        "id": "0287IbnAbiCasim.Diyat",
+        "url": "https://usul.ai/t/diyat",
+        "score": 0.9333333333333333,
+        "arabicName": "الديات",
+        "englishName": "Diyat",
+        "author": {
+          "id": "0287IbnAbiCasim",
+          "url": "https://usul.ai/author/ibn-abi-casim",
+          "arabicName": "ابن أبي عاصم",
+          "englishName": "Ibn Abi ʿAsim"
+        }
+      },
+      {
+        "id": "0287IbnAbiCasim.Jihad",
+        "url": "https://usul.ai/t/jihad-1",
+        "score": 0.9318518518518519,
+        "arabicName": "الجهاد لابن أبي عاصم",
+        "englishName": "Jihad",
+        "author": {
+          "id": "0287IbnAbiCasim",
+          "url": "https://usul.ai/author/ibn-abi-casim",
+          "arabicName": "ابن أبي عاصم",
+          "englishName": "Ibn Abi ʿAsim"
+        }
+      }
+    ]
+  },
+  {
+    "id": 22551,
+    "name": "الزهد والرقائق للخطيب البغدادي",
+    "url": "https://app.turath.io/book/22551",
+    "author": {
+      "id": 246,
+      "name": "الخطيب البغدادي",
+      "url": "https://app.turath.io/author/246"
+    },
+    "conflicts": [
+      {
+        "id": "0463KhatibBaghdadi.KalamCalaSifat",
+        "url": "https://usul.ai/t/kalam-cala-sifat",
+        "score": 0.8620634920634921,
+        "arabicName": "مسألة في الصفات",
+        "englishName": "Kalam Cala Sifat",
+        "author": {
+          "id": "0463KhatibBaghdadi",
+          "url": "https://usul.ai/author/khatib-baghdadi",
+          "arabicName": "الخطيب البغدادي",
+          "englishName": "al-Hatib al-Bagdadi"
+        }
+      },
+      {
+        "id": "0463KhatibBaghdadi.MuntakhabMinZuhdWaRaqaiq",
+        "url": "https://usul.ai/t/muntakhab-min-zuhd-wa-raqaiq",
+        "score": 0.8933333333333334,
+        "arabicName": "المنتخب من كتاب الزهد والرقائق",
+        "englishName": "Muntakhab Min Zuhd Wa Raqaiq",
+        "author": {
+          "id": "0463KhatibBaghdadi",
+          "url": "https://usul.ai/author/khatib-baghdadi",
+          "arabicName": "الخطيب البغدادي",
+          "englishName": "al-Hatib al-Bagdadi"
+        }
+      }
+    ]
+  },
+  {
+    "id": 22653,
+    "name": "جامع الرسائل لابن تيمية - رشاد سالم",
+    "url": "https://app.turath.io/book/22653",
+    "author": {
+      "id": 54,
+      "name": "ابن تيمية",
+      "url": "https://app.turath.io/author/54"
+    },
+    "conflicts": [
+      {
+        "id": "0728IbnTaymiyya.JamicMasail",
+        "url": "https://usul.ai/t/jamic-masail",
+        "score": 0.8745658263305323,
+        "arabicName": "جامع المسائل - المجموعة السادسة",
+        "englishName": "Jamic Masail",
+        "author": {
+          "id": "0728IbnTaymiyya",
+          "url": "https://usul.ai/author/ibn-taymiyya",
+          "arabicName": "ابن تيمية",
+          "englishName": "Ibn Taymiyyat"
+        }
+      },
+      {
+        "id": "0728IbnTaymiyya.JamicRasail",
+        "url": "https://usul.ai/t/jamic-rasail",
+        "score": 0.8685714285714285,
+        "arabicName": "جامع الرسائل",
+        "englishName": "Jamic Rasail",
+        "author": {
+          "id": "0728IbnTaymiyya",
+          "url": "https://usul.ai/author/ibn-taymiyya",
+          "arabicName": "ابن تيمية",
+          "englishName": "Ibn Taymiyyat"
+        }
+      }
+    ]
+  },
+  {
+    "id": 26337,
+    "name": "حديث سفيان بن عيينة رواية المروزي",
+    "url": "https://app.turath.io/book/26337",
+    "author": {
+      "id": 251,
+      "name": "سفيان بن عيينة",
+      "url": "https://app.turath.io/author/251"
+    },
+    "conflicts": [
+      {
+        "id": "0198SufyanIbnCuyayna.JuzFihiHadith",
+        "url": "https://usul.ai/t/juz-fihi-hadith",
+        "score": 0.9294208807190711,
+        "arabicName": "حديث سفيان بن عيينة رواية الطائي (نسخة القسطلاني) - مخطوط",
+        "englishName": "Juz Fihi Hadith",
+        "author": {
+          "id": "0198SufyanIbnCuyayna",
+          "url": "https://usul.ai/author/sufyan-ibn-cuyayna",
+          "arabicName": "الواحدي",
+          "englishName": "Sufyan Ibn Cuyayna"
+        }
+      },
+      {
+        "id": "0198SufyanIbnCuyayna.JuzHadith",
+        "url": "https://usul.ai/t/juz-hadith",
+        "score": 0.9162097836712142,
+        "arabicName": "جزء سفيان بن عيينة",
+        "englishName": "Juz Hadith",
+        "author": {
+          "id": "0198SufyanIbnCuyayna",
+          "url": "https://usul.ai/author/sufyan-ibn-cuyayna",
+          "arabicName": "الواحدي",
+          "englishName": "Sufyan Ibn Cuyayna"
+        }
+      }
+    ]
+  },
+  {
+    "id": 26390,
+    "name": "أخبار الصلاة لعبد الغني المقدسي",
+    "url": "https://app.turath.io/book/26390",
+    "author": {
+      "id": 254,
+      "name": "عبد الغني المقدسي",
+      "url": "https://app.turath.io/author/254"
+    },
+    "conflicts": [
+      {
+        "id": "0600CabdGhaniMaqdisi.AkhbarHasanBasri",
+        "url": "https://usul.ai/t/akhbar-hasan-basri",
+        "score": 0.8857105492589364,
+        "arabicName": "من أخبار الحسن البصري",
+        "englishName": "Akhbar Hasan Basri",
+        "author": {
+          "id": "0600CabdGhaniMaqdisi",
+          "url": "https://usul.ai/author/cabd-ghani-maqdisi",
+          "arabicName": "تقي الدين أبو محمد عبد الغني بن عبد الواحد بن علي بن سرور المقدسي الجماعلي الدمشقي الحنبلي",
+          "englishName": "Cabd Ghani Maqdisi"
+        }
+      },
+      {
+        "id": "0600CabdGhaniMaqdisi.AkhbarSalat",
+        "url": "https://usul.ai/t/akhbar-salat",
+        "score": 0.8774193548387097,
+        "arabicName": "أخبار الصلاة",
+        "englishName": "Akhbar Salat",
+        "author": {
+          "id": "0600CabdGhaniMaqdisi",
+          "url": "https://usul.ai/author/cabd-ghani-maqdisi",
+          "arabicName": "تقي الدين أبو محمد عبد الغني بن عبد الواحد بن علي بن سرور المقدسي الجماعلي الدمشقي الحنبلي",
+          "englishName": "Cabd Ghani Maqdisi"
+        }
+      }
+    ]
+  }
+]

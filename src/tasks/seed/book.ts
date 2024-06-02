@@ -1,9 +1,24 @@
 import { getBooksData } from '@/datasources/openiti/books';
 import { db } from '@/db';
 import { chunk } from '@/utils/array';
+import _bookLinks from '../../../test/link-books.json';
+import { dedupeStrings } from '@/utils/string';
 
 const allBooks = await getBooksData({ populateAuthor: true });
 const chunkedBooks = chunk(allBooks, 100) as (typeof allBooks)[];
+
+const openitiIdToVersions = allBooks.reduce(
+  (acc, book) => ({
+    ...acc,
+    [book.id]: book.versionIds,
+  }),
+  {} as Record<string, string[]>,
+);
+
+const bookLinks = _bookLinks as unknown as Record<
+  string,
+  { id: string; name: string; score: string }
+>; // openiti id -> data
 
 const shouldReset =
   process.argv.includes('--reset') || process.argv.includes('"--reset"');
@@ -36,17 +51,25 @@ for (const books of chunkedBooks) {
     );
 
   await db.book.createMany({
-    data: books.map(book => ({
-      id: book.id,
-      slug: book.slug,
-      // primaryArabicName: book.primaryArabicName,
-      // primaryLatinName: book.primaryLatinName,
-      // otherArabicNames: book.otherArabicNames,
-      // otherLatinNames: book.otherLatinNames,
-      versionIds: book.versionIds,
-      numberOfVersions: book.versionIds.length,
-      authorId: book.authorId,
-    })),
+    data: books.map(book => {
+      const versions = book.versionIds.map(v => ({
+        source: 'openiti',
+        value: v,
+      }));
+
+      const bookLink = bookLinks[book.id];
+      if (bookLink) {
+        versions.unshift({ source: 'turath', value: String(bookLink.id) });
+      }
+
+      return {
+        id: book.id,
+        slug: book.slug,
+        versions,
+        numberOfVersions: book.versionIds.length,
+        authorId: book.authorId,
+      };
+    }),
   });
 
   await db.bookPrimaryName.createMany({
@@ -60,10 +83,23 @@ for (const books of chunkedBooks) {
 
   await db.bookOtherNames.createMany({
     data: books.flatMap(b => {
-      return b.otherNames.map(entry => ({
-        bookId: b.id,
-        ...entry,
-      }));
+      return b.otherNames.map(entry => {
+        const newNames = entry.texts;
+
+        if (entry.locale === 'ar') {
+          // add turath name if exists
+          const bookLink = bookLinks[b.id];
+          if (bookLink) {
+            newNames.push(bookLink.name);
+          }
+        }
+
+        return {
+          bookId: b.id,
+          ...entry,
+          texts: dedupeStrings(newNames),
+        };
+      });
     }),
   });
 
